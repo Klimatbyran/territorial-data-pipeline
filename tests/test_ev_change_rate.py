@@ -61,16 +61,16 @@ class TestBicycleCalculations(unittest.TestCase):
 
         self.assertEqual(result_value_rounded, expected_value_rounded)
 
-    # def test_get_ev_change_rate(self):
-    #     """Test the get_ev_change_rate function"""
-    #     df_expected = pd.DataFrame(ale_expected)
+    def test_get_ev_change_rate(self):
+        """Test the get_ev_change_rate function"""
+        df_expected = pd.DataFrame(ale_expected)
 
-    #     df_input = pd.DataFrame({"Kommun": ["Ale"]})
-    #     df_result = get_ev_change_rate(df_input, "Kommun")
+        df_input = pd.DataFrame({"Kommun": ["Ale"]})
+        df_result = get_ev_change_rate(df_input, "Kommun")
 
-    #     pd.testing.assert_frame_equal(
-    #         df_result.iloc[:3], df_expected, check_dtype=False, atol=0.01
-    #     )
+        pd.testing.assert_frame_equal(
+            df_result.iloc[:3], df_expected, check_dtype=False, atol=0.01
+        )
 
 
 if __name__ == "__main__":
