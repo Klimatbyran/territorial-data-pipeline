@@ -55,7 +55,7 @@ def get_ev_share_from_2025(territory_name: str, to_percent: bool = True):
 
     return df_cars
 
-def get_ev_change_rate_per_territory(row: pd.Series, to_percent: bool = True):
+def get_ev_change_rate_per_territory(row: pd.Series):
     """Calculate evChangeRate for a single territory row using linear regression 
     of all evChange_ columns."""
 
@@ -68,11 +68,13 @@ def get_ev_change_rate_per_territory(row: pd.Series, to_percent: bool = True):
         year = int(col.split('_')[1])
         years.append(year)
 
-        value = row[col]
-        values.append(float(value))
+        value = float(row[col][0])
+        values.append(value)
 
-    slope = linregress(years, values)
-    return slope * (100 if to_percent else 1)
+    slope, _intercept, _r_value, _p_value, _std_err = linregress(years, values)
+    slope_to_integer = slope * 1
+
+    return slope_to_integer
 
 def get_ev_change_rate(df_input: pd.DataFrame, territory_name: str, to_percent: bool = True):
     """Calculate the change rate of newly registered rechargeable cars per territory and year."""
@@ -84,7 +86,7 @@ def get_ev_change_rate(df_input: pd.DataFrame, territory_name: str, to_percent: 
     df_cars['evChangeRate'] = None
 
     for idx, row in df_cars.iterrows():
-        df_cars.at[idx, 'evChangeRate'] = get_ev_change_rate_per_territory(row, to_percent)
+        df_cars.at[idx, 'evChangeRate'] = get_ev_change_rate_per_territory(row)
 
     df_result = df_input.merge(df_cars, on=territory_name, how="left")
 

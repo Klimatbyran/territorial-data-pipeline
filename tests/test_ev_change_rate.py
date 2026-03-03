@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import unittest
+import numpy as np
 import pandas as pd
 
 from kpis.cars.ev_change_rate import (
@@ -48,13 +49,17 @@ class TestBicycleCalculations(unittest.TestCase):
 
         self.assertAlmostEqual(result_value, expected_value)
 
-    # def test_get_ev_change_rate_per_territory(self):
-    #     """Test the get_ev_change_rate_per_territory function"""
-    #     df_expected = pd.DataFrame(ale_expected)
+    def test_get_ev_change_rate_per_territory(self):
+        """Test the get_ev_change_rate_per_territory function"""
+        expected_value_raw = ale_expected["evChangeRate"][0]
+        expected_value_float = np.float64(expected_value_raw)
+        expected_value_rounded = round(expected_value_float, 4)
 
-    #     input_series = pd.Series(ale_input)
-    #     df_result = get_ev_change_rate_per_territory(input_series, to_percent=True)
-    #     pd.testing.assert_series_equal(df_result, df_expected.iloc[0])
+        input_series = pd.Series(ale_input)
+        result_value = get_ev_change_rate_per_territory(input_series)
+        result_value_rounded = round(result_value, 4)
+
+        self.assertEqual(result_value_rounded, expected_value_rounded)
 
     # def test_get_ev_change_rate(self):
     #     """Test the get_ev_change_rate function"""
