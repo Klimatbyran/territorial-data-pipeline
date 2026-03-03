@@ -55,7 +55,8 @@ class TestBicycleCalculations(unittest.TestCase):
         expected_value_float = np.float64(expected_value_raw)
         expected_value_rounded = round(expected_value_float, 4)
 
-        input_series = pd.Series(ale_input)
+        # Create a Series with scalar values (extract first element from each list)
+        input_series = pd.Series({k: v[0] for k, v in ale_input.items()})
         result_value = get_ev_change_rate_per_territory(input_series)
         result_value_rounded = round(result_value, 4)
 
@@ -69,7 +70,7 @@ class TestBicycleCalculations(unittest.TestCase):
         df_result = get_ev_change_rate(df_input, "Kommun")
 
         pd.testing.assert_frame_equal(
-            df_result.iloc[:3], df_expected, check_dtype=False, atol=0.01
+            df_result, df_expected
         )
 
 

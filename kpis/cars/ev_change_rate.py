@@ -68,7 +68,7 @@ def get_ev_change_rate_per_territory(row: pd.Series):
         year = int(col.split('_')[1])
         years.append(year)
 
-        value = float(row[col][0])
+        value = float(row[col])
         values.append(value)
 
     slope, _intercept, _r_value, _p_value, _std_err = linregress(years, values)
@@ -82,12 +82,15 @@ def get_ev_change_rate(df_input: pd.DataFrame, territory_name: str, to_percent: 
     df_cars_to_2024 = get_ev_share_2015_to_2024(territory_name, to_percent)
     df_cars_from_2025 = get_ev_share_from_2025(territory_name, to_percent)
 
-    df_cars = df_cars_to_2024.merge(df_cars_from_2025, on=territory_name, how="left")
-    df_cars['evChangeRate'] = None
+    df_cars_merged = df_cars_to_2024.merge(df_cars_from_2025, on=territory_name, how="left")
+    df_cars_merged['evChangeRate'] = None
 
-    for idx, row in df_cars.iterrows():
-        df_cars.at[idx, 'evChangeRate'] = get_ev_change_rate_per_territory(row)
+    for idx, row in df_cars_merged.iterrows():
+        #df_cars.at[idx, 'evChangeRate'] = get_ev_change_rate_per_territory(row)
+        res = get_ev_change_rate_per_territory(row)
+        print(res)
 
+    df_cars = df_cars_merged[[territory_name, 'evChangeRate']]
     df_result = df_input.merge(df_cars, on=territory_name, how="left")
 
     return df_result
