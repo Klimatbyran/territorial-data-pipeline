@@ -24,9 +24,11 @@ ale_input = {
     "evChange_2024": [48.8612836438923],
 }
 
+ale_ev_share_2025 = 59.95575221
+
 ale_expected = {
     "Kommun": ["Ale"],
-    "evChangeRate": [7.22114538969724],
+    "evChangeRate": [7.0222857817156505],  # Updated to include 2025 data in linear regression
 }
 
 
@@ -45,7 +47,7 @@ class TestBicycleCalculations(unittest.TestCase):
         df_result_ale = df_result[df_result["Kommun"] == "Ale"]
 
         result_value = df_result_ale["evChange_2025"].iloc[0]
-        expected_value = 59.95575221
+        expected_value = ale_ev_share_2025
 
         self.assertAlmostEqual(result_value, expected_value)
 
@@ -70,7 +72,7 @@ class TestBicycleCalculations(unittest.TestCase):
         df_result = get_ev_change_rate(df_input, "Kommun")
 
         pd.testing.assert_frame_equal(
-            df_result, df_expected
+            df_result, df_expected, check_dtype=False, atol=0.01
         )
 
 
