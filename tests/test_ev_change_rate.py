@@ -65,10 +65,10 @@ class TestBicycleCalculations(unittest.TestCase):
             "evChangeRate": [7.0222857817156505]}
         )
 
-        df_input = pd.DataFrame({"Kommun": ["Ale"]})
         df_result = get_ev_change_rate("Kommun")
+        df_result_ale = df_result[df_result["Kommun"] == "Ale"]
 
-        pd.testing.assert_frame_equal(df_result, df_expected, check_dtype=False)
+        pd.testing.assert_frame_equal(df_result_ale, df_expected, check_dtype=False)
 
 
 if __name__ == "__main__":
