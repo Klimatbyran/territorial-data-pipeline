@@ -8,6 +8,19 @@ import pandas as pd
 
 from facts.coatOfArms.coat_of_arms import get_region_coat_of_arms_from_csv
 from kpis.emissions.regional_emissions import regional_emission_calculations
+from kpis.cars.electric_vehicle_per_charge_points import get_electric_vehicle_per_charge_points
+
+
+def format_region_name(value: Any) -> Any:
+    """Format the region name to match the standard format (capitalize first letter, lowercase rest)"""
+    if not isinstance(value, str):
+        return value
+    name = value.strip().lower()
+    if name.endswith(" län"):
+        base = name[:-4]
+        return f"{base.title()} län"
+    return name.title()
+
 
 def create_regional_dataframe() -> pd.DataFrame:
     """Create a comprehensive climate dataframe by merging multiple data sources"""
@@ -15,8 +28,14 @@ def create_regional_dataframe() -> pd.DataFrame:
     regions_df = regional_emission_calculations()
     print("1. Regional climate data and calculations added")
 
+    evcp_source_path = "kpis/cars/sources/powercircle_region_data_dec_2025.csv"
+    evpc_df = get_electric_vehicle_per_charge_points("Län", evcp_source_path)
+    evpc_df["Län"] = evpc_df["Län"].apply(format_region_name)
+    regions_df = regions_df.merge(evpc_df, on="Län", how="left")
+    print("2. CPEV for December 2023 added")
+
     regions_df["coatOfArms"] = regions_df["Län"].apply(get_region_coat_of_arms_from_csv)
-    print("2. Coat of arms added")
+    print("3. Coat of arms added")
 
     return regions_df
 
@@ -36,7 +55,7 @@ def series_to_dict(
     Returns:
     A dictionary with the transformed data.
     """
-
+    print(row)
     return {
         "region": row["Län"],
         "logoUrl": row["coatOfArms"],
@@ -52,6 +71,9 @@ def series_to_dict(
         "historicalEmissionChangePercent": row["historicalEmissionChangePercent"],
         "meetsParis": row["total_trend"]/row["totalCarbonLawPath"] < 1,
         "municipalities": row["municipalities"],
+        "electricVehiclePerChargePoints": (
+            row["EVPC"] if pd.notna(row["EVPC"]) else None
+        )
     }
 
 

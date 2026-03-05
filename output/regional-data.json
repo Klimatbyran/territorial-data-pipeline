@@ -61,7 +61,8 @@
       "Olofström",
       "Ronneby",
       "Sölvesborg"
-    ]
+    ],
+    "electricVehiclePerChargePoints": 8.61
   },
   {
     "region": "Dalarnas län",
@@ -135,7 +136,8 @@
       "Säter",
       "Vansbro",
       "Älvdalen"
-    ]
+    ],
+    "electricVehiclePerChargePoints": 7.83
   },
   {
     "region": "Gotlands län",
@@ -193,7 +195,8 @@
     "emissionsSlope": -79091.05,
     "historicalEmissionChangePercent": -3.27,
     "meetsParis": "False",
-    "municipalities": ["Gotland"]
+    "municipalities": ["Gotland"],
+    "electricVehiclePerChargePoints": 5.61
   },
   {
     "region": "Gävleborgs län",
@@ -262,7 +265,8 @@
       "Ovanåker",
       "Sandviken",
       "Söderhamn"
-    ]
+    ],
+    "electricVehiclePerChargePoints": 8.26
   },
   {
     "region": "Hallands län",
@@ -327,7 +331,8 @@
       "Kungsbacka",
       "Laholm",
       "Varberg"
-    ]
+    ],
+    "electricVehiclePerChargePoints": 11.27
   },
   {
     "region": "Jämtlands län",
@@ -394,7 +399,8 @@
       "Strömsund",
       "Åre",
       "Östersund"
-    ]
+    ],
+    "electricVehiclePerChargePoints": 4.17
   },
   {
     "region": "Jönköpings län",
@@ -466,7 +472,8 @@
       "Vaggeryd",
       "Vetlanda",
       "Värnamo"
-    ]
+    ],
+    "electricVehiclePerChargePoints": 13.51
   },
   {
     "region": "Kalmar län",
@@ -537,7 +544,8 @@
       "Torsås",
       "Vimmerby",
       "Västervik"
-    ]
+    ],
+    "electricVehiclePerChargePoints": 6.73
   },
   {
     "region": "Kronobergs län",
@@ -604,7 +612,8 @@
       "Uppvidinge",
       "Växjö",
       "Älmhult"
-    ]
+    ],
+    "electricVehiclePerChargePoints": 9.89
   },
   {
     "region": "Norrbottens län",
@@ -677,7 +686,8 @@
       "Älvsbyn",
       "Överkalix",
       "Övertorneå"
-    ]
+    ],
+    "electricVehiclePerChargePoints": 9.86
   },
   {
     "region": "Skåne län",
@@ -769,7 +779,8 @@
       "Åstorp",
       "Örkelljunga",
       "Östra Göinge"
-    ]
+    ],
+    "electricVehiclePerChargePoints": 14.48
   },
   {
     "region": "Stockholms län",
@@ -854,7 +865,8 @@
       "Vaxholm",
       "Värmdö",
       "Österåker"
-    ]
+    ],
+    "electricVehiclePerChargePoints": 19.5
   },
   {
     "region": "Södermanlands län",
@@ -922,7 +934,8 @@
       "Strängnäs",
       "Trosa",
       "Vingåker"
-    ]
+    ],
+    "electricVehiclePerChargePoints": 14.1
   },
   {
     "region": "Uppsala län",
@@ -989,7 +1002,8 @@
       "Uppsala",
       "Älvkarleby",
       "Östhammar"
-    ]
+    ],
+    "electricVehiclePerChargePoints": 14.54
   },
   {
     "region": "Värmlands län",
@@ -1064,7 +1078,8 @@
       "Säffle",
       "Torsby",
       "Årjäng"
-    ]
+    ],
+    "electricVehiclePerChargePoints": 10.42
   },
   {
     "region": "Västerbottens län",
@@ -1138,7 +1153,8 @@
       "Vindeln",
       "Vännäs",
       "Åsele"
-    ]
+    ],
+    "electricVehiclePerChargePoints": 14.26
   },
   {
     "region": "Västernorrlands län",
@@ -1204,7 +1220,8 @@
       "Timrå",
       "Ånge",
       "Örnsköldsvik"
-    ]
+    ],
+    "electricVehiclePerChargePoints": 11.22
   },
   {
     "region": "Västmanlands län",
@@ -1273,7 +1290,8 @@
       "Skinnskatteberg",
       "Surahammar",
       "Västerås"
-    ]
+    ],
+    "electricVehiclePerChargePoints": 11.26
   },
   {
     "region": "Västra Götalands län",
@@ -1381,7 +1399,8 @@
       "Vårgårda",
       "Åmål",
       "Öckerö"
-    ]
+    ],
+    "electricVehiclePerChargePoints": 9.37
   },
   {
     "region": "Örebro län",
@@ -1452,7 +1471,8 @@
       "Ljusnarsberg",
       "Nora",
       "Örebro"
-    ]
+    ],
+    "electricVehiclePerChargePoints": 12.24
   },
   {
     "region": "Östergötlands län",
@@ -1524,6 +1544,7 @@
       "Ydre",
       "Åtvidaberg",
       "Ödeshög"
-    ]
+    ],
+    "electricVehiclePerChargePoints": 14.86
   }
 ]
