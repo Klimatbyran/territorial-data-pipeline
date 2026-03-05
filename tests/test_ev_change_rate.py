@@ -24,7 +24,7 @@ ale_input = {
     "evChange_2024": [48.8612836438923],
 }
 
-ale_ev_share_2025 = 59.95575221
+ALE_EV_SHARE_2025 = 59.95575221
 
 ale_expected = {
     "Kommun": ["Ale"],
@@ -47,7 +47,7 @@ class TestBicycleCalculations(unittest.TestCase):
         df_result_ale = df_result[df_result["Kommun"] == "Ale"]
 
         result_value = df_result_ale["evChange_2025"].iloc[0]
-        expected_value = ale_ev_share_2025
+        expected_value = ALE_EV_SHARE_2025
 
         self.assertAlmostEqual(result_value, expected_value)
 
@@ -71,9 +71,7 @@ class TestBicycleCalculations(unittest.TestCase):
         df_input = pd.DataFrame({"Kommun": ["Ale"]})
         df_result = get_ev_change_rate(df_input, "Kommun")
 
-        pd.testing.assert_frame_equal(
-            df_result, df_expected, check_dtype=False, atol=0.01
-        )
+        pd.testing.assert_frame_equal(df_result, df_expected)
 
 
 if __name__ == "__main__":
