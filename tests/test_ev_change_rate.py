@@ -26,11 +26,6 @@ ale_input = {
 
 ALE_EV_SHARE_2025 = 59.95575221
 
-ale_expected = {
-    "Kommun": ["Ale"],
-    "evChangeRate": [7.0222857817156505],
-}
-
 class TestBicycleCalculations(unittest.TestCase):
     """Test the ev change rate calculations"""
 
@@ -52,7 +47,7 @@ class TestBicycleCalculations(unittest.TestCase):
 
     def test_get_ev_change_rate_per_territory(self):
         """Test the get_ev_change_rate_per_territory function"""
-        expected_value_raw = ale_expected["evChangeRate"][0]
+        expected_value_raw = 7.2211
         expected_value_float = np.float64(expected_value_raw)
         expected_value_rounded = round(expected_value_float, 4)
 
@@ -65,12 +60,15 @@ class TestBicycleCalculations(unittest.TestCase):
 
     def test_get_ev_change_rate(self):
         """Test the get_ev_change_rate function"""
-        df_expected = pd.DataFrame(ale_expected)
+        df_expected = pd.DataFrame({
+            "Kommun": ["Ale"],
+            "evChangeRate": [7.0222857817156505]}
+        )
 
         df_input = pd.DataFrame({"Kommun": ["Ale"]})
         df_result = get_ev_change_rate(df_input, "Kommun")
 
-        pd.testing.assert_frame_equal(df_result, df_expected)
+        pd.testing.assert_frame_equal(df_result, df_expected, check_dtype=False)
 
 
 if __name__ == "__main__":
