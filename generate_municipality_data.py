@@ -52,6 +52,7 @@ def create_dataframe(to_percentage: bool) -> pd.DataFrame:
 
     evcp_source_path = "kpis/cars/sources/powercircle_municipality_data_dec_2025.csv"
     evpc_df = get_electric_vehicle_per_charge_points("Kommun", evcp_source_path)
+    evpc_df["Kommun"] = evpc_df["Kommun"].str.lower().str.capitalize()
     consumption_emissions_with_evpc_df = bike_lane_with_consumption_emissions_df.merge(
         evpc_df, on="Kommun", how="left"
     )

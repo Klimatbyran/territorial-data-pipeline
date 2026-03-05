@@ -10,6 +10,18 @@ from facts.coatOfArms.coat_of_arms import get_region_coat_of_arms_from_csv
 from kpis.emissions.regional_emissions import regional_emission_calculations
 from kpis.cars.electric_vehicle_per_charge_points import get_electric_vehicle_per_charge_points
 
+
+def format_region_name(value: Any) -> Any:
+    """Format the region name to match the standard format (capitalize first letter, lowercase rest)"""
+    if not isinstance(value, str):
+        return value
+    name = value.strip().lower()
+    if name.endswith(" län"):
+        base = name[:-4]
+        return f"{base.title()} län"
+    return name.title()
+
+
 def create_regional_dataframe() -> pd.DataFrame:
     """Create a comprehensive climate dataframe by merging multiple data sources"""
 
@@ -18,6 +30,7 @@ def create_regional_dataframe() -> pd.DataFrame:
 
     evcp_source_path = "kpis/cars/sources/powercircle_region_data_dec_2025.csv"
     evpc_df = get_electric_vehicle_per_charge_points("Län", evcp_source_path)
+    evpc_df["Län"] = evpc_df["Län"].apply(format_region_name)
     regions_df = regions_df.merge(evpc_df, on="Län", how="left")
     print("2. CPEV for December 2023 added")
 
