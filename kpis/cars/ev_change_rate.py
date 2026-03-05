@@ -86,7 +86,6 @@ def get_ev_change_rate(df_input: pd.DataFrame, territory_name: str, to_percent: 
     df_cars_merged['evChangeRate'] = None
 
     for idx, row in df_cars_merged.iterrows():
-        #df_cars.at[idx, 'evChangeRate'] = get_ev_change_rate_per_territory(row)
         df_cars_merged.at[idx, 'evChangeRate'] = get_ev_change_rate_per_territory(row)
 
     df_cars = df_cars_merged[[territory_name, 'evChangeRate']]
