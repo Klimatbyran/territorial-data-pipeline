@@ -42,7 +42,7 @@ def series_to_dict(
     Returns:
     A dictionary with the transformed data.
     """
-
+    print(row)
     return {
         "region": row["Län"],
         "logoUrl": row["coatOfArms"],
@@ -58,6 +58,9 @@ def series_to_dict(
         "historicalEmissionChangePercent": row["historicalEmissionChangePercent"],
         "meetsParis": row["total_trend"]/row["totalCarbonLawPath"] < 1,
         "municipalities": row["municipalities"],
+        "electricVehiclePerChargePoints": (
+            row["EVPC"] if pd.notna(row["EVPC"]) else None
+        )
     }
 
 
