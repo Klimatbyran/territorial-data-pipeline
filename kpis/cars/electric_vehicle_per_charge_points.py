@@ -7,7 +7,7 @@ def get_electric_vehicle_per_charge_points(entity_type: str, source_path: str):
     """
     This function loads data from a CSV file provided by PowerCircle and extracts
     a DataFrame with the entity names in title case and their corresponding electric
-    vehicles per charge points values for December 2023.
+    vehicles per charge points values.
 
     Returns:
         df_evpc (DataFrame): A pandas DataFrame with two columns,
