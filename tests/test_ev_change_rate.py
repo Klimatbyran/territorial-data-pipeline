@@ -28,9 +28,8 @@ ALE_EV_SHARE_2025 = 59.95575221
 
 ale_expected = {
     "Kommun": ["Ale"],
-    "evChangeRate": [7.0222857817156505],  # Updated to include 2025 data in linear regression
+    "evChangeRate": [7.0222857817156505],
 }
-
 
 class TestBicycleCalculations(unittest.TestCase):
     """Test the ev change rate calculations"""
