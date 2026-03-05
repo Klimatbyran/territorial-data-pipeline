@@ -15,13 +15,10 @@ def get_electric_vehicle_per_charge_points(entity_type: str, source_path: str):
         corresponding electric vehicles per charge points values.
     """
 
-    # Load CPEV data from PowerCircle
     df_evpc_raw = pd.read_csv(source_path)
-
-    # Rename the unnamed column to entity_type and convert entity_type to title case
     df_evpc_raw = df_evpc_raw.rename(columns={"Unnamed: 0": entity_type})
 
-    # Calculate reciprocals of CPEV values
+    # Calculate reciprocals of EVCP values
     df_evpc_raw["EVPC"] = df_evpc_raw.apply(
         lambda row: (
             row["Antal laddbara fordon"] / row["Antal laddpunkter"]
@@ -31,7 +28,6 @@ def get_electric_vehicle_per_charge_points(entity_type: str, source_path: str):
         axis=1,
     )
 
-    # Extract the entity_type and 'CPEV' columns
     df_evpc = df_evpc_raw[[entity_type, "EVPC"]]
 
     return df_evpc
