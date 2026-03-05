@@ -32,10 +32,13 @@ def create_dataframe(to_percentage: bool) -> pd.DataFrame:
     emissions_df = emission_calculations(municipalities_df)
     print("2. Climate data and calculations added")
 
-    ev_change_rate_df = get_ev_change_rate(emissions_df, to_percentage)
+    ev_change_rate_df = get_ev_change_rate("Kommun", to_percentage)
+    emissions_with_ev_change_rate_df = emissions_df.merge(
+        ev_change_rate_df, on="Kommun", how="left"
+    )
     print("3. Hybrid car data and calculations added")
 
-    climate_plans_df = get_climate_plans(ev_change_rate_df)
+    climate_plans_df = get_climate_plans(emissions_with_ev_change_rate_df)
     print("4. Climate plans added")
 
     bike_lane_df = calculate_bike_lane_per_capita()

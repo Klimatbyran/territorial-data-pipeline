@@ -76,7 +76,7 @@ def get_ev_change_rate_per_territory(row: pd.Series):
 
     return slope_to_integer
 
-def get_ev_change_rate(df_input: pd.DataFrame, territory_name: str, to_percent: bool = True):
+def get_ev_change_rate(territory_name: str, to_percent: bool = True):
     """Calculate the change rate of newly registered rechargeable cars per territory and year."""
 
     df_cars_to_2024 = get_ev_share_2015_to_2024(territory_name, to_percent)
@@ -89,6 +89,5 @@ def get_ev_change_rate(df_input: pd.DataFrame, territory_name: str, to_percent: 
         df_cars_merged.at[idx, 'evChangeRate'] = get_ev_change_rate_per_territory(row)
 
     df_cars = df_cars_merged[[territory_name, 'evChangeRate']]
-    df_result = df_input.merge(df_cars, on=territory_name, how="left")
 
-    return df_result
+    return df_cars
