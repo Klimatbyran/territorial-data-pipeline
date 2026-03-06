@@ -38,9 +38,9 @@ def get_ev_share_from_2025(territory_name: str, to_percent: bool = True):
     df_raw_cars = df_raw_cars.drop(range(7))  # drop header rows
     df_raw_cars = df_raw_cars.reset_index(drop=True)
 
-    # Convert relevant columns to numeric, handling '–' as NaN
+    # Convert relevant columns to numeric, handling '–' as 0 for electric and hybrid cars
     df_raw_cars['El'] = pd.to_numeric(df_raw_cars['El'], errors='coerce').fillna(0)
-    df_raw_cars['Laddhybrider'] = pd.to_numeric(df_raw_cars['Laddhybrider'], errors='coerce')
+    df_raw_cars['Laddhybrider'] = pd.to_numeric(df_raw_cars['Laddhybrider'], errors='coerce').fillna(0)
     df_raw_cars['Totalt'] = pd.to_numeric(df_raw_cars['Totalt'], errors='coerce')
 
     df_raw_cars['totalRechargeable'] = df_raw_cars['El'] + df_raw_cars['Laddhybrider']
