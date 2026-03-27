@@ -64,13 +64,13 @@ def load_additional_national_emissions_summary(
     rows: dict[str, dict[int, float]] = {}
     for row_idx in range(header_row_idx + 1, len(raw)):
         name = raw.iloc[row_idx, 0]
-        if pd.isna(name) or str(name).strip() == "":
+        if pd.isna(name) or not str(name).strip():
             continue
         var = str(name).strip()
-        rows[var] = {}
-        for col_idx, year in year_cols:
-            rows[var][year] = _parse_numeric_cell(raw.iloc[row_idx, col_idx])
-
+        rows[var] = {
+            year: _parse_numeric_cell(raw.iloc[row_idx, col_idx])
+            for col_idx, year in year_cols
+        }
     if not rows:
         raise ValueError("No data rows found below the Variabel header")
 
