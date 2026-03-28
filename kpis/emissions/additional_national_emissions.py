@@ -14,6 +14,12 @@ PATH_ADDITIONAL_NATIONAL_EMISSIONS = (
 SHEET_ALLA = "Alla"
 HEADER_VARIABEL = "Variabel"
 
+COLUMN_NAMES: dict[str, str] = {
+    "Terr_CO2e_bio": "biogenic",
+    "Kons_utlandet": "consumption",
+    "Export av oljeprodukter": "export_of_oil_products",
+}
+
 
 def _parse_numeric_cell(value: Any) -> float:
     """Parse Excel cell values: Swedish space-separated thousands, or plain numbers."""
@@ -24,12 +30,6 @@ def _parse_numeric_cell(value: Any) -> float:
     text = str(value).strip().replace("\u00a0", " ")
     text = re.sub(r"\s+", "", text)
     return float(text)
-
-
-def _safe_column_name(variable: str, year: int) -> str:
-    slug = re.sub(r"[^0-9a-zA-Z]+", "_", variable.strip()).strip("_")
-    return f"additional_national_{slug}_{year}"
-
 
 def load_additional_national_emissions_summary(
     path: str = PATH_ADDITIONAL_NATIONAL_EMISSIONS,
@@ -49,10 +49,6 @@ def load_additional_national_emissions_summary(
         if pd.notna(cell) and str(cell).strip() == HEADER_VARIABEL:
             header_row_idx = i
             break
-    if header_row_idx is None:
-        raise ValueError(
-            f"Could not find '{HEADER_VARIABEL}' header row in {path!r} sheet {sheet_name!r}"
-        )
 
     year_cols: list[tuple[int, int]] = []
     for col_idx in range(1, raw.shape[1]):
@@ -71,8 +67,6 @@ def load_additional_national_emissions_summary(
             year: _parse_numeric_cell(raw.iloc[row_idx, col_idx])
             for col_idx, year in year_cols
         }
-    if not rows:
-        raise ValueError("No data rows found below the Variabel header")
 
     all_years = sorted({y for d in rows.values() for y in d})
     index = list(rows.keys())
@@ -90,18 +84,19 @@ def merge_additional_national_emissions_into_national_df(
     Add flattened columns from the additional national summary to the national dataframe.
 
     For each variable and year in the summary, adds one column
-    ``additional_national_<slug>_<year>`` aligned to ``Land`` (one row per country).
+    ``<variable>_<year>``.
     """
     if summary_df is None:
         summary_df = load_additional_national_emissions_summary(path, sheet_name)
 
     out = national_df.copy()
-    if "Land" not in out.columns:
-        raise ValueError("national_df must contain a 'Land' column")
 
-    extra = {}
+    additional_emissions = {}
     for variable in summary_df.index:
+        if variable not in COLUMN_NAMES:
+            continue
+        slug = COLUMN_NAMES[variable]
         for year in summary_df.columns:
-            col_name = _safe_column_name(variable, int(year))
-            extra[col_name] = summary_df.loc[variable, year]
-    return pd.concat([out, pd.DataFrame([extra] * len(out)).reset_index(drop=True)], axis=1)
+            col_name = f"{slug}_{year}"
+            additional_emissions[col_name] = summary_df.loc[variable, year]
+    return pd.concat([out, pd.DataFrame([additional_emissions] * len(out)).reset_index(drop=True)], axis=1)

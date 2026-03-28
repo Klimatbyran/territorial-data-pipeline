@@ -7,6 +7,7 @@ import unittest
 import pandas as pd
 
 from kpis.emissions.additional_national_emissions import (
+    COLUMN_NAMES,
     PATH_ADDITIONAL_NATIONAL_EMISSIONS,
     load_additional_national_emissions_summary,
     merge_additional_national_emissions_into_national_df,
@@ -70,16 +71,17 @@ class TestAdditionalNationalEmissions(unittest.TestCase):
         self.assertEqual(len(merged), 1)
         self.assertEqual(merged["Land"].iloc[0], "Sverige")
 
-        extra = [c for c in merged.columns if c.startswith("additional_national_")]
+        original_cols = set(national.columns)
+        extra = [c for c in merged.columns if c not in original_cols]
         self.assertEqual(
             len(extra),
-            len(summary.index) * len(summary.columns),
+            len(COLUMN_NAMES) * len(summary.columns),
             "Each variable × year should produce one merged column",
         )
-        self.assertIn("additional_national_Terr_CO2e_foss_1990", merged.columns)
+        self.assertIn("biogenic_1990", merged.columns)
         self.assertAlmostEqual(
-            merged["additional_national_Terr_CO2e_foss_1990"].iloc[0],
-            summary.loc["Terr_CO2e_foss", 1990],
+            merged["biogenic_1990"].iloc[0],
+            summary.loc["Terr_CO2e_bio", 1990],
             places=3,
         )
 

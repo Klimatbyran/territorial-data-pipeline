@@ -7,6 +7,9 @@ from typing import Any, Dict, List
 import pandas as pd
 
 from facts.coatOfArms.coat_of_arms import get_coat_of_arms
+from kpis.emissions.additional_national_emissions import (
+    merge_additional_national_emissions_into_national_df,
+)
 from kpis.emissions.national_emissions import national_emission_calculations
 
 def create_national_dataframe() -> pd.DataFrame:
@@ -17,6 +20,9 @@ def create_national_dataframe() -> pd.DataFrame:
 
     national_df["coatOfArms"] = national_df["Land"].apply(get_coat_of_arms)
     print("2. Coat of arms added")
+
+    national_df = merge_additional_national_emissions_into_national_df(national_df)
+    print("3. Additional national emissions added")
 
     # TODO
     # political_rule_df = get_political_rule()
@@ -41,11 +47,23 @@ def series_to_dict(
     Returns:
     A dictionary with the transformed data.
     """
+    biogenic_columns = [col for col in row.columns if "biogenic_" in str(col)]
+    consumption_abroad_columns = [
+        col for col in row.columns if "consumption_abroad_" in str(col)
+    ]
+    export_of_oil_products_columns = [
+        col for col in row.columns if "export_of_oil_products_" in str(col)
+    ]
 
     return {
         "country": row["Land"],
         "logoUrl": row["coatOfArms"],
         "emissions": {str(year): row[year] for year in historical_columns},
+        "biogenicEmissions": {str(year): row[year] for year in biogenic_columns},
+        "consumptionAbroadEmissions": {str(year): row[year] for year in consumption_abroad_columns},
+        "exportOfOilProductsEmissions": {
+            str(year): row[year] for year in export_of_oil_products_columns
+        },
         "totalTrend": row["total_trend"],
         "totalCarbonLaw": row["totalCarbonLawPath"],
         "approximatedHistoricalEmission": {
