@@ -9,7 +9,7 @@ import pandas as pd
 from kpis.emissions.additional_national_emissions import (
     COLUMN_NAMES,
     PATH_ADDITIONAL_NATIONAL_EMISSIONS,
-    load_additional_national_emissions_summary,
+    load_additional_national_emissions,
     merge_additional_national_emissions_into_national_df,
 )
 
@@ -26,7 +26,7 @@ class TestAdditionalNationalEmissions(unittest.TestCase):
 
     def test_load_summary_structure(self):
         """Test that the summary file has the correct structure."""
-        additional_emissions_df = load_additional_national_emissions_summary()
+        additional_emissions_df = load_additional_national_emissions()
         self.assertGreater(
             len(additional_emissions_df.index), 0, "Expected at least one variable row"
         )
@@ -52,7 +52,7 @@ class TestAdditionalNationalEmissions(unittest.TestCase):
 
     def test_swedish_thousands_parsed_as_float(self):
         """Test that the Swedish thousands are parsed as floats."""
-        additional_emissions_df = load_additional_national_emissions_summary()
+        additional_emissions_df = load_additional_national_emissions()
         self.assertEqual(
             additional_emissions_df.loc["Terr_CO2e_foss", 1990], 71_260_000
         )
@@ -63,7 +63,7 @@ class TestAdditionalNationalEmissions(unittest.TestCase):
     def test_merge_adds_flat_columns_and_preserves_rows(self):
         """Test that the merge adds flat columns and preserves rows."""
         national = pd.DataFrame([{"Land": "Sverige", "dummy": 1.0}])
-        summary = load_additional_national_emissions_summary()
+        summary = load_additional_national_emissions()
         merged = merge_additional_national_emissions_into_national_df(
             national, summary_df=summary
         )

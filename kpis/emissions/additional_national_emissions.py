@@ -2,10 +2,7 @@
 """Load supplementary national emission series from the PowerCircle / planning workbook."""
 
 from __future__ import annotations
-
-import re
 from typing import Any, Optional
-
 import pandas as pd
 
 PATH_ADDITIONAL_NATIONAL_EMISSIONS = (
@@ -25,13 +22,11 @@ def _parse_numeric_cell(value: Any) -> float:
     """Parse Excel cell values: Swedish space-separated thousands, or plain numbers."""
     if pd.isna(value):
         return float("nan")
-    if isinstance(value, (int, float)) and not isinstance(value, bool):
-        return float(value)
-    text = str(value).strip().replace("\u00a0", " ")
-    text = re.sub(r"\s+", "", text)
-    return float(text)
+    text_value = str(value).strip().replace(" ", "")
+    float_value = float(text_value)
+    return float_value
 
-def load_additional_national_emissions_summary(
+def load_additional_national_emissions(
     path: str = PATH_ADDITIONAL_NATIONAL_EMISSIONS,
     sheet_name: str = SHEET_ALLA,
 ) -> pd.DataFrame:
@@ -41,37 +36,26 @@ def load_additional_national_emissions_summary(
     Returns:
         DataFrame indexed by variable name (string), columns are int years, values are float.
     """
-    raw = pd.read_excel(path, sheet_name=sheet_name, header=None)
+    source_df = pd.read_excel(path, sheet_name=sheet_name, header=None)
 
-    header_row_idx: Optional[int] = None
-    for i in range(len(raw)):
-        cell = raw.iloc[i, 0]
-        if pd.notna(cell) and str(cell).strip() == HEADER_VARIABEL:
-            header_row_idx = i
-            break
+    # Drop metadata rows above the header, promote the Variabel row as column names
+    source_df = source_df.drop(range(4)).reset_index(drop=True)
+    source_df.columns = source_df.iloc[0]
+    source_df = source_df.drop(0).reset_index(drop=True)
 
-    year_cols: list[tuple[int, int]] = []
-    for col_idx in range(1, raw.shape[1]):
-        cell = raw.iloc[header_row_idx, col_idx]
-        if pd.isna(cell):
-            continue
-        year_cols.append((col_idx, int(float(cell))))
+    # Set variable names as the index
+    source_df = source_df.set_index("Variabel")
+    source_df.index.name = None
 
-    rows: dict[str, dict[int, float]] = {}
-    for row_idx in range(header_row_idx + 1, len(raw)):
-        name = raw.iloc[row_idx, 0]
-        if pd.isna(name) or not str(name).strip():
-            continue
-        var = str(name).strip()
-        rows[var] = {
-            year: _parse_numeric_cell(raw.iloc[row_idx, col_idx])
-            for col_idx, year in year_cols
-        }
+    # Keep only the desired year columns, cast to int
+    year_cols = list(range(1990, 2025))
+    source_df = source_df[[c for c in source_df.columns if int(c) in year_cols]]
+    source_df.columns = [int(c) for c in source_df.columns]
 
-    all_years = sorted({y for d in rows.values() for y in d})
-    index = list(rows.keys())
-    data = {year: [rows[v].get(year, float("nan")) for v in index] for year in all_years}
-    return pd.DataFrame(data, index=index)
+    # Parse all values in place
+    source_df = source_df.map(_parse_numeric_cell)
+
+    return source_df
 
 
 def merge_additional_national_emissions_into_national_df(
@@ -87,7 +71,7 @@ def merge_additional_national_emissions_into_national_df(
     ``<variable>_<year>``.
     """
     if summary_df is None:
-        summary_df = load_additional_national_emissions_summary(path, sheet_name)
+        summary_df = load_additional_national_emissions(path, sheet_name)
 
     out = national_df.copy()
 
@@ -99,4 +83,9 @@ def merge_additional_national_emissions_into_national_df(
         for year in summary_df.columns:
             col_name = f"{slug}_{year}"
             additional_emissions[col_name] = summary_df.loc[variable, year]
-    return pd.concat([out, pd.DataFrame([additional_emissions] * len(out)).reset_index(drop=True)], axis=1)
+
+    concat_df = pd.concat(
+        [out, pd.DataFrame([additional_emissions] * len(out)).reset_index(drop=True)],
+        axis=1
+    )
+    return concat_df

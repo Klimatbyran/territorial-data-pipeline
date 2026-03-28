@@ -35,6 +35,9 @@ def create_national_dataframe() -> pd.DataFrame:
 def series_to_dict(
     row: pd.Series,
     historical_columns: List[Any],
+    biogenic_columns: List[Any],
+    consumption_abroad_columns: List[Any],
+    export_of_oil_products_columns: List[Any],
     approximated_columns: List[Any],
     trend_columns: List[Any],
 ) -> Dict:
@@ -47,22 +50,16 @@ def series_to_dict(
     Returns:
     A dictionary with the transformed data.
     """
-    biogenic_columns = [col for col in row.columns if "biogenic_" in str(col)]
-    consumption_abroad_columns = [
-        col for col in row.columns if "consumption_abroad_" in str(col)
-    ]
-    export_of_oil_products_columns = [
-        col for col in row.columns if "export_of_oil_products_" in str(col)
-    ]
-
     return {
         "country": row["Land"],
         "logoUrl": row["coatOfArms"],
         "emissions": {str(year): row[year] for year in historical_columns},
-        "biogenicEmissions": {str(year): row[year] for year in biogenic_columns},
-        "consumptionAbroadEmissions": {str(year): row[year] for year in consumption_abroad_columns},
+        "biogenicEmissions": {str(year.strip("biogenic_")): row[year] for year in biogenic_columns},
+        "consumptionAbroadEmissions": {
+            str(year.strip("consumption_")): row[year] for year in consumption_abroad_columns
+        },
         "exportOfOilProductsEmissions": {
-            str(year): row[year] for year in export_of_oil_products_columns
+            str(year.strip("export_of_oil_products_")): row[year] for year in export_of_oil_products_columns
         },
         "totalTrend": row["total_trend"],
         "totalCarbonLaw": row["totalCarbonLawPath"],
@@ -81,6 +78,13 @@ def series_to_dict(
 def df_to_dict(input_df: pd.DataFrame, num_decimals: int) -> dict:
     """Convert dataframe to list of dictionaries with optional decimal rounding."""
     historical_columns = [col for col in input_df.columns if str(col).isdigit()]
+    biogenic_columns = [col for col in input_df.columns if "biogenic_" in str(col)]
+    consumption_abroad_columns = [
+        col for col in input_df.columns if "consumption_" in str(col)
+    ]
+    export_of_oil_products_columns = [
+        col for col in input_df.columns if "export_of_oil_products_" in str(col)
+    ]
     approximated_columns = [
         col for col in input_df.columns if "approximated_" in str(col)
     ]
@@ -96,6 +100,9 @@ def df_to_dict(input_df: pd.DataFrame, num_decimals: int) -> dict:
         series_to_dict(
             rounded_df.iloc[i],
             historical_columns,
+            biogenic_columns,
+            consumption_abroad_columns,
+            export_of_oil_products_columns,
             approximated_columns,
             trend_columns,
         )
