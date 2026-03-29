@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-"""Load supplementary national emission series from the PowerCircle / planning workbook."""
+"""Load national emission series."""
 
 from __future__ import annotations
 from typing import Any, Optional
 import pandas as pd
 
-PATH_ADDITIONAL_NATIONAL_EMISSIONS = (
-    "kpis/emissions/sources/additional_national_emissions.xlsx"
+PATH_LOAD_NATIONAL_EMISSIONS = (
+    "kpis/emissions/sources/national_emissions.xlsx"
 )
 SHEET_ALLA = "Alla"
 HEADER_VARIABEL = "Variabel"
@@ -27,8 +27,8 @@ def _parse_numeric_cell(value: Any) -> float:
     float_value = float(text_value)
     return float_value
 
-def load_additional_national_emissions(
-    path: str = PATH_ADDITIONAL_NATIONAL_EMISSIONS,
+def load_load_national_emissions(
+    path: str = PATH_LOAD_NATIONAL_EMISSIONS,
     sheet_name: str = SHEET_ALLA,
 ) -> pd.DataFrame:
     """
@@ -59,10 +59,10 @@ def load_additional_national_emissions(
     return source_df
 
 
-def merge_additional_national_emissions_into_national_df(
+def merge_load_national_emissions_into_national_df(
     national_df: pd.DataFrame,
     summary_df: Optional[pd.DataFrame] = None,
-    path: str = PATH_ADDITIONAL_NATIONAL_EMISSIONS,
+    path: str = PATH_LOAD_NATIONAL_EMISSIONS,
     sheet_name: str = SHEET_ALLA,
 ) -> pd.DataFrame:
     """
@@ -72,7 +72,7 @@ def merge_additional_national_emissions_into_national_df(
     ``<variable>_<year>``.
     """
     if summary_df is None:
-        summary_df = load_additional_national_emissions(path, sheet_name)
+        summary_df = load_load_national_emissions(path, sheet_name)
 
     out = national_df.copy()
 

@@ -6,27 +6,27 @@ import unittest
 
 import pandas as pd
 
-from kpis.emissions.additional_national_emissions import (
+from kpis.emissions.load_national_emissions import (
     COLUMN_NAMES,
-    PATH_ADDITIONAL_NATIONAL_EMISSIONS,
-    load_additional_national_emissions,
-    merge_additional_national_emissions_into_national_df,
+    PATH_LOAD_NATIONAL_EMISSIONS,
+    load_load_national_emissions,
+    merge_load_national_emissions_into_national_df,
 )
 
 
 class TestAdditionalNationalEmissions(unittest.TestCase):
-    """Contract tests for additional_national_emissions.xlsx and merge into national output."""
+    """Contract tests for load_national_emissions.xlsx and merge into national output."""
 
     def test_source_file_exists(self):
         """Test that the source file exists."""
         self.assertTrue(
-            os.path.isfile(PATH_ADDITIONAL_NATIONAL_EMISSIONS),
-            f"Expected workbook at {PATH_ADDITIONAL_NATIONAL_EMISSIONS}",
+            os.path.isfile(PATH_LOAD_NATIONAL_EMISSIONS),
+            f"Expected workbook at {PATH_LOAD_NATIONAL_EMISSIONS}",
         )
 
     def test_load_summary_structure(self):
         """Test that the summary file has the correct structure."""
-        additional_emissions_df = load_additional_national_emissions()
+        additional_emissions_df = load_load_national_emissions()
         self.assertGreater(
             len(additional_emissions_df.index), 0, "Expected at least one variable row"
         )
@@ -52,7 +52,7 @@ class TestAdditionalNationalEmissions(unittest.TestCase):
 
     def test_swedish_thousands_parsed_as_float(self):
         """Test that the Swedish thousands are parsed as floats."""
-        additional_emissions_df = load_additional_national_emissions()
+        additional_emissions_df = load_load_national_emissions()
         self.assertEqual(
             additional_emissions_df.loc["Terr_CO2e_foss", 1990], 71_260_000
         )
@@ -63,8 +63,8 @@ class TestAdditionalNationalEmissions(unittest.TestCase):
     def test_merge_adds_flat_columns_and_preserves_rows(self):
         """Test that the merge adds flat columns and preserves rows."""
         national = pd.DataFrame([{"Land": "Sverige", "dummy": 1.0}])
-        summary = load_additional_national_emissions()
-        merged = merge_additional_national_emissions_into_national_df(
+        summary = load_load_national_emissions()
+        merged = merge_load_national_emissions_into_national_df(
             national, summary_df=summary
         )
 
