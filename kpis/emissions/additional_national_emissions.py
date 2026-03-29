@@ -12,6 +12,7 @@ SHEET_ALLA = "Alla"
 HEADER_VARIABEL = "Variabel"
 
 COLUMN_NAMES: dict[str, str] = {
+    "Terr_CO2e_foss": "fossil",
     "Terr_CO2e_bio": "biogenic",
     "Kons_utlandet": "consumption",
     "Export av oljeprodukter": "export_of_oil_products",
