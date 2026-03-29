@@ -14,7 +14,7 @@ from kpis.emissions.load_national_emissions import (
 )
 
 
-class TestAdditionalNationalEmissions(unittest.TestCase):
+class TestLoadNationalEmissions(unittest.TestCase):
     """Contract tests for load_national_emissions.xlsx and merge into national output."""
 
     def test_source_file_exists(self):
@@ -26,15 +26,15 @@ class TestAdditionalNationalEmissions(unittest.TestCase):
 
     def test_load_summary_structure(self):
         """Test that the summary file has the correct structure."""
-        additional_emissions_df = load_load_national_emissions()
+        emissions_df = load_load_national_emissions()
         self.assertGreater(
-            len(additional_emissions_df.index), 0, "Expected at least one variable row"
+            len(emissions_df.index), 0, "Expected at least one variable row"
         )
         self.assertGreater(
-            len(additional_emissions_df.columns), 0, "Expected at least one year column"
+            len(emissions_df.columns), 0, "Expected at least one year column"
         )
 
-        year_cols = [c for c in additional_emissions_df.columns if isinstance(c, (int, float))]
+        year_cols = [c for c in emissions_df.columns if isinstance(c, (int, float))]
         self.assertTrue(all(isinstance(int(y), int) for y in year_cols))
         self.assertEqual(min(year_cols), 1990)
         self.assertGreaterEqual(max(year_cols), 2023)
@@ -46,18 +46,18 @@ class TestAdditionalNationalEmissions(unittest.TestCase):
             "Export av oljeprodukter",
         }
         self.assertTrue(
-            expected_vars.issubset(set(additional_emissions_df.index)),
-            f"Missing expected variables; have {set(additional_emissions_df.index)}",
+            expected_vars.issubset(set(emissions_df.index)),
+            f"Missing expected variables; have {set(emissions_df.index)}",
         )
 
     def test_swedish_thousands_parsed_as_float(self):
         """Test that the Swedish thousands are parsed as floats."""
-        additional_emissions_df = load_load_national_emissions()
+        emissions_df = load_load_national_emissions()
         self.assertEqual(
-            additional_emissions_df.loc["Terr_CO2e_foss", 1990], 71_260_000
+            emissions_df.loc["Terr_CO2e_foss", 1990], 71_260_000
         )
         self.assertEqual(
-            additional_emissions_df.loc["Terr_CO2e_bio", 1990], 22_880_000
+            emissions_df.loc["Terr_CO2e_bio", 1990], 22_880_000
         )
 
     def test_merge_adds_flat_columns_and_preserves_rows(self):
