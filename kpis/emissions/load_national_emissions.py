@@ -66,7 +66,7 @@ def merge_load_national_emissions_into_national_df(
     sheet_name: str = SHEET_ALLA,
 ) -> pd.DataFrame:
     """
-    Add flattened columns from the additional national summary to the national dataframe.
+    Add flattened columns from the national summary to the national dataframe.
 
     For each variable and year in the summary, adds one column
     ``<variable>_<year>``.
@@ -76,17 +76,17 @@ def merge_load_national_emissions_into_national_df(
 
     out = national_df.copy()
 
-    additional_emissions = {}
+    emissions = {}
     for variable in summary_df.index:
         if variable not in COLUMN_NAMES:
             continue
         slug = COLUMN_NAMES[variable]
         for year in summary_df.columns:
             col_name = f"{slug}_{year}"
-            additional_emissions[col_name] = summary_df.loc[variable, year]
+            emissions[col_name] = summary_df.loc[variable, year]
 
     concat_df = pd.concat(
-        [out, pd.DataFrame([additional_emissions] * len(out)).reset_index(drop=True)],
+        [out, pd.DataFrame([emissions] * len(out)).reset_index(drop=True)],
         axis=1
     )
     return concat_df
