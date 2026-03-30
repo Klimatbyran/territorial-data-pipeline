@@ -2,7 +2,8 @@
 """Load national emission series."""
 
 from __future__ import annotations
-from typing import Any, Optional
+from datetime import datetime
+from typing import Any
 import pandas as pd
 
 from kpis.emissions.carbon_law_calculations import calculate_carbon_law_total
@@ -14,8 +15,11 @@ CURRENT_YEAR = datetime.now().year  # current year
 END_YEAR = 2050
 
 CARBON_LAW_REDUCTION_RATE = 0.1172
-    
-    "kpis/emissions/sources/national_emissions.xlsx"
+
+LAST_YEAR_WITH_SMHI_DATA = 2023
+
+PATH_LOAD_SWEDISH_EMISSIONS = (
+    "kpis/emissions/sources/swedish_emissions.xlsx"
 )
 SHEET_ALLA = "Alla"
 HEADER_VARIABEL = "Variabel"
@@ -36,8 +40,8 @@ def _parse_numeric_cell(value: Any) -> float:
     float_value = float(text_value)
     return float_value
 
-def load_national_emissions_source(
-    path: str = PATH_LOAD_NATIONAL_EMISSIONS,
+def _load_swedish_emissions_source(
+    path: str = PATH_LOAD_SWEDISH_EMISSIONS,
     sheet_name: str = SHEET_ALLA,
 ) -> pd.DataFrame:
     """
@@ -68,17 +72,17 @@ def load_national_emissions_source(
     return source_df
 
 
-def create_national_emissions_df(
-    path: str = PATH_LOAD_NATIONAL_EMISSIONS,
+def _extract_emissions(
+    path: str = PATH_LOAD_SWEDISH_EMISSIONS,
     sheet_name: str = SHEET_ALLA,
 ) -> pd.DataFrame:
     """
-    Add flattened columns from the national summary to the national dataframe.
+    Create a dataframe with flattened columns from the Swedish emissions summary.
 
     For each variable and year in the summary, adds one column
     ``<variable>_<year>``.
     """
-    summary_df = load_national_emissions_source(path, sheet_name)
+    summary_df = _load_swedish_emissions_source(path, sheet_name)
 
     emissions = {}
     for variable in summary_df.index:
@@ -90,11 +94,35 @@ def create_national_emissions_df(
             emissions[col_name] = summary_df.loc[variable, year]
 
     emissions_df = pd.DataFrame([emissions])
-    
+
+    return emissions_df
+
+def _calculate_total_emissions(emissions_df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Calculate the total emissions per year for the given dataframe.
+
+    Returns:
+        pandas.DataFrame: The resulting dataframe with total emissions per year.
+    """
     years = sorted({int(col.rsplit("_", 1)[-1]) for col in emissions_df.columns})
     for year in years:
         year_cols = [col for col in emissions_df.columns if col.endswith(f"_{year}")]
         emissions_df[f"total_{year}"] = emissions_df[year_cols].sum(axis=1)
+
+    return emissions_df
+
+def create_swedish_emissions_df():
+    """
+    Create a dataframe with emissions per year for Sweden
+    (territorial, biogenic, consumption, export of oil products, total).
+    Also add KPIs (trend, historical change percent, carbon law path, meets Paris goal).
+
+    Returns:
+        pandas.DataFrame: The resulting dataframe with emissions per year and KPIs.
+    """
+    emissions_df = _extract_emissions()
+
+    emissions_df = _calculate_total_emissions(emissions_df)
 
     df_trend_and_approximated = calculate_trend(emissions_df, CURRENT_YEAR, END_YEAR)
 
@@ -121,4 +149,4 @@ def create_national_emissions_df(
         axis=1,
     )
 
-    return 
+    return df_carbon_law

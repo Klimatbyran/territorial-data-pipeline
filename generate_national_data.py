@@ -8,8 +8,8 @@ from typing import Any, Dict, List
 import pandas as pd
 
 from facts.coatOfArms.coat_of_arms import get_coat_of_arms
-from kpis.emissions.load_national_emissions import (
-    merge_load_national_emissions_into_national_df,
+from kpis.emissions.swedish_emissions import (
+    _extract_emissions,
 )
 from kpis.emissions.national_emissions import national_emission_calculations
 
@@ -19,11 +19,11 @@ def create_national_dataframe() -> pd.DataFrame:
     national_df = national_emission_calculations()
     print("1. National climate data and calculations added")
 
+    national_df["Land"] = "Sverige"
+    print("2. Set country name to 'Sverige'")
+
     national_df["coatOfArms"] = national_df["Land"].apply(get_coat_of_arms)
     print("2. Coat of arms added")
-
-    national_df = merge_load_national_emissions_into_national_df(national_df)
-    print("3. Additional national emissions added")
 
     # TODO
     # political_rule_df = get_political_rule()
