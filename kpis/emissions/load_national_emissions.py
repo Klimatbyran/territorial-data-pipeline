@@ -5,7 +5,16 @@ from __future__ import annotations
 from typing import Any, Optional
 import pandas as pd
 
-PATH_LOAD_NATIONAL_EMISSIONS = (
+from kpis.emissions.carbon_law_calculations import calculate_carbon_law_total
+from kpis.emissions.emission_data_calculations import calculate_historical_change_percent, calculate_meets_paris_goal
+from kpis.emissions.trend_calculations import calculate_trend
+
+
+CURRENT_YEAR = datetime.now().year  # current year
+END_YEAR = 2050
+
+CARBON_LAW_REDUCTION_RATE = 0.1172
+    
     "kpis/emissions/sources/national_emissions.xlsx"
 )
 SHEET_ALLA = "Alla"
@@ -27,7 +36,7 @@ def _parse_numeric_cell(value: Any) -> float:
     float_value = float(text_value)
     return float_value
 
-def load_load_national_emissions(
+def load_national_emissions_source(
     path: str = PATH_LOAD_NATIONAL_EMISSIONS,
     sheet_name: str = SHEET_ALLA,
 ) -> pd.DataFrame:
@@ -59,9 +68,7 @@ def load_load_national_emissions(
     return source_df
 
 
-def merge_load_national_emissions_into_national_df(
-    national_df: pd.DataFrame,
-    summary_df: Optional[pd.DataFrame] = None,
+def create_national_emissions_df(
     path: str = PATH_LOAD_NATIONAL_EMISSIONS,
     sheet_name: str = SHEET_ALLA,
 ) -> pd.DataFrame:
@@ -71,10 +78,7 @@ def merge_load_national_emissions_into_national_df(
     For each variable and year in the summary, adds one column
     ``<variable>_<year>``.
     """
-    if summary_df is None:
-        summary_df = load_load_national_emissions(path, sheet_name)
-
-    out = national_df.copy()
+    summary_df = load_national_emissions_source(path, sheet_name)
 
     emissions = {}
     for variable in summary_df.index:
@@ -85,8 +89,36 @@ def merge_load_national_emissions_into_national_df(
             col_name = f"{slug}_{year}"
             emissions[col_name] = summary_df.loc[variable, year]
 
-    concat_df = pd.concat(
-        [out, pd.DataFrame([emissions] * len(out)).reset_index(drop=True)],
-        axis=1
+    emissions_df = pd.DataFrame([emissions])
+    
+    years = sorted({int(col.rsplit("_", 1)[-1]) for col in emissions_df.columns})
+    for year in years:
+        year_cols = [col for col in emissions_df.columns if col.endswith(f"_{year}")]
+        emissions_df[f"total_{year}"] = emissions_df[year_cols].sum(axis=1)
+
+    df_trend_and_approximated = calculate_trend(emissions_df, CURRENT_YEAR, END_YEAR)
+
+    df_trend_and_approximated["total_trend"] = df_trend_and_approximated.apply(
+        lambda row: row[[col for col in row.index if "trend_" in str(col)]].sum(),
+        axis=1,
     )
-    return concat_df
+
+    df_historical_change_percent = calculate_historical_change_percent(
+        df_trend_and_approximated, "Land", LAST_YEAR_WITH_SMHI_DATA
+    )
+
+    df_carbon_law = calculate_carbon_law_total(
+        df_historical_change_percent,
+        CURRENT_YEAR,
+        END_YEAR,
+        CARBON_LAW_REDUCTION_RATE,
+    )
+
+    df_carbon_law["meetsParisGoal"] = df_carbon_law.apply(
+        lambda row: calculate_meets_paris_goal(
+            row["total_trend"], row["totalCarbonLawPath"]
+        ),
+        axis=1,
+    )
+
+    return 
