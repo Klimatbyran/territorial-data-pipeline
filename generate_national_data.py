@@ -9,14 +9,13 @@ import pandas as pd
 
 from facts.coatOfArms.coat_of_arms import get_coat_of_arms
 from kpis.emissions.swedish_emissions import (
-    _extract_emissions,
+    create_swedish_emissions_df,
 )
-from kpis.emissions.national_emissions import national_emission_calculations
 
 def create_national_dataframe() -> pd.DataFrame:
     """Create a comprehensive national climate dataframe by merging multiple data sources"""
 
-    national_df = national_emission_calculations()
+    national_df = create_swedish_emissions_df()
     print("1. National climate data and calculations added")
 
     national_df["Land"] = "Sverige"

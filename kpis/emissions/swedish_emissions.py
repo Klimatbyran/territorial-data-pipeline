@@ -124,6 +124,14 @@ def create_swedish_emissions_df():
 
     emissions_df = _calculate_total_emissions(emissions_df)
 
+    # calculate_trend and calculate_historical_change_percent both expect
+    # plain integer year columns (e.g. 2020) with the emission totals.
+    for col in [c for c in emissions_df.columns if c.startswith("total_")]:
+        year = int(col.rsplit("_", 1)[-1])
+        emissions_df[year] = emissions_df[col]
+
+    emissions_df["Land"] = "Sverige"
+
     df_trend_and_approximated = calculate_trend(emissions_df, CURRENT_YEAR, END_YEAR)
 
     df_trend_and_approximated["total_trend"] = df_trend_and_approximated.apply(
