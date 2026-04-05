@@ -2,6 +2,7 @@
 """Load national emission series."""
 
 from __future__ import annotations
+import re
 from datetime import datetime
 from typing import Any
 import pandas as pd
@@ -23,6 +24,8 @@ PATH_LOAD_SWEDISH_EMISSIONS = (
 )
 SHEET_ALLA = "Alla"
 HEADER_VARIABEL = "Variabel"
+
+_AGGREGATE_TREND_COLUMN = re.compile(r"^trend_\d{4}$")
 
 COLUMN_NAMES: dict[str, str] = {
     "Terr_CO2e_foss": "fossil",
@@ -111,6 +114,22 @@ def _calculate_total_emissions(emissions_df: pd.DataFrame) -> pd.DataFrame:
 
     return emissions_df
 
+
+def _dataframe_for_slug_trend(emissions_df: pd.DataFrame, slug: str) -> pd.DataFrame:
+    """Build a one-row DataFrame with ``Land`` and integer year columns for one emission slug."""
+    land = emissions_df["Land"].iloc[0]
+    row: dict[Any, Any] = {"Land": land}
+    prefix = f"{slug}_"
+    for col in emissions_df.columns:
+        scol = str(col)
+        if not scol.startswith(prefix):
+            continue
+        year_str = scol.removeprefix(prefix)
+        if year_str.isdigit() and len(year_str) == 4:
+            row[int(year_str)] = emissions_df[col].iloc[0]
+    return pd.DataFrame([row])
+
+
 def create_swedish_emissions_df():
     """
     Create a dataframe with emissions per year for Sweden
@@ -132,10 +151,25 @@ def create_swedish_emissions_df():
 
     emissions_df["Land"] = "Sverige"
 
+    emissions_before_trend = emissions_df.copy()
+
     df_trend_and_approximated = calculate_trend(emissions_df, CURRENT_YEAR, END_YEAR)
 
+    for slug in COLUMN_NAMES.values():
+        slug_input = _dataframe_for_slug_trend(emissions_before_trend, slug)
+        slug_result = calculate_trend(
+            slug_input, CURRENT_YEAR, END_YEAR, series_label=slug
+        )
+        prefix = f"approximated_{slug}_"
+        for col in slug_result.columns:
+            scol = str(col)
+            if scol.startswith(prefix):
+                df_trend_and_approximated[scol] = slug_result[scol].iloc[0]
+
     df_trend_and_approximated["total_trend"] = df_trend_and_approximated.apply(
-        lambda row: row[[col for col in row.index if "trend_" in str(col)]].sum(),
+        lambda row: sum(
+            row[col] for col in row.index if _AGGREGATE_TREND_COLUMN.match(str(col))
+        ),
         axis=1,
     )
 

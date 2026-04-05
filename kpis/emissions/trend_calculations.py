@@ -1,6 +1,35 @@
+from __future__ import annotations
+
 import numpy as np
 import pandas as pd
 import statsmodels.api as sm
+
+
+def _series_column_names(series_label: str | None):
+    """Column name formatters for approximated / trend / slope (optional per-series prefix)."""
+    if series_label:
+
+        def approximated_col(year):
+            return f"approximated_{series_label}_{int(year)}"
+
+        def trend_col(year):
+            return f"trend_{series_label}_{int(year)}"
+
+        def slope_col():
+            return f"trend_{series_label}_emissions_slope"
+
+    else:
+
+        def approximated_col(year):
+            return f"approximated_{int(year)}"
+
+        def trend_col(year):
+            return f"trend_{int(year)}"
+
+        def slope_col():
+            return "trend_emissions_slope"
+
+    return approximated_col, trend_col, slope_col
 
 
 def extract_year_columns(input_df, cutoff_year):
@@ -46,7 +75,9 @@ def generate_prediction_years(last_data_year, current_year, end_year):
     return years_approximated, years_trend
 
 
-def create_new_columns_structure(years_approximated, years_trend, num_rows):
+def create_new_columns_structure(
+    years_approximated, years_trend, num_rows, series_label: str | None = None
+):
     """
     Create the structure for new columns that will be added to the dataframe.
 
@@ -54,16 +85,18 @@ def create_new_columns_structure(years_approximated, years_trend, num_rows):
     - years_approximated (numpy.ndarray): Years for approximated historical data
     - years_trend (numpy.ndarray): Years for future trend predictions
     - num_rows (int): Number of rows in the original dataframe
+    - series_label: If set, column names include this slug (e.g. approximated_fossil_2015).
 
     Returns:
     - dict: Dictionary structure for new columns
     """
+    approximated_col, trend_col, slope_col = _series_column_names(series_label)
     new_columns_data = {
-        f"approximated_{int(year)}": [None] * num_rows for year in years_approximated
+        approximated_col(year): [None] * num_rows for year in years_approximated
     }
     for year in years_trend:
-        new_columns_data[f"trend_{int(year)}"] = [None] * num_rows
-    new_columns_data["trend_emissions_slope"] = [None] * num_rows
+        new_columns_data[trend_col(year)] = [None] * num_rows
+    new_columns_data[slope_col()] = [None] * num_rows
 
     return new_columns_data
 
@@ -126,7 +159,12 @@ def perform_regression_and_predict(
 
 
 def fit_regression_per_municipality(
-    input_df, years, years_approximated, years_trend, new_columns_data
+    input_df,
+    years,
+    years_approximated,
+    years_trend,
+    new_columns_data,
+    series_label: str | None = None,
 ):
     """
     Process each municipality's data to calculate trends and predictions.
@@ -137,7 +175,9 @@ def fit_regression_per_municipality(
     - years_approximated (numpy.ndarray): Years for approximated data
     - years_trend (numpy.ndarray): Years for trend predictions
     - new_columns_data (dict): Dictionary to store new column data
+    - series_label: Optional slug for output column names (see create_new_columns_structure).
     """
+    approximated_col, trend_col, slope_col = _series_column_names(series_label)
     for idx in range(len(input_df)):
         emissions = np.array([input_df.iloc[idx][col] for col in years], dtype=float)
 
@@ -159,15 +199,15 @@ def fit_regression_per_municipality(
 
         # Store approximated historical data
         for i, year in enumerate(years_approximated):
-            column_name = f"approximated_{int(year)}"
+            column_name = approximated_col(year)
             new_columns_data[column_name][idx] = preds_approximated[i] + shift
 
         # Store trend data
         for i, year in enumerate(years_trend):
-            column_name = f"trend_{int(year)}"
+            column_name = trend_col(year)
             new_columns_data[column_name][idx] = preds_trend[i] + shift
 
-        new_columns_data["trend_emissions_slope"][idx] = emission_slope
+        new_columns_data[slope_col()][idx] = emission_slope
 
 
 def calculate_total_trend(input_df):
@@ -187,7 +227,13 @@ def calculate_total_trend(input_df):
     return input_df[trend_columns].sum(axis=1)
 
 
-def calculate_trend(input_df, current_year, end_year, cutoff_year=2015):
+def calculate_trend(
+    input_df,
+    current_year,
+    end_year,
+    cutoff_year=2015,
+    series_label: str | None = None,
+):
     """
     LAD (least absolute deviations) regression, with years centered at the last
     observed year for numerical stability. Returns predictions anchored
@@ -197,11 +243,13 @@ def calculate_trend(input_df, current_year, end_year, cutoff_year=2015):
     - input_df (pandas.DataFrame): The input dataframe containing municipality data.
     - current_year (int): The current year to predict until.
     - end_year (int): The year to predict until.
+    - series_label: If set, prefix approximated/trend/slope columns (e.g. ``fossil``).
 
     Returns:
     - input_df (pandas.DataFrame): DataFrame with added trend coefficients, approximated data
                                    until current year and future predictions.
     """
+    approximated_col, trend_col, _ = _series_column_names(series_label)
     # Extract year columns and data
     years, last_data_year = extract_year_columns(input_df, cutoff_year)
 
@@ -212,21 +260,26 @@ def calculate_trend(input_df, current_year, end_year, cutoff_year=2015):
 
     # Create structure for new columns
     new_columns_data = create_new_columns_structure(
-        years_approximated, years_trend, len(input_df)
+        years_approximated, years_trend, len(input_df), series_label=series_label
     )
 
     # Process each municipality's data
     fit_regression_per_municipality(
-        input_df, years, years_approximated, years_trend, new_columns_data
+        input_df,
+        years,
+        years_approximated,
+        years_trend,
+        new_columns_data,
+        series_label=series_label,
     )
 
     # Create new columns DataFrame and concatenate with original
     new_columns_df = pd.DataFrame(new_columns_data)
 
-    approximated_cols = [f"approximated_{int(year)}" for year in years_approximated]
+    approximated_cols = [approximated_col(year) for year in years_approximated]
     floored_approximated_df = apply_zero_floor(new_columns_df, approximated_cols)
 
-    trend_cols = [f"trend_{int(year)}" for year in years_trend]
+    trend_cols = [trend_col(year) for year in years_trend]
     floored_future_trend_df = apply_zero_floor(floored_approximated_df, trend_cols)
 
     return pd.concat([input_df, floored_future_trend_df], axis=1)
