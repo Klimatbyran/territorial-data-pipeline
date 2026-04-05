@@ -27,14 +27,14 @@ class TestSwedishConsumptionEmissions(unittest.TestCase):
 
     def test_total_consumption_national_series(self):
         """Test the total consumption national series."""
-        data_df= extract_total_consumption_emissions()
+        data_df = extract_total_consumption_emissions()
         self.assertEqual(self._lookup_long(data_df, "Totalt", 1990), 159_639_555)
         self.assertEqual(self._lookup_long(data_df, "Totalt", 2023), 80_428_937)
         self.assertEqual(self._lookup_long(data_df, "Totalt exkl. flyg", 2023), 79_847_856)
 
     def test_swedish_vs_abroad_split(self):
         """Test the swedish vs abroad split."""
-        data_df= extract_swedish_consumption_emissions()
+        data_df = extract_swedish_consumption_emissions()
         self.assertEqual(self._lookup_long(data_df, "I Sverige", 2023), 28_797_623)
         self.assertEqual(self._lookup_long(data_df, "Utomlands", 2023), 51_631_314)
         self.assertEqual(self._lookup_long(data_df, "I Sverige exkl. flyg", 2023), 28_532_813)
@@ -46,23 +46,28 @@ class TestSwedishConsumptionEmissions(unittest.TestCase):
         total = data_df[data_df["municipality"] == "Totalt"].iloc[0]
         self.assertEqual(total[2023], 49_222_283)
 
+    def _assert_vasby_and_stockholm(
+        self,
+        data_df: pd.DataFrame,
+        vasby_2008: int,
+        vasby_2023: int,
+        stockholm_2023: int,
+    ) -> None:
+        vasby = data_df[data_df["municipality"] == "Upplands Väsby"].iloc[0]
+        self.assertEqual(vasby[2008], vasby_2008)
+        self.assertEqual(vasby[2023], vasby_2023)
+        stockholm = data_df[data_df["municipality"] == "Stockholm"].iloc[0]
+        self.assertEqual(stockholm[2023], stockholm_2023)
+
     def test_public_municipality_values(self):
         """Test the public municipality values."""
         data_df = extract_public_consumption_emissions()
-        väsby = data_df[data_df["municipality"] == "Upplands Väsby"].iloc[0]
-        self.assertEqual(väsby[2008], 44_817)
-        self.assertEqual(väsby[2023], 29_371)
-        stockholm = data_df[data_df["municipality"] == "Stockholm"].iloc[0]
-        self.assertEqual(stockholm[2023], 1_711_363)
+        self._assert_vasby_and_stockholm(data_df, 44_817, 29_371, 1_711_363)
 
     def test_investment_municipality_values(self):
         """Test the investment municipality values."""
         data_df = extract_investment_consumption_emissions()
-        väsby = data_df[data_df["municipality"] == "Upplands Väsby"].iloc[0]
-        self.assertEqual(väsby[2008], 110_958)
-        self.assertEqual(väsby[2023], 70_989)
-        stockholm = data_df[data_df["municipality"] == "Stockholm"].iloc[0]
-        self.assertEqual(stockholm[2023], 4_136_351)
+        self._assert_vasby_and_stockholm(data_df, 110_958, 70_989, 4_136_351)
 
     def test_online_shopping_national(self):
         """Test the online shopping national."""

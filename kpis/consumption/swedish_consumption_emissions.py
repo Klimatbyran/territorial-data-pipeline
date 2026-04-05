@@ -1,3 +1,18 @@
+"""Extracts consumption emissions from the Swedish consumption emissions Excel file."""
+from pathlib import Path
+import pandas as pd
+
+PATH_SWEDISH_CONSUMPTION_EMISSIONS = Path(__file__).parent / "sources" / "swedish_emissions.xlsx"
+
+def _extract_consumption_emissions_from_excel(sheet_name: str) -> pd.DataFrame:
+    """
+    Extracts consumption emissions from an Excel file.
+
+    Args:
+        sheet_name (str): The name of the sheet to extract data from.
+    """
+    return pd.read_excel(PATH_SWEDISH_CONSUMPTION_EMISSIONS, sheet_name=sheet_name)
+
 def extract_total_consumption_emissions():
     """
     Extracts total consumption emissions.
@@ -8,7 +23,9 @@ def extract_total_consumption_emissions():
     Returns:
         pandas.DataFrame: A DataFrame containing the extracted total consumption emissions data.
     """
-    return df
+    total_df = _extract_consumption_emissions_from_excel("Kons_Tot")
+    print(total_df)
+    return total_df
 
 def extract_household_consumption_emissions():
     """
@@ -17,7 +34,9 @@ def extract_household_consumption_emissions():
     Args:
         df (pandas.DataFrame): The input DataFrame containing consumption emissions data.
     """
-    return df
+    household_df = _extract_consumption_emissions_from_excel("Kons_HH")
+    print(household_df)
+    return household_df
 
 def extract_public_consumption_emissions():
     """
@@ -26,7 +45,9 @@ def extract_public_consumption_emissions():
     Args:
         df (pandas.DataFrame): The input DataFrame containing consumption emissions data.
     """
-    return df
+    public_df = _extract_consumption_emissions_from_excel("Kons_Off")
+    print(public_df)
+    return public_df
 
 def extract_investment_consumption_emissions():
     """
@@ -35,7 +56,9 @@ def extract_investment_consumption_emissions():
     Args:
         df (pandas.DataFrame): The input DataFrame containing consumption emissions data.
     """
-    return df
+    investment_df = _extract_consumption_emissions_from_excel("Kons_Inv")
+    print(investment_df)
+    return investment_df
 
 def extract_consumption_emissions_from_online_shopping():
     """
@@ -44,7 +67,9 @@ def extract_consumption_emissions_from_online_shopping():
     Args:
         df (pandas.DataFrame): The input DataFrame containing consumption emissions data.
     """
-    return df
+    online_shopping_df = _extract_consumption_emissions_from_excel("E-handel")
+    print(online_shopping_df)
+    return online_shopping_df
 
 def extract_emissions_from_international_flights():
     """
@@ -53,7 +78,9 @@ def extract_emissions_from_international_flights():
     Args:
         df (pandas.DataFrame): The input DataFrame containing consumption emissions data.
     """
-    return df
+    international_flights_df = _extract_consumption_emissions_from_excel("Utsläpp från utrikesflyg")
+    print(international_flights_df)
+    return international_flights_df
 
 def extract_swedish_consumption_emissions():
     """
@@ -64,4 +91,6 @@ def extract_swedish_consumption_emissions():
     Returns:
         pandas.DataFrame: A DataFrame containing the extracted Swedish consumption emissions data.
     """
-    return df
+    swedish_consumption_emissions_df = _extract_consumption_emissions_from_excel("Sverige")
+    print(swedish_consumption_emissions_df)
+    return swedish_consumption_emissions_df
