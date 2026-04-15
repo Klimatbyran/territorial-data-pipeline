@@ -13,10 +13,10 @@ class TestConsumtionEmissionsCalculations(unittest.TestCase):
         df_expected = pd.DataFrame(
             {
                 "Kommun": ["Ale", "Alingsås", "Alvesta"],
-                "consumptionEmissions": [
-                    5.585,
-                    5.528,
-                    5.157,
+                "consumption_emissions": [
+                    5.3145,
+                    5.3058,
+                    5.0665,
                 ],
             }
         )
