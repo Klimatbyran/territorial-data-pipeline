@@ -1,6 +1,8 @@
 """Helpers for loading consumption emissions KPI data."""
 import pandas as pd
 
+from facts.municipalities_counties import get_municipalities
+
 
 SOURCE_PATH = "kpis/consumption/sources/Klimatkollen_data for 2023_shared April 2026.xlsx"
 
@@ -25,5 +27,7 @@ def get_consumption_emissions():
     )
 
     consumption_df = consumption_df[["Kommun", "consumption_emissions"]]
+    municipality_names = set(get_municipalities()["Kommun"])
+    consumption_df = consumption_df[consumption_df["Kommun"].isin(municipality_names)]
 
     return consumption_df
