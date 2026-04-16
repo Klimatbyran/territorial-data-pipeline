@@ -62,7 +62,5 @@ def calculate_bike_lane_per_capita():
         .sort_values(by="Kommun")
         .reset_index(drop=True)
     )
-    
-    print(result_df.head())
 
     return result_df
