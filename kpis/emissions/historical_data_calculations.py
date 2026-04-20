@@ -129,5 +129,6 @@ def get_n_prep_national_data_from_smhi():
 
     # Add a column for the country name and municipalities list
     df_total["Land"] = "Sverige"
+    df_total["Land-en"] = "Sweden"
 
     return df_total

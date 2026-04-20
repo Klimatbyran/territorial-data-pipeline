@@ -43,7 +43,7 @@ def series_to_dict(
     """
 
     return {
-        "country": row["Land"],
+        "country": {"sv": row["Land"], "en": row["Land-en"]},
         "logoUrl": row["coatOfArms"],
         "emissions": {str(year): row[year] for year in historical_columns},
         "totalTrend": row["total_trend"],
