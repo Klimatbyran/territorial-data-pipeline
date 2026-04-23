@@ -168,7 +168,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "-n",
         "--num_decimals",
-        default=2,
+        default=3,
         type=int,
         help="Number of decimals to round to",
     )
