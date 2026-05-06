@@ -12,7 +12,7 @@ from kpis.emissions.carbon_law_calculations import calculate_carbon_law_total
 
 CURRENT_YEAR = datetime.now().year  # current year
 YEAR_SECONDS = 60 * 60 * 24 * 365   # a year in seconds
-LAST_YEAR_WITH_SMHI_DATA = 2023  # last year for which the National Emission database has data
+LAST_YEAR_WITH_SMHI_DATA = 2024  # last year for which the National Emission database has data
 END_YEAR = 2050
 
 CARBON_LAW_REDUCTION_RATE = 0.1172
@@ -25,7 +25,12 @@ PATH_SMHI = (
 
 def calculate_historical_change_percent(df, column_name, last_year_in_range):
     """
-    Calculate the historical average emission level change based on SMHI data from 2015 onwards.
+    Calculate the historical average emission level change based on SMHI data from 2015 and then
+    2020 onwards.
+
+    Between 2015 and 2020 there is a multi-year gap in the series; each step is converted to an
+    equivalent constant annual rate (geometric mean / CAGR over that step) and combined using
+    weights proportional to the number of calendar years in the step.
 
     Args:
         df (pandas.DataFrame): The input DataFrame containing emission data.
@@ -38,21 +43,32 @@ def calculate_historical_change_percent(df, column_name, last_year_in_range):
                           the historical average emission level change in percent for each row.
     """
 
+    years = [2015] + list(range(2020, last_year_in_range + 1))
+
     temp = []
     df = df.sort_values(column_name, ascending=True)
-    for i in range(len(df)):
-        # Get the years we will use for the average
-        years = np.arange(2015, last_year_in_range + 1)
-        # Get the emissions from the years specified in the line above
-        emissions = np.array(df.iloc[i][years], dtype=float)
-        # Calculate diff (in percent) between each successive year
-        diffs_in_percent = [
-            (x - emissions[i - 1]) / emissions[i - 1] for i, x in enumerate(emissions)
-        ][1:]
-        # Calculate average diff
-        avg_diff_in_percent = 100 * sum(diffs_in_percent) / len(diffs_in_percent)
+    for row_idx in range(len(df)):
+        emissions = np.array(df.iloc[row_idx][years], dtype=float)
+        annual_fractional_rates = []
+        year_spans = []
+        for j in range(1, len(years)):
+            span = years[j] - years[j - 1]
+            prev_e, curr_e = emissions[j - 1], emissions[j]
+            if prev_e == 0:
+                annual_fractional_rates.append(np.nan)
+            else:
+                annual_fractional_rates.append((curr_e / prev_e) ** (1.0 / span) - 1.0)
+            year_spans.append(span)
 
-        temp.append(avg_diff_in_percent)
+        rates = np.array(annual_fractional_rates, dtype=float)
+        spans = np.array(year_spans, dtype=float)
+        valid = np.isfinite(rates)
+        if not np.any(valid):
+            avg_diff_in_percent = float("nan")
+        else:
+            avg_diff_in_percent = 100.0 * np.average(rates[valid], weights=spans[valid])
+
+        temp.append(float(avg_diff_in_percent))
 
     df["historicalEmissionChangePercent"] = temp
 

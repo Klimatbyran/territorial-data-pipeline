@@ -30,8 +30,8 @@ class TestEmissionData(unittest.TestCase):
         df_expected = pd.DataFrame(
             {
                 "Kommun": ["Ale", "Skövde"],
-                2022: [142529.055614, 614718.404112],
-                2023: [136223.552398, 546838.611789],
+                2022: [143277.933866814, 612200.142340437],
+                2023: [136674.635738874, 545555.17903781],
             }
         )
 
@@ -54,14 +54,11 @@ class TestEmissionData(unittest.TestCase):
             2005,
             2010,
             2015,
-            2016,
-            2017,
-            2018,
-            2019,
             2020,
             2021,
             2022,
             2023,
+            2024,
         ]
 
         # Check that the expected columns are in the dataframe

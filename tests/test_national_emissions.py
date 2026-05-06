@@ -44,14 +44,11 @@ class TestNationalEmissions(unittest.TestCase):
             2005,
             2010,
             2015,
-            2016,
-            2017,
-            2018,
-            2019,
             2020,
             2021,
             2022,
             2023,
+            2024,
         ]
 
         # Check that the expected columns are in the dataframe
@@ -80,7 +77,7 @@ class TestNationalEmissions(unittest.TestCase):
 
         # Check for expected year columns
         expected_year_columns = [
-          1990, 2000, 2005, 2010, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023
+          1990, 2000, 2005, 2010, 2015, 2020, 2021, 2022, 2023
         ]
         missing_columns = set(expected_year_columns) - set(df_result.columns)
         self.assertEqual(
