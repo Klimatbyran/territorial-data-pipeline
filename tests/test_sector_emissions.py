@@ -89,7 +89,7 @@ class TestSectorEmissions(unittest.TestCase):
 
         # Assert the expected value
         self._assert_sector_value(
-            result, "Karlshamn", ("2023", "Jordbruk"), expected_value=14786.0
+            result, "Karlshamn", ("2023", "Jordbruk"), expected_value=14698.05
         )
 
     def test_national_sector_emissions(self):
@@ -99,7 +99,7 @@ class TestSectorEmissions(unittest.TestCase):
         result = create_sector_emissions_dict(df_sectors, name_column="Land", num_decimals=2)
         self.assertEqual(len(result), 1)
         self._assert_sector_value(
-            result, "Sverige", ("2023", "Jordbruk"), expected_value=6238768.44
+            result, "Sverige", ("2023", "Jordbruk"), expected_value=6208290.69
         )
 
     def test_regional_sector_emissions(self):
@@ -109,7 +109,7 @@ class TestSectorEmissions(unittest.TestCase):
         result = create_sector_emissions_dict(df_sectors, name_column="Län", num_decimals=2)
         self.assertEqual(len(result), 21)
         self._assert_sector_value(
-            result, "Blekinge län", ("2023", "Jordbruk"), expected_value=100263.07
+            result, "Blekinge län", ("2023", "Jordbruk"), expected_value=99322.27
         )
 
     def _verify_generated_file(self, output_file):

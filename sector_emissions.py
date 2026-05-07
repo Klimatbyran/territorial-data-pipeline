@@ -199,7 +199,7 @@ def create_sector_emissions_dict(
 
 def generate_sector_emissions_file(
     extract_func: Callable[[pd.DataFrame], pd.DataFrame],
-    create_func: Callable[[pd.DataFrame], List[Dict]],
+    create_func: Callable[..., List[Dict]],
     output_file: str,
     num_decimals: int = 2
     ) -> None:
@@ -213,7 +213,7 @@ def generate_sector_emissions_file(
 
     df_sectors = extract_func(df_raw)
 
-    sector_data = create_func(df_sectors, num_decimals)
+    sector_data = create_func(df_sectors, num_decimals=num_decimals)
 
     with open(output_file, "w", encoding="utf8") as json_file:
         json.dump(sector_data, json_file, ensure_ascii=False, indent=2)
