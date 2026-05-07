@@ -25,12 +25,12 @@ PATH_SMHI = (
 
 def calculate_historical_change_percent(df, column_name, last_year_in_range):
     """
-    Calculate the historical average emission level change based on SMHI data from 2015 and then
-    2020 onwards.
+    Calculate historical emission change as compund annual growth rate (CAGR) from 2015 through
+    the last available SMHI year.
 
-    Between 2015 and 2020 there is a multi-year gap in the series; each step is converted to an
-    equivalent constant annual rate (geometric mean / CAGR over that step) and combined using
-    weights proportional to the number of calendar years in the step.
+    Uses SMHI year columns: 2015 and 2020 through ``last_year_in_range`` (annual from 2020).
+    The CAGR is computed from the 2015 value to the value for ``last_year_in_range`` over the
+    full calendar span, so missing intermediate years are summarised as one constant annual rate.
 
     Args:
         df (pandas.DataFrame): The input DataFrame containing emission data.
@@ -40,35 +40,24 @@ def calculate_historical_change_percent(df, column_name, last_year_in_range):
     Returns:
         pandas.DataFrame: The input DataFrame with an additional column
                           'historicalEmissionChangePercent' representing
-                          the historical average emission level change in percent for each row.
+                          the CAGR in percent for each row.
     """
 
     years = [2015] + list(range(2020, last_year_in_range + 1))
 
     temp = []
     df = df.sort_values(column_name, ascending=True)
+    first_year = years[0]
+    last_year = years[-1]
+    year_span = last_year - first_year
+
     for row_idx in range(len(df)):
         emissions = np.array(df.iloc[row_idx][years], dtype=float)
-        annual_fractional_rates = []
-        year_spans = []
-        for j in range(1, len(years)):
-            span = years[j] - years[j - 1]
-            prev_e, curr_e = emissions[j - 1], emissions[j]
-            if prev_e == 0:
-                annual_fractional_rates.append(np.nan)
-            else:
-                annual_fractional_rates.append((curr_e / prev_e) ** (1.0 / span) - 1.0)
-            year_spans.append(span)
+        start_e = float(emissions[0])
+        end_e = float(emissions[-1])
 
-        rates = np.array(annual_fractional_rates, dtype=float)
-        spans = np.array(year_spans, dtype=float)
-        valid = np.isfinite(rates)
-        if not np.any(valid):
-            avg_diff_in_percent = float("nan")
-        else:
-            avg_diff_in_percent = 100.0 * np.average(rates[valid], weights=spans[valid])
-
-        temp.append(float(avg_diff_in_percent))
+        cagr_fraction = (end_e / start_e) ** (1.0 / year_span) - 1.0
+        temp.append(float(100.0 * cagr_fraction))
 
     df["historicalEmissionChangePercent"] = temp
 

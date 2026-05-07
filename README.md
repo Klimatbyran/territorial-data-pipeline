@@ -160,7 +160,7 @@ Here's a summary of what the functions do, in order of execution in `/kpis/emiss
 
 4. `calculate_trend`: Calculates trend line for future years up to 2050. This is done by interpolation using previously calculated linear trend coefficients
 
-5. `calculate_historical_change_percent`: Calculates the average historical yearly emission change in percent based on SMHI data from 2015 onwards.
+5. `calculate_historical_change_percent`: Compound annual growth rate (CAGR) from 2015 to the last reported years of the SMHI data.
 
 6. `calculate_carbon_law_total`: Calculates total emissions from carbon law reduction path for municipalities.
 

@@ -25,25 +25,20 @@ class TestEmissionCalculations(unittest.TestCase):
         df_input = pd.DataFrame(
             {
                 "Kommun": ["Östersund"],
-                2015: [143786.390451667],
-                2016: [136270.272900585],
-                2017: [134890.137836385],
-                2018: [123096.170608436],
-                2019: [113061.651497606],
-                2020: [94746.1396597532],
-                2021: [95248.2864179093],
+                2015: [1],
+                2020: [6],
+                2021: [7],
             }
         )
 
         df_expected = df_input.copy()
-        # 2015→2020 annualized over 5 years, then 2020→2021 YoY; weighted by span (5+1 years)
-        df_expected["historicalEmissionChangePercent"] = [-6.581702643368836]
+        df_expected["historicalEmissionChangePercent"] = [38.31]
 
         df_result = calculate_historical_change_percent(
             df_input, "Kommun", LAST_YEAR_WITH_SMHI_DATA
         )
 
-        pd.testing.assert_frame_equal(df_result, df_expected, check_exact=False)
+        pd.testing.assert_frame_equal(round(df_result, 2), round(df_expected, 2), check_exact=False)
 
     def test_does_meets_paris_goal(self):
         """Test the meets Paris goal"""
@@ -170,7 +165,7 @@ class TestEmissionCalculations(unittest.TestCase):
                 "trend_2050": [111717.388917],
                 "trend_emissions_slope": [-1381.550796],
                 "total_trend": [3207399.961802],
-                "historicalEmissionChangePercent": [-0.704516],
+                "historicalEmissionChangePercent": [-0.814589],
                 "hit_net_zero": [datetime.date(2130, 11, 12)],
                 "totalCarbonLawPath": [1181351.373638],
                 "meetsParisGoal": [False],
@@ -232,7 +227,7 @@ class TestEmissionCalculations(unittest.TestCase):
                 "trend_2050": [21375.288513483043],
                 "trend_emissions_slope": [-905.7616311069214],
                 "total_trend": [806110.7021691524],
-                "historicalEmissionChangePercent": [-0.6777219661368596],
+                "historicalEmissionChangePercent": [-0.7265744055952705],
                 "hit_net_zero": [datetime.date(2073, 8, 7)],
                 "totalCarbonLawPath": [351561.0711302647],
                 "meetsParisGoal": [False],
