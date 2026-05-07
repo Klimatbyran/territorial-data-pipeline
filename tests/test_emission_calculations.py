@@ -1,3 +1,4 @@
+"""Test the emission calculations"""
 # -*- coding: utf-8 -*-
 import unittest
 import datetime
