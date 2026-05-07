@@ -50,7 +50,7 @@
       "2050": 111717.389
     },
     "emissionsSlope": -1381.551,
-    "historicalEmissionChangePercent": -0.705,
+    "historicalEmissionChangePercent": -0.815,
     "hitNetZero": "2130-11-12",
     "electricCarChangePercent": 7.0222857817156505,
     "climatePlanLink": "https://ale.se/download/18.57c21c7191786589181bdc8/1724770891479/Energi-%20och%20klimatstrategi.pdf",
@@ -115,7 +115,7 @@
       "2050": 6641.39
     },
     "emissionsSlope": -3374.433,
-    "historicalEmissionChangePercent": -1.264,
+    "historicalEmissionChangePercent": -1.505,
     "hitNetZero": "2051-12-20",
     "electricCarChangePercent": 5.820900643518573,
     "climatePlanLink": "https://www.alingsas.se/wp-content/uploads/2022/06/Klimatstrategi-for-Alingsas-kommun.pdf",
@@ -180,7 +180,7 @@
       "2050": 41682.033
     },
     "emissionsSlope": -2462.906,
-    "historicalEmissionChangePercent": -0.912,
+    "historicalEmissionChangePercent": -1.0,
     "hitNetZero": "2066-12-04",
     "electricCarChangePercent": 7.766052075612281,
     "climatePlanLink": "https://www.alvesta.se/wp-content/uploads/2025/04/Energi-och-klimatprogram-for-Alvesta-kommun-2025-2030.pdf",
@@ -245,7 +245,7 @@
       "2050": 21375.289
     },
     "emissionsSlope": -905.762,
-    "historicalEmissionChangePercent": -0.678,
+    "historicalEmissionChangePercent": -0.727,
     "hitNetZero": "2073-08-07",
     "electricCarChangePercent": 7.168356146104766,
     "climatePlanLink": "https://www.aneby.se/download/18.10e76864165add3787c19774/1538745539859/Milj%C3%B6m%C3%A5l%20f%C3%B6r%20Aneby%20kommun%202011-2025.pdf",
@@ -310,7 +310,7 @@
       "2050": 48464.382
     },
     "emissionsSlope": -588.327,
-    "historicalEmissionChangePercent": 0.482,
+    "historicalEmissionChangePercent": 0.297,
     "hitNetZero": "2132-05-17",
     "electricCarChangePercent": 6.625972575050925,
     "climatePlanLink": "https://www.arboga.se/download/18.626a0440182c91de14a1a5/1661251036439/Energi-%20och%20klimatstrategi%202009%20kf.pdf",
@@ -375,7 +375,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -951.878,
-    "historicalEmissionChangePercent": -2.692,
+    "historicalEmissionChangePercent": -2.884,
     "hitNetZero": "2042-09-11",
     "electricCarChangePercent": 4.040153581683682,
     "climatePlanLink": "https://arjeplog.se/wp-content/uploads/se/2024/11/4-miljokonsekvensbeskrivning.pdf",
@@ -440,7 +440,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -2077.939,
-    "historicalEmissionChangePercent": -1.999,
+    "historicalEmissionChangePercent": -2.379,
     "hitNetZero": "2042-12-04",
     "electricCarChangePercent": 5.439756619729435,
     "climatePlanLink": null,
@@ -505,7 +505,7 @@
       "2050": 22923.44
     },
     "emissionsSlope": -2563.315,
-    "historicalEmissionChangePercent": -0.593,
+    "historicalEmissionChangePercent": -0.836,
     "hitNetZero": "2058-12-11",
     "electricCarChangePercent": 6.131192950945858,
     "climatePlanLink": null,
@@ -570,7 +570,7 @@
       "2050": 105758.091
     },
     "emissionsSlope": 179.918,
-    "historicalEmissionChangePercent": 0.472,
+    "historicalEmissionChangePercent": 0.18,
     "hitNetZero": null,
     "electricCarChangePercent": 6.719618829699925,
     "climatePlanLink": "https://www.askersund.se/download/18.7496f73518f775092e0474a/1716196210068/Ekologiskt%20h%C3%A5llbarhetsprogram%20f%C3%B6r%20Askersunds%20kommun%202022-2025.pdf",
@@ -635,7 +635,7 @@
       "2050": 197078.075
     },
     "emissionsSlope": -1228.283,
-    "historicalEmissionChangePercent": -0.208,
+    "historicalEmissionChangePercent": -0.233,
     "hitNetZero": "2210-06-14",
     "electricCarChangePercent": 5.835823379218782,
     "climatePlanLink": "https://www.avesta.se/globalassets/for-alla-sidor/kommun-och-demokrati/styrande-dokument/program/hallbarhetsprogram-rev-2024--kf-2024-12-16--120.pdf",
@@ -700,7 +700,7 @@
       "2050": 29576.194
     },
     "emissionsSlope": -1383.445,
-    "historicalEmissionChangePercent": -1.34,
+    "historicalEmissionChangePercent": -1.394,
     "hitNetZero": "2071-05-19",
     "electricCarChangePercent": 5.600633742388593,
     "climatePlanLink": "https://www.bengtsfors.se/sidor/kommun-och-politik/styrande-dokument-och-planer.html",
@@ -765,7 +765,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -3303.739,
-    "historicalEmissionChangePercent": -3.382,
+    "historicalEmissionChangePercent": -3.57,
     "hitNetZero": "2038-08-21",
     "electricCarChangePercent": 5.867889421688669,
     "climatePlanLink": "https://berg.se/download/18.50fe10ba18daca97ef158e3/1708340116339/Program%20f%C3%B6r%20ekologisk%20h%C3%A5llbarhet%20aktualiserat%202023-06-19.pdf",
@@ -830,7 +830,7 @@
       "2050": 3543.592
     },
     "emissionsSlope": -605.74,
-    "historicalEmissionChangePercent": -0.806,
+    "historicalEmissionChangePercent": -1.019,
     "hitNetZero": "2055-11-07",
     "electricCarChangePercent": 6.207086414383065,
     "climatePlanLink": "https://www.bjurholm.se/download/18.23d7fdaa17507a9912f33be/1614325453270/Fossilfria%20transporter%20Handlingsplan%20beslutad.pdf",
@@ -895,7 +895,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -4204.788,
-    "historicalEmissionChangePercent": -6.006,
+    "historicalEmissionChangePercent": -6.569,
     "hitNetZero": "2034-09-04",
     "electricCarChangePercent": 4.37863885358122,
     "climatePlanLink": null,
@@ -960,7 +960,7 @@
       "2050": 205244.002
     },
     "emissionsSlope": 1838.861,
-    "historicalEmissionChangePercent": 2.844,
+    "historicalEmissionChangePercent": 2.754,
     "hitNetZero": null,
     "electricCarChangePercent": 5.4405907431358305,
     "climatePlanLink": "https://www.boden.se/kommunen/organisation-och-styrning/viktiga-styrdokument",
@@ -1025,7 +1025,7 @@
       "2050": 34332.034
     },
     "emissionsSlope": -502.742,
-    "historicalEmissionChangePercent": 0.213,
+    "historicalEmissionChangePercent": -0.035,
     "hitNetZero": "2118-04-16",
     "electricCarChangePercent": 6.6399892413718575,
     "climatePlanLink": null,
@@ -1090,7 +1090,7 @@
       "2050": 55830.648
     },
     "emissionsSlope": -2709.316,
-    "historicalEmissionChangePercent": -0.246,
+    "historicalEmissionChangePercent": -0.374,
     "hitNetZero": "2070-08-10",
     "electricCarChangePercent": 5.685055061662309,
     "climatePlanLink": "https://bollnas.se/download/18.5bba8c07182e92654f3ac6a/1662039598190/Programmet%20f%C3%B6r%20ekologisk%20h%C3%A5llbarhet%20-%20antagen%20version.pdf",
@@ -1155,7 +1155,7 @@
       "2050": 100678.715
     },
     "emissionsSlope": -2081.134,
-    "historicalEmissionChangePercent": -1.165,
+    "historicalEmissionChangePercent": -1.192,
     "hitNetZero": "2098-05-18",
     "electricCarChangePercent": 6.499977700626614,
     "climatePlanLink": "https://www.borgholm.se/wp-content/uploads/2025/04/Handlingsplan-for-fossilbranslefri-kommun-2030-Antaget-av-KS230425-65-med-bilagor.pdf",
@@ -1220,7 +1220,7 @@
       "2050": 168537.995
     },
     "emissionsSlope": -9829.24,
-    "historicalEmissionChangePercent": -0.989,
+    "historicalEmissionChangePercent": -1.063,
     "hitNetZero": "2067-02-23",
     "electricCarChangePercent": 7.209466554933316,
     "climatePlanLink": "https://www.borlange.se/bygga-bo-och-miljo/miljo-och-klimat/miljostrategi",
@@ -1285,7 +1285,7 @@
       "2050": 94275.266
     },
     "emissionsSlope": -6507.741,
-    "historicalEmissionChangePercent": -0.752,
+    "historicalEmissionChangePercent": -0.921,
     "hitNetZero": "2064-06-26",
     "electricCarChangePercent": 6.658991025179509,
     "climatePlanLink": "https://www.boras.se/download/18.499cdee21538963cd3f57af7/1610014986050/Energi-%20och%20klimatstrategi%20-%20strategi.pdf",
@@ -1350,7 +1350,7 @@
       "2050": 27608.949
     },
     "emissionsSlope": -3396.339,
-    "historicalEmissionChangePercent": -0.997,
+    "historicalEmissionChangePercent": -1.217,
     "hitNetZero": "2058-02-17",
     "electricCarChangePercent": 6.440828948883173,
     "climatePlanLink": "https://www.botkyrka.se/download/18.1fbbaae6170bff9469deb3b/1584093805113/Klimatstrategi%20f%C3%B6r%20Botkyrka.pdf",
@@ -1415,7 +1415,7 @@
       "2050": 10671.63
     },
     "emissionsSlope": -1656.135,
-    "historicalEmissionChangePercent": -1.712,
+    "historicalEmissionChangePercent": -1.887,
     "hitNetZero": "2056-06-10",
     "electricCarChangePercent": 6.763619643938178,
     "climatePlanLink": null,
@@ -1480,7 +1480,7 @@
       "2050": 27384.091
     },
     "emissionsSlope": -2234.541,
-    "historicalEmissionChangePercent": -1.903,
+    "historicalEmissionChangePercent": -2.029,
     "hitNetZero": "2062-04-04",
     "electricCarChangePercent": 6.983490060064348,
     "climatePlanLink": null,
@@ -1545,7 +1545,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -1724.583,
-    "historicalEmissionChangePercent": -0.878,
+    "historicalEmissionChangePercent": -1.202,
     "hitNetZero": "2046-08-17",
     "electricCarChangePercent": 6.253660317896825,
     "climatePlanLink": null,
@@ -1610,7 +1610,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -4343.536,
-    "historicalEmissionChangePercent": -3.576,
+    "historicalEmissionChangePercent": -3.863,
     "hitNetZero": "2037-12-18",
     "electricCarChangePercent": 3.332873665989692,
     "climatePlanLink": "https://burlov.se/download/18.1c32a37617b4106947ea55dd/1629702323432/Milj%C3%B6program%202030.pdf",
@@ -1675,7 +1675,7 @@
       "2050": 28981.957
     },
     "emissionsSlope": -1808.206,
-    "historicalEmissionChangePercent": -1.343,
+    "historicalEmissionChangePercent": -1.414,
     "hitNetZero": "2066-01-11",
     "electricCarChangePercent": 7.301786588312197,
     "climatePlanLink": "https://www.bastad.se/download/18.65a36900197a1ea0320d408/1750939280771/Miljo-och-klimatprogram2025-2030.pdf",
@@ -1740,7 +1740,7 @@
       "2050": 4264.072
     },
     "emissionsSlope": -652.593,
-    "historicalEmissionChangePercent": -0.804,
+    "historicalEmissionChangePercent": -1.022,
     "hitNetZero": "2056-07-13",
     "electricCarChangePercent": 5.2834572343902755,
     "climatePlanLink": null,
@@ -1805,7 +1805,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -1753.747,
-    "historicalEmissionChangePercent": -3.479,
+    "historicalEmissionChangePercent": -3.546,
     "hitNetZero": "2043-04-15",
     "electricCarChangePercent": 9.201408501600685,
     "climatePlanLink": "https://www.danderyd.se/contentassets/ca8882c4a3184e3abe2d6c966f612bd4/201214_miljo-klimatprogram_final_web.pdf",
@@ -1870,7 +1870,7 @@
       "2050": 39040.218
     },
     "emissionsSlope": -913.296,
-    "historicalEmissionChangePercent": -0.599,
+    "historicalEmissionChangePercent": -0.637,
     "hitNetZero": "2092-09-29",
     "electricCarChangePercent": 6.105868334921094,
     "climatePlanLink": "https://degerfors.se/download/18.53e66ade178ef85bf04d94/1624438767997/Energi-%20och%20klimatprogram%20-2021-06-04.pdf",
@@ -1935,7 +1935,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -618.92,
-    "historicalEmissionChangePercent": -0.615,
+    "historicalEmissionChangePercent": -1.121,
     "hitNetZero": "2049-06-27",
     "electricCarChangePercent": 2.66189492325856,
     "climatePlanLink": null,
@@ -2000,7 +2000,7 @@
       "2050": 82281.558
     },
     "emissionsSlope": 249.742,
-    "historicalEmissionChangePercent": 1.305,
+    "historicalEmissionChangePercent": 1.257,
     "hitNetZero": null,
     "electricCarChangePercent": 4.803910567444609,
     "climatePlanLink": "https://eda.se/Userfiles/Filarkiv/1294/Dokument/Hallbarhetsstrategi_KF_2020-12-16_T.pdf",
@@ -2065,7 +2065,7 @@
       "2050": 17446.858
     },
     "emissionsSlope": -1436.004,
-    "historicalEmissionChangePercent": -1.168,
+    "historicalEmissionChangePercent": -1.295,
     "hitNetZero": "2062-02-24",
     "electricCarChangePercent": 7.788291389801657,
     "climatePlanLink": "https://miljobarometern.ekero.se/content/handlingsplan-energistrategi-2022-2026.pdf",
@@ -2130,7 +2130,7 @@
       "2050": 72464.327
     },
     "emissionsSlope": -1442.093,
-    "historicalEmissionChangePercent": -0.543,
+    "historicalEmissionChangePercent": -0.583,
     "hitNetZero": "2100-04-02",
     "electricCarChangePercent": 5.7158809859128175,
     "climatePlanLink": null,
@@ -2195,7 +2195,7 @@
       "2050": 5739.885
     },
     "emissionsSlope": -1221.663,
-    "historicalEmissionChangePercent": -0.995,
+    "historicalEmissionChangePercent": -1.223,
     "hitNetZero": "2054-09-12",
     "electricCarChangePercent": 5.141583589059186,
     "climatePlanLink": null,
@@ -2260,7 +2260,7 @@
       "2050": 120627.804
     },
     "emissionsSlope": -4505.903,
-    "historicalEmissionChangePercent": -0.753,
+    "historicalEmissionChangePercent": -0.874,
     "hitNetZero": "2076-10-08",
     "electricCarChangePercent": 6.502360205627606,
     "climatePlanLink": "https://enkoping.se/download/18.1f87c14f1764bd37b954dfb9/1670497202700/klimatkontrakt-2030.pdf",
@@ -2325,7 +2325,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -11186.276,
-    "historicalEmissionChangePercent": -2.232,
+    "historicalEmissionChangePercent": -2.383,
     "hitNetZero": "2046-08-07",
     "electricCarChangePercent": 7.117026666099521,
     "climatePlanLink": "https://www.eskilstuna.se/download/18.4e2a3bf1184b408adc47d8/1669619809640/Klimatprogram%20f%C3%B6r%20Eskilstuna%20kommunkoncern.pdf",
@@ -2390,7 +2390,7 @@
       "2050": 183445.887
     },
     "emissionsSlope": -1422.721,
-    "historicalEmissionChangePercent": -1.561,
+    "historicalEmissionChangePercent": -1.855,
     "hitNetZero": "2178-12-10",
     "electricCarChangePercent": 6.923002634815542,
     "climatePlanLink": "https://eslov.se/app/uploads/energi-och-klimatplan-for-eslov.pdf",
@@ -2455,7 +2455,7 @@
       "2050": 10448.804
     },
     "emissionsSlope": -903.952,
-    "historicalEmissionChangePercent": -1.413,
+    "historicalEmissionChangePercent": -1.473,
     "hitNetZero": "2061-07-24",
     "electricCarChangePercent": 5.013399192006126,
     "climatePlanLink": null,
@@ -2520,7 +2520,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -1731.675,
-    "historicalEmissionChangePercent": -1.831,
+    "historicalEmissionChangePercent": -2.032,
     "hitNetZero": "2046-06-22",
     "electricCarChangePercent": 5.932404687736723,
     "climatePlanLink": null,
@@ -2585,7 +2585,7 @@
       "2050": 140363.793
     },
     "emissionsSlope": -4554.735,
-    "historicalEmissionChangePercent": -0.447,
+    "historicalEmissionChangePercent": -0.577,
     "hitNetZero": "2080-10-25",
     "electricCarChangePercent": 5.983504580251717,
     "climatePlanLink": null,
@@ -2650,7 +2650,7 @@
       "2050": 162858.642
     },
     "emissionsSlope": -2010.781,
-    "historicalEmissionChangePercent": -0.582,
+    "historicalEmissionChangePercent": -0.616,
     "hitNetZero": "2130-12-29",
     "electricCarChangePercent": 5.42573903986101,
     "climatePlanLink": "https://www.falkoping.se/download/18.1adde54a17861a73b1e11aae/1626330208751/Klimatstrategi%202021-2030.pdf",
@@ -2715,7 +2715,7 @@
       "2050": 9870.134
     },
     "emissionsSlope": -4771.287,
-    "historicalEmissionChangePercent": -1.068,
+    "historicalEmissionChangePercent": -1.313,
     "hitNetZero": "2052-01-26",
     "electricCarChangePercent": 7.2469566693908005,
     "climatePlanLink": "https://www.falun.se/download/18.5cf25da192711dba3468b41/1729110904499/energi_och_klimatprogram_2013_webb(238819).pdf",
@@ -2780,7 +2780,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -2284.686,
-    "historicalEmissionChangePercent": -2.267,
+    "historicalEmissionChangePercent": -2.567,
     "hitNetZero": "2043-08-25",
     "electricCarChangePercent": 3.9817224941941634,
     "climatePlanLink": null,
@@ -2845,7 +2845,7 @@
       "2050": 35220.327
     },
     "emissionsSlope": -2349.909,
-    "historicalEmissionChangePercent": -1.485,
+    "historicalEmissionChangePercent": -1.537,
     "hitNetZero": "2064-12-26",
     "electricCarChangePercent": 5.942303295863864,
     "climatePlanLink": null,
@@ -2910,7 +2910,7 @@
       "2050": 47119.849
     },
     "emissionsSlope": -1548.945,
-    "historicalEmissionChangePercent": -0.582,
+    "historicalEmissionChangePercent": -0.645,
     "hitNetZero": "2080-06-02",
     "electricCarChangePercent": 6.294465851961804,
     "climatePlanLink": "https://flen.se/download/18.69c1317c1900fdd513d2befb/1718869053959/Energi-%20och%20klimatplan%20f%C3%B6r%20Flens%20kommun%202024-2030.pdf",
@@ -2975,7 +2975,7 @@
       "2050": 5275.374
     },
     "emissionsSlope": -816.441,
-    "historicalEmissionChangePercent": -0.331,
+    "historicalEmissionChangePercent": -0.645,
     "hitNetZero": "2056-06-17",
     "electricCarChangePercent": 5.948346224822101,
     "climatePlanLink": "https://www.forshaga.se/download/18.658f116617a76142ce5bbc71/1626679776148/Milj%C3%B6-%20och%20klimatplan%20(2021-06-08).pdf",
@@ -3040,7 +3040,7 @@
       "2050": 36654.434
     },
     "emissionsSlope": -224.664,
-    "historicalEmissionChangePercent": 0.251,
+    "historicalEmissionChangePercent": 0.153,
     "hitNetZero": "2213-02-25",
     "electricCarChangePercent": 4.319210973054562,
     "climatePlanLink": null,
@@ -3105,7 +3105,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -1406.824,
-    "historicalEmissionChangePercent": -1.284,
+    "historicalEmissionChangePercent": -1.571,
     "hitNetZero": "2048-08-02",
     "electricCarChangePercent": 6.800667772720979,
     "climatePlanLink": null,
@@ -3170,7 +3170,7 @@
       "2050": 49190.083
     },
     "emissionsSlope": -2411.849,
-    "historicalEmissionChangePercent": -0.655,
+    "historicalEmissionChangePercent": -0.753,
     "hitNetZero": "2070-05-25",
     "electricCarChangePercent": 7.582417770237214,
     "climatePlanLink": "https://www.gislaved.se/download/18.6c7bb61c1851412f92b21f8c/1672839511150/Strategi%20f%C3%B6r%20h%C3%A5llbar%20utveckling%20Gislaveds%20kommun%20antagen%20den%2014%20juni%202021.pdf",
@@ -3235,7 +3235,7 @@
       "2050": 17835.075
     },
     "emissionsSlope": -812.588,
-    "historicalEmissionChangePercent": -1.018,
+    "historicalEmissionChangePercent": -1.064,
     "hitNetZero": "2071-12-13",
     "electricCarChangePercent": 7.369501757288056,
     "climatePlanLink": "https://www.gnesta.se/download/18.6cc22741439b1fb1636b3/1531140712556/Milj%C3%B6-%20och%20h%C3%A5llbarhetplan%20f%C3%B6r%20Gnesta%20kommun.pdf",
@@ -3300,7 +3300,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -1927.718,
-    "historicalEmissionChangePercent": -2.876,
+    "historicalEmissionChangePercent": -3.182,
     "hitNetZero": "2038-11-14",
     "electricCarChangePercent": 8.178152341632304,
     "climatePlanLink": null,
@@ -3365,7 +3365,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -83094.723,
-    "historicalEmissionChangePercent": -3.067,
+    "historicalEmissionChangePercent": -3.075,
     "hitNetZero": "2047-02-03",
     "electricCarChangePercent": 5.7646113405105535,
     "climatePlanLink": "https://dokument.gotland.se/IntegrationService.svc/doc/content/33347",
@@ -3430,7 +3430,7 @@
       "2050": 67443.644
     },
     "emissionsSlope": -410.309,
-    "historicalEmissionChangePercent": 0.683,
+    "historicalEmissionChangePercent": 0.417,
     "hitNetZero": "2214-05-17",
     "electricCarChangePercent": 5.884392643797335,
     "climatePlanLink": null,
@@ -3495,7 +3495,7 @@
       "2050": 27209.888
     },
     "emissionsSlope": -609.086,
-    "historicalEmissionChangePercent": -0.443,
+    "historicalEmissionChangePercent": -0.493,
     "hitNetZero": "2094-09-03",
     "electricCarChangePercent": 6.6550784164494745,
     "climatePlanLink": null,
@@ -3560,7 +3560,7 @@
       "2050": 26214.048
     },
     "emissionsSlope": -548.558,
-    "historicalEmissionChangePercent": -0.178,
+    "historicalEmissionChangePercent": -0.279,
     "hitNetZero": "2097-10-15",
     "electricCarChangePercent": 4.454299844704182,
     "climatePlanLink": null,
@@ -3625,7 +3625,7 @@
       "2050": 486943.741
     },
     "emissionsSlope": 3000.095,
-    "historicalEmissionChangePercent": 1.603,
+    "historicalEmissionChangePercent": 1.373,
     "hitNetZero": null,
     "electricCarChangePercent": 6.163734963994678,
     "climatePlanLink": null,
@@ -3690,7 +3690,7 @@
       "2050": 171106.647
     },
     "emissionsSlope": -6040.566,
-    "historicalEmissionChangePercent": 0.517,
+    "historicalEmissionChangePercent": 0.232,
     "hitNetZero": "2078-04-30",
     "electricCarChangePercent": 6.120081464293925,
     "climatePlanLink": "https://share.mediaflow.com/se/?4KCFY6SHEK",
@@ -3755,7 +3755,7 @@
       "2050": 1911363.97
     },
     "emissionsSlope": -10960.882,
-    "historicalEmissionChangePercent": -0.418,
+    "historicalEmissionChangePercent": -0.487,
     "hitNetZero": "2224-05-18",
     "electricCarChangePercent": 7.7172319326737435,
     "climatePlanLink": "https://www4.goteborg.se/prod/Stadsledningskontoret/LIS/Verksamhetshandbok/Forfattn.nsf//6B3CA866EF066429C12586B200449D53/$File/C12574360024D6C7WEBVDBX37N.pdf?OpenElement",
@@ -3820,7 +3820,7 @@
       "2050": 148470.586
     },
     "emissionsSlope": 572.375,
-    "historicalEmissionChangePercent": -0.268,
+    "historicalEmissionChangePercent": -0.456,
     "hitNetZero": null,
     "electricCarChangePercent": 5.973103173300671,
     "climatePlanLink": "https://www.gotene.se/download/18.6b0120a216ade1dd99f5d17a/1560261659657/Antaget%20klimat%20och%20milj%C3%B6politiskt%20program,%20KF%2029%20april%202019%20%C2%A7%2070.pdf",
@@ -3885,7 +3885,7 @@
       "2050": 22252.173
     },
     "emissionsSlope": -1129.099,
-    "historicalEmissionChangePercent": -0.799,
+    "historicalEmissionChangePercent": -0.891,
     "hitNetZero": "2069-09-16",
     "electricCarChangePercent": 5.649953626659813,
     "climatePlanLink": "https://habokommun.se/contentassets/b41f82fbcb1e4cc7b0979e4b220cbe86/program-for-hallbar-miljo---2020-2030.pdf",
@@ -3950,7 +3950,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -3134.637,
-    "historicalEmissionChangePercent": -2.024,
+    "historicalEmissionChangePercent": -2.501,
     "hitNetZero": "2047-07-23",
     "electricCarChangePercent": 3.5554128759086536,
     "climatePlanLink": null,
@@ -4015,7 +4015,7 @@
       "2050": 11419.803
     },
     "emissionsSlope": -2152.099,
-    "historicalEmissionChangePercent": -0.996,
+    "historicalEmissionChangePercent": -1.211,
     "hitNetZero": "2055-04-22",
     "electricCarChangePercent": 6.5672147950481286,
     "climatePlanLink": null,
@@ -4080,7 +4080,7 @@
       "2050": 38561.134
     },
     "emissionsSlope": -462.041,
-    "historicalEmissionChangePercent": 0.917,
+    "historicalEmissionChangePercent": 0.605,
     "hitNetZero": "2133-06-17",
     "electricCarChangePercent": 6.970596327400157,
     "climatePlanLink": null,
@@ -4145,7 +4145,7 @@
       "2050": 283317.669
     },
     "emissionsSlope": -5186.012,
-    "historicalEmissionChangePercent": -0.429,
+    "historicalEmissionChangePercent": -0.559,
     "hitNetZero": "2104-08-18",
     "electricCarChangePercent": 6.84230229549159,
     "climatePlanLink": "https://www.halmstad.se/download/18.1ab5eabc17db948137827c20/1643015898074/Plan-for-energi-och-klimat-anpassad.pdf",
@@ -4210,7 +4210,7 @@
       "2050": 59279.416
     },
     "emissionsSlope": -958.618,
-    "historicalEmissionChangePercent": 0.18,
+    "historicalEmissionChangePercent": 0.1,
     "hitNetZero": "2111-11-03",
     "electricCarChangePercent": 4.675759016369129,
     "climatePlanLink": null,
@@ -4275,7 +4275,7 @@
       "2050": 47417.011
     },
     "emissionsSlope": -3432.61,
-    "historicalEmissionChangePercent": -0.472,
+    "historicalEmissionChangePercent": -0.655,
     "hitNetZero": "2063-10-24",
     "electricCarChangePercent": 6.632387597991046,
     "climatePlanLink": "https://www.haninge.se/globalassets/dokument/styrdokument/kommunstyrelseforvaltningen-och-hela-kommunen/klimat--och-miljoprogram.pdf",
@@ -4340,7 +4340,7 @@
       "2050": 2777.116
     },
     "emissionsSlope": -1210.64,
-    "historicalEmissionChangePercent": -1.197,
+    "historicalEmissionChangePercent": -1.623,
     "hitNetZero": "2052-04-17",
     "electricCarChangePercent": 4.375571103988316,
     "climatePlanLink": "/data/climatePlans/Haparanda klimatstrategi 2020_2050.pdf",
@@ -4405,7 +4405,7 @@
       "2050": 17880.41
     },
     "emissionsSlope": -2155.942,
-    "historicalEmissionChangePercent": -1.512,
+    "historicalEmissionChangePercent": -1.609,
     "hitNetZero": "2058-04-18",
     "electricCarChangePercent": 6.317651555326331,
     "climatePlanLink": null,
@@ -4470,7 +4470,7 @@
       "2050": 98936.869
     },
     "emissionsSlope": 483.638,
-    "historicalEmissionChangePercent": 1.699,
+    "historicalEmissionChangePercent": 1.557,
     "hitNetZero": null,
     "electricCarChangePercent": 6.819461277843703,
     "climatePlanLink": "https://hedemora.se/wp-content/uploads/2022/10/Energi-_och_klimatstrategi_2020-2025.pdf",
@@ -4535,7 +4535,7 @@
       "2050": 451223.493
     },
     "emissionsSlope": -2990.055,
-    "historicalEmissionChangePercent": 0.385,
+    "historicalEmissionChangePercent": 0.284,
     "hitNetZero": "2200-11-28",
     "electricCarChangePercent": 6.5350044704279515,
     "climatePlanLink": "https://media.helsingborg.se/uploads/networks/1/2024/12/klimat-och-energiplan-2025-2030.pdf",
@@ -4600,7 +4600,7 @@
       "2050": 45214.971
     },
     "emissionsSlope": -853.887,
-    "historicalEmissionChangePercent": -0.197,
+    "historicalEmissionChangePercent": -0.24,
     "hitNetZero": "2102-12-14",
     "electricCarChangePercent": 6.7544403858260385,
     "climatePlanLink": null,
@@ -4665,7 +4665,7 @@
       "2050": 24711.392
     },
     "emissionsSlope": -973.456,
-    "historicalEmissionChangePercent": -1.296,
+    "historicalEmissionChangePercent": -1.333,
     "hitNetZero": "2075-05-21",
     "electricCarChangePercent": 7.155592936582155,
     "climatePlanLink": "https://hjo.se/globalassets/dokument/styrdokument/ovrigt/hallbarhetsstrategi-for-hjo-kommun.pdf",
@@ -4730,7 +4730,7 @@
       "2050": 2875.117
     },
     "emissionsSlope": -3501.509,
-    "historicalEmissionChangePercent": -2.027,
+    "historicalEmissionChangePercent": -2.293,
     "hitNetZero": "2050-10-27",
     "electricCarChangePercent": 4.442275316428184,
     "climatePlanLink": null,
@@ -4795,7 +4795,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -7128.154,
-    "historicalEmissionChangePercent": -2.449,
+    "historicalEmissionChangePercent": -2.661,
     "hitNetZero": "2043-08-06",
     "electricCarChangePercent": 6.763617061564332,
     "climatePlanLink": "https://www.huddinge.se/globalassets/huddinge.se/_gemensamma/styrdokument-overgripande/plan/klimat-och-energi/handlingsplan-med-forslag-pa-atgarder-som-syftar-till-att-na-klimat--och-energimalen-i-miljoprogrammet---slutversion-utan-andringshistorik.pdf",
@@ -4860,7 +4860,7 @@
       "2050": 57805.939
     },
     "emissionsSlope": -4567.079,
-    "historicalEmissionChangePercent": -0.666,
+    "historicalEmissionChangePercent": -0.842,
     "hitNetZero": "2062-08-28",
     "electricCarChangePercent": 7.598719771575459,
     "climatePlanLink": "https://www.hudiksvall.se/Sidor/Kommun-och-politik/Forfattningssamling---Styrdokument/Policy-riktlinjer-planer-och-program/Policyer-planer-och-strategier/Energi--och-klimatstrategi-2017-2050.html",
@@ -4925,7 +4925,7 @@
       "2050": 34827.017
     },
     "emissionsSlope": -1742.23,
-    "historicalEmissionChangePercent": -0.565,
+    "historicalEmissionChangePercent": -0.686,
     "hitNetZero": "2069-12-28",
     "electricCarChangePercent": 5.239516368157876,
     "climatePlanLink": null,
@@ -4990,7 +4990,7 @@
       "2050": 4719.913
     },
     "emissionsSlope": -2085.865,
-    "historicalEmissionChangePercent": -1.69,
+    "historicalEmissionChangePercent": -1.925,
     "hitNetZero": "2052-04-05",
     "electricCarChangePercent": 5.205032827630552,
     "climatePlanLink": "https://www.hylte.se/download/18.72421df9196f6c28fea51bf/1748262706276/Energi-_och_klimatplan_f%C3%B6r_Hylte_kommun_2025-2030.pdf",
@@ -5055,7 +5055,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -1677.236,
-    "historicalEmissionChangePercent": -2.218,
+    "historicalEmissionChangePercent": -2.449,
     "hitNetZero": "2045-04-06",
     "electricCarChangePercent": 2.9963445939462447,
     "climatePlanLink": null,
@@ -5120,7 +5120,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -7853.157,
-    "historicalEmissionChangePercent": -5.287,
+    "historicalEmissionChangePercent": -6.13,
     "hitNetZero": "2031-03-08",
     "electricCarChangePercent": 6.0535787631904565,
     "climatePlanLink": null,
@@ -5185,7 +5185,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -3343.583,
-    "historicalEmissionChangePercent": -1.882,
+    "historicalEmissionChangePercent": -2.059,
     "hitNetZero": "2047-12-18",
     "electricCarChangePercent": 6.888093899035303,
     "climatePlanLink": "https://harnosand.se/download/18.6c7d02e0189abd4545a2dba9/1690874139526/Klimat-energiplan-2017-2020-antagen.pdf",
@@ -5250,7 +5250,7 @@
       "2050": 133538.232
     },
     "emissionsSlope": -1466.024,
-    "historicalEmissionChangePercent": 1.682,
+    "historicalEmissionChangePercent": 1.433,
     "hitNetZero": "2141-02-02",
     "electricCarChangePercent": 8.157908085687744,
     "climatePlanLink": "https://www.harryda.se/download/18.c0a4fce181800179101eedd/1660123092984/Energi-%20och%20klimatplan.pdf",
@@ -5321,7 +5321,7 @@
       "2050": 183190.17
     },
     "emissionsSlope": -3246.583,
-    "historicalEmissionChangePercent": -0.614,
+    "historicalEmissionChangePercent": -0.729,
     "hitNetZero": "2106-06-05",
     "electricCarChangePercent": 5.570577427539131,
     "climatePlanLink": null,
@@ -5386,7 +5386,7 @@
       "2050": 26809.856
     },
     "emissionsSlope": -1782.002,
-    "historicalEmissionChangePercent": -1.37,
+    "historicalEmissionChangePercent": -1.571,
     "hitNetZero": "2065-01-17",
     "electricCarChangePercent": 6.847568837651883,
     "climatePlanLink": "https://www.habo.se/download/18.385a44c917cdfc2502fd07bb/1637050665118/H%C3%A5llbarhetsstrategi_AntagenKF20211108.pdf",
@@ -5451,7 +5451,7 @@
       "2050": 14377.395
     },
     "emissionsSlope": -7222.564,
-    "historicalEmissionChangePercent": -2.712,
+    "historicalEmissionChangePercent": -3.05,
     "hitNetZero": "2051-12-28",
     "electricCarChangePercent": 6.774020573757134,
     "climatePlanLink": "https://www.hoganas.se/download/18.765ba991784b13246f10c29/1618312885309/Milj%C3%B6program%202015-2025_2021.pdf",
@@ -5516,7 +5516,7 @@
       "2050": 6704.342
     },
     "emissionsSlope": -1324.568,
-    "historicalEmissionChangePercent": -1.536,
+    "historicalEmissionChangePercent": -1.641,
     "hitNetZero": "2055-01-23",
     "electricCarChangePercent": 2.387405532829303,
     "climatePlanLink": null,
@@ -5581,7 +5581,7 @@
       "2050": 63485.316
     },
     "emissionsSlope": -1616.024,
-    "historicalEmissionChangePercent": -0.615,
+    "historicalEmissionChangePercent": -0.67,
     "hitNetZero": "2089-04-14",
     "electricCarChangePercent": 6.49157229601945,
     "climatePlanLink": null,
@@ -5646,7 +5646,7 @@
       "2050": 34525.851
     },
     "emissionsSlope": -1588.279,
-    "historicalEmissionChangePercent": -0.598,
+    "historicalEmissionChangePercent": -0.72,
     "hitNetZero": "2071-09-27",
     "electricCarChangePercent": 5.55421623310901,
     "climatePlanLink": "https://www.hoor.se/app/uploads/miljo-och-klimatstrategi-antagen-231011.pdf",
@@ -5711,7 +5711,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -2381.032,
-    "historicalEmissionChangePercent": -2.118,
+    "historicalEmissionChangePercent": -2.417,
     "hitNetZero": "2042-01-11",
     "electricCarChangePercent": 5.427009043390717,
     "climatePlanLink": null,
@@ -5776,7 +5776,7 @@
       "2050": 48.023
     },
     "emissionsSlope": -3460.451,
-    "historicalEmissionChangePercent": -0.952,
+    "historicalEmissionChangePercent": -1.294,
     "hitNetZero": "2050-01-06",
     "electricCarChangePercent": 7.628654443919825,
     "climatePlanLink": "https://www.jarfalla.se/download/18.76c002dd195a83abe8b29362/1742536716999/Klimat_och_Energiplan_2024-2030_tillganglighetsgranskad.pdf",
@@ -5841,7 +5841,7 @@
       "2050": 193999.852
     },
     "emissionsSlope": -12325.942,
-    "historicalEmissionChangePercent": -0.783,
+    "historicalEmissionChangePercent": -0.898,
     "hitNetZero": "2065-09-27",
     "electricCarChangePercent": 5.561947387772586,
     "climatePlanLink": "https://www.jonkoping.se/download/18.6751acba183a2e89e794ecfe/1666359577980/Program%20f%C3%B6r%20h%C3%A5llbarhet%20i%20J%C3%B6nk%C3%B6pings%20kommun%202022-2030.pdf",
@@ -5906,7 +5906,7 @@
       "2050": 49258.606
     },
     "emissionsSlope": -1615.933,
-    "historicalEmissionChangePercent": 0.351,
+    "historicalEmissionChangePercent": 0.151,
     "hitNetZero": "2080-06-25",
     "electricCarChangePercent": 6.152911013502476,
     "climatePlanLink": null,
@@ -5971,7 +5971,7 @@
       "2050": 18758.215
     },
     "emissionsSlope": -7612.808,
-    "historicalEmissionChangePercent": -1.424,
+    "historicalEmissionChangePercent": -1.564,
     "hitNetZero": "2052-06-18",
     "electricCarChangePercent": 5.841083419482777,
     "climatePlanLink": "https://kalmar.se/download/18.27a4559e1709e0628a5856/1584024404535/handlingsplan-fossilbranslefri-kommun-2030.pdf",
@@ -6036,7 +6036,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -1182.898,
-    "historicalEmissionChangePercent": -1.771,
+    "historicalEmissionChangePercent": -1.877,
     "hitNetZero": "2049-02-01",
     "electricCarChangePercent": 5.690174487370898,
     "climatePlanLink": null,
@@ -6101,7 +6101,7 @@
       "2050": 136236.124
     },
     "emissionsSlope": -157.125,
-    "historicalEmissionChangePercent": 5.401,
+    "historicalEmissionChangePercent": -0.111,
     "hitNetZero": "2917-01-21",
     "electricCarChangePercent": 5.371818534175612,
     "climatePlanLink": null,
@@ -6166,7 +6166,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -4761.19,
-    "historicalEmissionChangePercent": -3.211,
+    "historicalEmissionChangePercent": -3.414,
     "hitNetZero": "2043-10-03",
     "electricCarChangePercent": 6.691159796990343,
     "climatePlanLink": "https://karlskoga.se/bygga-bo--miljo/ekologisk-hallbarhet.html",
@@ -6231,7 +6231,7 @@
       "2050": 19710.716
     },
     "emissionsSlope": -6697.652,
-    "historicalEmissionChangePercent": 0.331,
+    "historicalEmissionChangePercent": -0.261,
     "hitNetZero": "2052-12-10",
     "electricCarChangePercent": 6.457407141932334,
     "climatePlanLink": "https://www.karlskrona.se/globalassets/kommun-och-politik/sa-arbetar-vi-med/hallbarhetsprogram_karlskrona_kommun_210517.pdf",
@@ -6296,7 +6296,7 @@
       "2050": 65521.779
     },
     "emissionsSlope": -7625.308,
-    "historicalEmissionChangePercent": -0.764,
+    "historicalEmissionChangePercent": -0.968,
     "hitNetZero": "2058-08-05",
     "electricCarChangePercent": 4.355719126330218,
     "climatePlanLink": "blob:https://karlstad.se/21476a00-9029-4406-8605-497a4c988cbc",
@@ -6361,7 +6361,7 @@
       "2050": 49311.223
     },
     "emissionsSlope": -3063.144,
-    "historicalEmissionChangePercent": -0.651,
+    "historicalEmissionChangePercent": -0.75,
     "hitNetZero": "2066-02-05",
     "electricCarChangePercent": 6.388146274675082,
     "climatePlanLink": "https://www.katrineholm.se/download/18.4755fb0619b828d3dbd7e392/1767876275967/Klimatstrategi%20f%C3%B6r%20Katrineholms%20kommun%202026-2030%20samt%20bilaga,%20KF%202025-12-15,%20%C2%A7%20211.pdf",
@@ -6426,7 +6426,7 @@
       "2050": 36717.219
     },
     "emissionsSlope": -599.088,
-    "historicalEmissionChangePercent": 0.446,
+    "historicalEmissionChangePercent": 0.313,
     "hitNetZero": "2111-04-16",
     "electricCarChangePercent": 6.701068353291843,
     "climatePlanLink": null,
@@ -6491,7 +6491,7 @@
       "2050": 26654.717
     },
     "emissionsSlope": -2251.93,
-    "historicalEmissionChangePercent": -1.295,
+    "historicalEmissionChangePercent": -1.333,
     "hitNetZero": "2061-11-02",
     "electricCarChangePercent": 6.0402970421976185,
     "climatePlanLink": null,
@@ -6556,7 +6556,7 @@
       "2050": 646036.4
     },
     "emissionsSlope": -2790.444,
-    "historicalEmissionChangePercent": 0.075,
+    "historicalEmissionChangePercent": 0.06,
     "hitNetZero": "2281-07-08",
     "electricCarChangePercent": 4.903218282721143,
     "climatePlanLink": "https://kiruna.se/download/18.22bd3f5d17597b58e4e4c2/1604915931895/atgardsplan-for-hallbar-energi-tillika-energiplan-for-kiruna-kommunkoncern.pdf",
@@ -6621,7 +6621,7 @@
       "2050": 50122.352
     },
     "emissionsSlope": -2335.446,
-    "historicalEmissionChangePercent": -0.569,
+    "historicalEmissionChangePercent": -0.677,
     "hitNetZero": "2071-06-18",
     "electricCarChangePercent": 5.5000214645727805,
     "climatePlanLink": "https://www.klippan.se/download/18.1b71982c18529d736e712692/1673968304934/Ha%CC%8Allbarhetsstrategi.pdf?query=klimat",
@@ -6686,7 +6686,7 @@
       "2050": 29807.648
     },
     "emissionsSlope": -1840.926,
-    "historicalEmissionChangePercent": -0.939,
+    "historicalEmissionChangePercent": -1.032,
     "hitNetZero": "2066-03-11",
     "electricCarChangePercent": 7.274930549761197,
     "climatePlanLink": null,
@@ -6751,7 +6751,7 @@
       "2050": 60966.52
     },
     "emissionsSlope": -1911.884,
-    "historicalEmissionChangePercent": -0.346,
+    "historicalEmissionChangePercent": -0.439,
     "hitNetZero": "2081-11-21",
     "electricCarChangePercent": 8.321646820236372,
     "climatePlanLink": "https://www.kramfors.se/download/18.22be0c416e405e2b6c7c6cb/1575389653000/Kramfors-kommun-Program-f%C3%B6r-ekologisk-h%C3%A5llbarhet-2020-2031.pdf",
@@ -6816,7 +6816,7 @@
       "2050": 71574.63
     },
     "emissionsSlope": -11110.84,
-    "historicalEmissionChangePercent": -1.51,
+    "historicalEmissionChangePercent": -1.619,
     "hitNetZero": "2056-06-10",
     "electricCarChangePercent": 6.851980117530138,
     "climatePlanLink": "https://www.kristianstad.se/download/18.706672e318c6244728520f3/1734503422756/Bilaga%201.%20F%C3%B6rdjupad%20%C3%A5tg%C3%A4rdsbeskrivning%20Klimat-%20och%20milj%C3%B6plan%202023-2027.pdf",
@@ -6881,7 +6881,7 @@
       "2050": 54461.714
     },
     "emissionsSlope": -2754.614,
-    "historicalEmissionChangePercent": -0.141,
+    "historicalEmissionChangePercent": -0.292,
     "hitNetZero": "2069-10-09",
     "electricCarChangePercent": 5.700562958348702,
     "climatePlanLink": null,
@@ -6946,7 +6946,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -3598.229,
-    "historicalEmissionChangePercent": -2.554,
+    "historicalEmissionChangePercent": -2.702,
     "hitNetZero": "2042-10-09",
     "electricCarChangePercent": 6.827915993541369,
     "climatePlanLink": null,
@@ -7011,7 +7011,7 @@
       "2050": 105510.774
     },
     "emissionsSlope": -3386.023,
-    "historicalEmissionChangePercent": -1.356,
+    "historicalEmissionChangePercent": -1.453,
     "hitNetZero": "2081-02-28",
     "electricCarChangePercent": 7.044437007910955,
     "climatePlanLink": "https://www.kumla.se/download/18.51243beb1872c3b9ae0ae6/1680090818790/Ekologisk%20h%C3%A5llbarhet.pdf",
@@ -7076,7 +7076,7 @@
       "2050": 37858.382
     },
     "emissionsSlope": -7007.686,
-    "historicalEmissionChangePercent": -1.284,
+    "historicalEmissionChangePercent": -1.447,
     "hitNetZero": "2055-05-27",
     "electricCarChangePercent": 7.903864512588676,
     "climatePlanLink": "https://kungsbacka.se/download/18.5c06deb5186a19d6e5c23920/1678800987979/Klimatstrategi%202022.pdf",
@@ -7141,7 +7141,7 @@
       "2050": 22455.621
     },
     "emissionsSlope": -951.296,
-    "historicalEmissionChangePercent": -0.214,
+    "historicalEmissionChangePercent": -0.419,
     "hitNetZero": "2073-08-09",
     "electricCarChangePercent": 6.135130444137378,
     "climatePlanLink": "https://kungsor.se/download/18.2e2b4aa0193076f12cd53f40/1731418928604/Plan%20f%C3%B6r%20klimatet.pdf",
@@ -7206,7 +7206,7 @@
       "2050": 87171.906
     },
     "emissionsSlope": -1460.351,
-    "historicalEmissionChangePercent": -0.376,
+    "historicalEmissionChangePercent": -0.549,
     "hitNetZero": "2109-09-10",
     "electricCarChangePercent": 5.674894741863113,
     "climatePlanLink": null,
@@ -7271,7 +7271,7 @@
       "2050": 31417.214
     },
     "emissionsSlope": -2261.139,
-    "historicalEmissionChangePercent": -0.659,
+    "historicalEmissionChangePercent": -0.864,
     "hitNetZero": "2063-11-23",
     "electricCarChangePercent": 7.581458452981688,
     "climatePlanLink": null,
@@ -7336,7 +7336,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -13784.81,
-    "historicalEmissionChangePercent": -4.172,
+    "historicalEmissionChangePercent": -4.318,
     "hitNetZero": "2042-06-15",
     "electricCarChangePercent": 7.28275373869013,
     "climatePlanLink": null,
@@ -7401,7 +7401,7 @@
       "2050": 61844.227
     },
     "emissionsSlope": -4229.291,
-    "historicalEmissionChangePercent": -1.027,
+    "historicalEmissionChangePercent": -1.106,
     "hitNetZero": "2064-08-15",
     "electricCarChangePercent": 6.232405950353424,
     "climatePlanLink": null,
@@ -7466,7 +7466,7 @@
       "2050": 181017.594
     },
     "emissionsSlope": -1983.836,
-    "historicalEmissionChangePercent": -0.346,
+    "historicalEmissionChangePercent": -0.405,
     "hitNetZero": "2141-03-31",
     "electricCarChangePercent": 7.083123025426019,
     "climatePlanLink": "https://cms.landskrona.se/wp-content/uploads/2024/06/energi-o-klimatstrategi-2023-2028-m-bilagor_miljo_kf_2023-06-21_reviderad.pdf",
@@ -7531,7 +7531,7 @@
       "2050": 21847.108
     },
     "emissionsSlope": -812.315,
-    "historicalEmissionChangePercent": -0.03,
+    "historicalEmissionChangePercent": -0.209,
     "hitNetZero": "2076-11-22",
     "electricCarChangePercent": 5.79126059813296,
     "climatePlanLink": null,
@@ -7596,7 +7596,7 @@
       "2050": 29519.426
     },
     "emissionsSlope": -586.143,
-    "historicalEmissionChangePercent": -0.537,
+    "historicalEmissionChangePercent": -0.672,
     "hitNetZero": "2100-05-13",
     "electricCarChangePercent": 7.7631584953184145,
     "climatePlanLink": "https://lekeberg.se/download/18.4743cfc18120db3f63d6f13/1655444950983/H%C3%A5llbarhetsprogram%20f%C3%B6r%20Lekebergs%20kommun%202022-2030%20-%20%20antagen.pdf",
@@ -7661,7 +7661,7 @@
       "2050": 12046.189
     },
     "emissionsSlope": -1558.458,
-    "historicalEmissionChangePercent": -0.381,
+    "historicalEmissionChangePercent": -0.677,
     "hitNetZero": "2057-09-24",
     "electricCarChangePercent": 6.370213255851201,
     "climatePlanLink": "https://leksand.se/download/18.58e0ed1f18bfae8ae2b15f40/1701163921965/Ett%20milj%C3%B6m%C3%A4ssigt%20h%C3%A5llbart%20Leksand%202023-2030%20Kf-2023-06-26---94.pdf",
@@ -7726,7 +7726,7 @@
       "2050": 19496.193
     },
     "emissionsSlope": -2270.03,
-    "historicalEmissionChangePercent": -0.738,
+    "historicalEmissionChangePercent": -0.953,
     "hitNetZero": "2058-08-03",
     "electricCarChangePercent": 7.877869864029423,
     "climatePlanLink": null,
@@ -7791,7 +7791,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -1030.905,
-    "historicalEmissionChangePercent": -1.456,
+    "historicalEmissionChangePercent": -1.748,
     "hitNetZero": "2048-08-13",
     "electricCarChangePercent": 6.156287992714839,
     "climatePlanLink": "https://www.lessebo.se/download/18.751dad0a1754f2bbde74234/1603372637882/Energi-%20%20milj%C3%B6-%20och%20klimatstrategiskt%20program%202019-2030%20%20antaget%202020-10-19%20.pdf",
@@ -7856,7 +7856,7 @@
       "2050": 3048.416
     },
     "emissionsSlope": -1253.317,
-    "historicalEmissionChangePercent": -1.609,
+    "historicalEmissionChangePercent": -2.06,
     "hitNetZero": "2052-06-06",
     "electricCarChangePercent": 7.747459931466105,
     "climatePlanLink": "https://lidingo.se/download/18.3e1246071764a836a72c45/1607961656265/Milj%C3%B6program%202021-2030%20f%C3%B6r%20Liding%C3%B6%20stads%20verksamheter%20med%20underskrift%2020-12-11.pdf",
@@ -7921,7 +7921,7 @@
       "2050": 136685.079
     },
     "emissionsSlope": -2145.626,
-    "historicalEmissionChangePercent": -0.198,
+    "historicalEmissionChangePercent": -0.249,
     "hitNetZero": "2113-09-14",
     "electricCarChangePercent": 5.506772179677815,
     "climatePlanLink": "https://lidkoping.se/bygga-bo-och-miljo/energi--klimat-och-klimatanpassning/energi--och-klimatplan",
@@ -7986,7 +7986,7 @@
       "2050": 20468.304
     },
     "emissionsSlope": -1168.11,
-    "historicalEmissionChangePercent": -2.315,
+    "historicalEmissionChangePercent": -2.771,
     "hitNetZero": "2067-07-10",
     "electricCarChangePercent": 7.309629286627491,
     "climatePlanLink": "https://lillaedet.se/download/18.277d354918c629aad7810c1/1702555687910/Energiplan%20och%20klimatstrategi%20f%C3%B6r%20Lilla%20Edets%20kommun.pdf",
@@ -8051,7 +8051,7 @@
       "2050": 82771.126
     },
     "emissionsSlope": -1711.748,
-    "historicalEmissionChangePercent": 0.13,
+    "historicalEmissionChangePercent": 0.015,
     "hitNetZero": "2098-05-10",
     "electricCarChangePercent": 6.631938292566092,
     "climatePlanLink": null,
@@ -8116,7 +8116,7 @@
       "2050": 631101.677
     },
     "emissionsSlope": -2086.97,
-    "historicalEmissionChangePercent": -0.001,
+    "historicalEmissionChangePercent": -0.059,
     "hitNetZero": "2352-05-26",
     "electricCarChangePercent": 6.711864615885922,
     "climatePlanLink": "https://www.linkoping.se/globalassets/gemensamt/regler-och-styrande-dokument/handlingsplan/klimatfardplan-for-linkopings-kommunkoncern-2024-2030.pdf",
@@ -8181,7 +8181,7 @@
       "2050": 50048.448
     },
     "emissionsSlope": -6021.73,
-    "historicalEmissionChangePercent": -1.036,
+    "historicalEmissionChangePercent": -1.174,
     "hitNetZero": "2058-04-24",
     "electricCarChangePercent": 6.068695271334121,
     "climatePlanLink": "https://ljungby.se/download/18.1710f98a1912dcf79a0c0ab4/1724219890948/%C3%85tg%C3%A4rdsplan%20f%C3%B6r%20klimat-%20och%20energi%202020-2025.pdf",
@@ -8246,7 +8246,7 @@
       "2050": 17732.026
     },
     "emissionsSlope": -3173.232,
-    "historicalEmissionChangePercent": -0.604,
+    "historicalEmissionChangePercent": -0.777,
     "hitNetZero": "2055-08-03",
     "electricCarChangePercent": 4.774173669421446,
     "climatePlanLink": null,
@@ -8311,7 +8311,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -1952.021,
-    "historicalEmissionChangePercent": -3.049,
+    "historicalEmissionChangePercent": -3.238,
     "hitNetZero": "2039-08-23",
     "electricCarChangePercent": 6.819676618084211,
     "climatePlanLink": null,
@@ -8376,7 +8376,7 @@
       "2050": 19266.23
     },
     "emissionsSlope": -2689.102,
-    "historicalEmissionChangePercent": -1.116,
+    "historicalEmissionChangePercent": -1.29,
     "hitNetZero": "2057-03-02",
     "electricCarChangePercent": 7.979438524289011,
     "climatePlanLink": "https://lomma.se/bygga-bo-och-miljo/klimat-miljo-och-hallbarhet/klimatarbete.html",
@@ -8441,7 +8441,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -5218.723,
-    "historicalEmissionChangePercent": -3.302,
+    "historicalEmissionChangePercent": -3.869,
     "hitNetZero": "2035-09-26",
     "electricCarChangePercent": 6.665951945294077,
     "climatePlanLink": null,
@@ -8506,7 +8506,7 @@
       "2050": 5791932.54
     },
     "emissionsSlope": 93292.969,
-    "historicalEmissionChangePercent": 2.071,
+    "historicalEmissionChangePercent": 2.05,
     "hitNetZero": null,
     "electricCarChangePercent": 6.686804455069459,
     "climatePlanLink": null,
@@ -8571,7 +8571,7 @@
       "2050": 44193.723
     },
     "emissionsSlope": -6409.352,
-    "historicalEmissionChangePercent": -1.1,
+    "historicalEmissionChangePercent": -1.302,
     "hitNetZero": "2056-11-22",
     "electricCarChangePercent": 7.649505711780307,
     "climatePlanLink": "https://lund.se/download/18.2899fac318093d2b72817dd7/1666783006521/Lunds%20kommuns%20program%20f%C3%B6r%20ekologisk%20h%C3%A5llbar%20utveckling%202021-2030.pdf",
@@ -8636,7 +8636,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -3013.278,
-    "historicalEmissionChangePercent": -2.22,
+    "historicalEmissionChangePercent": -2.537,
     "hitNetZero": "2044-06-28",
     "electricCarChangePercent": 7.395717357432593,
     "climatePlanLink": null,
@@ -8701,7 +8701,7 @@
       "2050": 915320.296
     },
     "emissionsSlope": -27100.361,
-    "historicalEmissionChangePercent": -0.591,
+    "historicalEmissionChangePercent": -1.39,
     "hitNetZero": "2083-10-10",
     "electricCarChangePercent": 6.412936972695801,
     "climatePlanLink": null,
@@ -8766,7 +8766,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -57580.461,
-    "historicalEmissionChangePercent": -3.445,
+    "historicalEmissionChangePercent": -3.865,
     "hitNetZero": "2037-10-06",
     "electricCarChangePercent": 5.8031175111175095,
     "climatePlanLink": "https://malmo.se/Miljo-och-klimat/Prioriterade-omraden-i-klimat--och-miljoarbetet.html",
@@ -8831,7 +8831,7 @@
       "2050": 6691.135
     },
     "emissionsSlope": -1798.883,
-    "historicalEmissionChangePercent": -0.328,
+    "historicalEmissionChangePercent": -0.719,
     "hitNetZero": "2053-09-20",
     "electricCarChangePercent": 7.2756461835752315,
     "climatePlanLink": null,
@@ -8896,7 +8896,7 @@
       "2050": 6220.322
     },
     "emissionsSlope": -618.212,
-    "historicalEmissionChangePercent": 7.694,
+    "historicalEmissionChangePercent": 3.949,
     "hitNetZero": "2060-01-23",
     "electricCarChangePercent": 5.523284225655766,
     "climatePlanLink": null,
@@ -8961,7 +8961,7 @@
       "2050": 104578.592
     },
     "emissionsSlope": -1111.814,
-    "historicalEmissionChangePercent": -0.368,
+    "historicalEmissionChangePercent": -0.464,
     "hitNetZero": "2144-01-23",
     "electricCarChangePercent": 5.977164886119665,
     "climatePlanLink": "https://mariestad.se/download/18.1500c014195b2427ef0583/1742481628085/Klimatkontrakt%20Mariestad%202024.pdf",
@@ -9026,7 +9026,7 @@
       "2050": 36244.729
     },
     "emissionsSlope": -3135.184,
-    "historicalEmissionChangePercent": -0.788,
+    "historicalEmissionChangePercent": -0.939,
     "hitNetZero": "2061-07-24",
     "electricCarChangePercent": 5.340283941466184,
     "climatePlanLink": "https://www.mark.se/download/18.761edf0b18e65a0b1b41401e/1733478222139/H%C3%A5llbara%20Mark%202030.pdf",
@@ -9091,7 +9091,7 @@
       "2050": 27119.141
     },
     "emissionsSlope": -1554.575,
-    "historicalEmissionChangePercent": -0.292,
+    "historicalEmissionChangePercent": -0.553,
     "hitNetZero": "2067-06-12",
     "electricCarChangePercent": 6.948403173166456,
     "climatePlanLink": "https://www.markaryd.se/download/18.3833c2e817715662b02b609/1611040441114/Energi-%20och%20klimatplan%20Markaryd%202021-2030_antagen.pdf",
@@ -9156,7 +9156,7 @@
       "2050": 46815.607
     },
     "emissionsSlope": -706.91,
-    "historicalEmissionChangePercent": -0.536,
+    "historicalEmissionChangePercent": -0.569,
     "hitNetZero": "2116-03-23",
     "electricCarChangePercent": 6.313558631281287,
     "climatePlanLink": "https://mellerud.se/media/t5rnnax2/energi-och-klimatstrategi-2023-2030.pdf",
@@ -9221,7 +9221,7 @@
       "2050": 87304.269
     },
     "emissionsSlope": -2405.071,
-    "historicalEmissionChangePercent": -0.369,
+    "historicalEmissionChangePercent": -0.538,
     "hitNetZero": "2086-04-20",
     "electricCarChangePercent": 6.760245794415361,
     "climatePlanLink": "https://www.mjolby.se/download/18.12cf806d18409781a5e22559/1667205317237/Energi-%20och%20klimatstrategi.pdf",
@@ -9286,7 +9286,7 @@
       "2050": 6065.827
     },
     "emissionsSlope": -2719.941,
-    "historicalEmissionChangePercent": -0.713,
+    "historicalEmissionChangePercent": -0.979,
     "hitNetZero": "2052-03-24",
     "electricCarChangePercent": 6.107627169724326,
     "climatePlanLink": "https://morakommun.se/download/18.166aa05167c62dff5d52b95/1685359032443/Strategi_H%C3%A5llbara_Mora.pdf",
@@ -9351,7 +9351,7 @@
       "2050": 62394.271
     },
     "emissionsSlope": -2491.383,
-    "historicalEmissionChangePercent": -0.507,
+    "historicalEmissionChangePercent": -0.647,
     "hitNetZero": "2075-01-17",
     "electricCarChangePercent": 6.037879693013826,
     "climatePlanLink": null,
@@ -9416,7 +9416,7 @@
       "2050": 7646.895
     },
     "emissionsSlope": -593.617,
-    "historicalEmissionChangePercent": -0.829,
+    "historicalEmissionChangePercent": -0.987,
     "hitNetZero": "2062-11-18",
     "electricCarChangePercent": 7.433830423167945,
     "climatePlanLink": "https://www.mullsjo.se/download/18.6cf2c3af17a7603c29e1ac4a/1625644095092/Milj%C3%B6program_Mullsj%C3%B6%20kommun-2021-2030.pdf",
@@ -9481,7 +9481,7 @@
       "2050": 55048.507
     },
     "emissionsSlope": -1084.253,
-    "historicalEmissionChangePercent": -0.871,
+    "historicalEmissionChangePercent": -1.224,
     "hitNetZero": "2100-10-09",
     "electricCarChangePercent": 7.8027792478331275,
     "climatePlanLink": null,
@@ -9546,7 +9546,7 @@
       "2050": 5900.141
     },
     "emissionsSlope": -268.129,
-    "historicalEmissionChangePercent": 4.26,
+    "historicalEmissionChangePercent": 3.016,
     "hitNetZero": "2072-01-02",
     "electricCarChangePercent": 5.300360025507684,
     "climatePlanLink": null,
@@ -9611,7 +9611,7 @@
       "2050": 68344.407
     },
     "emissionsSlope": -3479.939,
-    "historicalEmissionChangePercent": -0.417,
+    "historicalEmissionChangePercent": -0.597,
     "hitNetZero": "2069-08-22",
     "electricCarChangePercent": 7.6851999940637326,
     "climatePlanLink": "https://www.molndal.se/download/18.5bcdb531818002396aa89b1/1658749356043/M%C3%B6lndals%20stad%20Energiplan%20f%C3%B6r%20minimerad%20klimatp%C3%A5verkan.pdf",
@@ -9676,7 +9676,7 @@
       "2050": 29985.497
     },
     "emissionsSlope": -2602.025,
-    "historicalEmissionChangePercent": -1.023,
+    "historicalEmissionChangePercent": -1.103,
     "hitNetZero": "2061-07-11",
     "electricCarChangePercent": 6.501480307072834,
     "climatePlanLink": null,
@@ -9741,7 +9741,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -38991.055,
-    "historicalEmissionChangePercent": -10.354,
+    "historicalEmissionChangePercent": -11.001,
     "hitNetZero": "2027-08-06",
     "electricCarChangePercent": 7.092105034164037,
     "climatePlanLink": "https://www.morbylanga.se/wp-content/uploads/2023/11/miljo-och-klimatstrategi-for-morbylanga-kommun-2023-2030-1.pdf",
@@ -9806,7 +9806,7 @@
       "2050": 36188.432
     },
     "emissionsSlope": -3181.438,
-    "historicalEmissionChangePercent": -1.978,
+    "historicalEmissionChangePercent": -2.028,
     "hitNetZero": "2061-05-17",
     "electricCarChangePercent": 7.985979634570045,
     "climatePlanLink": "https://www.nacka.se/4959b5/globalassets/kommun-politik/dokument/styrdokument/program/klimat-och-miljoprogram.pdf",
@@ -9871,7 +9871,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -1265.658,
-    "historicalEmissionChangePercent": -1.32,
+    "historicalEmissionChangePercent": -1.608,
     "hitNetZero": "2048-02-12",
     "electricCarChangePercent": 6.6966600086161465,
     "climatePlanLink": null,
@@ -9936,7 +9936,7 @@
       "2050": 8540.034
     },
     "emissionsSlope": -560.436,
-    "historicalEmissionChangePercent": 0.088,
+    "historicalEmissionChangePercent": -0.126,
     "hitNetZero": "2065-03-28",
     "electricCarChangePercent": 7.108757149386419,
     "climatePlanLink": "https://norberg.se/download/18.50b60b2619447ec8b9499aae/1737365137739/Energi-%20och%20klimatstrategi%20f%C3%B6r%20Norbergs%20kommun%202022-2030%20(KF%202022-11-14%20%C2%A7%20179).PDF",
@@ -10001,7 +10001,7 @@
       "2050": 28172.141
     },
     "emissionsSlope": -1328.391,
-    "historicalEmissionChangePercent": 0.142,
+    "historicalEmissionChangePercent": -0.068,
     "hitNetZero": "2071-03-17",
     "electricCarChangePercent": 6.767591701603962,
     "climatePlanLink": null,
@@ -10066,7 +10066,7 @@
       "2050": 11286.655
     },
     "emissionsSlope": -1228.99,
-    "historicalEmissionChangePercent": -1.62,
+    "historicalEmissionChangePercent": -1.746,
     "hitNetZero": "2059-03-09",
     "electricCarChangePercent": 8.843205681595602,
     "climatePlanLink": null,
@@ -10131,7 +10131,7 @@
       "2050": 530954.698
     },
     "emissionsSlope": -5373.272,
-    "historicalEmissionChangePercent": 0.155,
+    "historicalEmissionChangePercent": 0.041,
     "hitNetZero": "2148-10-24",
     "electricCarChangePercent": 6.046194411333565,
     "climatePlanLink": null,
@@ -10196,7 +10196,7 @@
       "2050": 79642.596
     },
     "emissionsSlope": -5293.7,
-    "historicalEmissionChangePercent": -0.806,
+    "historicalEmissionChangePercent": -0.914,
     "hitNetZero": "2065-01-17",
     "electricCarChangePercent": 6.103866500743212,
     "climatePlanLink": "https://www.norrtalje.se/globalassets/bo--miljo/miljo--och-klimatstrategi---tillganglighetsanpassad.pdf",
@@ -10261,7 +10261,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -1050.562,
-    "historicalEmissionChangePercent": -0.901,
+    "historicalEmissionChangePercent": -1.524,
     "hitNetZero": "2044-02-06",
     "electricCarChangePercent": 7.862305880510144,
     "climatePlanLink": null,
@@ -10326,7 +10326,7 @@
       "2050": 157288.651
     },
     "emissionsSlope": 2057.503,
-    "historicalEmissionChangePercent": 2.909,
+    "historicalEmissionChangePercent": 2.875,
     "hitNetZero": null,
     "electricCarChangePercent": 5.519258221542239,
     "climatePlanLink": null,
@@ -10391,7 +10391,7 @@
       "2050": 4397.771
     },
     "emissionsSlope": -1576.983,
-    "historicalEmissionChangePercent": -1.174,
+    "historicalEmissionChangePercent": -1.393,
     "hitNetZero": "2052-10-14",
     "electricCarChangePercent": 5.968811552190306,
     "climatePlanLink": null,
@@ -10456,7 +10456,7 @@
       "2050": 189031.876
     },
     "emissionsSlope": -4724.089,
-    "historicalEmissionChangePercent": -0.063,
+    "historicalEmissionChangePercent": -0.176,
     "hitNetZero": "2090-01-06",
     "electricCarChangePercent": 6.598685421521417,
     "climatePlanLink": "https://www.nykoping.se/globalassets/nykoping.se/dokument/styrande-dokument/aktiverande/program-for-ekologisk-hallbarhet.pdf",
@@ -10521,7 +10521,7 @@
       "2050": 49945.569
     },
     "emissionsSlope": -5494.799,
-    "historicalEmissionChangePercent": -2.383,
+    "historicalEmissionChangePercent": -2.445,
     "hitNetZero": "2059-02-02",
     "electricCarChangePercent": 6.649172380361042,
     "climatePlanLink": "https://nynashamn.se/download/18.af2d0f618019134f8d4e5d6/1650369638283/Nyn%C3%A4shamns%20kommuns%20h%C3%A5llbarhetsprogram%202023-2030.pdf",
@@ -10586,7 +10586,7 @@
       "2050": 25477.908
     },
     "emissionsSlope": -3172.365,
-    "historicalEmissionChangePercent": -1.3,
+    "historicalEmissionChangePercent": -1.422,
     "hitNetZero": "2058-01-12",
     "electricCarChangePercent": 6.027267434940942,
     "climatePlanLink": "https://nassjo.se/download/18.789cc31f1932379805f1a070/1733925519778/Klimat-%20och%20energistrategi.pdf",
@@ -10651,7 +10651,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -1118.033,
-    "historicalEmissionChangePercent": -1.114,
+    "historicalEmissionChangePercent": -1.408,
     "hitNetZero": "2044-08-04",
     "electricCarChangePercent": 5.936413065703684,
     "climatePlanLink": "https://ockelbo.se/download/18.664c62e618c4337f59b423d/1702027511342/Milj%C3%B6strategiskt%20program%202022%202026.pdf",
@@ -10716,7 +10716,7 @@
       "2050": 6654.43
     },
     "emissionsSlope": -1368.761,
-    "historicalEmissionChangePercent": -0.108,
+    "historicalEmissionChangePercent": -0.616,
     "hitNetZero": "2054-11-11",
     "electricCarChangePercent": 5.057396925375815,
     "climatePlanLink": "/data/climatePlans/Olofstr%C3%B6m_Handlingsplan%20f%C3%B6r%20klimat%20och%20energi.pdf",
@@ -10781,7 +10781,7 @@
       "2050": 8199.827
     },
     "emissionsSlope": -715.68,
-    "historicalEmissionChangePercent": 0.112,
+    "historicalEmissionChangePercent": -0.248,
     "hitNetZero": "2061-06-16",
     "electricCarChangePercent": 7.296953942381085,
     "climatePlanLink": null,
@@ -10846,7 +10846,7 @@
       "2050": 28296.496
     },
     "emissionsSlope": -1066.114,
-    "historicalEmissionChangePercent": -1.0,
+    "historicalEmissionChangePercent": -1.105,
     "hitNetZero": "2076-07-16",
     "electricCarChangePercent": 6.726918138974246,
     "climatePlanLink": "https://www.orust.se/download/18.1c4985fe183bfdb97a25a9/1665396992481/Energi-%20och%20klimatstrategi%202017-2030%20Orust.pdf",
@@ -10911,7 +10911,7 @@
       "2050": 14842.478
     },
     "emissionsSlope": -1239.99,
-    "historicalEmissionChangePercent": -0.895,
+    "historicalEmissionChangePercent": -1.055,
     "hitNetZero": "2061-12-20",
     "electricCarChangePercent": 5.3581867057910975,
     "climatePlanLink": "https://www.osby.se/bygga-bo--miljo/natur-och-hallbarhet/klimatarbete.html",
@@ -10976,7 +10976,7 @@
       "2050": 1142.853
     },
     "emissionsSlope": -3854.293,
-    "historicalEmissionChangePercent": -1.535,
+    "historicalEmissionChangePercent": -1.682,
     "hitNetZero": "2050-04-19",
     "electricCarChangePercent": 6.16544663169279,
     "climatePlanLink": "https://www.oskarshamn.se/globalassets/mer-om-kommunen/dokument/forfattningssamling/energi--och-klimatplan-2023-2028-oskarshamns-kommun.pdf",
@@ -11041,7 +11041,7 @@
       "2050": 16932.89
     },
     "emissionsSlope": -1246.245,
-    "historicalEmissionChangePercent": -0.627,
+    "historicalEmissionChangePercent": -0.781,
     "hitNetZero": "2063-08-03",
     "electricCarChangePercent": 6.5331459218292425,
     "climatePlanLink": "https://www.ovanakerskommun.se/boendeochmiljo/klimatochmiljo/miljomal/lokalamiljomal20242030.13865.html",
@@ -11106,7 +11106,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -84891.647,
-    "historicalEmissionChangePercent": -3.548,
+    "historicalEmissionChangePercent": -3.673,
     "hitNetZero": "2043-05-28",
     "electricCarChangePercent": 6.52582348747031,
     "climatePlanLink": null,
@@ -11171,7 +11171,7 @@
       "2050": 210948.17
     },
     "emissionsSlope": 4398.106,
-    "historicalEmissionChangePercent": 9.347,
+    "historicalEmissionChangePercent": 9.117,
     "hitNetZero": null,
     "electricCarChangePercent": 5.35468704988303,
     "climatePlanLink": null,
@@ -11236,7 +11236,7 @@
       "2050": 44614.287
     },
     "emissionsSlope": -324.582,
-    "historicalEmissionChangePercent": 0.837,
+    "historicalEmissionChangePercent": 0.557,
     "hitNetZero": "2187-06-14",
     "electricCarChangePercent": 7.951806506713687,
     "climatePlanLink": "https://www.partille.se/siteassets/kommun--politik/styrdokument/hallbarhet/ffs_ksf_hallbarhetsprogram_2024.pdf",
@@ -11301,7 +11301,7 @@
       "2050": 14703.623
     },
     "emissionsSlope": -1427.616,
-    "historicalEmissionChangePercent": -2.145,
+    "historicalEmissionChangePercent": -2.431,
     "hitNetZero": "2060-04-19",
     "electricCarChangePercent": 5.162223265341039,
     "climatePlanLink": "https://www.perstorp.se/download/18.6ee8abfe17bedf7491a2a38/1643719465669/Klimat-%20och%20energiprogram.pdf",
@@ -11366,7 +11366,7 @@
       "2050": 49386.545
     },
     "emissionsSlope": -5562.854,
-    "historicalEmissionChangePercent": -0.819,
+    "historicalEmissionChangePercent": -1.015,
     "hitNetZero": "2058-11-17",
     "electricCarChangePercent": 7.291557369882919,
     "climatePlanLink": "https://www.pitea.se/contentassets/9c4b5902081c401a985a37bee096f992/handlingsplan-miljo-klimat-och-energi.pdf?t=638201013076470932",
@@ -11431,7 +11431,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -1607.465,
-    "historicalEmissionChangePercent": -1.439,
+    "historicalEmissionChangePercent": -1.788,
     "hitNetZero": "2044-06-16",
     "electricCarChangePercent": 3.70468431203441,
     "climatePlanLink": null,
@@ -11496,7 +11496,7 @@
       "2050": 14875.878
     },
     "emissionsSlope": -2053.882,
-    "historicalEmissionChangePercent": -1.573,
+    "historicalEmissionChangePercent": -1.622,
     "hitNetZero": "2057-03-30",
     "electricCarChangePercent": 8.219863628146753,
     "climatePlanLink": null,
@@ -11561,7 +11561,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -4670.169,
-    "historicalEmissionChangePercent": -0.877,
+    "historicalEmissionChangePercent": -1.33,
     "hitNetZero": "2047-03-19",
     "electricCarChangePercent": 6.152448145518703,
     "climatePlanLink": "https://www.ronneby.se/download/18.2e5b091017e6102741ae787e/1643191137416/Program%20f%C3%B6r%20klimat%20och%20energi%20Ronneby%20kommun%202021-2025.pdf",
@@ -11626,7 +11626,7 @@
       "2050": 158388.686
     },
     "emissionsSlope": -1317.181,
-    "historicalEmissionChangePercent": -0.338,
+    "historicalEmissionChangePercent": -0.347,
     "hitNetZero": "2170-04-01",
     "electricCarChangePercent": 5.4052276916872,
     "climatePlanLink": null,
@@ -11691,7 +11691,7 @@
       "2050": 75335.761
     },
     "emissionsSlope": -1533.442,
-    "historicalEmissionChangePercent": -0.228,
+    "historicalEmissionChangePercent": -0.314,
     "hitNetZero": "2099-02-16",
     "electricCarChangePercent": 6.779897284240245,
     "climatePlanLink": "https://www.sala.se/resources/files/_Nystruktur/Styrdokument/06%20Planer/Energi-%20och%20klimatstrategi%20Sala%20kommun%202020-2030%20med%20utblick%20mot%202045.pdf",
@@ -11756,7 +11756,7 @@
       "2050": 23180.717
     },
     "emissionsSlope": -726.414,
-    "historicalEmissionChangePercent": -0.223,
+    "historicalEmissionChangePercent": -0.45,
     "hitNetZero": "2081-11-29",
     "electricCarChangePercent": 6.896864796556251,
     "climatePlanLink": null,
@@ -11821,7 +11821,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -7940.607,
-    "historicalEmissionChangePercent": -2.629,
+    "historicalEmissionChangePercent": -2.854,
     "hitNetZero": "2046-12-15",
     "electricCarChangePercent": 4.821462893268158,
     "climatePlanLink": "https://sandviken.se/download/18.57fbccb0184147680607072d/1745585779233/Klimat-%20och%20energiplan.pdf",
@@ -11886,7 +11886,7 @@
       "2050": 425993.899
     },
     "emissionsSlope": -565.202,
-    "historicalEmissionChangePercent": 3.924,
+    "historicalEmissionChangePercent": 3.428,
     "hitNetZero": "2803-09-14",
     "electricCarChangePercent": 5.956497870343806,
     "climatePlanLink": "https://www.sigtuna.se/download/18.24e83a616b997088b4b830f/1566301462415/Plan%20f%C3%B6r%20Klimatsmart.pdf",
@@ -11951,7 +11951,7 @@
       "2050": 31020.815
     },
     "emissionsSlope": -2731.205,
-    "historicalEmissionChangePercent": -1.31,
+    "historicalEmissionChangePercent": -1.385,
     "hitNetZero": "2061-05-11",
     "electricCarChangePercent": 5.8914065996999145,
     "climatePlanLink": " https://www.calameo.com/read/005835921d8c19e4bfc0f",
@@ -12016,7 +12016,7 @@
       "2050": 67458.473
     },
     "emissionsSlope": -2669.973,
-    "historicalEmissionChangePercent": -0.625,
+    "historicalEmissionChangePercent": -0.679,
     "hitNetZero": "2075-04-07",
     "electricCarChangePercent": 6.238719034358903,
     "climatePlanLink": "https://www.sjobo.se/download/18.538c0bcd1852e69d6511c727/1671699223250/Del%201%20Milj%C3%B6m%C3%A5l.pdf",
@@ -12081,7 +12081,7 @@
       "2050": 17650.949
     },
     "emissionsSlope": -3075.114,
-    "historicalEmissionChangePercent": -1.618,
+    "historicalEmissionChangePercent": -1.698,
     "hitNetZero": "2055-09-28",
     "electricCarChangePercent": 5.979891639422702,
     "climatePlanLink": "https://skara.se/kommunochpolitik/styrandedokument/strategier/miljostrategi20172025.2431.html",
@@ -12146,7 +12146,7 @@
       "2050": 242214.455
     },
     "emissionsSlope": -11668.204,
-    "historicalEmissionChangePercent": -1.189,
+    "historicalEmissionChangePercent": -1.286,
     "hitNetZero": "2070-10-04",
     "electricCarChangePercent": 7.338595420045694,
     "climatePlanLink": "https://skelleftea.se/download/18.121f8f3718ea7c803fb2966/1712642469197/Milj%C3%B6-%20och%20klimatprogram%20fastst%C3%A4llt%202024.pdf",
@@ -12211,7 +12211,7 @@
       "2050": 5497.758
     },
     "emissionsSlope": -667.024,
-    "historicalEmissionChangePercent": -0.866,
+    "historicalEmissionChangePercent": -1.118,
     "hitNetZero": "2058-03-30",
     "electricCarChangePercent": 6.489719122362354,
     "climatePlanLink": null,
@@ -12276,7 +12276,7 @@
       "2050": 39175.522
     },
     "emissionsSlope": -895.365,
-    "historicalEmissionChangePercent": 0.317,
+    "historicalEmissionChangePercent": 0.19,
     "hitNetZero": "2093-10-03",
     "electricCarChangePercent": 6.081573737855327,
     "climatePlanLink": "https://www.skurup.se/download/18.64257e3118d877d8daf93d5f/1709030608886/Klimatstrategi%20och%20energiplan%20f%C3%B6r%20Skurups%20kommun%202021-2030.pdf",
@@ -12341,7 +12341,7 @@
       "2050": 582438.253
     },
     "emissionsSlope": 1048.156,
-    "historicalEmissionChangePercent": -0.845,
+    "historicalEmissionChangePercent": -0.948,
     "hitNetZero": null,
     "electricCarChangePercent": 6.20953235490982,
     "climatePlanLink": "https://www.skovde.se/globalassets/kommun-och-politik/taxor-avgifter-och-styrande-dokument/forfattningssamling/energi--och-klimatplan-2021-2030.pdf",
@@ -12406,7 +12406,7 @@
       "2050": 37644.44
     },
     "emissionsSlope": -1345.537,
-    "historicalEmissionChangePercent": -0.74,
+    "historicalEmissionChangePercent": -1.106,
     "hitNetZero": "2077-12-23",
     "electricCarChangePercent": 6.649861337849477,
     "climatePlanLink": null,
@@ -12471,7 +12471,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -3278.718,
-    "historicalEmissionChangePercent": -1.03,
+    "historicalEmissionChangePercent": -1.341,
     "hitNetZero": "2048-06-29",
     "electricCarChangePercent": 5.259070464852295,
     "climatePlanLink": "https://www.solleftea.se/download/18.61b51ad41938db455461230/1741961933018/%C3%96vergripande%20verksamhetsplan%202025-2027,%20uppdaterad%202024-12-16.pdf",
@@ -12536,7 +12536,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -7654.652,
-    "historicalEmissionChangePercent": -4.61,
+    "historicalEmissionChangePercent": -4.703,
     "hitNetZero": "2038-03-31",
     "electricCarChangePercent": 8.93226081477292,
     "climatePlanLink": "https://www.sollentuna.se/globalassets/kommun-och-politik/politik-och-demokrati/miljo-och-klimat/plan-for-miljo--och-klimatarbetet-i-sollentuna-kommun-2021-2030.pdf",
@@ -12601,7 +12601,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -6734.478,
-    "historicalEmissionChangePercent": -4.918,
+    "historicalEmissionChangePercent": -5.004,
     "hitNetZero": "2038-05-29",
     "electricCarChangePercent": 8.36447189350903,
     "climatePlanLink": "https://www.solna.se/download/18.5002ae1016ed574744199bd/1596180205909/Klimatstrategi_2019.pdf",
@@ -12666,7 +12666,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -1414.547,
-    "historicalEmissionChangePercent": -3.235,
+    "historicalEmissionChangePercent": -3.641,
     "hitNetZero": "2037-12-08",
     "electricCarChangePercent": 5.182204159476888,
     "climatePlanLink": null,
@@ -12731,7 +12731,7 @@
       "2050": 21505.946
     },
     "emissionsSlope": -372.458,
-    "historicalEmissionChangePercent": -0.749,
+    "historicalEmissionChangePercent": -0.836,
     "hitNetZero": "2107-09-28",
     "electricCarChangePercent": 7.862725170194035,
     "climatePlanLink": "https://www.sotenas.se/download/18.4202a77c193b2d6578d8143/1733935531130/H%C3%A5llbarhetsstrategi%202030%20aktualiserad%202024-11-27.pdf",
@@ -12796,7 +12796,7 @@
       "2050": 38603.119
     },
     "emissionsSlope": -1587.633,
-    "historicalEmissionChangePercent": -0.561,
+    "historicalEmissionChangePercent": -0.759,
     "hitNetZero": "2074-04-25",
     "electricCarChangePercent": 7.125310122234448,
     "climatePlanLink": "https://cms.staffanstorp.se/wp-content/uploads/2023/03/miljoplan.pdf",
@@ -12861,7 +12861,7 @@
       "2050": 838273.986
     },
     "emissionsSlope": -4740.239,
-    "historicalEmissionChangePercent": 1.654,
+    "historicalEmissionChangePercent": -0.409,
     "hitNetZero": "2226-11-04",
     "electricCarChangePercent": 7.764435780143103,
     "climatePlanLink": null,
@@ -12926,7 +12926,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -132462.57,
-    "historicalEmissionChangePercent": -6.514,
+    "historicalEmissionChangePercent": -6.82,
     "hitNetZero": "2031-11-07",
     "electricCarChangePercent": 9.0116197267399,
     "climatePlanLink": "https://start.stockholm/globalassets/start/om-stockholms-stad/politik-och-demokrati/styrdokument/klimathandlingsplan-2030.pdf",
@@ -12991,7 +12991,7 @@
       "2050": 7410.25
     },
     "emissionsSlope": -311.141,
-    "historicalEmissionChangePercent": -0.275,
+    "historicalEmissionChangePercent": -0.48,
     "hitNetZero": "2073-10-25",
     "electricCarChangePercent": 5.954241742537338,
     "climatePlanLink": null,
@@ -13056,7 +13056,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -1856.748,
-    "historicalEmissionChangePercent": -2.163,
+    "historicalEmissionChangePercent": -2.448,
     "hitNetZero": "2043-11-27",
     "electricCarChangePercent": 5.47336668539897,
     "climatePlanLink": "https://www.storuman.se/contentassets/0c780b7d45724514ab3a2123f6513298/strategi-for-co2-effektiva-resor-i-storumans-kommun.pdf",
@@ -13121,7 +13121,7 @@
       "2050": 61280.052
     },
     "emissionsSlope": -2624.067,
-    "historicalEmissionChangePercent": -0.479,
+    "historicalEmissionChangePercent": -0.615,
     "hitNetZero": "2073-05-09",
     "electricCarChangePercent": 6.16327931382429,
     "climatePlanLink": "https://www.strangnas.se/download/18.269b989517934ecd2754df9c/1620303852652/Klimat%20och%20energiplan%20f%C3%B6r%20Str%C3%A4ngn%C3%A4s%20kommun.pdf",
@@ -13186,7 +13186,7 @@
       "2050": 40539.203
     },
     "emissionsSlope": -841.542,
-    "historicalEmissionChangePercent": -0.384,
+    "historicalEmissionChangePercent": -0.505,
     "hitNetZero": "2098-03-04",
     "electricCarChangePercent": 7.5231790740908995,
     "climatePlanLink": "https://www.stromstad.se/download/18.52a121a217ce4d028c542f2/1636710420332/Strategi%20Agenda%202030%20antagen%20september%202021.pdf",
@@ -13251,7 +13251,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -4012.736,
-    "historicalEmissionChangePercent": -2.127,
+    "historicalEmissionChangePercent": -2.538,
     "hitNetZero": "2040-05-09",
     "electricCarChangePercent": 2.03364862768501,
     "climatePlanLink": "https://www.stromsund.se/735.html",
@@ -13316,7 +13316,7 @@
       "2050": 15367.723
     },
     "emissionsSlope": -327.723,
-    "historicalEmissionChangePercent": 0.908,
+    "historicalEmissionChangePercent": 0.446,
     "hitNetZero": "2096-11-21",
     "electricCarChangePercent": 5.175459075996311,
     "climatePlanLink": "https://www.sundbyberg.se/download/18.2e6195c8190a64a78d417754/1722416213112/Program%20f%C3%B6r%20ett%20h%C3%A5llbart%20Sundbyberg%20%E2%80%93%20lokal%20Agenda%202030%20-%20tillg%C3%A4nglighetsanpassad.pdf",
@@ -13381,7 +13381,7 @@
       "2050": 399723.278
     },
     "emissionsSlope": -8627.382,
-    "historicalEmissionChangePercent": -0.587,
+    "historicalEmissionChangePercent": -0.612,
     "hitNetZero": "2096-05-01",
     "electricCarChangePercent": 7.053194723388866,
     "climatePlanLink": "https://sundsvall.se/download/18.75ef5e4f1817ff175a69ca1b/1659440126510/Klimatplan%202022-2024.pdf",
@@ -13446,7 +13446,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -4164.668,
-    "historicalEmissionChangePercent": -2.948,
+    "historicalEmissionChangePercent": -3.172,
     "hitNetZero": "2041-05-26",
     "electricCarChangePercent": 5.023379492107349,
     "climatePlanLink": "https://sunne.se/globalassets/dokument/7.-kommun-och-politik/kommunfakta/forfattningssamling/bygga-bo-och-miljo/miljostrategi-2018-2030-kf-2018-05-07.pdf",
@@ -13511,7 +13511,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -2429.844,
-    "historicalEmissionChangePercent": -3.175,
+    "historicalEmissionChangePercent": -3.46,
     "hitNetZero": "2037-10-20",
     "electricCarChangePercent": 7.641151722268172,
     "climatePlanLink": null,
@@ -13576,7 +13576,7 @@
       "2050": 43793.412
     },
     "emissionsSlope": -1165.449,
-    "historicalEmissionChangePercent": -1.312,
+    "historicalEmissionChangePercent": -1.46,
     "hitNetZero": "2087-07-30",
     "electricCarChangePercent": 5.6295106234299945,
     "climatePlanLink": "https://www.svalov.se/download/18.6193761318a26400cc53226c/1694069679620/Energi-%20och%20klimatplan,%20antagen%202023-08-28.pdf",
@@ -13641,7 +13641,7 @@
       "2050": 48268.901
     },
     "emissionsSlope": -2099.065,
-    "historicalEmissionChangePercent": -0.467,
+    "historicalEmissionChangePercent": -0.604,
     "hitNetZero": "2072-12-29",
     "electricCarChangePercent": 7.827293655569063,
     "climatePlanLink": "https://www.svedala.se/contentassets/ff83c3d46b1e464cb1c0a32030db2256/hallbarhetsstrategi-svedala-kommun-2021-tillganglighetsanpassad-webb.pdf",
@@ -13706,7 +13706,7 @@
       "2050": 45492.705
     },
     "emissionsSlope": -656.563,
-    "historicalEmissionChangePercent": 0.083,
+    "historicalEmissionChangePercent": 0.011,
     "hitNetZero": "2119-04-16",
     "electricCarChangePercent": 6.101565904618602,
     "climatePlanLink": null,
@@ -13771,7 +13771,7 @@
       "2050": 89315.129
     },
     "emissionsSlope": -229.513,
-    "historicalEmissionChangePercent": 0.425,
+    "historicalEmissionChangePercent": 0.287,
     "hitNetZero": "2439-02-25",
     "electricCarChangePercent": 6.529999514066901,
     "climatePlanLink": "https://saffle.se/download/18.1112efe616fe8dd058623460/1580994326995/Huvuddokument.pdf",
@@ -13836,7 +13836,7 @@
       "2050": 13129.673
     },
     "emissionsSlope": -1686.04,
-    "historicalEmissionChangePercent": -1.204,
+    "historicalEmissionChangePercent": -1.32,
     "hitNetZero": "2057-10-15",
     "electricCarChangePercent": 6.90393203468899,
     "climatePlanLink": "https://sater.se/wp-content/uploads/2025/11/miljo-och-klimatpolicy.pdf",
@@ -13901,7 +13901,7 @@
       "2050": 17658.931
     },
     "emissionsSlope": -1762.111,
-    "historicalEmissionChangePercent": -1.211,
+    "historicalEmissionChangePercent": -1.304,
     "hitNetZero": "2060-01-08",
     "electricCarChangePercent": 6.280650939150496,
     "climatePlanLink": "https://www.savsjo.se/kommun-och-politik/vart-hallbarhetsarbete/savsjos-grona-hallbarhetsprogram.html",
@@ -13966,7 +13966,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -6139.143,
-    "historicalEmissionChangePercent": -1.244,
+    "historicalEmissionChangePercent": -1.452,
     "hitNetZero": "2046-05-14",
     "electricCarChangePercent": 5.86126067876443,
     "climatePlanLink": "https://www.soderhamn.se/download/18.54bcf22d18e394a835d14ff/1712730553619/Plan%20f%C3%B6r%20energi%20och%20klimat%20S%C3%B6derhamns%20kommun.pdf",
@@ -14031,7 +14031,7 @@
       "2050": 14339.401
     },
     "emissionsSlope": -1988.125,
-    "historicalEmissionChangePercent": -1.499,
+    "historicalEmissionChangePercent": -1.574,
     "hitNetZero": "2057-03-19",
     "electricCarChangePercent": 7.2768265829979555,
     "climatePlanLink": "/data/climatePlans/Söderköping Mål och strategier för Miljö och klimat.pdf",
@@ -14096,7 +14096,7 @@
       "2050": 14380.075
     },
     "emissionsSlope": -10465.059,
-    "historicalEmissionChangePercent": -2.719,
+    "historicalEmissionChangePercent": -2.774,
     "hitNetZero": "2051-05-17",
     "electricCarChangePercent": 6.201907024979567,
     "climatePlanLink": "https://www.sodertalje.se/globalassets/styrande-dokument/miljo--och-klimatstrategi-2022-2030_antagen-av-kf.pdf",
@@ -14161,7 +14161,7 @@
       "2050": 30507.512
     },
     "emissionsSlope": -1508.429,
-    "historicalEmissionChangePercent": 0.177,
+    "historicalEmissionChangePercent": -0.187,
     "hitNetZero": "2070-03-24",
     "electricCarChangePercent": 5.4780469348682495,
     "climatePlanLink": null,
@@ -14226,7 +14226,7 @@
       "2050": 81297.084
     },
     "emissionsSlope": -1043.875,
-    "historicalEmissionChangePercent": -0.146,
+    "historicalEmissionChangePercent": -0.274,
     "hitNetZero": "2127-11-18",
     "electricCarChangePercent": 7.043981222436325,
     "climatePlanLink": null,
@@ -14291,7 +14291,7 @@
       "2050": 13374.309
     },
     "emissionsSlope": -907.332,
-    "historicalEmissionChangePercent": -0.552,
+    "historicalEmissionChangePercent": -0.634,
     "hitNetZero": "2064-09-27",
     "electricCarChangePercent": 6.802944322371095,
     "climatePlanLink": null,
@@ -14356,7 +14356,7 @@
       "2050": 77599.188
     },
     "emissionsSlope": 304.31,
-    "historicalEmissionChangePercent": 1.113,
+    "historicalEmissionChangePercent": 1.101,
     "hitNetZero": null,
     "electricCarChangePercent": 6.617869507258187,
     "climatePlanLink": null,
@@ -14421,7 +14421,7 @@
       "2050": 23084.517
     },
     "emissionsSlope": -4729.841,
-    "historicalEmissionChangePercent": -1.299,
+    "historicalEmissionChangePercent": -1.441,
     "hitNetZero": "2054-11-18",
     "electricCarChangePercent": 6.097033929202276,
     "climatePlanLink": "https://www.tierp.se/download/18.219c09301768e745e724cb0e/1610000652093/Klimat-%20och%20energiplan%20f%C3%B6r%20Tierps%20kommun.pdf",
@@ -14486,7 +14486,7 @@
       "2050": 244197.463
     },
     "emissionsSlope": 4392.989,
-    "historicalEmissionChangePercent": 4.752,
+    "historicalEmissionChangePercent": 4.112,
     "hitNetZero": null,
     "electricCarChangePercent": 7.11444793678173,
     "climatePlanLink": null,
@@ -14551,7 +14551,7 @@
       "2050": 28858.148
     },
     "emissionsSlope": -1559.289,
-    "historicalEmissionChangePercent": -0.821,
+    "historicalEmissionChangePercent": -0.917,
     "hitNetZero": "2068-07-04",
     "electricCarChangePercent": 5.184601404999859,
     "climatePlanLink": "https://tingsryd.se/wp-content/blogs.dir/1/files_mf/1647330611Milj%C3%B6program20222027TingsrydD%C3%A4rlivet%C3%A4rh%C3%A5llbart.pdf",
@@ -14616,7 +14616,7 @@
       "2050": 20538.641
     },
     "emissionsSlope": -843.659,
-    "historicalEmissionChangePercent": -1.086,
+    "historicalEmissionChangePercent": -1.229,
     "hitNetZero": "2074-05-06",
     "electricCarChangePercent": 6.650218319331378,
     "climatePlanLink": " https://www.tjorn.se/download/18.4f25be091900c555539662eb/1719207540544/Klimat%20och%20energistrategi%202024-2030.pdf",
@@ -14681,7 +14681,7 @@
       "2050": 103662.497
     },
     "emissionsSlope": -784.341,
-    "historicalEmissionChangePercent": -0.181,
+    "historicalEmissionChangePercent": -0.234,
     "hitNetZero": "2182-03-02",
     "electricCarChangePercent": 2.622369222493833,
     "climatePlanLink": "https://tomelilla.se/download/18.780ec6c118d876d4bc47690/1707491964915/Tomelilla klimatprogram 2024-2045.pdf",
@@ -14746,7 +14746,7 @@
       "2050": 180.825
     },
     "emissionsSlope": -2157.931,
-    "historicalEmissionChangePercent": -0.617,
+    "historicalEmissionChangePercent": -0.971,
     "hitNetZero": "2050-01-31",
     "electricCarChangePercent": 5.1744004238096935,
     "climatePlanLink": null,
@@ -14811,7 +14811,7 @@
       "2050": 4295.306
     },
     "emissionsSlope": -1403.726,
-    "historicalEmissionChangePercent": -1.733,
+    "historicalEmissionChangePercent": -1.859,
     "hitNetZero": "2053-01-22",
     "electricCarChangePercent": 5.989736520775841,
     "climatePlanLink": null,
@@ -14876,7 +14876,7 @@
       "2050": 90837.304
     },
     "emissionsSlope": -1390.772,
-    "historicalEmissionChangePercent": -0.3,
+    "historicalEmissionChangePercent": -0.323,
     "hitNetZero": "2115-04-25",
     "electricCarChangePercent": 6.827260450698153,
     "climatePlanLink": null,
@@ -14941,7 +14941,7 @@
       "2050": 28949.278
     },
     "emissionsSlope": -1148.443,
-    "historicalEmissionChangePercent": -0.985,
+    "historicalEmissionChangePercent": -1.073,
     "hitNetZero": "2075-03-17",
     "electricCarChangePercent": 7.287675186465788,
     "climatePlanLink": "https://tranas.se/download/18.671539701847d6e7ad0319/1669301841956/Strategi%20f%C3%B6r%20ekologisk%20h%C3%A5llbarhet%202022%20-2035_tillg%C3%A4nglig.pdf",
@@ -15006,7 +15006,7 @@
       "2050": 57337.838
     },
     "emissionsSlope": -2785.827,
-    "historicalEmissionChangePercent": -0.482,
+    "historicalEmissionChangePercent": -0.602,
     "hitNetZero": "2070-08-01",
     "electricCarChangePercent": 6.380925917034812,
     "climatePlanLink": "https://www.trelleborg.se/app/uploads/2024/04/hallbarhetsmal-2024-2040.pdf",
@@ -15071,7 +15071,7 @@
       "2050": 3951.602
     },
     "emissionsSlope": -4531.92,
-    "historicalEmissionChangePercent": -1.373,
+    "historicalEmissionChangePercent": -1.606,
     "hitNetZero": "2050-11-15",
     "electricCarChangePercent": 7.732151623951313,
     "climatePlanLink": "https://www.trollhattan.se/globalassets/dokument/bygga-bo-och-miljo/tillvaxt-och-utveckling/agenda-21/fardplanklimat-tillganglig.pdf",
@@ -15136,7 +15136,7 @@
       "2050": 16442.378
     },
     "emissionsSlope": -1364.863,
-    "historicalEmissionChangePercent": -1.152,
+    "historicalEmissionChangePercent": -1.267,
     "hitNetZero": "2062-01-18",
     "electricCarChangePercent": 7.110771408779854,
     "climatePlanLink": "https://cms.trosa.se/wp-content/uploads/2023/12/energi-och-klimatplan-2023-antagen.pdf",
@@ -15201,7 +15201,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -1737.808,
-    "historicalEmissionChangePercent": -1.477,
+    "historicalEmissionChangePercent": -2.25,
     "hitNetZero": "2039-05-30",
     "electricCarChangePercent": 7.636134415102598,
     "climatePlanLink": "https://app.climateview.global/public/board/db392fc1-257a-4768-a9db-215a92c6ac59",
@@ -15266,7 +15266,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -4520.084,
-    "historicalEmissionChangePercent": -3.959,
+    "historicalEmissionChangePercent": -4.028,
     "hitNetZero": "2041-04-14",
     "electricCarChangePercent": 9.098195913057562,
     "climatePlanLink": "https://www.taby.se/globalassets/3.-dokument-per-dokumenttyp/information/energiplan-for-taby-kommun.pdf",
@@ -15331,7 +15331,7 @@
       "2050": 21135.651
     },
     "emissionsSlope": -1753.647,
-    "historicalEmissionChangePercent": -0.249,
+    "historicalEmissionChangePercent": -0.368,
     "hitNetZero": "2062-01-20",
     "electricCarChangePercent": 5.792347689010423,
     "climatePlanLink": "https://toreboda.se/download/18.298946861919745ddf8e8a/1725019032454/Strategi%20fo%CC%88r%20Agenda%202030%20To%CC%88reboda%20kommun.pdf",
@@ -15396,7 +15396,7 @@
       "2050": 257145.77
     },
     "emissionsSlope": 161.996,
-    "historicalEmissionChangePercent": 0.745,
+    "historicalEmissionChangePercent": 0.621,
     "hitNetZero": null,
     "electricCarChangePercent": 7.04891288838342,
     "climatePlanLink": "https://www.uddevalla.se/download/18.579c6dca18049edc75d3329/1652779490750/Energi%20och%20klimatplan%20f%C3%B6r%20Uddevalla%20kommun%202022%20TA.pdf",
@@ -15461,7 +15461,7 @@
       "2050": 106017.897
     },
     "emissionsSlope": -1436.378,
-    "historicalEmissionChangePercent": -0.215,
+    "historicalEmissionChangePercent": -0.314,
     "hitNetZero": "2123-10-23",
     "electricCarChangePercent": 5.352041338425304,
     "climatePlanLink": "https://www.ulricehamn.se/innehall/2025/01/Handlingsplan-for-miljoarbetet-i-Ulricehamns-kommun.pdf",
@@ -15526,7 +15526,7 @@
       "2050": 37205.026
     },
     "emissionsSlope": -12352.189,
-    "historicalEmissionChangePercent": -1.507,
+    "historicalEmissionChangePercent": -1.634,
     "hitNetZero": "2053-01-05",
     "electricCarChangePercent": 6.916907529504568,
     "climatePlanLink": "https://www.umea.se/byggaboochmiljo/samhallsutvecklingochhallbarhet/klimatmiljoochhallbarhet/strategisktmiljoarbete/miljomal/programochplanerformiljomalen.4.4c35eecf182e743a9224108.html",
@@ -15591,7 +15591,7 @@
       "2050": 5457.436
     },
     "emissionsSlope": -2722.819,
-    "historicalEmissionChangePercent": -1.132,
+    "historicalEmissionChangePercent": -1.376,
     "hitNetZero": "2052-01-02",
     "electricCarChangePercent": 7.620086763882607,
     "climatePlanLink": "https://upplandsvasby.se/download/18.46d5f63317fbd916d941070/1649663540253/Klimat-%20och%20energistrategi%20f%C3%B6r%20Upplands%20V%C3%A4sby%20kommun%202022-2025.pdf",
@@ -15656,7 +15656,7 @@
       "2050": 590754.091
     },
     "emissionsSlope": 14172.242,
-    "historicalEmissionChangePercent": 6.653,
+    "historicalEmissionChangePercent": 6.566,
     "hitNetZero": null,
     "electricCarChangePercent": 6.975942975950569,
     "climatePlanLink": "https://www.upplands-bro.se/download/18.600d84bf187eae331ea77/1683275082167/Milj%C3%B6-%20och%20klimatstrategi%202023-2045",
@@ -15721,7 +15721,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -34225.211,
-    "historicalEmissionChangePercent": -3.244,
+    "historicalEmissionChangePercent": -3.416,
     "hitNetZero": "2041-06-02",
     "electricCarChangePercent": 6.88247097062455,
     "climatePlanLink": "https://www.uppsala.se/contentassets/5d36faebce83404888c3a4677bad5584/miljo--och-klimatprogram.pdf",
@@ -15786,7 +15786,7 @@
       "2050": 5396.484
     },
     "emissionsSlope": -1619.481,
-    "historicalEmissionChangePercent": -1.232,
+    "historicalEmissionChangePercent": -1.428,
     "hitNetZero": "2053-05-02",
     "electricCarChangePercent": 6.6785268483680795,
     "climatePlanLink": "https://www.uppvidinge.se/download/18.57203f4c17cb7cc4b2c7a190/1635761631493/Klimat-%20och%20energistrategi%202022-2030%20f%C3%B6r%20Uppvidinge%20kommun%20f%C3%B6r%20SAMR%C3%85D.pdf",
@@ -15851,7 +15851,7 @@
       "2050": 13770.18
     },
     "emissionsSlope": -781.952,
-    "historicalEmissionChangePercent": -0.76,
+    "historicalEmissionChangePercent": -0.896,
     "hitNetZero": "2067-08-11",
     "electricCarChangePercent": 6.923476822203325,
     "climatePlanLink": null,
@@ -15916,7 +15916,7 @@
       "2050": 38799.022
     },
     "emissionsSlope": -3064.397,
-    "historicalEmissionChangePercent": -0.663,
+    "historicalEmissionChangePercent": -0.848,
     "hitNetZero": "2062-08-30",
     "electricCarChangePercent": 7.365694954090823,
     "climatePlanLink": "https://www.vaggeryd.se/download/18.1a18992817d52e74471ea1f5/1639407815746/Milj%C3%B6program%202022-2025%20antaget%20KF%20211129%20%C2%A7155.pdf",
@@ -15981,7 +15981,7 @@
       "2050": 9830.343
     },
     "emissionsSlope": -1836.374,
-    "historicalEmissionChangePercent": -1.44,
+    "historicalEmissionChangePercent": -1.502,
     "hitNetZero": "2055-05-09",
     "electricCarChangePercent": 5.518172454268511,
     "climatePlanLink": null,
@@ -16046,7 +16046,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -4972.37,
-    "historicalEmissionChangePercent": -3.018,
+    "historicalEmissionChangePercent": -3.151,
     "hitNetZero": "2041-06-01",
     "electricCarChangePercent": 7.471128744478458,
     "climatePlanLink": "https://dok.vallentuna.se/file/f%C3%B6rfattningssamling/2.%20bygga,%20bo%20och%20milj%C3%B6/2.5%20strategier/2.5.2%20Milj%C3%B6-%20och%20klimatstrategi.pdf",
@@ -16111,7 +16111,7 @@
       "2050": 9800.482
     },
     "emissionsSlope": -1065.43,
-    "historicalEmissionChangePercent": -0.657,
+    "historicalEmissionChangePercent": -0.863,
     "hitNetZero": "2059-03-14",
     "electricCarChangePercent": 6.233082727500243,
     "climatePlanLink": "/data/climatePlans/Vansbro_Energi och klimatplan.pdf",
@@ -16176,7 +16176,7 @@
       "2050": 75370.736
     },
     "emissionsSlope": -1895.712,
-    "historicalEmissionChangePercent": -0.539,
+    "historicalEmissionChangePercent": -0.593,
     "hitNetZero": "2089-10-04",
     "electricCarChangePercent": 7.484324156488656,
     "climatePlanLink": "https://vara.se/kommunochpolitik/varorganisationochverksamhet/planerochstyrandedokument/planerochprogram/miljostrategi20212030.2342.html",
@@ -16241,7 +16241,7 @@
       "2050": 273550.932
     },
     "emissionsSlope": -2653.423,
-    "historicalEmissionChangePercent": 0.705,
+    "historicalEmissionChangePercent": 0.602,
     "hitNetZero": "2153-02-04",
     "electricCarChangePercent": 6.9573053379237635,
     "climatePlanLink": "https://varberg.se/download/18.8df2eb919778c36360e73c7/1750251735563/Klimatstrategi%20f%C3%B6r%20Varbergs%20kommun.pdf",
@@ -16306,7 +16306,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -1012.92,
-    "historicalEmissionChangePercent": -3.204,
+    "historicalEmissionChangePercent": -3.27,
     "hitNetZero": "2043-07-24",
     "electricCarChangePercent": 7.808694560910494,
     "climatePlanLink": "https://www.vaxholm.se/download/18.3d1f64e117fc1ceca46442bb/1648807192906/H%C3%A5llbarhetsstrategi%20f%C3%B6r%20Vaxholms%20stad%202021-2030,%20version%202.pdf",
@@ -16371,7 +16371,7 @@
       "2050": 40309.151
     },
     "emissionsSlope": -1424.539,
-    "historicalEmissionChangePercent": -0.75,
+    "historicalEmissionChangePercent": -0.938,
     "hitNetZero": "2078-04-19",
     "electricCarChangePercent": 7.540518704414808,
     "climatePlanLink": "https://vellinge.se/siteassets/boende-miljo-och-trafik/pdf/vellinge_program-for-hallbar-utveckling_2021_slutlig-version.pdf",
@@ -16436,7 +16436,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -6162.541,
-    "historicalEmissionChangePercent": -2.249,
+    "historicalEmissionChangePercent": -2.334,
     "hitNetZero": "2047-04-23",
     "electricCarChangePercent": 6.000658276323654,
     "climatePlanLink": null,
@@ -16501,7 +16501,7 @@
       "2050": 4764.563
     },
     "emissionsSlope": -1363.232,
-    "historicalEmissionChangePercent": -0.207,
+    "historicalEmissionChangePercent": -0.645,
     "hitNetZero": "2053-06-30",
     "electricCarChangePercent": 5.688655222496687,
     "climatePlanLink": null,
@@ -16566,7 +16566,7 @@
       "2050": 2815.92
     },
     "emissionsSlope": -3663.894,
-    "historicalEmissionChangePercent": -1.6,
+    "historicalEmissionChangePercent": -1.701,
     "hitNetZero": "2050-10-08",
     "electricCarChangePercent": 6.839795910161547,
     "climatePlanLink": null,
@@ -16631,7 +16631,7 @@
       "2050": 35094.031
     },
     "emissionsSlope": -240.867,
-    "historicalEmissionChangePercent": 0.623,
+    "historicalEmissionChangePercent": 0.435,
     "hitNetZero": "2195-09-13",
     "electricCarChangePercent": 7.666377033584183,
     "climatePlanLink": null,
@@ -16696,7 +16696,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -1717.694,
-    "historicalEmissionChangePercent": -2.335,
+    "historicalEmissionChangePercent": -2.452,
     "hitNetZero": "2048-08-25",
     "electricCarChangePercent": 6.855612829144872,
     "climatePlanLink": null,
@@ -16761,7 +16761,7 @@
       "2050": 341302.912
     },
     "emissionsSlope": 2588.537,
-    "historicalEmissionChangePercent": 0.418,
+    "historicalEmissionChangePercent": 0.134,
     "hitNetZero": null,
     "electricCarChangePercent": 6.23669424966185,
     "climatePlanLink": "https://www.vanersborg.se/download/18.2875b421183ed3f970726814/1666862824047/Miljoaktivitetsplan%202022.pdf",
@@ -16826,7 +16826,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -1270.749,
-    "historicalEmissionChangePercent": -1.854,
+    "historicalEmissionChangePercent": -1.993,
     "hitNetZero": "2047-08-07",
     "electricCarChangePercent": 8.131928059675486,
     "climatePlanLink": "https://vannas.se/download/18.41bfbc89192917d5c466bb/1733904167038/Klimat-%20och%20milj%C3%B6program%20V%C3%A4nn%C3%A4s%20kommun.pdf",
@@ -16891,7 +16891,7 @@
       "2050": 41376.17
     },
     "emissionsSlope": -2450.829,
-    "historicalEmissionChangePercent": -1.208,
+    "historicalEmissionChangePercent": -1.287,
     "hitNetZero": "2066-11-19",
     "electricCarChangePercent": 8.219257928416713,
     "climatePlanLink": "https://opengov.360online.com/Meetings/varmdo/File/Details/856513.PDF?fileName=Bilaga%201%20Reviderad%20milj%C3%B6-%20och%20klimatplan%202020-2030_efter%20KS%20KF&fileSize=473455",
@@ -16956,7 +16956,7 @@
       "2050": 55655.471
     },
     "emissionsSlope": -4167.589,
-    "historicalEmissionChangePercent": -0.807,
+    "historicalEmissionChangePercent": -0.966,
     "hitNetZero": "2063-05-10",
     "electricCarChangePercent": 7.004398621322347,
     "climatePlanLink": "https://evodokweb2.varnamo.se/api/download/5d710f26-37fb-4357-99a3-b463425cabf5/87d7b629-9168-40c2-9dde-df2b9b6964b8",
@@ -17021,7 +17021,7 @@
       "2050": 95715.931
     },
     "emissionsSlope": -3678.221,
-    "historicalEmissionChangePercent": -0.635,
+    "historicalEmissionChangePercent": -0.725,
     "hitNetZero": "2076-01-09",
     "electricCarChangePercent": 5.876432488832824,
     "climatePlanLink": "https://www.vastervik.se/Bygga-bo-och-miljo/Energi-och-uppvarmning/kommunens-energi-och-klimatstrategi/",
@@ -17086,7 +17086,7 @@
       "2050": 121555.453
     },
     "emissionsSlope": -14293.099,
-    "historicalEmissionChangePercent": -1.474,
+    "historicalEmissionChangePercent": -1.664,
     "hitNetZero": "2058-07-04",
     "electricCarChangePercent": 7.072770339277023,
     "climatePlanLink": "https://www.vasteras.se/download/18.333c72c91636eee92b85b77/1554823794105/Klimatprogram%20med%20handlingsplan%202017-2020.pdf",
@@ -17151,7 +17151,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -8819.908,
-    "historicalEmissionChangePercent": -1.669,
+    "historicalEmissionChangePercent": -1.818,
     "hitNetZero": "2049-06-25",
     "electricCarChangePercent": 6.764722878555513,
     "climatePlanLink": "https://vaxjo.se/download/18.58d9f57a16d9ce07d02dd012/1571219603597/H%C3%A5llbarhetsprogrammet%20H%C3%A5llbara%20V%C3%A4xj%C3%B6%202030_antaget%20av%20KF.pdf",
@@ -17216,7 +17216,7 @@
       "2050": 37076.034
     },
     "emissionsSlope": -1395.905,
-    "historicalEmissionChangePercent": -0.8,
+    "historicalEmissionChangePercent": -0.893,
     "hitNetZero": "2076-07-23",
     "electricCarChangePercent": 6.686746267609823,
     "climatePlanLink": null,
@@ -17281,7 +17281,7 @@
       "2050": 16211.294
     },
     "emissionsSlope": -711.101,
-    "historicalEmissionChangePercent": -1.06,
+    "historicalEmissionChangePercent": -1.097,
     "hitNetZero": "2072-10-18",
     "electricCarChangePercent": 5.36154998367761,
     "climatePlanLink": null,
@@ -17346,7 +17346,7 @@
       "2050": 24330.904
     },
     "emissionsSlope": -3794.351,
-    "historicalEmissionChangePercent": -1.3,
+    "historicalEmissionChangePercent": -1.415,
     "hitNetZero": "2056-05-30",
     "electricCarChangePercent": 5.339064596399753,
     "climatePlanLink": "https://ystad.se/download/18.220531c51900fd176a41df/1720177096754/Milj%C3%B6program%202021-2025.pdf",
@@ -17411,7 +17411,7 @@
       "2050": 5610.881
     },
     "emissionsSlope": -2465.124,
-    "historicalEmissionChangePercent": -1.935,
+    "historicalEmissionChangePercent": -2.047,
     "hitNetZero": "2052-04-10",
     "electricCarChangePercent": 6.959701288667551,
     "climatePlanLink": "https://www.almhult.se/stadsutvecklingplanering/strategiskplanering/miljoplan2030.1994.html",
@@ -17476,7 +17476,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -2597.259,
-    "historicalEmissionChangePercent": -2.046,
+    "historicalEmissionChangePercent": -2.444,
     "hitNetZero": "2040-12-06",
     "electricCarChangePercent": 5.499895739522495,
     "climatePlanLink": "https://www.alvdalen.se/download/18.3f5c434c18ec63900871f433/1713270243347/Strategi%20f%C3%B6r%20klimat%20och%20energi.pdf",
@@ -17541,7 +17541,7 @@
       "2050": 13015.102
     },
     "emissionsSlope": -1133.423,
-    "historicalEmissionChangePercent": -0.613,
+    "historicalEmissionChangePercent": -1.126,
     "hitNetZero": "2061-06-26",
     "electricCarChangePercent": 6.091299667238768,
     "climatePlanLink": null,
@@ -17606,7 +17606,7 @@
       "2050": 5082.321
     },
     "emissionsSlope": -1007.173,
-    "historicalEmissionChangePercent": -0.7,
+    "historicalEmissionChangePercent": -1.034,
     "hitNetZero": "2055-01-17",
     "electricCarChangePercent": 6.859089503550875,
     "climatePlanLink": "http://www3.alvsbyn.se/styrdoc/Styrdok.nsf/Formnytt.xsp?documentId=D921B3CF75BFCEFFC125868C00428F58&action=openDocument",
@@ -17671,7 +17671,7 @@
       "2050": 41886.697
     },
     "emissionsSlope": -5433.705,
-    "historicalEmissionChangePercent": -0.875,
+    "historicalEmissionChangePercent": -1.055,
     "hitNetZero": "2057-09-16",
     "electricCarChangePercent": 5.437205799333891,
     "climatePlanLink": "https://www.engelholm.se/download/18.26a3fd58195b8a67f17fa7/1743083711207/H%C3%A5llbarhetsprogram%20f%C3%B6r%20%C3%84ngelholms%20kommun%202025-2030%20fastst%C3%A4lld%20av%20KF%20250127.pdf",
@@ -17736,7 +17736,7 @@
       "2050": 20511.862
     },
     "emissionsSlope": -1106.818,
-    "historicalEmissionChangePercent": -0.895,
+    "historicalEmissionChangePercent": -1.025,
     "hitNetZero": "2068-07-13",
     "electricCarChangePercent": 5.645457329278772,
     "climatePlanLink": "https://amal.se/download/18.4516e1c3191975d93813b00c/1725875949422/Energi-och-klimatstrategi%20med%20bilagor.pdf",
@@ -17801,7 +17801,7 @@
       "2050": 32950.812
     },
     "emissionsSlope": -1659.585,
-    "historicalEmissionChangePercent": -0.969,
+    "historicalEmissionChangePercent": -1.088,
     "hitNetZero": "2069-11-09",
     "electricCarChangePercent": 6.732362648525623,
     "climatePlanLink": null,
@@ -17866,7 +17866,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -3959.376,
-    "historicalEmissionChangePercent": -4.324,
+    "historicalEmissionChangePercent": -4.512,
     "hitNetZero": "2035-06-19",
     "electricCarChangePercent": 6.930574676707534,
     "climatePlanLink": "https://are.se/download/18.7d1b02381976258403d1c3d9/1750670664790/Utvecklingsplan%202026-2029%20%C3%85re%20kommun%20Majoritetens%20KF%20250617.pdf",
@@ -17931,7 +17931,7 @@
       "2050": 9510.261
     },
     "emissionsSlope": -1633.952,
-    "historicalEmissionChangePercent": -0.537,
+    "historicalEmissionChangePercent": -0.833,
     "hitNetZero": "2055-10-27",
     "electricCarChangePercent": 5.5304683874155876,
     "climatePlanLink": null,
@@ -17996,7 +17996,7 @@
       "2050": 7216.384
     },
     "emissionsSlope": -786.853,
-    "historicalEmissionChangePercent": 0.678,
+    "historicalEmissionChangePercent": 0.124,
     "hitNetZero": "2059-03-04",
     "electricCarChangePercent": 5.960039960039961,
     "climatePlanLink": null,
@@ -18061,7 +18061,7 @@
       "2050": 5771.59
     },
     "emissionsSlope": -2326.634,
-    "historicalEmissionChangePercent": -1.011,
+    "historicalEmissionChangePercent": -1.266,
     "hitNetZero": "2052-06-24",
     "electricCarChangePercent": 6.191508401771934,
     "climatePlanLink": null,
@@ -18126,7 +18126,7 @@
       "2050": 11554.878
     },
     "emissionsSlope": -1331.776,
-    "historicalEmissionChangePercent": -1.505,
+    "historicalEmissionChangePercent": -1.572,
     "hitNetZero": "2058-09-04",
     "electricCarChangePercent": 7.12770909372333,
     "climatePlanLink": "https://www.atvidaberg.se/download/18.5f7a8daf180ecb382e64787e/1653399935067/handlingsplan-for-energi-och-klimat.pdf",
@@ -18191,7 +18191,7 @@
       "2050": 10729.639
     },
     "emissionsSlope": -387.9,
-    "historicalEmissionChangePercent": -1.51,
+    "historicalEmissionChangePercent": -1.532,
     "hitNetZero": "2077-08-30",
     "electricCarChangePercent": 7.053915372797158,
     "climatePlanLink": null,
@@ -18256,7 +18256,7 @@
       "2050": 35060.86
     },
     "emissionsSlope": -1688.485,
-    "historicalEmissionChangePercent": -0.582,
+    "historicalEmissionChangePercent": -0.755,
     "hitNetZero": "2070-10-07",
     "electricCarChangePercent": 7.631845128027338,
     "climatePlanLink": null,
@@ -18321,7 +18321,7 @@
       "2050": 125192.3
     },
     "emissionsSlope": -10822.6,
-    "historicalEmissionChangePercent": -0.573,
+    "historicalEmissionChangePercent": -0.934,
     "hitNetZero": "2061-07-27",
     "electricCarChangePercent": 6.395891316899485,
     "climatePlanLink": "https://www.orebro.se/download/18.1d8f9a39155628f73841694a/1485339455931/Klimatstrategi%20%C3%96rebro%20kommun.pdf",
@@ -18386,7 +18386,7 @@
       "2050": 47374.98
     },
     "emissionsSlope": -899.878,
-    "historicalEmissionChangePercent": -0.127,
+    "historicalEmissionChangePercent": -0.405,
     "hitNetZero": "2102-08-24",
     "electricCarChangePercent": 3.3494010171335,
     "climatePlanLink": null,
@@ -18451,7 +18451,7 @@
       "2050": 258887.643
     },
     "emissionsSlope": -2510.529,
-    "historicalEmissionChangePercent": 0.668,
+    "historicalEmissionChangePercent": 0.151,
     "hitNetZero": "2153-02-14",
     "electricCarChangePercent": 6.171067256537028,
     "climatePlanLink": "https://www.ornskoldsvik.se/download/18.54f6f67017d0e18071cc1e0b/1645188359669/Klimatstrategi%202021-2026.pdf",
@@ -18516,7 +18516,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -9545.432,
-    "historicalEmissionChangePercent": -3.298,
+    "historicalEmissionChangePercent": -3.591,
     "hitNetZero": "2038-03-02",
     "electricCarChangePercent": 6.860103386074987,
     "climatePlanLink": "https://ostersund.se/download/18.6046c8b91948f31edb33d28/1738316545773/Klimat-%20och%20energistrategi_pop.pdf",
@@ -18581,7 +18581,7 @@
       "2050": 16250.263
     },
     "emissionsSlope": -2542.759,
-    "historicalEmissionChangePercent": -1.253,
+    "historicalEmissionChangePercent": -1.424,
     "hitNetZero": "2056-05-22",
     "electricCarChangePercent": 6.730475179964428,
     "climatePlanLink": "https://www.osteraker.se/download/18.4d8ccb9818167a07633123/1655380479130/Milj%C3%B6-%20och%20klimatprogram%202030.pdf",
@@ -18646,7 +18646,7 @@
       "2050": 21380.905
     },
     "emissionsSlope": -3516.575,
-    "historicalEmissionChangePercent": -1.689,
+    "historicalEmissionChangePercent": -1.738,
     "hitNetZero": "2056-01-30",
     "electricCarChangePercent": 4.836240421477209,
     "climatePlanLink": null,
@@ -18711,7 +18711,7 @@
       "2050": 33115.857
     },
     "emissionsSlope": -1148.389,
-    "historicalEmissionChangePercent": -0.559,
+    "historicalEmissionChangePercent": -0.657,
     "hitNetZero": "2078-11-02",
     "electricCarChangePercent": 6.636466073306236,
     "climatePlanLink": null,
@@ -18776,7 +18776,7 @@
       "2050": 1277.483
     },
     "emissionsSlope": -1114.595,
-    "historicalEmissionChangePercent": -0.707,
+    "historicalEmissionChangePercent": -1.078,
     "hitNetZero": "2051-02-23",
     "electricCarChangePercent": 3.984230081477429,
     "climatePlanLink": null,
@@ -18841,7 +18841,7 @@
       "2050": 0.0
     },
     "emissionsSlope": -1075.507,
-    "historicalEmissionChangePercent": -1.958,
+    "historicalEmissionChangePercent": -2.192,
     "hitNetZero": "2045-01-03",
     "electricCarChangePercent": 5.77320308812526,
     "climatePlanLink": null,
