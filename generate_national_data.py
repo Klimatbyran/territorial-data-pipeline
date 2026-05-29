@@ -61,6 +61,10 @@ def series_to_dict(row: pd.Series, column_groups: Dict[str, List[Any]]) -> Dict:
             str(year.strip("export_of_oil_products_")): row[year]
             for year in column_groups["export_of_oil_products"]
         },
+        "eCommerceEmissions": {
+            str(year.strip("e_commerce_")): row[year]
+            for year in column_groups["e_commerce"]
+        },
     }
 
 
@@ -81,6 +85,10 @@ def df_to_dict(input_df: pd.DataFrame, num_decimals: int) -> dict:
             c for c in cols
             if "export_of_oil_products_" in str(c)
             and "approximated_export_of_oil_products_" not in str(c)
+        ],
+        "e_commerce": [
+            c for c in cols
+            if str(c).startswith("e_commerce_")
         ],
     }
 

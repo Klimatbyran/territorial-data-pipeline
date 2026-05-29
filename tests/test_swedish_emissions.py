@@ -9,7 +9,9 @@ import pandas as pd
 
 from kpis.emissions.swedish_emissions import (
     COLUMN_NAMES,
+    E_HANDEL_YEARS,
     PATH_LOAD_SWEDISH_EMISSIONS,
+    _load_e_handel_emissions_source,
     _load_swedish_emissions_source,
     _extract_emissions,
     _calculate_total_emissions,
@@ -62,6 +64,37 @@ class TestSwedishEmissions(unittest.TestCase):
             emissions_df.loc["Terr_CO2e_bio", 1990], 22_880_000
         )
 
+    def test_e_handel_sheet_loads_2020_to_2025(self):
+        """E-handel sheet exposes national e-commerce emissions for 2020–2025."""
+        emissions_df = _load_e_handel_emissions_source()
+        self.assertEqual(list(emissions_df.columns), E_HANDEL_YEARS)
+        self.assertEqual(emissions_df.index.tolist(), ["Sverige"])
+        expected = {
+            2020: 323_350,
+            2021: 323_350,
+            2022: 256_450,
+            2023: 260_910,
+            2024: 403_630,
+            2025: 325_580,
+        }
+        for year, value in expected.items():
+            self.assertEqual(
+                emissions_df.loc["Sverige", year],
+                value,
+                f"Unexpected e-handel value for {year}",
+            )
+
+    def test_extract_emissions_includes_e_commerce_columns(self):
+        """Flattened emissions include e_commerce_<year> for each E-handel year."""
+        emissions_df = _extract_emissions()
+        for year in E_HANDEL_YEARS:
+            col = f"e_commerce_{year}"
+            self.assertIn(col, emissions_df.columns)
+            self.assertEqual(
+                emissions_df[col].iloc[0],
+                _load_e_handel_emissions_source().loc["Sverige", year],
+            )
+
     def test_create_national_emissions_df_adds_flat_columns_and_preserves_rows(self):
         """Test that create_national_emissions_df adds flat columns and preserves rows."""
         national = pd.DataFrame([{"Land": "Sverige", "dummy": 1.0}])
@@ -72,10 +105,12 @@ class TestSwedishEmissions(unittest.TestCase):
 
         original_cols = set(national.columns)
         extra = [c for c in emissions_df.columns if c not in original_cols]
+        e_handel_cols = [f"e_commerce_{y}" for y in E_HANDEL_YEARS]
+        expected_count = len(COLUMN_NAMES) * len(summary.columns) + len(e_handel_cols)
         self.assertEqual(
             len(extra),
-            len(COLUMN_NAMES) * len(summary.columns),
-            "Each variable × year should produce one merged column",
+            expected_count,
+            "Each variable × year plus e-commerce years should produce one merged column",
         )
         self.assertIn("biogenic_1990", emissions_df.columns)
         self.assertAlmostEqual(

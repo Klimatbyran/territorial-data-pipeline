@@ -9,7 +9,9 @@ PATH_LOAD_SWEDISH_EMISSIONS = (
     "kpis/emissions/sources/swedish_emissions.xlsx"
 )
 SHEET_ALLA = "Alla"
+SHEET_E_HANDEL = "E-handel"
 HEADER_VARIABEL = "Variabel"
+E_HANDEL_YEARS = list(range(2020, 2026))
 
 COLUMN_NAMES: dict[str, str] = {
     "Terr_CO2e_foss": "fossil",
@@ -59,6 +61,28 @@ def _load_swedish_emissions_source(
     return source_df
 
 
+def _load_e_handel_emissions_source(
+    path: str = PATH_LOAD_SWEDISH_EMISSIONS,
+    sheet_name: str = SHEET_E_HANDEL,
+) -> pd.DataFrame:
+    """
+    Load the E-handel sheet with one national row and year columns 2020–2025.
+
+    Returns:
+        DataFrame indexed by country name, columns are int years, values are float.
+    """
+    source_df = pd.read_excel(path, sheet_name=sheet_name, header=None)
+    source_df = source_df.drop(range(5)).reset_index(drop=True)
+    source_df.columns = source_df.iloc[0]
+    source_df = source_df.drop(0).reset_index(drop=True)
+    source_df = source_df.set_index(source_df.columns[0])
+    source_df.index.name = None
+    source_df = source_df[[c for c in source_df.columns if int(c) in E_HANDEL_YEARS]]
+    source_df.columns = [int(c) for c in source_df.columns]
+    source_df = source_df.map(_parse_numeric_cell)
+    return source_df
+
+
 def _extract_emissions(
     path: str = PATH_LOAD_SWEDISH_EMISSIONS,
     sheet_name: str = SHEET_ALLA,
@@ -79,6 +103,10 @@ def _extract_emissions(
         for year in summary_df.columns:
             col_name = f"{slug}_{year}"
             emissions[col_name] = summary_df.loc[variable, year]
+
+    e_handel_df = _load_e_handel_emissions_source(path, SHEET_E_HANDEL)
+    for year in e_handel_df.columns:
+        emissions[f"e_commerce_{year}"] = e_handel_df.loc["Sverige", year]
 
     emissions_df = pd.DataFrame([emissions])
 
@@ -102,7 +130,7 @@ def _calculate_total_emissions(emissions_df: pd.DataFrame) -> pd.DataFrame:
 def create_swedish_emissions_df():
     """
     Create a dataframe with emissions per year for Sweden
-    (territorial, biogenic, consumption, export of oil products, total).
+    (territorial, biogenic, consumption, export of oil products, e-commerce, total).
 
     Returns:
         pandas.DataFrame: The resulting dataframe with emissions per year.

@@ -25,7 +25,7 @@ This repository contains both the datasets we host and the Python scripts for ca
 - `/output:` This is where the processed data gets saved.
     - `municipality-data.json`: This JSON file contains the calculated climate data for individual municipalities.
     - `regional-data.json`: This JSON file contains climate data aggregated at the county (Swedish "län") level, including emissions, trends, Carbon Law calculations, and Paris Agreement compliance metrics for each region.
-    - `national-data.json`: This JSON file contains historical national emissions for Sweden by category (territorial fossil, biogenic, consumption abroad, export of oil products).
+    - `national-data.json`: This JSON file contains historical national emissions for Sweden by category (territorial fossil, biogenic, consumption abroad, export of oil products, e-commerce).
     - `municipality-sector-emissions.json`: This JSON file contains emissions data broken down by sector (e.g., transportation, industry, agriculture) for each municipality.
     - `region-sector-emissions.json`: This JSON file contains emissions data broken down by sector for each region (Swedish "län").
     - `national-sector-emissions.json`: This JSON file contains emissions data broken down by sector for Sweden at the national level.
@@ -183,7 +183,7 @@ Regional data uses the same calculation methods as municipality data but aggrega
 
 The `generate_national_data.py` script builds national climate data for Sweden from the supplementary Swedish emissions workbook. National data includes:
 
-- **Historical emissions**: Year-by-year emissions by category from 1990 onwards (territorial fossil, biogenic, consumption abroad, export of oil products)
+- **Historical emissions**: Year-by-year emissions by category from 1990 onwards (territorial fossil, biogenic, consumption abroad, export of oil products); e-commerce emissions from the E-handel sheet for 2020–2025
 - **Country metadata**: Country name and coat of arms URL
 
 National data does not include trend projections, approximated emissions, Carbon Law totals, or Paris Agreement compliance metrics.
