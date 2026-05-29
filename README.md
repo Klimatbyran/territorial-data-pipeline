@@ -25,7 +25,7 @@ This repository contains both the datasets we host and the Python scripts for ca
 - `/output:` This is where the processed data gets saved.
     - `municipality-data.json`: This JSON file contains the calculated climate data for individual municipalities.
     - `regional-data.json`: This JSON file contains climate data aggregated at the county (Swedish "län") level, including emissions, trends, Carbon Law calculations, and Paris Agreement compliance metrics for each region.
-    - `national-data.json`: This JSON file contains climate data aggregated at the national level for Sweden, including emissions, trends, Carbon Law calculations, and Paris Agreement compliance metrics.
+    - `national-data.json`: This JSON file contains historical national emissions for Sweden by category (territorial fossil, biogenic, consumption abroad, export of oil products).
     - `municipality-sector-emissions.json`: This JSON file contains emissions data broken down by sector (e.g., transportation, industry, agriculture) for each municipality.
     - `region-sector-emissions.json`: This JSON file contains emissions data broken down by sector for each region (Swedish "län").
     - `national-sector-emissions.json`: This JSON file contains emissions data broken down by sector for Sweden at the national level.
@@ -181,18 +181,12 @@ Regional data uses the same calculation methods as municipality data but aggrega
 
 ### National Data
 
-The `generate_national_data.py` script aggregates municipality-level climate data to the national level for Sweden. National data includes:
+The `generate_national_data.py` script builds national climate data for Sweden from the supplementary Swedish emissions workbook. National data includes:
 
-- **Historical emissions**: Year-by-year emissions data for Sweden from 1990 onwards
-- **Total trend**: Sum of projected emissions from the current year to 2050 based on linear trend analysis
-- **Total Carbon Law**: Total emissions allowed under the Carbon Law reduction path (11.72% annual reduction)
-- **Approximated historical emissions**: Interpolated emissions for years between the last verified SMHI data and the current year
-- **Trend projections**: Projected emissions for each year from the current year to 2050 based on historical trends
-- **Historical emission change percent**: Average annual percentage change in emissions since 2015
-- **Paris Agreement compliance**: Boolean indicating whether Sweden's projected emissions meet the Carbon Law requirements (meetsParis)
-- **Municipalities**: List of all municipalities included in the national aggregation
+- **Historical emissions**: Year-by-year emissions by category from 1990 onwards (territorial fossil, biogenic, consumption abroad, export of oil products)
+- **Country metadata**: Country name and coat of arms URL
 
-National data uses the same calculation methods as municipality and regional data but aggregates results at the national level, providing a comprehensive view of Sweden's overall climate performance.
+National data does not include trend projections, approximated emissions, Carbon Law totals, or Paris Agreement compliance metrics.
 
 ### Sector Emissions Data
 

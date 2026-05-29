@@ -2,30 +2,14 @@
 """Load national emission series."""
 
 from __future__ import annotations
-import re
-from datetime import datetime
 from typing import Any
 import pandas as pd
-
-from kpis.emissions.carbon_law_calculations import calculate_carbon_law_total
-from kpis.emissions.emission_data_calculations import calculate_historical_change_percent, calculate_meets_paris_goal
-from kpis.emissions.trend_calculations import calculate_trend
-
-
-CURRENT_YEAR = datetime.now().year  # current year
-END_YEAR = 2050
-
-CARBON_LAW_REDUCTION_RATE = 0.1172
-
-LAST_YEAR_WITH_SMHI_DATA = 2023
 
 PATH_LOAD_SWEDISH_EMISSIONS = (
     "kpis/emissions/sources/swedish_emissions.xlsx"
 )
 SHEET_ALLA = "Alla"
 HEADER_VARIABEL = "Variabel"
-
-_AGGREGATE_TREND_COLUMN = re.compile(r"^trend_\d{4}$")
 
 COLUMN_NAMES: dict[str, str] = {
     "Terr_CO2e_foss": "fossil",
@@ -115,80 +99,15 @@ def _calculate_total_emissions(emissions_df: pd.DataFrame) -> pd.DataFrame:
     return emissions_df
 
 
-def _dataframe_for_slug_trend(emissions_df: pd.DataFrame, slug: str) -> pd.DataFrame:
-    """Build a one-row DataFrame with ``Land`` and integer year columns for one emission slug."""
-    land = emissions_df["Land"].iloc[0]
-    row: dict[Any, Any] = {"Land": land}
-    prefix = f"{slug}_"
-    for col in emissions_df.columns:
-        scol = str(col)
-        if not scol.startswith(prefix):
-            continue
-        year_str = scol.removeprefix(prefix)
-        if year_str.isdigit() and len(year_str) == 4:
-            row[int(year_str)] = emissions_df[col].iloc[0]
-    return pd.DataFrame([row])
-
-
 def create_swedish_emissions_df():
     """
     Create a dataframe with emissions per year for Sweden
     (territorial, biogenic, consumption, export of oil products, total).
-    Also add KPIs (trend, historical change percent, carbon law path, meets Paris goal).
 
     Returns:
-        pandas.DataFrame: The resulting dataframe with emissions per year and KPIs.
+        pandas.DataFrame: The resulting dataframe with emissions per year.
     """
     emissions_df = _extract_emissions()
-
     emissions_df = _calculate_total_emissions(emissions_df)
-
-    # calculate_trend and calculate_historical_change_percent both expect
-    # plain integer year columns (e.g. 2020) with the emission totals.
-    for col in [c for c in emissions_df.columns if c.startswith("total_")]:
-        year = int(col.rsplit("_", 1)[-1])
-        emissions_df[year] = emissions_df[col]
-
     emissions_df["Land"] = "Sverige"
-
-    emissions_before_trend = emissions_df.copy()
-
-    df_trend_and_approximated = calculate_trend(emissions_df, CURRENT_YEAR, END_YEAR)
-
-    for slug in COLUMN_NAMES.values():
-        slug_input = _dataframe_for_slug_trend(emissions_before_trend, slug)
-        slug_result = calculate_trend(
-            slug_input, CURRENT_YEAR, END_YEAR, series_label=slug
-        )
-        prefix = f"approximated_{slug}_"
-        for col in slug_result.columns:
-            scol = str(col)
-            if scol.startswith(prefix):
-                df_trend_and_approximated[scol] = slug_result[scol].iloc[0]
-
-    df_trend_and_approximated["total_trend"] = df_trend_and_approximated.apply(
-        lambda row: sum(
-            row[col] for col in row.index if _AGGREGATE_TREND_COLUMN.match(str(col))
-        ),
-        axis=1,
-    )
-
-    df_historical_change_percent = calculate_historical_change_percent(
-        df_trend_and_approximated, "Land", LAST_YEAR_WITH_SMHI_DATA
-    )
-
-    df_carbon_law = calculate_carbon_law_total(
-        df_historical_change_percent,
-        CURRENT_YEAR,
-        END_YEAR,
-        CARBON_LAW_REDUCTION_RATE,
-    )
-
-    df_carbon_law["meetsParisGoal"] = df_carbon_law.apply(
-        lambda row: calculate_meets_paris_goal(
-            row["total_trend"], row["totalCarbonLawPath"]
-        ),
-        axis=1,
-    )
-
-    return df_carbon_law
+    return emissions_df
