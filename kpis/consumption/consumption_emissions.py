@@ -1,10 +1,22 @@
 """Helpers for loading consumption emissions KPI data."""
+import json
+from pathlib import Path
+from typing import Iterator
+
 import pandas as pd
 
 from facts.municipalities_counties import get_municipalities
 
 
 SOURCE_PATH = "kpis/consumption/sources/Klimatkollen_data for 2023_shared April 2026.xlsx"
+JSON_SOURCES_DIR = Path(__file__).parent / "sources"
+
+
+def _iter_consumption_json_entries() -> Iterator[dict]:
+    """Yield all entries from regional consumption JSON source files."""
+    for file_path in JSON_SOURCES_DIR.glob("*.json"):
+        with open(file_path, "r", encoding="utf-8") as file:
+            yield from json.load(file)
 
 
 def get_consumption_emissions():
@@ -31,3 +43,25 @@ def get_consumption_emissions():
     consumption_df = consumption_df[consumption_df["Kommun"].isin(municipality_names)]
 
     return consumption_df
+
+
+def get_regional_consumption_emissions() -> pd.DataFrame:
+    """Load per-capita consumption emissions for Swedish län from JSON source files.
+
+    Returns:
+        pd.DataFrame: DataFrame with columns ``Län`` and ``consumption_emissions``.
+    """
+    all_regions = []
+
+    for entry in _iter_consumption_json_entries():
+        if entry["code"] == "SE" or len(entry["code"]) > 2:
+            continue
+
+        all_regions.append(
+            {
+                "Län": entry["name"],
+                "consumption_emissions": float(entry["emissions"]) / 1000,
+            }
+        )
+
+    return pd.DataFrame(all_regions)
