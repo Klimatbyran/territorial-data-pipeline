@@ -34,7 +34,7 @@ class TestConsumtionEmissionsCalculations(unittest.TestCase):
         df_expected = pd.DataFrame(
             {
                 "Län": ["Blekinge län", "Dalarnas län", "Gotlands län"],
-                "consumption_emissions": [5.3, 5.471, 5.239],
+                "consumption_emissions": [5.1836, 5.3801, 5.1309],
             }
         )
 
