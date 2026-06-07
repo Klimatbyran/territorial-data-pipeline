@@ -14,7 +14,7 @@
       "2023": 435866.64,
       "2024": 554545.1
     },
-    "total_trend": 11864560.43,
+    "totalTrend": 11864560.43,
     "totalCarbonLaw": 4429045.33,
     "approximatedHistoricalEmission": {
       "2024": 554545.1,
@@ -75,7 +75,7 @@
       "2023": 1436223.11,
       "2024": 1582571.09
     },
-    "total_trend": 27244937.94,
+    "totalTrend": 27244937.94,
     "totalCarbonLaw": 12332366.64,
     "approximatedHistoricalEmission": {
       "2024": 1582571.09,
@@ -146,7 +146,7 @@
       "2023": 1914812.18,
       "2024": 1918859.33
     },
-    "total_trend": 19280761.75,
+    "totalTrend": 19280761.75,
     "totalCarbonLaw": 14291800.33,
     "approximatedHistoricalEmission": {
       "2024": 1918859.33,
@@ -201,7 +201,7 @@
       "2023": 1109868.41,
       "2024": 1279781.32
     },
-    "total_trend": 18880644.55,
+    "totalTrend": 18880644.55,
     "totalCarbonLaw": 9826409.97,
     "approximatedHistoricalEmission": {
       "2024": 1279781.32,
@@ -267,7 +267,7 @@
       "2023": 1308832.18,
       "2024": 1470297.24
     },
-    "total_trend": 26528623.66,
+    "totalTrend": 26528623.66,
     "totalCarbonLaw": 11513984.67,
     "approximatedHistoricalEmission": {
       "2024": 1470297.24,
@@ -329,7 +329,7 @@
       "2023": 413313.45,
       "2024": 490438.13
     },
-    "total_trend": 2565457.91,
+    "totalTrend": 2565457.91,
     "totalCarbonLaw": 3404221.5,
     "approximatedHistoricalEmission": {
       "2024": 490438.13,
@@ -393,7 +393,7 @@
       "2023": 1383047.48,
       "2024": 1540977.58
     },
-    "total_trend": 24409799.03,
+    "totalTrend": 24409799.03,
     "totalCarbonLaw": 11909785.02,
     "approximatedHistoricalEmission": {
       "2024": 1540977.58,
@@ -462,7 +462,7 @@
       "2023": 1184978.5,
       "2024": 1303458.43
     },
-    "total_trend": 10592429.35,
+    "totalTrend": 10592429.35,
     "totalCarbonLaw": 9524116.12,
     "approximatedHistoricalEmission": {
       "2024": 1303458.43,
@@ -530,7 +530,7 @@
       "2023": 718379.96,
       "2024": 816601.78
     },
-    "total_trend": 11359129.16,
+    "totalTrend": 11359129.16,
     "totalCarbonLaw": 6238050.57,
     "approximatedHistoricalEmission": {
       "2024": 816601.78,
@@ -594,7 +594,7 @@
       "2023": 5091030.34,
       "2024": 5251583.92
     },
-    "total_trend": 156524364.72,
+    "totalTrend": 156524364.72,
     "totalCarbonLaw": 43995493.29,
     "approximatedHistoricalEmission": {
       "2024": 5251583.92,
@@ -664,7 +664,7 @@
       "2023": 4513133.27,
       "2024": 5048444.51
     },
-    "total_trend": 68945657.46,
+    "totalTrend": 68945657.46,
     "totalCarbonLaw": 38505803.67,
     "approximatedHistoricalEmission": {
       "2024": 5048444.51,
@@ -753,7 +753,7 @@
       "2023": 3643423.06,
       "2024": 3917453.83
     },
-    "total_trend": 31754556.46,
+    "totalTrend": 31754556.46,
     "totalCarbonLaw": 28617181.27,
     "approximatedHistoricalEmission": {
       "2024": 3917453.83,
@@ -835,7 +835,7 @@
       "2023": 2601565.21,
       "2024": 2690983.24
     },
-    "total_trend": 27726395.05,
+    "totalTrend": 27726395.05,
     "totalCarbonLaw": 20083246.34,
     "approximatedHistoricalEmission": {
       "2024": 2690983.24,
@@ -900,7 +900,7 @@
       "2023": 1231555.22,
       "2024": 1360022.88
     },
-    "total_trend": 14721510.42,
+    "totalTrend": 14721510.42,
     "totalCarbonLaw": 10189856.42,
     "approximatedHistoricalEmission": {
       "2024": 1360022.88,
@@ -964,7 +964,7 @@
       "2023": 1072468.74,
       "2024": 1219456.53
     },
-    "total_trend": 20414612.02,
+    "totalTrend": 20414612.02,
     "totalCarbonLaw": 9475848.68,
     "approximatedHistoricalEmission": {
       "2024": 1219456.53,
@@ -1036,7 +1036,7 @@
       "2023": 1225198.77,
       "2024": 1351589.16
     },
-    "total_trend": 20233060.3,
+    "totalTrend": 20233060.3,
     "totalCarbonLaw": 10391379.8,
     "approximatedHistoricalEmission": {
       "2024": 1351589.16,
@@ -1107,7 +1107,7 @@
       "2023": 1329742.65,
       "2024": 1425381.65
     },
-    "total_trend": 30089379.7,
+    "totalTrend": 30089379.7,
     "totalCarbonLaw": 11365346.8,
     "approximatedHistoricalEmission": {
       "2024": 1425381.65,
@@ -1170,7 +1170,7 @@
       "2023": 1046060.49,
       "2024": 1142687.96
     },
-    "total_trend": 14309372.35,
+    "totalTrend": 14309372.35,
     "totalCarbonLaw": 8655358.1,
     "approximatedHistoricalEmission": {
       "2024": 1142687.96,
@@ -1236,7 +1236,7 @@
       "2023": 9186279.86,
       "2024": 9679940.61
     },
-    "total_trend": 193540434.36,
+    "totalTrend": 193540434.36,
     "totalCarbonLaw": 76681643.08,
     "approximatedHistoricalEmission": {
       "2024": 9679940.61,
@@ -1341,7 +1341,7 @@
       "2023": 1103294.05,
       "2024": 1237135.93
     },
-    "total_trend": 19787969.78,
+    "totalTrend": 19787969.78,
     "totalCarbonLaw": 9570359.93,
     "approximatedHistoricalEmission": {
       "2024": 1237135.93,
@@ -1409,7 +1409,7 @@
       "2023": 2012059.22,
       "2024": 2185833.21
     },
-    "total_trend": 44489487.74,
+    "totalTrend": 44489487.74,
     "totalCarbonLaw": 17352048.33,
     "approximatedHistoricalEmission": {
       "2024": 2185833.21,

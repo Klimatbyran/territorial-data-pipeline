@@ -60,7 +60,7 @@ def series_to_dict(
         "region": row["Län"],
         "logoUrl": row["coatOfArms"],
         "emissions": {str(year): row[year] for year in historical_columns},
-        "total_trend": row["total_trend"],
+        "totalTrend": row["total_trend"],
         "totalCarbonLaw": row["totalCarbonLawPath"],
         "approximatedHistoricalEmission": {
             year.replace("approximated_", ""): row[year]
