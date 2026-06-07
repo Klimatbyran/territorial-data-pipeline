@@ -1,15 +1,30 @@
 """Extracts consumption emissions from the Swedish consumption emissions Excel file."""
 from pathlib import Path
+
 import pandas as pd
 
-PATH_SWEDISH_CONSUMPTION_EMISSIONS = Path(__file__).parent / "sources" / "swedish_emissions.xlsx"
+PATH_SWEDISH_CONSUMPTION_EMISSIONS = (
+    Path(__file__).parent / "sources" / "swedish_emissions.xlsx"
+)
+MUNICIPAL_HEADER_ROW = 5
 
-def _extract_consumption_emissions_from_excel(sheet_name: str, header_row: int = 0) -> pd.DataFrame:
+SWEDISH_ABROAD_MEASURES = [
+    "I Sverige",
+    "Utomlands",
+    "I Sverige exkl. flyg",
+    "Utomlands exkl. flyg",
+]
+
+
+def _extract_consumption_emissions_from_excel(
+    sheet_name: str, header_row: int = 0
+) -> pd.DataFrame:
     """
     Extracts consumption emissions from an Excel file.
 
     Args:
         sheet_name (str): The name of the sheet to extract data from.
+        header_row (int): The row number to use as the column header.
     """
     emissions_df = pd.read_excel(
         PATH_SWEDISH_CONSUMPTION_EMISSIONS,
@@ -39,6 +54,7 @@ def _extract_consumption_emissions_from_excel(sheet_name: str, header_row: int =
 
     return emissions_df
 
+
 def _parse_number(value: str) -> float:
     """
     Parses a number from a string.
@@ -48,89 +64,76 @@ def _parse_number(value: str) -> float:
     """
     return float(value.replace(" ", "").replace(".", "").replace(",", "."))
 
-def extract_total_consumption_emissions():
+
+def extract_total_consumption_emissions() -> pd.DataFrame:
     """
     Extracts total consumption emissions.
 
-    Args:
-        df (pandas.DataFrame): The input DataFrame containing consumption emissions data.
+    Returns:
+        pandas.DataFrame: National consumption totals indexed by measure name.
+    """
+    return _extract_consumption_emissions_from_excel("Kons_Tot", MUNICIPAL_HEADER_ROW)
+
+
+def extract_swedish_consumption_emissions() -> pd.DataFrame:
+    """
+    Extracts the Swedish vs abroad consumption emissions split.
 
     Returns:
-        pandas.DataFrame: A DataFrame containing the extracted total consumption emissions data.
+        pandas.DataFrame: Consumption split indexed by measure name.
     """
-    header_row = 5
-    total_df = _extract_consumption_emissions_from_excel("Kons_Tot", header_row)
-    return total_df
+    total_df = extract_total_consumption_emissions()
+    return total_df.loc[SWEDISH_ABROAD_MEASURES]
 
-def extract_national_household_consumption_emissions():
+
+def extract_national_household_consumption_emissions() -> pd.DataFrame:
     """
-    Extracts household consumption emissions.
+    Extracts the national household consumption total row.
 
-    Args:
-        df (pandas.DataFrame): The input DataFrame containing consumption emissions data.
+    Returns:
+        pandas.DataFrame: A single-row DataFrame with national household totals.
     """
-    header_row = 5
-    household_df = _extract_consumption_emissions_from_excel("Kons_HH", header_row)
-    total_household_df = household_df.head(1).reset_index(drop=True)
-    return total_household_df
+    household_df = _extract_consumption_emissions_from_excel("Kons_HH", MUNICIPAL_HEADER_ROW)
+    return household_df.head(1).reset_index(drop=True)
 
-def extract_public_consumption_emissions():
+
+def extract_public_consumption_emissions() -> pd.DataFrame:
     """
-    Extracts public consumption emissions.
+    Extracts public consumption emissions by municipality.
 
-    Args:
-        df (pandas.DataFrame): The input DataFrame containing consumption emissions data.
+    Returns:
+        pandas.DataFrame: Public consumption emissions per municipality and total.
     """
-    header_row = 5
-    public_df = _extract_consumption_emissions_from_excel("Kons_Off", header_row)
-    total_row = 313
-    total_official_df = public_df.iloc[[total_row]].reset_index(drop=True)
-    return total_official_df
+    return _extract_consumption_emissions_from_excel("Kons_Off", MUNICIPAL_HEADER_ROW)
 
-def extract_investment_consumption_emissions():
+
+def extract_investment_consumption_emissions() -> pd.DataFrame:
     """
-    Extracts investment consumption emissions.
+    Extracts investment consumption emissions by municipality.
 
-    Args:
-        df (pandas.DataFrame): The input DataFrame containing consumption emissions data.
+    Returns:
+        pandas.DataFrame: Investment consumption emissions per municipality and total.
     """
-    header_row = 5
-    investment_df = _extract_consumption_emissions_from_excel("Kons_Inv", header_row)
-    total_row = 313
-    total_investment_df = investment_df.iloc[[total_row]].reset_index(drop=True)
-    return investment_df
+    return _extract_consumption_emissions_from_excel("Kons_Inv", MUNICIPAL_HEADER_ROW)
 
-def extract_consumption_emissions_from_online_shopping():
+
+def extract_consumption_emissions_from_online_shopping() -> pd.DataFrame:
     """
     Extracts consumption emissions from online shopping.
 
-    Args:
-        df (pandas.DataFrame): The input DataFrame containing consumption emissions data.
+    Returns:
+        pandas.DataFrame: Online shopping emissions indexed by region.
     """
-    online_shopping_df = _extract_consumption_emissions_from_excel("E-handel")
-    print(online_shopping_df)
-    return online_shopping_df
+    return _extract_consumption_emissions_from_excel("E-handel", MUNICIPAL_HEADER_ROW)
 
-def extract_emissions_from_international_flights():
+
+def extract_emissions_from_international_flights() -> pd.DataFrame:
     """
     Extracts emissions from international flights.
 
-    Args:
-        df (pandas.DataFrame): The input DataFrame containing consumption emissions data.
-    """
-    international_flights_df = _extract_consumption_emissions_from_excel("Utsläpp från utrikesflyg")
-    print(international_flights_df)
-    return international_flights_df
-
-def extract_swedish_consumption_emissions():
-    """
-    Extracts Swedish consumption emissions.
-
-    Args:
-        df (pandas.DataFrame): The input DataFrame containing consumption emissions data.
     Returns:
-        pandas.DataFrame: A DataFrame containing the extracted Swedish consumption emissions data.
+        pandas.DataFrame: International flight emissions indexed by region.
     """
-    swedish_consumption_emissions_df = _extract_consumption_emissions_from_excel("Sverige")
-    print(swedish_consumption_emissions_df)
-    return swedish_consumption_emissions_df
+    return _extract_consumption_emissions_from_excel(
+        "Utsläpp från utrikesflyg", MUNICIPAL_HEADER_ROW
+    )
