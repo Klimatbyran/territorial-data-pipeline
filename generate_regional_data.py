@@ -55,7 +55,7 @@ def series_to_dict(
     Returns:
     A dictionary with the transformed data.
     """
-    print(row)
+
     return {
         "region": row["Län"],
         "logoUrl": row["coatOfArms"],
