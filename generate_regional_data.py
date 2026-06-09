@@ -7,6 +7,7 @@ from typing import Any, Dict, List
 import pandas as pd
 
 from facts.coatOfArms.coat_of_arms import get_region_coat_of_arms_from_csv
+from kpis.consumption.consumption_emissions import get_regional_consumption_emissions
 from kpis.emissions.regional_emissions import regional_emission_calculations
 from kpis.cars.electric_vehicle_per_charge_points import get_electric_vehicle_per_charge_points
 
@@ -34,8 +35,12 @@ def create_regional_dataframe() -> pd.DataFrame:
     regions_df = regions_df.merge(evpc_df, on="Län", how="left")
     print("2. CPEV for December 2023 added")
 
+    consumption_df = get_regional_consumption_emissions()
+    regions_df = regions_df.merge(consumption_df, on="Län", how="left")
+    print("3. Consumption emission data added")
+
     regions_df["coatOfArms"] = regions_df["Län"].apply(get_region_coat_of_arms_from_csv)
-    print("3. Coat of arms added")
+    print("4. Coat of arms added")
 
     return regions_df
 
@@ -73,7 +78,8 @@ def series_to_dict(
         "municipalities": row["municipalities"],
         "electricVehiclePerChargePoints": (
             row["EVPC"] if pd.notna(row["EVPC"]) else None
-        )
+        ),
+        "totalConsumptionEmission": row["consumption_emissions"],
     }
 
 
