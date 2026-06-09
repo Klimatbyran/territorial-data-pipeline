@@ -113,7 +113,7 @@ def series_to_dict(
         "climatePlanYear": row["Antagen år"],
         "climatePlanComment": row["Namn, giltighetsår, kommentar"],
         "bicycleMetrePerCapita": row["bikeMetrePerCapita"],
-        "totalConsumptionEmission": row["consumptionEmissions"],
+        "totalConsumptionEmission": row["consumption_emissions"],
         "electricVehiclePerChargePoints": (
             row["EVPC"] if pd.notna(row["EVPC"]) else None
         ),

@@ -1,42 +1,32 @@
-import json
+"""Helpers for loading consumption emissions KPI data."""
 import pandas as pd
-from pathlib import Path
+
+from facts.municipalities_counties import get_municipalities
+
+
+SOURCE_PATH = "kpis/consumption/sources/Klimatkollen_data for 2023_shared April 2026.xlsx"
+MUNICIPAL_SHEET = "Municipal_grouped"
 
 
 def get_consumption_emissions():
-    """Add consumption emissions data to the input DataFrame from source JSON files.
-
-    Args:
-        df (pd.DataFrame): Input DataFrame containing municipality data
+    """Extract municipal consumption emissions from the Klimatkollen Excel source.
 
     Returns:
-        pd.DataFrame: DataFrame with consumption emissions data added
+        pd.DataFrame: DataFrame with consumption emissions per municipality
+                      in tonnes CO2e per capita.
     """
-    # Path to source JSON files
-    sources_dir = Path(__file__).parent / "sources"
+    consumption_df = pd.read_excel(SOURCE_PATH, sheet_name=MUNICIPAL_SHEET)
 
-    # List to store emissions data for all municipalities
-    all_municipalities = []
+    consumption_df = consumption_df.rename(columns={"kommunnamn": "Kommun"})
+    consumption_df = consumption_df.rename(
+        columns={"Total_emissions_per_capita": "consumption_emissions"}
+    )
+    consumption_df["consumption_emissions"] = (
+        pd.to_numeric(consumption_df["consumption_emissions"], errors="coerce") / 1000
+    )
 
-    # Process each JSON file in the sources directory
-    for file_path in sources_dir.glob("*.json"):
-        with open(file_path, "r", encoding="utf-8") as file:
-            municipalities_data = json.load(file)
+    consumption_df = consumption_df[["Kommun", "consumption_emissions"]]
+    municipality_names = set(get_municipalities()["Kommun"])
+    consumption_df = consumption_df[consumption_df["Kommun"].isin(municipality_names)]
 
-            # Extract municipality data (exclude country and county entries)
-            for entry in municipalities_data:
-                # Skip entries for Sweden (SE) and counties (2-digit codes)
-                if entry["code"] == "SE" or (len(entry["code"]) <= 2):
-                    continue
-
-                municipality = {
-                    "Kommun": entry["name"],
-                    "consumptionEmissions": float(entry["emissions"]) / 1000,
-                }
-
-                all_municipalities.append(municipality)
-
-    # Convert to pandas DataFrame
-    df_consumption = pd.DataFrame(all_municipalities)
-
-    return df_consumption
+    return consumption_df
