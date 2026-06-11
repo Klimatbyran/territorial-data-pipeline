@@ -4,7 +4,7 @@
 from datetime import datetime
 
 from kpis.emissions.historical_data_calculations import get_n_prep_regional_data_from_smhi
-from kpis.emissions.trend_calculations import calculate_trend
+from kpis.emissions.trend_calculations import calculate_trend, calculate_total_trend
 from kpis.emissions.carbon_law_calculations import calculate_carbon_law_total
 from kpis.emissions.emission_data_calculations import (
     calculate_historical_change_percent,
@@ -36,9 +36,8 @@ def regional_emission_calculations():
 
     df_trend_and_approximated = calculate_trend(total_emissions_df, CURRENT_YEAR, END_YEAR)
 
-    df_trend_and_approximated["total_trend"] = df_trend_and_approximated.apply(
-        lambda row: row[[col for col in row.index if "trend_" in str(col)]].sum(),
-        axis=1,
+    df_trend_and_approximated["total_trend"] = calculate_total_trend(
+        df_trend_and_approximated
     )
 
     df_historical_change_percent = calculate_historical_change_percent(
