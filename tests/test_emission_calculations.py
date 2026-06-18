@@ -1,6 +1,8 @@
+"""Test the emission calculations"""
 # -*- coding: utf-8 -*-
-import unittest
 import datetime
+import unittest
+
 import pandas as pd
 
 from kpis.emissions.emission_data_calculations import (
@@ -12,8 +14,8 @@ from kpis.emissions.emission_data_calculations import (
 
 
 LAST_YEAR_WITH_SMHI_DATA = 2021
-CURRENT_YEAR = 2024
-
+CURRENT_YEAR = 2026
+CURRENT_YEAR_HIT_NET_ZERO = 2024
 
 class TestEmissionCalculations(unittest.TestCase):
     """Test the emission calculations"""
@@ -24,24 +26,20 @@ class TestEmissionCalculations(unittest.TestCase):
         df_input = pd.DataFrame(
             {
                 "Kommun": ["Östersund"],
-                2015: [143786.390451667],
-                2016: [136270.272900585],
-                2017: [134890.137836385],
-                2018: [123096.170608436],
-                2019: [113061.651497606],
-                2020: [94746.1396597532],
-                2021: [95248.2864179093],
+                2015: [1],
+                2020: [6],
+                2021: [7],
             }
         )
 
         df_expected = df_input.copy()
-        df_expected["historicalEmissionChangePercent"] = [-6.46746990789292]
+        df_expected["historicalEmissionChangePercent"] = [38.31]
 
         df_result = calculate_historical_change_percent(
             df_input, "Kommun", LAST_YEAR_WITH_SMHI_DATA
         )
 
-        pd.testing.assert_frame_equal(df_result, df_expected, check_exact=False)
+        pd.testing.assert_frame_equal(round(df_result, 2), round(df_expected, 2), check_exact=False)
 
     def test_does_meets_paris_goal(self):
         """Test the meets Paris goal"""
@@ -75,7 +73,7 @@ class TestEmissionCalculations(unittest.TestCase):
         df_expected = df_input.copy()
         df_expected["hit_net_zero"] = [None, datetime.date(2026, 1, 1), datetime.date(2027, 1, 1)]
 
-        df_result = calculate_hit_net_zero(df_input, CURRENT_YEAR)
+        df_result = calculate_hit_net_zero(df_input, CURRENT_YEAR_HIT_NET_ZERO)
 
         pd.testing.assert_frame_equal(df_result, df_expected, check_exact=False)
 
@@ -128,58 +126,56 @@ class TestEmissionCalculations(unittest.TestCase):
         df_expected = pd.DataFrame(
             {
                 "Kommun": ["Ale"],
-                1990: [122479.269721],
-                2000: [149847.593565],
-                2005: [137858.649371],
-                2010: [162048.314627],
-                2015: [153825.085295],
-                2016: [152178.7955],
-                2017: [155980.925217],
-                2018: [162008.760113],
-                2019: [168504.59322],
-                2020: [151960.022899],
-                2021: [157751.287931],
-                2022: [142529.055614],
-                2023: [136223.552398],
-                "approximated_2023": [136223.552398],
-                "approximated_2024": [134883.251626],
-                "approximated_2025": [133542.950853],
-                "approximated_2026": [132202.650081],
-                "trend_2026": [132202.650081],
-                "trend_2027": [130862.349309],
-                "trend_2028": [129522.048536],
-                "trend_2029": [128181.747764],
-                "trend_2030": [126841.446992],
-                "trend_2031": [125501.146219],
-                "trend_2032": [124160.845447],
-                "trend_2033": [122820.544675],
-                "trend_2034": [121480.243902],
-                "trend_2035": [120139.94313],
-                "trend_2036": [118799.642358],
-                "trend_2037": [117459.341585],
-                "trend_2038": [116119.040813],
-                "trend_2039": [114778.740041],
-                "trend_2040": [113438.439268],
-                "trend_2041": [112098.138496],
-                "trend_2042": [110757.837724],
-                "trend_2043": [109417.536951],
-                "trend_2044": [108077.236179],
-                "trend_2045": [106736.935407],
-                "trend_2046": [105396.634634],
-                "trend_2047": [104056.333862],
-                "trend_2048": [102716.03309],
-                "trend_2049": [101375.732317],
-                "trend_2050": [100035.431545],
-                "trend_emissions_slope": [-1340.30077],
-                "total_trend": [2902974.338543],
-                "historicalEmissionChangePercent": [-1.347337],
-                "hit_net_zero": [datetime.date(2124, 8, 20)],
-                "totalCarbonLawPath": [1078020.199323],
+                1990: [128435.986125602],
+                2000: [156510.786551878],
+                2005: [146440.769045912],
+                2010: [163714.141261533],
+                2015: [158968.3923072],
+                2020: [152060.795300923],
+                2021: [158601.140801765],
+                2022: [143330.665747717],
+                2023: [136727.37178638],
+                2024: [147474.355486],
+                "approximated_2024": [147474.355486],
+                "approximated_2025": [146092.836085],
+                "approximated_2026": [144711.316683],
+                "trend_2026": [144711.316683],
+                "trend_2027": [143329.797282],
+                "trend_2028": [141948.277881],
+                "trend_2029": [140566.75848],
+                "trend_2030": [139185.239078],
+                "trend_2031": [137803.719677],
+                "trend_2032": [136422.200276],
+                "trend_2033": [135040.680875],
+                "trend_2034": [133659.161473],
+                "trend_2035": [132277.642072],
+                "trend_2036": [130896.122671],
+                "trend_2037": [129514.60327],
+                "trend_2038": [128133.083868],
+                "trend_2039": [126751.564467],
+                "trend_2040": [125370.045066],
+                "trend_2041": [123988.525665],
+                "trend_2042": [122607.006263],
+                "trend_2043": [121225.486862],
+                "trend_2044": [119843.967461],
+                "trend_2045": [118462.44806],
+                "trend_2046": [117080.928658],
+                "trend_2047": [115699.409257],
+                "trend_2048": [114317.889856],
+                "trend_2049": [112936.370455],
+                "trend_2050": [111554.851053],
+                "trend_emissions_slope": [-1381.519401],
+                "total_trend": [3203327.096708],
+                "historicalEmissionChangePercent": [-0.830434],
+                "hit_net_zero": [datetime.date(2130, 9, 30)],
+                "totalCarbonLawPath": [1180019.84663],
                 "meetsParisGoal": [False],
             }
         )
 
-        df_result = round(emission_calculations(df_input), 6)
+        df_result = round(
+            emission_calculations(df_input, current_year=CURRENT_YEAR), 6
+        )
 
         pd.testing.assert_frame_equal(df_result, df_expected)
 
@@ -194,58 +190,54 @@ class TestEmissionCalculations(unittest.TestCase):
         df_expected = pd.DataFrame(
             {
                 "Kommun": ["Aneby"],
-                1990: [60302.63],
-                2000: [55810.58],
-                2005: [56298.36],
-                2010: [49617.91],
-                2015: [44739.82],
-                2016: [44035.07],
-                2017: [46900.28],
-                2018: [44444.87],
-                2019: [44118.53],
-                2020: [43112.83],
-                2021: [42734.47],
-                2022: [41061.31],
-                2023: [42384.8],
-                "approximated_2023": [42384.802812],
-                "approximated_2024": [42059.404713],
-                "approximated_2025": [41734.006614],
-                "approximated_2026": [41408.608515],
-                "trend_2026": [41408.608515],
-                "trend_2027": [41083.210416],
-                "trend_2028": [40757.812317],
-                "trend_2029": [40432.414218],
-                "trend_2030": [40107.016119],
-                "trend_2031": [39781.61802],
-                "trend_2032": [39456.219921],
-                "trend_2033": [39130.821823],
-                "trend_2034": [38805.423724],
-                "trend_2035": [38480.025625],
-                "trend_2036": [38154.627526],
-                "trend_2037": [37829.229427],
-                "trend_2038": [37503.831328],
-                "trend_2039": [37178.433229],
-                "trend_2040": [36853.03513],
-                "trend_2041": [36527.637031],
-                "trend_2042": [36202.238932],
-                "trend_2043": [35876.840833],
-                "trend_2044": [35551.442734],
-                "trend_2045": [35226.044635],
-                "trend_2046": [34900.646536],
-                "trend_2047": [34575.248437],
-                "trend_2048": [34249.850338],
-                "trend_2049": [33924.452239],
-                "trend_2050": [33599.054141],
-                "trend_emissions_slope": [-325.398099],
-                "total_trend": [937595.784521],
-                "historicalEmissionChangePercent": [-0.610923],
-                "hit_net_zero": [datetime.date(2153, 4, 4)],
-                "totalCarbonLawPath": [337658.31858],
+                1990: [59914.2330609742],
+                2000: [55046.8988858276],
+                2005: [55463.1947361921],
+                2010: [48942.817642463],
+                2015: [47966.5818395879],
+                2020: [43131.0304818875],
+                2021: [42531.9953237409],
+                2022: [40880.6685106883],
+                2023: [42033.4493728939],
+                2024: [44919.2078539399],
+                "approximated_2024": [44919.2078539399],
+                "approximated_2025": [44013.44343524281],
+                "approximated_2026": [43107.67901654571],
+                "trend_2026": [43107.67901654571],
+                "trend_2027": [42201.91459784862],
+                "trend_2028": [41296.150179151526],
+                "trend_2029": [40390.38576045443],
+                "trend_2030": [39484.62134175734],
+                "trend_2031": [38578.856923060244],
+                "trend_2032": [37673.09250436315],
+                "trend_2033": [36767.32808566606],
+                "trend_2034": [35861.56366696896],
+                "trend_2035": [34955.79924827187],
+                "trend_2036": [34050.034829574775],
+                "trend_2037": [33144.27041087768],
+                "trend_2038": [32238.505992180588],
+                "trend_2039": [31332.741573483494],
+                "trend_2040": [30426.9771547864],
+                "trend_2041": [29521.212736089306],
+                "trend_2042": [28615.448317392213],
+                "trend_2043": [27709.68389869512],
+                "trend_2044": [26803.919479998025],
+                "trend_2045": [25898.15506130093],
+                "trend_2046": [24992.390642603837],
+                "trend_2047": [24086.626223906744],
+                "trend_2048": [23180.86180520965],
+                "trend_2049": [22275.097386512556],
+                "trend_2050": [21369.332967815462],
+                "trend_emissions_slope": [-905.7644186970938],
+                "total_trend": [805962.6498045147],
+                "historicalEmissionChangePercent": [-0.7266698014856132],
+                "hit_net_zero": [datetime.date(2073, 8, 5)],
+                "totalCarbonLawPath": [351513.05335001746],
                 "meetsParisGoal": [False],
             }
         )
 
-        df_result = emission_calculations(df_input)
+        df_result = emission_calculations(df_input, current_year=CURRENT_YEAR)
 
         pd.testing.assert_frame_equal(df_result, df_expected)
 

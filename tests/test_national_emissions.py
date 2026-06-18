@@ -39,14 +39,11 @@ class TestNationalEmissions(unittest.TestCase):
             2005,
             2010,
             2015,
-            2016,
-            2017,
-            2018,
-            2019,
             2020,
             2021,
             2022,
             2023,
+            2024,
         ]
 
         # Check that the expected columns are in the dataframe
@@ -70,13 +67,25 @@ class TestNationalEmissions(unittest.TestCase):
         self.assertEqual(df_result["Land"].iloc[0], "Sverige", "Land should be 'Sverige'")
 
         expected_year_columns = [
-          1990, 2000, 2005, 2010, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023
+            1990, 2000, 2005, 2010, 2015, 2020, 2021, 2022, 2023, 2024,
         ]
-        missing_columns = set(expected_year_columns) - set(df_result.columns)
+        df_result_year_columns = [
+            int(c) for c in df_result.columns if str(c).isdigit() and len(str(c)) == 4
+        ]
+        missing_years = sorted(
+            set(expected_year_columns) - set(df_result_year_columns)
+        )
+        extra_years = sorted(
+            set(df_result_year_columns) - set(expected_year_columns)
+        )
         self.assertEqual(
-            len(missing_columns),
-            0,
-            f"Missing year columns: {missing_columns}",
+            expected_year_columns,
+            df_result_year_columns,
+            msg=(
+                "Year columns mismatch. "
+                f"Missing from result: {missing_years}; "
+                f"Extra in result: {extra_years}."
+            ),
         )
 
         excluded_columns = [

@@ -112,8 +112,8 @@ def series_to_dict(
         "climatePlanLink": row["Länk till aktuell klimatplan"],
         "climatePlanYear": row["Antagen år"],
         "climatePlanComment": row["Namn, giltighetsår, kommentar"],
-        "bicycleMetrePerCapita": row["bikeMetrePerCapita"],
-        "totalConsumptionEmission": row["consumptionEmissions"],
+        "bicycleMetrePerCapita": row["bike_metre_per_capita"],
+        "totalConsumptionEmission": row["consumption_emissions"],
         "electricVehiclePerChargePoints": (
             row["EVPC"] if pd.notna(row["EVPC"]) else None
         ),
@@ -168,7 +168,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "-n",
         "--num_decimals",
-        default=2,
+        default=3,
         type=int,
         help="Number of decimals to round to",
     )

@@ -9,6 +9,8 @@ def national_emission_calculations():
     Perform emission calculations for national level.
 
     Parameters:
+    - current_year (int, optional): Year to use for projections. Defaults to the current year.
+
     Returns:
     - (pandas.DataFrame): The resulting dataframe with emissions data.
     """

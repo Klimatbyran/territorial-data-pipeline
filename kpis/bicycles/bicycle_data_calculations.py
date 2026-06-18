@@ -1,8 +1,13 @@
+"""Bicycle KPI calculations."""
+
 import pandas as pd
 
 
-PATH_BICYCLE_DATA = "kpis/bicycles/sources/Cykelnät per komun 20241231.xlsx"
-PATH_POPULATION_DATA = "kpis/bicycles/sources/be0101_tabhel2024.xlsx"
+PATH_BICYCLE_DATA = (
+    "kpis/bicycles/sources/antal-meter-cykelnat-per-vaghallare-efter-lan-och-kommun.xlsx"
+)
+SHEET_NAME_BICYCLES = "2025"
+PATH_POPULATION_DATA = "kpis/bicycles/sources/000007SF_20260416-131411.xlsx"
 
 
 def calculate_bike_lane_per_capita():
@@ -16,33 +21,46 @@ def calculate_bike_lane_per_capita():
         pandas.DataFrame: A DataFrame containing the calculated bike lane per capita.
     """
 
-    df_raw_bicycles = pd.read_excel(PATH_BICYCLE_DATA, skiprows=3)
-    df_bicycles = df_raw_bicycles[["Kommun", "Totalsumma"]]
-    df_bicycles.loc[df_bicycles["Kommun"] == "Malung", "Kommun"] = "Malung-Sälen"
-    df_bicycles.loc[df_bicycles["Kommun"] == "Upplands-Väsby", "Kommun"] = (
+    raw_bicycle_df = pd.read_excel(PATH_BICYCLE_DATA, sheet_name=SHEET_NAME_BICYCLES)
+    bicycle_length_columns = ["Enskild", "Kommunal", "Statlig"]
+    raw_bicycle_df[bicycle_length_columns] = (
+        raw_bicycle_df[bicycle_length_columns]
+        .where(raw_bicycle_df[bicycle_length_columns] != "-", 0)
+        .apply(pd.to_numeric)
+        .astype(int)
+    )
+    raw_bicycle_df["Totalsumma"] = (
+        raw_bicycle_df["Enskild"] + raw_bicycle_df["Kommunal"] + raw_bicycle_df["Statlig"]
+    )
+
+    bicycle_df = raw_bicycle_df[["Kommun", "Totalsumma"]]
+
+    # Clean bicycle dataframe
+    cleaned_bicycle_df = bicycle_df.loc[2:].copy()  # Drop last rows
+    cleaned_bicycle_df.loc[cleaned_bicycle_df["Kommun"] == "Malung", "Kommun"] = "Malung-Sälen"
+    cleaned_bicycle_df.loc[cleaned_bicycle_df["Kommun"] == "Upplands-Väsby", "Kommun"] = (
         "Upplands Väsby"
     )
 
-    df_raw_population = pd.read_excel(PATH_POPULATION_DATA, skiprows=5)
-    # Drop unnecessary rows
-    df_population_drop = df_raw_population.drop([0, 1, 2, 3])
-    # Filter out county rows (that have 2 codes in the 'Kommun' column instead of 4)
-    df_population_municipality = df_population_drop[
-        df_population_drop["Kommun"].str.len() == 4
-    ]
-    # Filter out unnecessary columns
-    df_population_filter = df_population_municipality[["Kommunnamn", "Folkmängd"]]
-    # Rename 'Kommunnamn' to 'Kommun' to match the bicycle dataframe
-    df_population_renamed = df_population_filter.rename(
-        columns={"Kommunnamn": "Kommun"}
+    raw_population_df = pd.read_excel(PATH_POPULATION_DATA, skiprows=2)
+    raw_population_df = raw_population_df.rename(
+        columns={"Unnamed: 0": "Kommun", "2025M12": "Folkmängd"}
     )
-    # Strip 'Kommun' column of whitespaces
-    df_population_renamed["Kommun"] = df_population_renamed["Kommun"].str.strip()
+
+    population_df = raw_population_df.loc[:289].copy()  # Drop last rows
+    population_df["Kommun"] = (
+        population_df["Kommun"].astype(str).str.replace(r"^.{4}\s", "", regex=True)
+    )
 
     # Merge bicycle and population dataframes
-    df_merged = df_bicycles.merge(df_population_renamed, on="Kommun", how="left")
+    merged_df = cleaned_bicycle_df.merge(population_df, on="Kommun", how="left")
 
     # Calculate bike lane per capita
-    df_merged["bikeMetrePerCapita"] = df_merged["Totalsumma"] / df_merged["Folkmängd"]
+    merged_df["bike_metre_per_capita"] = merged_df["Totalsumma"] / merged_df["Folkmängd"]
+    result_df = (
+        merged_df[["Kommun", "bike_metre_per_capita"]]
+        .sort_values(by="Kommun")
+        .reset_index(drop=True)
+    )
 
-    return df_merged[["Kommun", "bikeMetrePerCapita"]]
+    return result_df

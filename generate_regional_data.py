@@ -60,12 +60,12 @@ def series_to_dict(
     Returns:
     A dictionary with the transformed data.
     """
-    print(row)
+
     return {
         "region": row["Län"],
         "logoUrl": row["coatOfArms"],
         "emissions": {str(year): row[year] for year in historical_columns},
-        "total_trend": row["total_trend"],
+        "totalTrend": row["total_trend"],
         "totalCarbonLaw": row["totalCarbonLawPath"],
         "approximatedHistoricalEmission": {
             year.replace("approximated_", ""): row[year]
@@ -79,7 +79,7 @@ def series_to_dict(
         "electricVehiclePerChargePoints": (
             row["EVPC"] if pd.notna(row["EVPC"]) else None
         ),
-        "totalConsumptionEmission": row["consumptionEmissions"],
+        "totalConsumptionEmission": row["consumption_emissions"],
     }
 
 

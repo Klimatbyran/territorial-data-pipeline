@@ -12,7 +12,7 @@ from kpis.emissions.carbon_law_calculations import calculate_carbon_law_total
 
 CURRENT_YEAR = datetime.now().year  # current year
 YEAR_SECONDS = 60 * 60 * 24 * 365   # a year in seconds
-LAST_YEAR_WITH_SMHI_DATA = 2023  # last year for which the National Emission database has data
+LAST_YEAR_WITH_SMHI_DATA = 2024  # last year for which the National Emission database has data
 END_YEAR = 2050
 
 CARBON_LAW_REDUCTION_RATE = 0.1172
@@ -25,7 +25,12 @@ PATH_SMHI = (
 
 def calculate_historical_change_percent(df, column_name, last_year_in_range):
     """
-    Calculate the historical average emission level change based on SMHI data from 2015 onwards.
+    Calculate historical emission change as compund annual growth rate (CAGR) from 2015 through
+    the last available SMHI year.
+
+    Uses SMHI year columns: 2015 and 2020 through ``last_year_in_range`` (annual from 2020).
+    The CAGR is computed from the 2015 value to the value for ``last_year_in_range`` over the
+    full calendar span, so missing intermediate years are summarised as one constant annual rate.
 
     Args:
         df (pandas.DataFrame): The input DataFrame containing emission data.
@@ -35,24 +40,24 @@ def calculate_historical_change_percent(df, column_name, last_year_in_range):
     Returns:
         pandas.DataFrame: The input DataFrame with an column
                           'historicalEmissionChangePercent' representing
-                          the historical average emission level change in percent for each row.
+                          the CAGR in percent for each row.
     """
+
+    years = [2015] + list(range(2020, last_year_in_range + 1))
 
     temp = []
     df = df.sort_values(column_name, ascending=True)
-    for i in range(len(df)):
-        # Get the years we will use for the average
-        years = np.arange(2015, last_year_in_range + 1)
-        # Get the emissions from the years specified in the line above
-        emissions = np.array(df.iloc[i][years], dtype=float)
-        # Calculate diff (in percent) between each successive year
-        diffs_in_percent = [
-            (x - emissions[i - 1]) / emissions[i - 1] for i, x in enumerate(emissions)
-        ][1:]
-        # Calculate average diff
-        avg_diff_in_percent = 100 * sum(diffs_in_percent) / len(diffs_in_percent)
+    first_year = years[0]
+    last_year = years[-1]
+    year_span = last_year - first_year
 
-        temp.append(avg_diff_in_percent)
+    for row_idx in range(len(df)):
+        emissions = np.array(df.iloc[row_idx][years], dtype=float)
+        start_e = float(emissions[0])
+        end_e = float(emissions[-1])
+
+        cagr_fraction = (end_e / start_e) ** (1.0 / year_span) - 1.0
+        temp.append(float(100.0 * cagr_fraction))
 
     df["historicalEmissionChangePercent"] = temp
 
@@ -108,20 +113,23 @@ def calculate_meets_paris_goal(total_trend, total_carbon_law_path):
     return total_trend <= total_carbon_law_path
 
 
-def emission_calculations(df):
+def emission_calculations(df, current_year=None):
     """
     Perform emission calculations based on the given dataframe.
 
     Parameters:
     - df (pandas.DataFrame): The input dataframe containing municipality data.
+    - current_year (int, optional): Year to use for projections. Defaults to the current year.
 
     Returns:
     - (pandas.DataFrame): The resulting dataframe with emissions data.
     """
+    if current_year is None:
+        current_year = CURRENT_YEAR
 
     df_smhi = get_n_prep_data_from_smhi(df)
 
-    df_trend_and_approximated = calculate_trend(df_smhi, CURRENT_YEAR, END_YEAR)
+    df_trend_and_approximated = calculate_trend(df_smhi, current_year, END_YEAR)
 
     df_trend_and_approximated["total_trend"] = calculate_total_trend(df_trend_and_approximated)
 
@@ -133,7 +141,7 @@ def emission_calculations(df):
 
     df_carbon_law = calculate_carbon_law_total(
         df_hit_net_zero,
-        CURRENT_YEAR,
+        current_year,
         END_YEAR,
         CARBON_LAW_REDUCTION_RATE,
     )

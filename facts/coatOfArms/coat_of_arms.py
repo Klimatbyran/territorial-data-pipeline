@@ -100,6 +100,16 @@ def get_coat_of_arms(territory_name):
     return coat_of_arms_url
 
 
+def _normalize_territory_name(name):
+    """Normalize territory name for comparison by removing common suffixes."""
+    return re.sub(
+        r"( kommun| stad|s kommun|s stad| municipality)$",
+        "",
+        name.strip(),
+        flags=re.IGNORECASE,
+    ).strip()
+
+
 def get_territory_wiki_id(territory_name):
     """Get territory wiki ID from Wikidata."""
     url = "https://www.wikidata.org/w/api.php"
@@ -121,25 +131,40 @@ def get_territory_wiki_id(territory_name):
         if not search_results:
             return []
 
-        # Prefer entries with "kommun" or "municipality" in the label (municipality entries)
-        # as they're more likely to have coat of arms (P94)
+        normalized_search = _normalize_territory_name(territory_name)
+
+        # Prefer exact municipality matches first (e.g. Habo vs Håbo), then other
+        # municipality entries, then exact non-municipality matches, then the rest.
+        exact_kommun_entries = []
         kommun_entries = []
+        exact_other_entries = []
         other_entries = []
 
         for territory in search_results:
             territory_id = territory.get("id")
-            label = territory.get("label", "").lower()
-            description = territory.get("description", "").lower()
+            label = territory.get("label", "")
+            normalized_label = _normalize_territory_name(label)
+            is_exact_match = normalized_label == normalized_search
 
             # Check if this looks like a municipality entry
-            if ("kommun" in label or "municipality" in label or
-                "kommun" in description or "municipality" in description):
-                kommun_entries.append(territory_id)
+            if "kommun" in label.lower() or "municipality" in label.lower():
+                if is_exact_match:
+                    exact_kommun_entries.append(territory_id)
+                else:
+                    kommun_entries.append(territory_id)
+            elif is_exact_match:
+                exact_other_entries.append(territory_id)
             else:
                 other_entries.append(territory_id)
 
-        # Return municipality entries first, then others
-        wiki_ids = kommun_entries + other_entries or [search_results[0].get("id")]
+        wiki_ids = (
+            exact_kommun_entries
+            + kommun_entries
+            + exact_other_entries
+            + other_entries
+        )
+        if not wiki_ids:
+            wiki_ids = [search_results[0].get("id")]
 
         return wiki_ids
 

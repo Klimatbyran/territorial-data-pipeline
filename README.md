@@ -154,13 +154,13 @@ Here's a summary of what the functions do, in order of execution in `/kpis/emiss
 
 1. `get_n_prep_data_from_smhi`: Downloads data from SMHI and preprocess it into a pandas dataframe.
 
-2. `calculate_trend`: Calculates linear trend coefficients and future values for each municipailty based on SMHI data from 2015 onwards. This is done by fitting a straight line to the data using least absolute deviations (LAD).
+2. `calculate_trend`: Calculates linear trend coefficients and future values for each municipailty based on SMHI data from 2015 and 2020 onwards. This is done by fitting a straight line to the data using least absolute deviations (LAD).
 
 3. `calculate_approximated_historical`: Calculates approximated historical data values for years passed since the last year with SMHI data. This is done by interpolation using previously calculated linear trend coefficients.
 
 4. `calculate_trend`: Calculates trend line for future years up to 2050. This is done by interpolation using previously calculated linear trend coefficients
 
-5. `calculate_historical_change_percent`: Calculates the average historical yearly emission change in percent based on SMHI data from 2015 onwards.
+5. `calculate_historical_change_percent`: Compound annual growth rate (CAGR) from 2015 to the last reported years of the SMHI data.
 
 6. `calculate_carbon_law_total`: Calculates total emissions from carbon law reduction path for municipalities.
 

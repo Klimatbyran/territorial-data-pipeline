@@ -4,7 +4,7 @@
 from datetime import datetime
 
 from kpis.emissions.historical_data_calculations import get_n_prep_regional_data_from_smhi
-from kpis.emissions.trend_calculations import calculate_trend
+from kpis.emissions.trend_calculations import calculate_trend, calculate_total_trend
 from kpis.emissions.carbon_law_calculations import calculate_carbon_law_total
 from kpis.emissions.emission_data_calculations import (
     calculate_historical_change_percent,
@@ -23,22 +23,25 @@ PATH_SMHI = (
     + "getexcelfile/?county=0&municipality=0&sub=GGT"
 )
 
-def regional_emission_calculations():
+def regional_emission_calculations(current_year=None):
     """
     Perform emission calculations for regions.
 
     Parameters:
+    - current_year (int, optional): Year to use for projections. Defaults to the current year.
+
     Returns:
     - (pandas.DataFrame): The resulting dataframe with emissions data.
     """
+    if current_year is None:
+        current_year = CURRENT_YEAR
 
     total_emissions_df = get_n_prep_regional_data_from_smhi()
 
-    df_trend_and_approximated = calculate_trend(total_emissions_df, CURRENT_YEAR, END_YEAR)
+    df_trend_and_approximated = calculate_trend(total_emissions_df, current_year, END_YEAR)
 
-    df_trend_and_approximated["total_trend"] = df_trend_and_approximated.apply(
-        lambda row: row[[col for col in row.index if "trend_" in str(col)]].sum(),
-        axis=1,
+    df_trend_and_approximated["total_trend"] = calculate_total_trend(
+        df_trend_and_approximated
     )
 
     df_historical_change_percent = calculate_historical_change_percent(
@@ -47,7 +50,7 @@ def regional_emission_calculations():
 
     df_carbon_law = calculate_carbon_law_total(
         df_historical_change_percent,
-        CURRENT_YEAR,
+        current_year,
         END_YEAR,
         CARBON_LAW_REDUCTION_RATE,
     )
