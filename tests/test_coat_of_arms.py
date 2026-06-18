@@ -22,6 +22,29 @@ class TestGetterritoryWikiID(unittest.TestCase):
         result = get_territory_wiki_id("NonexistentTown")
         self.assertEqual(result, [])
 
+    @patch("facts.coatOfArms.coat_of_arms.requests.get")
+    def test_prefers_exact_municipality_match(self, mock_get):
+        """Test that similarly named municipalities are disambiguated exactly."""
+        mock_get.return_value.json.return_value = {
+            "search": [
+                {
+                    "id": "Q503198",
+                    "label": "Habo kommun",
+                    "description": "kommun i Jönköpings län",
+                },
+                {
+                    "id": "Q511253",
+                    "label": "Håbo kommun",
+                    "description": "kommun i Uppsala län",
+                },
+            ]
+        }
+        result = get_territory_wiki_id("Habo")
+        self.assertEqual(result[0], "Q503198")
+
+        result = get_territory_wiki_id("Håbo")
+        self.assertEqual(result[0], "Q511253")
+
 
 class TestGetCoatOfArms(unittest.TestCase):
     """Test cases for retrieving coat of arms images from Wikidata."""
