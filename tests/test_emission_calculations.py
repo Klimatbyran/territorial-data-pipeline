@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 import datetime
 import unittest
-from unittest.mock import patch
 
 import pandas as pd
 
@@ -15,21 +14,7 @@ from kpis.emissions.emission_data_calculations import (
 
 
 LAST_YEAR_WITH_SMHI_DATA = 2021
-TEST_CURRENT_YEAR = 2026
-HIT_NET_ZERO_CURRENT_YEAR = 2024
-
-
-def _mock_smhi_data(historical_data):
-    """Return a mock that supplies fixed SMHI data instead of fetching live data."""
-
-    def mock_get_n_prep_data_from_smhi(input_df):
-        rows = []
-        for _, row in input_df.iterrows():
-            rows.append({"Kommun": row["Kommun"], **historical_data})
-        return pd.DataFrame(rows)
-
-    return mock_get_n_prep_data_from_smhi
-
+CURRENT_YEAR = 2024
 
 class TestEmissionCalculations(unittest.TestCase):
     """Test the emission calculations"""
@@ -87,7 +72,7 @@ class TestEmissionCalculations(unittest.TestCase):
         df_expected = df_input.copy()
         df_expected["hit_net_zero"] = [None, datetime.date(2026, 1, 1), datetime.date(2027, 1, 1)]
 
-        df_result = calculate_hit_net_zero(df_input, HIT_NET_ZERO_CURRENT_YEAR)
+        df_result = calculate_hit_net_zero(df_input, CURRENT_YEAR)
 
         pd.testing.assert_frame_equal(df_result, df_expected, check_exact=False)
 
@@ -129,23 +114,8 @@ class TestEmissionCalculations(unittest.TestCase):
 
         pd.testing.assert_frame_equal(df_result, df_expected)
 
-    @patch("kpis.emissions.emission_data_calculations.get_n_prep_data_from_smhi")
-    def test_emission_calculations_for_ale(self, mock_get_smhi_data):
+    def test_emission_calculations_for_ale(self):
         """Test the emission calculations for Ale"""
-        ale_historical_data = {
-            1990: 128402.515874041,
-            2000: 156477.764869377,
-            2005: 146405.256919466,
-            2010: 163665.861338809,
-            2015: 158915.813495077,
-            2020: 152008.05951377,
-            2021: 158548.408843853,
-            2022: 143277.933866814,
-            2023: 136674.635738874,
-            2024: 147637.709619733,
-        }
-        mock_get_smhi_data.side_effect = _mock_smhi_data(ale_historical_data)
-
         df_input = pd.DataFrame(
             {
                 "Kommun": ["Ale"],
@@ -203,28 +173,13 @@ class TestEmissionCalculations(unittest.TestCase):
         )
 
         df_result = round(
-            emission_calculations(df_input, current_year=TEST_CURRENT_YEAR), 6
+            emission_calculations(df_input, current_year=CURRENT_YEAR), 6
         )
 
         pd.testing.assert_frame_equal(df_result, df_expected)
 
-    @patch("kpis.emissions.emission_data_calculations.get_n_prep_data_from_smhi")
-    def test_emission_calculations_for_aneby(self, mock_get_smhi_data):
+    def test_emission_calculations_for_aneby(self):
         """Test the emission calculations for Aneby"""
-        aneby_historical_data = {
-            1990: 59917.9705772582,
-            2000: 55050.5877253227,
-            2005: 55467.1593075488,
-            2010: 48948.2024317511,
-            2015: 47972.4491322901,
-            2020: 43136.9135443098,
-            2021: 42537.8793419833,
-            2022: 40886.5505772958,
-            2023: 42039.3294612232,
-            2024: 44925.090922263,
-        }
-        mock_get_smhi_data.side_effect = _mock_smhi_data(aneby_historical_data)
-
         df_input = pd.DataFrame(
             {
                 "Kommun": ["Aneby"],
@@ -281,7 +236,7 @@ class TestEmissionCalculations(unittest.TestCase):
             }
         )
 
-        df_result = emission_calculations(df_input, current_year=TEST_CURRENT_YEAR)
+        df_result = emission_calculations(df_input, current_year=CURRENT_YEAR)
 
         pd.testing.assert_frame_equal(df_result, df_expected)
 
