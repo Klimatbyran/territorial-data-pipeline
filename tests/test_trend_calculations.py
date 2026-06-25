@@ -81,6 +81,20 @@ class TestTrendCalculations(unittest.TestCase):
             },
         )
 
+    def test_create_new_columns_structure_with_series_label(self):
+        """Prefixed column names when series_label is set (national per-type trends)."""
+        new_columns_data = create_new_columns_structure(
+            [2024, 2025],
+            [2025, 2026],
+            1,
+            series_label="fossil",
+        )
+        self.assertIn("approximated_fossil_2024", new_columns_data)
+        self.assertIn("approximated_fossil_2025", new_columns_data)
+        self.assertIn("trend_fossil_2025", new_columns_data)
+        self.assertIn("trend_fossil_2026", new_columns_data)
+        self.assertIn("trend_fossil_emissions_slope", new_columns_data)
+
     def _compare_predicted_results(
         self, df_result, column_name, expected_value, test_string
     ):

@@ -38,7 +38,7 @@ def calculate_historical_change_percent(df, column_name, last_year_in_range):
         last_year_in_range (int): last year with data
 
     Returns:
-        pandas.DataFrame: The input DataFrame with an additional column
+        pandas.DataFrame: The input DataFrame with an column
                           'historicalEmissionChangePercent' representing
                           the CAGR in percent for each row.
     """

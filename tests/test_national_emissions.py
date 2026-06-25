@@ -1,13 +1,8 @@
 # -*- coding: utf-8 -*-
 import unittest
-import pandas as pd
 
 from kpis.emissions.historical_data_calculations import get_n_prep_national_data_from_smhi
 from kpis.emissions.national_emissions import national_emission_calculations
-
-
-LAST_YEAR_WITH_SMHI_DATA = 2023
-CURRENT_YEAR = 2025
 
 
 class TestNationalEmissions(unittest.TestCase):
@@ -65,17 +60,12 @@ class TestNationalEmissions(unittest.TestCase):
         )
 
     def test_national_emission_calculations(self):
-        """Test that national emission calculations return the expected structure and columns."""
+        """Test that national emission calculations return verified SMHI historical data only."""
         df_result = national_emission_calculations()
 
-        # Check that we have exactly one row (national level)
         self.assertEqual(len(df_result), 1, "National calculations should have exactly one row")
-
-        # Check that Land column exists
-        self.assertTrue("Land" in df_result.columns, "Land column should exist")
         self.assertEqual(df_result["Land"].iloc[0], "Sverige", "Land should be 'Sverige'")
 
-        # Check for expected year columns
         expected_year_columns = [
             1990, 2000, 2005, 2010, 2015, 2020, 2021, 2022, 2023, 2024,
         ]
@@ -98,61 +88,33 @@ class TestNationalEmissions(unittest.TestCase):
             ),
         )
 
-        # Check that calculated columns exist
-        self.assertTrue("total_trend" in df_result.columns, "total_trend column should exist")
-        self.assertTrue(
-            "totalCarbonLawPath" in df_result.columns,
-            "totalCarbonLawPath column should exist",
-        )
-        self.assertTrue(
-            "historicalEmissionChangePercent" in df_result.columns,
-            "historicalEmissionChangePercent column should exist",
-        )
-        self.assertTrue(
-            "meetsParisGoal" in df_result.columns,
-            "meetsParisGoal column should exist",
-        )
+        excluded_columns = [
+            "total_trend",
+            "totalCarbonLawPath",
+            "historicalEmissionChangePercent",
+            "meetsParisGoal",
+        ]
+        for col in excluded_columns:
+            self.assertNotIn(col, df_result.columns, f"Unexpected column: {col}")
 
-        # Check that approximated columns exist
         approximated_columns = [
             col for col in df_result.columns if "approximated_" in str(col)
         ]
-        self.assertGreater(
-            len(approximated_columns),
-            0,
-            "Should have at least one approximated column",
+        self.assertEqual(
+            approximated_columns,
+            [],
+            "National SMHI data should not include approximated columns",
         )
 
-        # Check that trend columns exist
         trend_columns = [
             col
             for col in df_result.columns
             if "trend_" in str(col) and "coefficient" not in str(col) and "slope" not in str(col)
         ]
-        self.assertGreater(len(trend_columns), 0, "Should have at least one trend column")
-
-        # Check that total_trend is positive
-        self.assertGreater(
-            df_result["total_trend"].iloc[0],
-            0,
-            "total_trend should be positive",
-        )
-
-        # Check that totalCarbonLawPath is positive
-        self.assertGreater(
-            df_result["totalCarbonLawPath"].iloc[0],
-            0,
-            "totalCarbonLawPath should be positive",
-        )
-
-        # Check that meetsParisGoal is boolean (can be numpy bool or Python bool)
-        meets_paris_value = df_result["meetsParisGoal"].iloc[0]
-        # numpy.bool_ is a subclass of bool, so isinstance(..., bool) works
-        self.assertTrue(
-            isinstance(
-              meets_paris_value, bool) or pd.api.types.is_bool_dtype(type(meets_paris_value)
-            ),
-            f"meetsParisGoal should be a boolean, got {type(meets_paris_value)}",
+        self.assertEqual(
+            trend_columns,
+            [],
+            "National SMHI data should not include trend projection columns",
         )
 
 
