@@ -38,7 +38,7 @@ def calculate_procurement_score(df_greenpeace, df_nur):
     df_merge["procurementScore"] = df_merge.apply(
         lambda row: (
             2
-            if row["procurementLink"] != None
+            if pd.notna(row["procurementLink"]) and row["procurementLink"]
             else 1 if row["BINÄRT_UTFALL"] > 0 else 0
         ),
         axis=1,

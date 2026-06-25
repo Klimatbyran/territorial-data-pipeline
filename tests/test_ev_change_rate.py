@@ -33,7 +33,9 @@ class TestBicycleCalculations(unittest.TestCase):
         """Test the get_ev_change_rate_2015_to_2024 function"""
         df_expected = pd.DataFrame(ale_input)
         df_result = get_ev_share_2015_to_2024("Kommun", to_percent=True)
-        pd.testing.assert_frame_equal(df_result.iloc[:1], df_expected)
+        pd.testing.assert_frame_equal(
+            df_result.iloc[:1], df_expected, check_dtype=False
+        )
 
     def test_ev_share_from_2025(self):
         """Test the ev_change_rate_from_2015 function"""

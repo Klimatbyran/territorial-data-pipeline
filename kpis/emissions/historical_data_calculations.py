@@ -8,6 +8,16 @@ PATH_SMHI = (
 )
 
 
+def _coerce_year_columns(df):
+    """Ensure SMHI year columns are numeric regardless of Excel parsing."""
+    year_cols = [
+        col for col in df.columns if str(col).isdigit() and len(str(col)) == 4
+    ]
+    if year_cols:
+        df[year_cols] = df[year_cols].apply(pd.to_numeric, errors="coerce")
+    return df
+
+
 @cache_df(path=PATH_SMHI)
 def get_smhi_data(path=PATH_SMHI):
     """
@@ -30,7 +40,7 @@ def get_smhi_data(path=PATH_SMHI):
     # Change the column names to the first rows entries
     df_raw = df_raw.rename(columns=df_raw.iloc[0])
     df_raw = df_raw.drop([0])  # remove row 0
-    return df_raw
+    return _coerce_year_columns(df_raw)
 
 
 def get_n_prep_data_from_smhi(input_df):
