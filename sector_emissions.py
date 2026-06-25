@@ -219,23 +219,102 @@ def generate_sector_emissions_file(
         json.dump(sector_data, json_file, ensure_ascii=False, indent=2)
 
 
+SECTOR_EMISSIONS_CONFIG = {
+    "municipalities": {
+        "label": "Municipality sector emissions",
+        "output_file": "output/municipality-sector-emissions.json",
+        "extract_func": extract_sector_data,
+        "name_column": "Kommun",
+        "saved_message": "Sector emissions JSON file created and saved",
+    },
+    "regions": {
+        "label": "Regional sector emissions",
+        "output_file": "output/region-sector-emissions.json",
+        "extract_func": extract_regional_sector_data,
+        "name_column": "Län",
+        "saved_message": "Regional sector emissions JSON file created and saved",
+    },
+    "national": {
+        "label": "National sector emissions",
+        "output_file": "output/national-sector-emissions.json",
+        "extract_func": extract_national_sector_data,
+        "name_column": "Land",
+        "saved_message": "National sector emissions JSON file created and saved",
+    },
+}
+
+
+def generate_sector_emissions_for_level(
+    level: str,
+    num_decimals: int = 2,
+    output_file: str | None = None,
+) -> None:
+    """Generate sector emissions JSON for a single territorial level."""
+    config = SECTOR_EMISSIONS_CONFIG[level]
+    output_path = output_file or config["output_file"]
+    generate_sector_emissions_file(
+        config["extract_func"],
+        functools.partial(create_sector_emissions_dict, name_column=config["name_column"]),
+        output_path,
+        num_decimals,
+    )
+    print(config["saved_message"])
+
+
+def generate_sector_emissions(
+    levels: List[str] | None = None,
+    num_decimals: int = 2,
+    output_files: Dict[str, str] | None = None,
+) -> None:
+    """Generate sector emissions JSON for one or more territorial levels."""
+    selected_levels = levels or list(SECTOR_EMISSIONS_CONFIG.keys())
+    output_files = output_files or {}
+
+    for level in selected_levels:
+        print(f"\n=== {SECTOR_EMISSIONS_CONFIG[level]['label']} ===")
+        generate_sector_emissions_for_level(
+            level,
+            num_decimals=num_decimals,
+            output_file=output_files.get(level),
+        )
+
+
+def parse_selected_levels(args: argparse.Namespace) -> List[str]:
+    """Return selected territorial levels; default to all levels."""
+    selected_levels = []
+    if args.municipalities:
+        selected_levels.append("municipalities")
+    if args.regions:
+        selected_levels.append("regions")
+    if args.national:
+        selected_levels.append("national")
+    if not selected_levels:
+        return list(SECTOR_EMISSIONS_CONFIG.keys())
+    return selected_levels
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate sector emissions data")
     parser.add_argument(
+        "--municipalities",
+        action="store_true",
+        help="Generate municipality sector emissions data only",
+    )
+    parser.add_argument(
         "--regions",
         action="store_true",
-        help="Generate regional sector emissions data instead of municipal",
+        help="Generate regional sector emissions data only",
     )
     parser.add_argument(
         "--national",
         action="store_true",
-        help="Generate national sector emissions data instead of municipal",
+        help="Generate national sector emissions data only",
     )
     parser.add_argument(
         "-o",
         "--outfile",
         type=str,
-        help="Output filename (JSON formatted)",
+        help="Output filename (JSON formatted; only valid with a single level flag)",
     )
     parser.add_argument(
         "-n",
@@ -246,31 +325,17 @@ if __name__ == "__main__":
     )
 
     args = parser.parse_args()
+    selected_levels = parse_selected_levels(args)
 
-    if args.national:
-        output_path = args.outfile or "output/national-sector-emissions.json"
-        generate_sector_emissions_file(
-            extract_national_sector_data,
-            functools.partial(create_sector_emissions_dict, name_column="Land"),
-            output_path,
-            args.num_decimals
-        )
-        print("National sector emissions JSON file created and saved")
-    elif args.regions:
-        output_path = args.outfile or "output/region-sector-emissions.json"
-        generate_sector_emissions_file(
-            extract_regional_sector_data,
-            functools.partial(create_sector_emissions_dict, name_column="Län"),
-            output_path,
-            args.num_decimals
-        )
-        print("Regional sector emissions JSON file created and saved")
-    else:
-        output_path = args.outfile or "output/municipality-sector-emissions.json"
-        generate_sector_emissions_file(
-            extract_sector_data,
-            functools.partial(create_sector_emissions_dict, name_column="Kommun"),
-            output_path,
-            args.num_decimals
-        )
-        print("Sector emissions JSON file created and saved")
+    if args.outfile and len(selected_levels) != 1:
+        parser.error("--outfile can only be used with a single level flag")
+
+    output_files = {selected_levels[0]: args.outfile} if args.outfile else {}
+    generate_sector_emissions(
+        levels=selected_levels,
+        num_decimals=args.num_decimals,
+        output_files=output_files,
+    )
+
+    if len(selected_levels) == len(SECTOR_EMISSIONS_CONFIG):
+        print("\nAll sector emissions files updated.")

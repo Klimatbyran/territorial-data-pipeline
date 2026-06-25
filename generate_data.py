@@ -28,6 +28,7 @@ from kpis.emissions.regional_emissions import regional_emission_calculations
 from kpis.emissions.swedish_emissions import create_swedish_emissions_df
 from kpis.plans.plans_data_prep import get_climate_plans
 from kpis.procurements.climate_requirements_in_procurements import get_procurement_data
+from sector_emissions import generate_sector_emissions, parse_selected_levels
 
 # Notebook from ClimateView that our calculations are based on:
 # https://colab.research.google.com/drive/1qqMbdBTu5ulAPUe-0CRBmFuh8aNOiHEb?usp=sharing
@@ -341,23 +342,98 @@ def df_to_dict(input_df: pd.DataFrame, num_decimals: int) -> List[Dict]:
     return territorial_df_to_dict(input_df, num_decimals, regional_series_to_dict)
 
 
+TERRITORIAL_DATA_CONFIG = {
+    "municipalities": {
+        "label": "Municipality data",
+        "output_file": "output/municipality-data.json",
+        "default_decimals": 3,
+    },
+    "regions": {
+        "label": "Regional data",
+        "output_file": "output/regional-data.json",
+        "default_decimals": 2,
+    },
+    "national": {
+        "label": "National data",
+        "output_file": "output/national-data.json",
+        "default_decimals": 2,
+    },
+}
+
+
+def generate_territorial_data_for_level(
+    level: str,
+    num_decimals: int,
+    to_percentage: bool,
+    output_file: str | None = None,
+) -> None:
+    """Generate territorial climate data JSON for a single level."""
+    config = TERRITORIAL_DATA_CONFIG[level]
+    output_path = output_file or config["output_file"]
+
+    if level == "municipalities":
+        generate_municipality_data(output_path, num_decimals, to_percentage)
+    elif level == "regions":
+        generate_regional_data(output_path, num_decimals)
+    else:
+        generate_national_data(output_path, num_decimals)
+
+
+def generate_all_data(
+    levels: List[str],
+    num_decimals: int | None,
+    to_percentage: bool,
+    output_files: Dict[str, str] | None = None,
+) -> None:
+    """Generate territorial and sector emissions data for selected levels."""
+    output_files = output_files or {}
+
+    for level in levels:
+        config = TERRITORIAL_DATA_CONFIG[level]
+        print(f"\n=== {config['label']} ===")
+        level_decimals = (
+            num_decimals if num_decimals is not None else config["default_decimals"]
+        )
+        generate_territorial_data_for_level(
+            level,
+            level_decimals,
+            to_percentage,
+            output_file=output_files.get(level),
+        )
+
+    generate_sector_emissions(
+        levels=levels,
+        num_decimals=num_decimals if num_decimals is not None else 2,
+    )
+
+    if len(levels) == len(TERRITORIAL_DATA_CONFIG):
+        print("\nAll data files updated.")
+
+
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Territorial climate data calculations")
+    parser = argparse.ArgumentParser(
+        description="Generate territorial climate and sector emissions data"
+    )
+    parser.add_argument(
+        "--municipalities",
+        action="store_true",
+        help="Generate municipality data only",
+    )
     parser.add_argument(
         "--regions",
         action="store_true",
-        help="Generate regional data instead of municipal",
+        help="Generate regional data only",
     )
     parser.add_argument(
         "--national",
         action="store_true",
-        help="Generate national data instead of municipal",
+        help="Generate national data only",
     )
     parser.add_argument(
         "-o",
         "--outfile",
         type=str,
-        help="Output filename (JSON formatted)",
+        help="Output filename (JSON formatted; only valid with a single level flag)",
     )
     parser.add_argument(
         "-t",
@@ -374,16 +450,16 @@ if __name__ == "__main__":
     )
 
     args = parser.parse_args()
+    selected_levels = parse_selected_levels(args)
 
-    if args.national:
-        output_path = args.outfile or "output/national-data.json"
-        num_decimals = args.num_decimals if args.num_decimals is not None else 2
-        generate_national_data(output_path, num_decimals)
-    elif args.regions:
-        output_path = args.outfile or "output/regional-data.json"
-        num_decimals = args.num_decimals if args.num_decimals is not None else 2
-        generate_regional_data(output_path, num_decimals)
-    else:
-        output_path = args.outfile or "output/municipality-data.json"
-        num_decimals = args.num_decimals if args.num_decimals is not None else 3
-        generate_municipality_data(output_path, num_decimals, args.to_percentage)
+    if args.outfile and len(selected_levels) != 1:
+        parser.error("--outfile can only be used with a single level flag")
+
+    output_files = {selected_levels[0]: args.outfile} if args.outfile else {}
+
+    generate_all_data(
+        levels=selected_levels,
+        num_decimals=args.num_decimals,
+        to_percentage=args.to_percentage,
+        output_files=output_files,
+    )

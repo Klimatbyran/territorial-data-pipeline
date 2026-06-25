@@ -21,8 +21,7 @@ We utilize Python libraries such as Pandas and NumPy to perform various calculat
 ### Repository Structure
 
 This repository contains both the datasets we host and the Python scripts for calculations.
- - `generate_data.py`: Execute this Python script to run territorial climate data calculations and generate updated data.
- - `update_all_data.py`: Execute this Python script to regenerate all output data files.
+ - `generate_data.py`: Execute this Python script to regenerate all output data files.
 - `/output:` This is where the processed data gets saved.
     - `municipality-data.json`: This JSON file contains the calculated climate data for individual municipalities.
     - `regional-data.json`: This JSON file contains climate data aggregated at the county (Swedish "län") level, including emissions, trends, Carbon Law calculations, and Paris Agreement compliance metrics for each region.
@@ -60,43 +59,23 @@ py.test tests --profile-svg && open prof/combined.svg
 
 To recalculate and refresh all data files at once, run:
 
-`python3 update_all_data.py`
-
-Alternatively, run each step individually:
-
 `python3 generate_data.py`
 
-This generates the main municipality data file (`municipality-data.json`).
+This generates all territorial data files and sector emissions files for municipalities, regions, and national level.
 
-Then run:
+To regenerate a single level, pass one of these flags:
 
-`python3 sector_emissions.py`
-
-This generates sector-specific emissions data for municipalities (`municipality-sector-emissions.json`).
-
-Then run:
+`python3 generate_data.py --municipalities`
 
 `python3 generate_data.py --regions`
 
-This generates regional (county-level) aggregated data (`regional-data.json`).
-
-Then run:
-
-`python3 sector_emissions.py --regions`
-
-This generates regional sector-specific emissions data (`region-sector-emissions.json`).
-
-Then run:
-
 `python3 generate_data.py --national`
 
-This generates national-level aggregated data (`national-data.json`).
+Sector emissions can also be regenerated separately:
 
-Finally, run:
+`python3 sector_emissions.py`
 
-`python3 sector_emissions.py --national`
-
-This generates national sector-specific emissions data (`national-sector-emissions.json`).
+This generates all sector emissions files by default. Use `--municipalities`, `--regions`, or `--national` to limit output to a single level.
 
 The results will be saved in the `/output` folder in their respective JSON files.
 
