@@ -5,9 +5,9 @@ import sys
 
 
 STEPS = [
-    ("Municipality data",          ["generate_municipality_data.py"]),
-    ("Regional data",              ["generate_regional_data.py"]),
-    ("National data",              ["generate_national_data.py"]),
+    ("Municipality data",          ["generate_data.py"]),
+    ("Regional data",              ["generate_data.py", "--regions"]),
+    ("National data",              ["generate_data.py", "--national"]),
     ("Municipality sector emissions", ["sector_emissions.py"]),
     ("Regional sector emissions",  ["sector_emissions.py", "--regions"]),
     ("National sector emissions",  ["sector_emissions.py", "--national"]),

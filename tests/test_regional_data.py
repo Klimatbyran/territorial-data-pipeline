@@ -3,7 +3,7 @@ import json
 import unittest
 from pathlib import Path
 
-from generate_regional_data import create_regional_dataframe, df_to_dict
+from generate_data import create_regional_dataframe, df_to_dict
 from kpis.emissions.regional_emissions import regional_emission_calculations
 
 
