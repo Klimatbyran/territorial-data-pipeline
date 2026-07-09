@@ -25,6 +25,7 @@ def get_ev_share_2015_to_2024(territory_name: str, to_percent: bool = True):
 
     yearly_columns = [f"evChange_{year}" for year in years]
     df_cars = df_raw_cars.filter([territory_name] + yearly_columns, axis=1)
+    df_cars[territory_name] = df_cars[territory_name].astype(str).str.strip()
     return df_cars
 
 def get_ev_share_from_2025(territory_name: str, to_percent: bool = True):

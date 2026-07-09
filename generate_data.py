@@ -255,24 +255,28 @@ def national_series_to_dict(row: pd.Series, column_groups: Dict[str, List[Any]])
         "country": row["Land"],
         "logoUrl": row["coatOfArms"],
         "territorialFossilEmissions": {
-            str(year.strip("fossil_")): row[year]
-            for year in column_groups["fossil"]
+            str(col).replace("fossil_", ""): row[col]
+            for col in column_groups["fossil"]
+        },
+        "productionBasedEmissions": {
+            str(col).replace("production_based_", ""): row[col]
+            for col in column_groups["production_based"]
         },
         "biogenicEmissions": {
-            str(year.strip("biogenic_")): row[year]
-            for year in column_groups["biogenic"]
+            str(col).replace("biogenic_", ""): row[col]
+            for col in column_groups["biogenic"]
         },
         "consumptionAbroadEmissions": {
-            str(year.strip("consumption_")): row[year]
-            for year in column_groups["consumption"]
+            str(col).replace("consumption_", ""): row[col]
+            for col in column_groups["consumption"]
         },
         "exportOfOilProductsEmissions": {
-            str(year.strip("export_of_oil_products_")): row[year]
-            for year in column_groups["export_of_oil_products"]
+            str(col).replace("export_of_oil_products_", ""): row[col]
+            for col in column_groups["export_of_oil_products"]
         },
         "eCommerceEmissions": {
-            str(year.strip("e_commerce_")): row[year]
-            for year in column_groups["e_commerce"]
+            str(col).replace("e_commerce_", ""): row[col]
+            for col in column_groups["e_commerce"]
         },
     }
 
@@ -281,18 +285,23 @@ def national_df_to_dict(input_df: pd.DataFrame, num_decimals: int) -> List[Dict]
     """Convert national dataframe to list of dictionaries with optional decimal rounding."""
     cols = input_df.columns
     column_groups = {
-        "fossil": [c for c in cols if "fossil_" in str(c) and "approximated_fossil_" not in str(c)],
+        "fossil": [c for c in cols if str(c).startswith("fossil_")],
+        "production_based": [
+            c for c in cols if str(c).startswith("production_based_")
+        ],
         "biogenic": [
             c for c in cols
-            if "biogenic_" in str(c) and "approximated_biogenic_" not in str(c)
+            if str(c).startswith("biogenic_")
+            and "approximated_biogenic_" not in str(c)
         ],
         "consumption": [
             c for c in cols
-            if "consumption_" in str(c) and "approximated_consumption_" not in str(c)
+            if str(c).startswith("consumption_")
+            and "approximated_consumption_" not in str(c)
         ],
         "export_of_oil_products": [
             c for c in cols
-            if "export_of_oil_products_" in str(c)
+            if str(c).startswith("export_of_oil_products_")
             and "approximated_export_of_oil_products_" not in str(c)
         ],
         "e_commerce": [

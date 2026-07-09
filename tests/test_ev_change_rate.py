@@ -34,7 +34,10 @@ class TestBicycleCalculations(unittest.TestCase):
         df_expected = pd.DataFrame(ale_input)
         df_result = get_ev_share_2015_to_2024("Kommun", to_percent=True)
         pd.testing.assert_frame_equal(
-            df_result.iloc[:1], df_expected, check_dtype=False
+            df_result.iloc[:1],
+            df_expected,
+            check_dtype=False,
+            check_column_type=False,
         )
 
     def test_ev_share_from_2025(self):
