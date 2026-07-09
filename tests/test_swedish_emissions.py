@@ -41,13 +41,13 @@ class TestSwedishEmissions(unittest.TestCase):
         year_cols = [c for c in emissions_df.columns if isinstance(c, (int, float))]
         self.assertTrue(all(isinstance(int(y), int) for y in year_cols))
         self.assertEqual(min(year_cols), 1990)
-        self.assertGreaterEqual(max(year_cols), 2023)
+        self.assertGreaterEqual(max(year_cols), 2025)
 
         expected_vars = {
-            "Terr_CO2e_foss",
-            "Terr_CO2e_bio",
-            "Kons_utlandet",
-            "Export av oljeprodukter",
+            "Produktionsbaserade utsläpp",
+            "Biogena utsläpp",
+            "Konsumtionsbaserade utsläpp i utlandet",
+            "Utsläpp i utlandet pga export av oljeprodukter",
         }
         self.assertTrue(
             expected_vars.issubset(set(emissions_df.index)),
@@ -58,10 +58,10 @@ class TestSwedishEmissions(unittest.TestCase):
         """Test that the Swedish thousands are parsed as floats."""
         emissions_df = _load_swedish_emissions_source()
         self.assertEqual(
-            emissions_df.loc["Terr_CO2e_foss", 1990], 71_260_000
+            emissions_df.loc["Produktionsbaserade utsläpp", 1990], 73_268_216
         )
         self.assertEqual(
-            emissions_df.loc["Terr_CO2e_bio", 1990], 22_880_000
+            emissions_df.loc["Biogena utsläpp", 1990], 22_880_000
         )
 
     def test_e_handel_sheet_loads_2020_to_2025(self):
@@ -106,7 +106,8 @@ class TestSwedishEmissions(unittest.TestCase):
         original_cols = set(national.columns)
         extra = [c for c in emissions_df.columns if c not in original_cols]
         e_handel_cols = [f"e_commerce_{y}" for y in E_HANDEL_YEARS]
-        expected_count = len(COLUMN_NAMES) * len(summary.columns) + len(e_handel_cols)
+        mapped_variables = [v for v in summary.index if v in COLUMN_NAMES]
+        expected_count = len(mapped_variables) * len(summary.columns) + len(e_handel_cols)
         self.assertEqual(
             len(extra),
             expected_count,
@@ -115,7 +116,7 @@ class TestSwedishEmissions(unittest.TestCase):
         self.assertIn("biogenic_1990", emissions_df.columns)
         self.assertAlmostEqual(
             emissions_df["biogenic_1990"].iloc[0],
-            summary.loc["Terr_CO2e_bio", 1990],
+            summary.loc["Biogena utsläpp", 1990],
             places=3,
         )
     def _make_emissions_df(self) -> pd.DataFrame:
