@@ -10,13 +10,15 @@ PATH_LOAD_SWEDISH_EMISSIONS = (
 )
 SHEET_ALLA = "Alla"
 SHEET_E_HANDEL = "E-handel"
+SHEET_TERR_GHG = "Terr_GHG"
 HEADER_VARIABEL = "Variabel"
+NATIONAL_TERRITORIAL_ROW = "Alla_NV"
 E_HANDEL_YEARS = list(range(2020, 2026))
 LAST_YEAR = 2025
 
 COLUMN_NAMES: dict[str, str] = {
     "Terr_CO2e_foss": "fossil",
-    "Produktionsbaserade utsläpp": "fossil",
+    "Produktionsbaserade utsläpp": "production_based",
     "Terr_CO2e_bio": "biogenic",
     "Biogena utsläpp": "biogenic",
     "Kons_utlandet": "consumption",
@@ -86,6 +88,40 @@ def _load_swedish_emissions_source(
     return source_df
 
 
+def _load_territorial_emissions_source(
+    path: str = PATH_LOAD_SWEDISH_EMISSIONS,
+    sheet_name: str = SHEET_TERR_GHG,
+) -> pd.Series:
+    """
+    Load national territorial GHG emissions from the Terr_GHG sheet.
+
+    Returns:
+        Series indexed by year with float emission values.
+    """
+    source_df = pd.read_excel(path, sheet_name=sheet_name, header=None)
+    header_row_idx = next(
+        idx
+        for idx in range(len(source_df))
+        if 1990 in _year_columns(source_df.iloc[idx])
+    )
+    country_row_idx = source_df.index[
+        source_df.iloc[:, 3] == NATIONAL_TERRITORIAL_ROW
+    ][0]
+
+    year_positions = {
+        idx: _year_columns([source_df.iloc[header_row_idx, idx]])[0]
+        for idx in range(len(source_df.columns))
+        if _year_columns([source_df.iloc[header_row_idx, idx]])
+        and 1990 <= _year_columns([source_df.iloc[header_row_idx, idx]])[0] <= LAST_YEAR
+    }
+
+    values = {
+        year: _parse_numeric_cell(source_df.iloc[country_row_idx, col_idx])
+        for col_idx, year in year_positions.items()
+    }
+    return pd.Series(values)
+
+
 def _load_e_handel_emissions_source(
     path: str = PATH_LOAD_SWEDISH_EMISSIONS,
     sheet_name: str = SHEET_E_HANDEL,
@@ -133,8 +169,12 @@ def _extract_emissions(
     ``<variable>_<year>``.
     """
     summary_df = _load_swedish_emissions_source(path, sheet_name)
+    territorial_df = _load_territorial_emissions_source(path)
 
     emissions = {}
+    for year, value in territorial_df.items():
+        emissions[f"fossil_{year}"] = value
+
     for variable in summary_df.index:
         if variable not in COLUMN_NAMES:
             continue
@@ -161,7 +201,11 @@ def _calculate_total_emissions(emissions_df: pd.DataFrame) -> pd.DataFrame:
     """
     years = sorted({int(col.rsplit("_", 1)[-1]) for col in emissions_df.columns})
     for year in years:
-        year_cols = [col for col in emissions_df.columns if col.endswith(f"_{year}")]
+        year_cols = [
+            col
+            for col in emissions_df.columns
+            if col.endswith(f"_{year}") and not col.startswith("fossil_")
+        ]
         emissions_df[f"total_{year}"] = emissions_df[year_cols].sum(axis=1)
 
     return emissions_df
