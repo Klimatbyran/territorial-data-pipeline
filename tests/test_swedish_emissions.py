@@ -16,7 +16,9 @@ from kpis.emissions.swedish_emissions import (
     _load_territorial_emissions_source,
     _extract_emissions,
     _calculate_total_emissions,
+    create_swedish_emissions_df,
 )
+from generate_data import national_df_to_dict
 
 
 class TestSwedishEmissions(unittest.TestCase):
@@ -53,6 +55,50 @@ class TestSwedishEmissions(unittest.TestCase):
         self.assertTrue(
             expected_vars.issubset(set(emissions_df.index)),
             f"Missing expected variables; have {set(emissions_df.index)}",
+        )
+
+    def test_territorial_emissions_in_national_output(self):
+        """Territorial emissions are exported as territorialFossilEmissions in national JSON."""
+        territorial = _load_territorial_emissions_source()
+        national_df = create_swedish_emissions_df()
+        national_df["coatOfArms"] = "https://example.com/coat.svg"
+        national_data = national_df_to_dict(national_df, 2)[0]
+
+        self.assertIn("territorialFossilEmissions", national_data)
+        output = national_data["territorialFossilEmissions"]
+
+        self.assertEqual(list(territorial.index), list(range(1990, 2026)))
+        self.assertEqual(
+            sorted(output.keys()),
+            [str(year) for year in territorial.index],
+        )
+        self.assertTrue(all(value > 0 for value in output.values()))
+
+        spot_checks = {
+            1990: 71_230_000,
+            2000: 68_110_000,
+            2010: 64_170_000,
+            2020: 46_380_000,
+            2023: 44_820_000,
+            2024: 48_060_000,
+            2025: 46_730_000,
+        }
+        for year, expected in spot_checks.items():
+            self.assertEqual(
+                output[str(year)],
+                expected,
+                f"Unexpected territorial value for {year}",
+            )
+            self.assertEqual(
+                output[str(year)],
+                territorial[year],
+                f"National output diverged from Terr_GHG for {year}",
+            )
+
+        self.assertNotEqual(
+            output["1990"],
+            national_data["productionBasedEmissions"]["1990"],
+            "Territorial and production-based 1990 values should differ",
         )
 
     def test_load_territorial_emissions_from_terr_ghg(self):
