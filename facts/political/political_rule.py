@@ -4,7 +4,7 @@
 import pandas as pd
 
 
-PATH_POLITICAL_RULE = "facts/political/politicalRule2022.xlsx"
+PATH_POLITICAL_RULE = "facts/political/politicalRule_mandate2022.xlsx"
 
 
 def clean_municipality_name(name):
