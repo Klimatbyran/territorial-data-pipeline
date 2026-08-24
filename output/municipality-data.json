@@ -2076,8 +2076,8 @@
     "electricVehiclePerChargePoints": 18.432,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "L", "C"],
-    "politicalKSO": "M"
+    "politicalRule": ["KD", "L", "C", "MP", "S"],
+    "politicalKSO": "S"
   },
   {
     "name": "Eksjö",
