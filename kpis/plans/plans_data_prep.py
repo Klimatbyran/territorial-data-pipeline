@@ -1,4 +1,10 @@
 # -*- coding: utf-8 -*-
+"""
+DEPRECATED: Climate-plan columns for the website are no longer produced from
+klimatplaner.xlsx. Validate municipality-sources is the source of truth; the
+Unearth API overlays climatePlan* fields at request time. This module is kept
+for offline analysis only and is not called by generate_data.py.
+"""
 
 import pandas as pd
 

@@ -14,6 +14,8 @@ A Google Doc with example calculations for the emissions in Skövde municipality
 
 We obtain our information from multiple providers including SMHI, SCB, Trafa, and PowerCircle. Some of this information is stored directly in our repository, while other datasets are dynamically pulled from their original locations.
 
+**Climate plans (municipality):** `kpis/plans/klimatplaner.xlsx` is no longer the website source of truth. Municipality climate-plan fields (`climatePlanLink`, `climatePlanYear`, `climatePlanComment`) are overlaid at request time by the Unearth API from Validate municipality-sources. The xlsx and `plans_data_prep.py` remain available for offline analysis only.
+
 ### Data Transformation
 
 We utilize Python libraries such as Pandas and NumPy to perform various calculations on the collected data. This allows us to tailor the data into a format that is easier to understand and display on our website.
