@@ -26,7 +26,6 @@ from kpis.consumption.consumption_emissions import (
 from kpis.emissions.emission_data_calculations import emission_calculations
 from kpis.emissions.regional_emissions import regional_emission_calculations
 from kpis.emissions.swedish_emissions import create_swedish_emissions_df
-from kpis.plans.plans_data_prep import get_climate_plans
 from kpis.procurements.climate_requirements_in_procurements import get_procurement_data
 from sector_emissions import generate_sector_emissions, parse_selected_levels
 
@@ -103,18 +102,19 @@ def create_municipality_dataframe(to_percentage: bool) -> pd.DataFrame:
     )
     print("3. Hybrid car data and calculations added")
 
-    climate_plans_df = get_climate_plans(emissions_with_ev_change_rate_df)
-    print("4. Climate plans added")
+    # Climate plans are no longer merged from klimatplaner.xlsx (Validate
+    # municipality-sources is SoT; Unearth API overlays climatePlan* at request time).
+    print("4. Climate plans skipped (overlayed by Unearth API from municipality-sources)")
 
     bike_lane_df = calculate_bike_lane_per_capita()
-    climate_plans_with_bike_df = climate_plans_df.merge(
+    emissions_with_bike_df = emissions_with_ev_change_rate_df.merge(
         bike_lane_df, on="Kommun", how="left"
     )
     print("5. Bicycle data added")
 
     consumption_emissions_df = get_consumption_emissions()
     bike_lane_with_consumption_emissions_df = consumption_emissions_df.merge(
-        climate_plans_with_bike_df, on="Kommun", how="left"
+        emissions_with_bike_df, on="Kommun", how="left"
     )
     print("6. Consumption emission data added")
 
@@ -165,9 +165,11 @@ def municipality_series_to_dict(
         "historicalEmissionChangePercent": row["historicalEmissionChangePercent"],
         "hitNetZero": row["hit_net_zero"],
         "electricCarChangePercent": row["evChangeRate"],
-        "climatePlanLink": row["Länk till aktuell klimatplan"],
-        "climatePlanYear": row["Antagen år"],
-        "climatePlanComment": row["Namn, giltighetsår, kommentar"],
+        # Always None for schema compatibility; Unearth API overlays from
+        # climate-plans municipality-sources (Validate is SoT).
+        "climatePlanLink": None,
+        "climatePlanYear": None,
+        "climatePlanComment": None,
         "bicycleMetrePerCapita": row["bike_metre_per_capita"],
         "totalConsumptionEmission": row["consumption_emissions"],
         "electricVehiclePerChargePoints": (
