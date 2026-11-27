@@ -1,0 +1,8 @@
+{
+  "source": "https://www.svt.se/datajournalistik/de-styr-tillsammans-i-kommunerna-2026/",
+  "bundle": "https://australis.svt.se/quickshot/kross/widgets/AtD19/bundle/de008a01/app_kommunstyren.js",
+  "scraped_at": "2026-11-27",
+  "description": "SVT kommunstyren after 2026 election. y26.klar marks finished coalitions (273/290).",
+  "klar_count": 273,
+  "total": 290
+}

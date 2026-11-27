@@ -1,0 +1,12233 @@
+[
+  {
+    "k": "0114",
+    "n": "Upplands Väsby",
+    "lan": "01",
+    "pop": 50495,
+    "y22": {
+      "p": [
+        "S",
+        "L"
+      ],
+      "l": [
+        {
+          "id": "väsbysbästa",
+          "n": "Väsbys Bästa"
+        }
+      ],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "L"
+      ],
+      "l": [
+        {
+          "id": "väsbysbästa",
+          "n": "Väsbys Bästa"
+        }
+      ],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "MP"
+      ],
+      "l": [
+        {
+          "id": "väsbysbästa",
+          "n": "Väsbys Bästa"
+        }
+      ],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        33,
+        61
+      ]
+    }
+  },
+  {
+    "k": "0115",
+    "n": "Vallentuna",
+    "lan": "01",
+    "pop": 35361,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        28,
+        51
+      ]
+    }
+  },
+  {
+    "k": "0117",
+    "n": "Österåker",
+    "lan": "01",
+    "pop": 49943,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        34,
+        61
+      ]
+    }
+  },
+  {
+    "k": "0120",
+    "n": "Värmdö",
+    "lan": "01",
+    "pop": 46601,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "L",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "L",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "KD",
+        "SD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        26,
+        51
+      ]
+    }
+  },
+  {
+    "k": "0123",
+    "n": "Järfälla",
+    "lan": "01",
+    "pop": 90180,
+    "y22": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "MP",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        33,
+        61
+      ]
+    }
+  },
+  {
+    "k": "0125",
+    "n": "Ekerö",
+    "lan": "01",
+    "pop": 29062,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "KD",
+        "L",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        22,
+        41
+      ]
+    }
+  },
+  {
+    "k": "0126",
+    "n": "Huddinge",
+    "lan": "01",
+    "pop": 114686,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "MP"
+      ],
+      "l": [
+        {
+          "id": "huddingepartiet",
+          "n": "Huddingepartiet"
+        }
+      ],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "MP"
+      ],
+      "l": [
+        {
+          "id": "huddingepartiet",
+          "n": "Huddingepartiet"
+        }
+      ],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "MP",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        32,
+        61
+      ]
+    }
+  },
+  {
+    "k": "0127",
+    "n": "Botkyrka",
+    "lan": "01",
+    "pop": 96750,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "KD",
+        "L",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "tullingepartiet",
+          "n": "Tullingepartiet"
+        }
+      ],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "MP"
+      ],
+      "l": [
+        {
+          "id": "tup",
+          "n": "TuP"
+        }
+      ],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        45,
+        75
+      ]
+    }
+  },
+  {
+    "k": "0128",
+    "n": "Salem",
+    "lan": "01",
+    "pop": 17370,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "L"
+      ],
+      "l": [
+        {
+          "id": "rönningepartiet",
+          "n": "Rönningepartiet"
+        }
+      ],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "rönningepartiet",
+          "n": "Rönningepartiet"
+        }
+      ],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        17,
+        31
+      ]
+    }
+  },
+  {
+    "k": "0136",
+    "n": "Haninge",
+    "lan": "01",
+    "pop": 101408,
+    "y22": {
+      "p": [
+        "M",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "C",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        32,
+        61
+      ]
+    },
+    "korr": "Nytt styre S+V+C+MP (32 av 61 mandat), presenterat 12 okt",
+    "kalla": "https://www.mitti.se/nyheter/klart-de-tar-over-makten-i-haninge-6.3.390790.9ad5716146"
+  },
+  {
+    "k": "0138",
+    "n": "Tyresö",
+    "lan": "01",
+    "pop": 49645,
+    "y22": {
+      "p": [
+        "S",
+        "L",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "S"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        37,
+        61
+      ]
+    }
+  },
+  {
+    "k": "0139",
+    "n": "Upplands-Bro",
+    "lan": "01",
+    "pop": 33333,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        30,
+        51
+      ]
+    }
+  },
+  {
+    "k": "0140",
+    "n": "Nykvarn",
+    "lan": "01",
+    "pop": 12384,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "MP"
+      ],
+      "l": [
+        {
+          "id": "nykvarnspartiet",
+          "n": "Nykvarnspartiet"
+        }
+      ],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "MP"
+      ],
+      "l": [
+        {
+          "id": "nykvarnspartiet",
+          "n": "Nykvarnspartiet"
+        }
+      ],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        18,
+        31
+      ]
+    }
+  },
+  {
+    "k": "0160",
+    "n": "Täby",
+    "lan": "01",
+    "pop": 78514,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "L",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        37,
+        61
+      ]
+    }
+  },
+  {
+    "k": "0162",
+    "n": "Danderyd",
+    "lan": "01",
+    "pop": 32500,
+    "y22": {
+      "p": [
+        "M",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "L",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        28,
+        51
+      ]
+    }
+  },
+  {
+    "k": "0163",
+    "n": "Sollentuna",
+    "lan": "01",
+    "pop": 78033,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "C",
+        "L",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        31,
+        61
+      ]
+    }
+  },
+  {
+    "k": "0180",
+    "n": "Stockholm",
+    "lan": "01",
+    "pop": 999239,
+    "y22": {
+      "p": [
+        "S",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        53,
+        101
+      ]
+    }
+  },
+  {
+    "k": "0181",
+    "n": "Södertälje",
+    "lan": "01",
+    "pop": 102772,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [
+        {
+          "id": "realistpartiet",
+          "n": "Realistpartiet"
+        }
+      ],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        34,
+        65
+      ]
+    }
+  },
+  {
+    "k": "0182",
+    "n": "Nacka",
+    "lan": "01",
+    "pop": 113730,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet",
+      "mandat": [
+        30,
+        61
+      ]
+    }
+  },
+  {
+    "k": "0183",
+    "n": "Sundbyberg",
+    "lan": "01",
+    "pop": 57000,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        31,
+        61
+      ]
+    }
+  },
+  {
+    "k": "0184",
+    "n": "Solna",
+    "lan": "01",
+    "pop": 86435,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "C",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        34,
+        61
+      ]
+    }
+  },
+  {
+    "k": "0186",
+    "n": "Lidingö",
+    "lan": "01",
+    "pop": 48369,
+    "y22": {
+      "p": [
+        "M"
+      ],
+      "l": [
+        {
+          "id": "lidingöpartiet",
+          "n": "Lidingöpartiet"
+        }
+      ],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M"
+      ],
+      "l": [
+        {
+          "id": "lidingöpartiet",
+          "n": "Lidingöpartiet"
+        }
+      ],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M"
+      ],
+      "l": [
+        {
+          "id": "lidingöpartiet",
+          "n": "Lidingöpartiet"
+        }
+      ],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        31,
+        61
+      ]
+    }
+  },
+  {
+    "k": "0187",
+    "n": "Vaxholm",
+    "lan": "01",
+    "pop": 11636,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "KD",
+        "L",
+        "V"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "KD",
+        "L",
+        "V"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": false,
+      "p": [],
+      "l": [],
+      "kso": null,
+      "maj": null
+    }
+  },
+  {
+    "k": "0188",
+    "n": "Norrtälje",
+    "lan": "01",
+    "pop": 66832,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "L",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "L",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet",
+      "mandat": [
+        28,
+        61
+      ]
+    }
+  },
+  {
+    "k": "0191",
+    "n": "Sigtuna",
+    "lan": "01",
+    "pop": 53365,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [
+        {
+          "id": "samlingförsigtuna",
+          "n": "Samling för Sigtuna (SfS)"
+        }
+      ],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "samlingförsigtuna",
+          "n": "Samling för Sigtuna (SfS)"
+        }
+      ],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        31,
+        61
+      ]
+    }
+  },
+  {
+    "k": "0192",
+    "n": "Nynäshamn",
+    "lan": "01",
+    "pop": 30610,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "MP"
+      ],
+      "l": [
+        {
+          "id": "sorundanetnynäshamnskommunparti",
+          "n": "Sorundanet Nynäshamns kommunparti"
+        },
+        {
+          "id": "pensionärspartietinynäshamnskommun",
+          "n": "Pensionärspartiet i Nynäshamns kommun"
+        }
+      ],
+      "kso": "S",
+      "maj": "Minoritet",
+      "mandat": [
+        20,
+        41
+      ]
+    }
+  },
+  {
+    "k": "0305",
+    "n": "Håbo",
+    "lan": "03",
+    "pop": 23252,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "S",
+        "C",
+        "KD",
+        "MP"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        21,
+        41
+      ]
+    },
+    "korr": "Verifierad: M+S+C+KD+MP, eget majoritetsstyre (21 av 41). DS rättade sig själv efter vår första kontroll",
+    "kalla": "https://www.habo.se/kommun-och-politik/nyhetsarkiv/nyheter-2026-kommun-och-politik/2026-10-20-nya-kommunfullmaktige-samlades-for-forsta-gangen.html"
+  },
+  {
+    "k": "0319",
+    "n": "Älvkarleby",
+    "lan": "03",
+    "pop": 9573,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "V",
+        "MP"
+      ],
+      "l": [
+        {
+          "id": "kommunensväl",
+          "n": "Kommunens väl"
+        }
+      ],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "V",
+        "MP"
+      ],
+      "l": [
+        {
+          "id": "kommunensväl",
+          "n": "Kommunens väl"
+        }
+      ],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        16,
+        31
+      ]
+    }
+  },
+  {
+    "k": "0330",
+    "n": "Knivsta",
+    "lan": "03",
+    "pop": 21733,
+    "y22": {
+      "p": [
+        "SD",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "knivstanu",
+          "n": "Knivsta.nu"
+        }
+      ],
+      "kso": "Knivsta.nu"
+    },
+    "y26pre": {
+      "p": [
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "knivstanu",
+          "n": "Knivsta.nu"
+        }
+      ],
+      "kso": "Knivsta.nu",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [
+        {
+          "id": "knivstanu",
+          "n": "Knivsta.nu"
+        }
+      ],
+      "kso": "Knivsta.nu",
+      "maj": "Majoritet",
+      "mandat": [
+        16,
+        31
+      ]
+    }
+  },
+  {
+    "k": "0331",
+    "n": "Heby",
+    "lan": "03",
+    "pop": 14275,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "C"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "C/S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "KD",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        21,
+        41
+      ]
+    },
+    "korr": "Verifierad: S+C+KD+MP (21 av 41); V stödparti utanför styret. DS rättade sig själv efter vår första kontroll",
+    "kalla": "https://ortsaktuellt.se/2026/10/kristdemokraterna-har-bestamt-sig/"
+  },
+  {
+    "k": "0360",
+    "n": "Tierp",
+    "lan": "03",
+    "pop": 21028,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "C"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": false,
+      "p": [],
+      "l": [],
+      "kso": null,
+      "maj": null
+    }
+  },
+  {
+    "k": "0380",
+    "n": "Uppsala",
+    "lan": "03",
+    "pop": 249726,
+    "y22": {
+      "p": [
+        "S",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "MP",
+        "V",
+        "L"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        43,
+        81
+      ]
+    }
+  },
+  {
+    "k": "0381",
+    "n": "Enköping",
+    "lan": "03",
+    "pop": 48804,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L",
+        "MP"
+      ],
+      "l": [
+        {
+          "id": "nystartenköping",
+          "n": "Nystart Enköping"
+        }
+      ],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L",
+        "MP"
+      ],
+      "l": [
+        {
+          "id": "nystartenköping",
+          "n": "Nystart Enköping"
+        }
+      ],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M",
+        "L"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        31,
+        61
+      ]
+    }
+  },
+  {
+    "k": "0382",
+    "n": "Östhammar",
+    "lan": "03",
+    "pop": 22181,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "lokalpartietboa",
+          "n": "Lokalpartiet BOA"
+        }
+      ],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "lokalpartietboa",
+          "n": "Lokalpartiet BOA"
+        }
+      ],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "lokalpartietboa",
+          "n": "Lokalpartiet BOA"
+        }
+      ],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        26,
+        49
+      ]
+    }
+  },
+  {
+    "k": "0428",
+    "n": "Vingåker",
+    "lan": "04",
+    "pop": 8666,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "SD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        17,
+        31
+      ]
+    }
+  },
+  {
+    "k": "0461",
+    "n": "Gnesta",
+    "lan": "04",
+    "pop": 11343,
+    "y22": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "MP",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        16,
+        31
+      ]
+    }
+  },
+  {
+    "k": "0480",
+    "n": "Nyköping",
+    "lan": "04",
+    "pop": 58310,
+    "y22": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet",
+      "mandat": [
+        29,
+        61
+      ]
+    }
+  },
+  {
+    "k": "0481",
+    "n": "Oxelösund",
+    "lan": "04",
+    "pop": 11962,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        16,
+        31
+      ]
+    }
+  },
+  {
+    "k": "0482",
+    "n": "Flen",
+    "lan": "04",
+    "pop": 15095,
+    "y22": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L",
+        "MP"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet",
+      "mandat": [
+        16,
+        39
+      ]
+    }
+  },
+  {
+    "k": "0483",
+    "n": "Katrineholm",
+    "lan": "04",
+    "pop": 33984,
+    "y22": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        28,
+        51
+      ]
+    }
+  },
+  {
+    "k": "0484",
+    "n": "Eskilstuna",
+    "lan": "04",
+    "pop": 106789,
+    "y22": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        36,
+        65
+      ]
+    }
+  },
+  {
+    "k": "0486",
+    "n": "Strängnäs",
+    "lan": "04",
+    "pop": 39387,
+    "y22": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "S"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        30,
+        55
+      ]
+    }
+  },
+  {
+    "k": "0488",
+    "n": "Trosa",
+    "lan": "04",
+    "pop": 14900,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        19,
+        35
+      ]
+    }
+  },
+  {
+    "k": "0509",
+    "n": "Ödeshög",
+    "lan": "05",
+    "pop": 5221,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "C"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "C"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        16,
+        29
+      ]
+    }
+  },
+  {
+    "k": "0512",
+    "n": "Ydre",
+    "lan": "05",
+    "pop": 3619,
+    "y22": {
+      "p": [
+        "M",
+        "C"
+      ],
+      "l": [],
+      "kso": "C"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "C",
+        "S"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Majoritet",
+      "mandat": [
+        11,
+        21
+      ]
+    }
+  },
+  {
+    "k": "0513",
+    "n": "Kinda",
+    "lan": "05",
+    "pop": 9924,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "S"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        18,
+        35
+      ]
+    }
+  },
+  {
+    "k": "0560",
+    "n": "Boxholm",
+    "lan": "05",
+    "pop": 5451,
+    "y22": {
+      "p": [
+        "S"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        15,
+        29
+      ]
+    }
+  },
+  {
+    "k": "0561",
+    "n": "Åtvidaberg",
+    "lan": "05",
+    "pop": 11490,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "L",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "L",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        19,
+        35
+      ]
+    },
+    "korr": "Nytt styre S+M med egen majoritet, presenterat 23 sep; KSO väljs av fullmäktige 14 dec",
+    "kalla": "https://www.svt.se/nyheter/lokalt/ost/klart-har-ar-nya-styret-i-atvidabergs-kommun"
+  },
+  {
+    "k": "0562",
+    "n": "Finspång",
+    "lan": "05",
+    "pop": 21502,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": false,
+      "p": [],
+      "l": [],
+      "kso": null,
+      "maj": null
+    }
+  },
+  {
+    "k": "0563",
+    "n": "Valdemarsvik",
+    "lan": "05",
+    "pop": 7526,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "lpo",
+          "n": "Landsbygdspartiet Oberoende"
+        }
+      ],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "lpo",
+          "n": "Landsbygdspartiet Oberoende"
+        }
+      ],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet",
+      "mandat": [
+        14,
+        31
+      ]
+    }
+  },
+  {
+    "k": "0580",
+    "n": "Linköping",
+    "lan": "05",
+    "pop": 168714,
+    "y22": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "C"
+      ],
+      "l": [
+        {
+          "id": "linköpingslistan",
+          "n": "Linköpingslistan"
+        }
+      ],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        40,
+        79
+      ]
+    }
+  },
+  {
+    "k": "0581",
+    "n": "Norrköping",
+    "lan": "05",
+    "pop": 144904,
+    "y22": {
+      "p": [
+        "M",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "MP",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        43,
+        85
+      ]
+    }
+  },
+  {
+    "k": "0582",
+    "n": "Söderköping",
+    "lan": "05",
+    "pop": 14741,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "S",
+        "KD",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        25,
+        39
+      ]
+    }
+  },
+  {
+    "k": "0583",
+    "n": "Motala",
+    "lan": "05",
+    "pop": 43131,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        30,
+        57
+      ]
+    }
+  },
+  {
+    "k": "0584",
+    "n": "Vadstena",
+    "lan": "05",
+    "pop": 7484,
+    "y22": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M"
+      ],
+      "l": [
+        {
+          "id": "konsensus",
+          "n": "Konsensus"
+        }
+      ],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        19,
+        35
+      ]
+    }
+  },
+  {
+    "k": "0586",
+    "n": "Mjölby",
+    "lan": "05",
+    "pop": 28823,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "KD",
+        "L",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "KD",
+        "L",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "L",
+        "KD",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        23,
+        45
+      ]
+    },
+    "korr": "MP tillagt; koalitionen 'Handslag för Mjölby' = S, C, L, KD, MP",
+    "kalla": "https://www.mjolby.se/nyheter/nyheter/2026-10-09-handslag-for-mjolby-fortsatter-att-styra-kommunen"
+  },
+  {
+    "k": "0604",
+    "n": "Aneby",
+    "lan": "06",
+    "pop": 6851,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "C"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        19,
+        35
+      ]
+    }
+  },
+  {
+    "k": "0617",
+    "n": "Gnosjö",
+    "lan": "06",
+    "pop": 9010,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "KD",
+        "C"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        18,
+        35
+      ]
+    }
+  },
+  {
+    "k": "0642",
+    "n": "Mullsjö",
+    "lan": "06",
+    "pop": 7546,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "KD"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "KD",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "M",
+        "L",
+        "C"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        17,
+        31
+      ]
+    }
+  },
+  {
+    "k": "0643",
+    "n": "Habo",
+    "lan": "06",
+    "pop": 13511,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "KD",
+        "C",
+        "V",
+        "MP"
+      ],
+      "l": [
+        {
+          "id": "liberaltinitiativihabo",
+          "n": "Liberalt initiativ i Habo"
+        }
+      ],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        18,
+        35
+      ]
+    }
+  },
+  {
+    "k": "0662",
+    "n": "Gislaved",
+    "lan": "06",
+    "pop": 28641,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "C",
+        "L"
+      ],
+      "l": [
+        {
+          "id": "westbopartiet",
+          "n": "Westbopartiet"
+        }
+      ],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "C",
+        "L"
+      ],
+      "l": [
+        {
+          "id": "westbopartiet",
+          "n": "Westbopartiet"
+        }
+      ],
+      "kso": "S/M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [
+        {
+          "id": "medborgarpartietigislaved",
+          "n": "Medborgarpartiet i Gislaved"
+        },
+        {
+          "id": "westbopartiet",
+          "n": "Westbopartiet"
+        }
+      ],
+      "kso": "Medborgarpartiet i Gislaved",
+      "maj": "Majoritet",
+      "mandat": [
+        25,
+        49
+      ]
+    }
+  },
+  {
+    "k": "0665",
+    "n": "Vaggeryd",
+    "lan": "06",
+    "pop": 14943,
+    "y22": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "M/S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        21,
+        41
+      ]
+    }
+  },
+  {
+    "k": "0680",
+    "n": "Jönköping",
+    "lan": "06",
+    "pop": 148152,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "C"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet",
+      "mandat": [
+        29,
+        81
+      ]
+    }
+  },
+  {
+    "k": "0682",
+    "n": "Nässjö",
+    "lan": "06",
+    "pop": 31474,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "KD",
+        "V"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "KD",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        29,
+        57
+      ]
+    }
+  },
+  {
+    "k": "0683",
+    "n": "Värnamo",
+    "lan": "06",
+    "pop": 34534,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        26,
+        51
+      ]
+    }
+  },
+  {
+    "k": "0684",
+    "n": "Sävsjö",
+    "lan": "06",
+    "pop": 11531,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "KD"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "KD",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        22,
+        39
+      ]
+    }
+  },
+  {
+    "k": "0685",
+    "n": "Vetlanda",
+    "lan": "06",
+    "pop": 27313,
+    "y22": {
+      "p": [
+        "M",
+        "SD"
+      ],
+      "l": [
+        {
+          "id": "vetlandaframåtanda",
+          "n": "Vetlanda framåtanda"
+        }
+      ],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD"
+      ],
+      "l": [
+        {
+          "id": "vetlandaframåtanda",
+          "n": "Vetlanda framåtanda"
+        }
+      ],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M",
+        "C"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        24,
+        45
+      ]
+    }
+  },
+  {
+    "k": "0686",
+    "n": "Eksjö",
+    "lan": "06",
+    "pop": 17660,
+    "y22": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        26,
+        49
+      ]
+    }
+  },
+  {
+    "k": "0687",
+    "n": "Tranås",
+    "lan": "06",
+    "pop": 18555,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        23,
+        41
+      ]
+    }
+  },
+  {
+    "k": "0760",
+    "n": "Uppvidinge",
+    "lan": "07",
+    "pop": 8911,
+    "y22": {
+      "p": [
+        "SD",
+        "C",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "lpo",
+          "n": "Landsbygdspartiet Oberoende"
+        }
+      ],
+      "kso": "SD"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "V"
+      ],
+      "l": [
+        {
+          "id": "lpo",
+          "n": "Landsbygdspartiet Oberoende"
+        }
+      ],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "SD",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "SD",
+      "maj": "Majoritet",
+      "mandat": [
+        18,
+        31
+      ]
+    }
+  },
+  {
+    "k": "0761",
+    "n": "Lessebo",
+    "lan": "07",
+    "pop": 8115,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "V"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        18,
+        35
+      ]
+    }
+  },
+  {
+    "k": "0763",
+    "n": "Tingsryd",
+    "lan": "07",
+    "pop": 11896,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        21,
+        41
+      ]
+    }
+  },
+  {
+    "k": "0764",
+    "n": "Alvesta",
+    "lan": "07",
+    "pop": 19687,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "alvestaalternativet",
+          "n": "Alvestaalternativet"
+        }
+      ],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        26,
+        49
+      ]
+    }
+  },
+  {
+    "k": "0765",
+    "n": "Älmhult",
+    "lan": "07",
+    "pop": 17579,
+    "y22": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        22,
+        41
+      ]
+    }
+  },
+  {
+    "k": "0767",
+    "n": "Markaryd",
+    "lan": "07",
+    "pop": 9862,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "KD"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "KD",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "KD",
+        "M",
+        "C"
+      ],
+      "l": [],
+      "kso": "KD",
+      "maj": "Majoritet",
+      "mandat": [
+        20,
+        35
+      ]
+    }
+  },
+  {
+    "k": "0780",
+    "n": "Växjö",
+    "lan": "07",
+    "pop": 98940,
+    "y22": {
+      "p": [
+        "S",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "KD",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet",
+      "mandat": [
+        25,
+        61
+      ]
+    }
+  },
+  {
+    "k": "0781",
+    "n": "Ljungby",
+    "lan": "07",
+    "pop": 28132,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "MP"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        25,
+        49
+      ]
+    }
+  },
+  {
+    "k": "0821",
+    "n": "Högsby",
+    "lan": "08",
+    "pop": 5134,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "V"
+      ],
+      "l": [],
+      "kso": "C"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "V"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "KD",
+        "SD",
+        "M"
+      ],
+      "l": [],
+      "kso": "KD",
+      "maj": "Majoritet",
+      "mandat": [
+        17,
+        31
+      ]
+    }
+  },
+  {
+    "k": "0834",
+    "n": "Torsås",
+    "lan": "08",
+    "pop": 6919,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "C",
+        "V"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "C",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "M",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        19,
+        31
+      ]
+    }
+  },
+  {
+    "k": "0840",
+    "n": "Mörbylånga",
+    "lan": "08",
+    "pop": 16306,
+    "y22": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "MP",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        22,
+        43
+      ]
+    }
+  },
+  {
+    "k": "0860",
+    "n": "Hultsfred",
+    "lan": "08",
+    "pop": 13484,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "C"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        23,
+        45
+      ]
+    }
+  },
+  {
+    "k": "0861",
+    "n": "Mönsterås",
+    "lan": "08",
+    "pop": 12978,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "C"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        26,
+        49
+      ]
+    }
+  },
+  {
+    "k": "0862",
+    "n": "Emmaboda",
+    "lan": "08",
+    "pop": 8807,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "C"
+    },
+    "y26pre": {
+      "p": [
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        20,
+        35
+      ]
+    }
+  },
+  {
+    "k": "0880",
+    "n": "Kalmar",
+    "lan": "08",
+    "pop": 73068,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "V"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        39,
+        61
+      ]
+    }
+  },
+  {
+    "k": "0881",
+    "n": "Nybro",
+    "lan": "08",
+    "pop": 19803,
+    "y22": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        20,
+        41
+      ]
+    }
+  },
+  {
+    "k": "0882",
+    "n": "Oskarshamn",
+    "lan": "08",
+    "pop": 26762,
+    "y22": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "SD",
+        "M",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        27,
+        49
+      ]
+    }
+  },
+  {
+    "k": "0883",
+    "n": "Västervik",
+    "lan": "08",
+    "pop": 36269,
+    "y22": {
+      "p": [
+        "M",
+        "KD",
+        "L"
+      ],
+      "l": [
+        {
+          "id": "westervikspartiet",
+          "n": "Westervikspartiet (W)"
+        }
+      ],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "KD",
+        "L"
+      ],
+      "l": [
+        {
+          "id": "westervikspartiet",
+          "n": "Westervikspartiet (W)"
+        }
+      ],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        29,
+        57
+      ]
+    }
+  },
+  {
+    "k": "0884",
+    "n": "Vimmerby",
+    "lan": "08",
+    "pop": 15327,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "V"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        24,
+        45
+      ]
+    }
+  },
+  {
+    "k": "0885",
+    "n": "Borgholm",
+    "lan": "08",
+    "pop": 10626,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "V"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        18,
+        35
+      ]
+    }
+  },
+  {
+    "k": "0980",
+    "n": "Gotland",
+    "lan": "09",
+    "pop": 60852,
+    "y22": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        40,
+        71
+      ]
+    }
+  },
+  {
+    "k": "1060",
+    "n": "Olofström",
+    "lan": "10",
+    "pop": 12844,
+    "y22": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        26,
+        49
+      ]
+    }
+  },
+  {
+    "k": "1080",
+    "n": "Karlskrona",
+    "lan": "10",
+    "pop": 66021,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        39,
+        75
+      ]
+    }
+  },
+  {
+    "k": "1081",
+    "n": "Ronneby",
+    "lan": "10",
+    "pop": 28708,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet",
+      "mandat": [
+        19,
+        49
+      ]
+    }
+  },
+  {
+    "k": "1082",
+    "n": "Karlshamn",
+    "lan": "10",
+    "pop": 31642,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "MP",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        27,
+        51
+      ]
+    }
+  },
+  {
+    "k": "1083",
+    "n": "Sölvesborg",
+    "lan": "10",
+    "pop": 17405,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "C"
+      ],
+      "l": [
+        {
+          "id": "sol",
+          "n": "SoL"
+        }
+      ],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "C"
+      ],
+      "l": [
+        {
+          "id": "sol",
+          "n": "SoL"
+        }
+      ],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M",
+        "C"
+      ],
+      "l": [
+        {
+          "id": "sol",
+          "n": "SoL"
+        }
+      ],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        25,
+        49
+      ]
+    }
+  },
+  {
+    "k": "1214",
+    "n": "Svalöv",
+    "lan": "12",
+    "pop": 14474,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "SD"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "SD",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "SD",
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": "SD",
+      "maj": "Majoritet",
+      "mandat": [
+        18,
+        35
+      ]
+    }
+  },
+  {
+    "k": "1230",
+    "n": "Staffanstorp",
+    "lan": "12",
+    "pop": 27482,
+    "y22": {
+      "p": [
+        "M",
+        "SD"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        22,
+        41
+      ]
+    },
+    "korr": "M styr ensamt med egen majoritet (22 av 41) — enda kommunen i landet där M fick egen majoritet; Christian Sonesson (M) fortsatt KSO",
+    "kalla": "https://www.dn.se/sverige/har-fick-m-egen-majoritet-enda-kommunen-i-landet/"
+  },
+  {
+    "k": "1231",
+    "n": "Burlöv",
+    "lan": "12",
+    "pop": 20444,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "MP",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        23,
+        41
+      ]
+    }
+  },
+  {
+    "k": "1233",
+    "n": "Vellinge",
+    "lan": "12",
+    "pop": 37833,
+    "y22": {
+      "p": [
+        "M"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet",
+      "mandat": [
+        24,
+        51
+      ]
+    }
+  },
+  {
+    "k": "1256",
+    "n": "Östra Göinge",
+    "lan": "12",
+    "pop": 13718,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        17,
+        31
+      ]
+    }
+  },
+  {
+    "k": "1257",
+    "n": "Örkelljunga",
+    "lan": "12",
+    "pop": 10293,
+    "y22": {
+      "p": [
+        "M",
+        "SD"
+      ],
+      "l": [],
+      "kso": "SD"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD"
+      ],
+      "l": [],
+      "kso": "SD",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet",
+      "mandat": [
+        13,
+        37
+      ]
+    }
+  },
+  {
+    "k": "1260",
+    "n": "Bjuv",
+    "lan": "12",
+    "pop": 16052,
+    "y22": {
+      "p": [
+        "M",
+        "SD"
+      ],
+      "l": [],
+      "kso": "SD"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD"
+      ],
+      "l": [],
+      "kso": "SD",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "KD",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet",
+      "mandat": [
+        14,
+        31
+      ]
+    }
+  },
+  {
+    "k": "1261",
+    "n": "Kävlinge",
+    "lan": "12",
+    "pop": 32655,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "L",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        27,
+        51
+      ]
+    }
+  },
+  {
+    "k": "1262",
+    "n": "Lomma",
+    "lan": "12",
+    "pop": 24677,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": false,
+      "p": [],
+      "l": [],
+      "kso": null,
+      "maj": null
+    }
+  },
+  {
+    "k": "1263",
+    "n": "Svedala",
+    "lan": "12",
+    "pop": 23714,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [
+        {
+          "id": "barapartiet",
+          "n": "Barapartiet"
+        }
+      ],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [
+        {
+          "id": "barapartiet",
+          "n": "Barapartiet"
+        }
+      ],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "C",
+        "L"
+      ],
+      "l": [
+        {
+          "id": "barapartiet",
+          "n": "Barapartiet"
+        }
+      ],
+      "kso": "M",
+      "maj": "Minoritet",
+      "mandat": [
+        17,
+        45
+      ]
+    }
+  },
+  {
+    "k": "1264",
+    "n": "Skurup",
+    "lan": "12",
+    "pop": 17139,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        25,
+        39
+      ]
+    }
+  },
+  {
+    "k": "1265",
+    "n": "Sjöbo",
+    "lan": "12",
+    "pop": 19397,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "SD",
+      "maj": "Minoritet",
+      "mandat": [
+        19,
+        41
+      ]
+    }
+  },
+  {
+    "k": "1266",
+    "n": "Hörby",
+    "lan": "12",
+    "pop": 15559,
+    "y22": {
+      "p": [
+        "M",
+        "SD"
+      ],
+      "l": [],
+      "kso": "SD"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD"
+      ],
+      "l": [],
+      "kso": "SD",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "SD",
+        "M",
+        "L"
+      ],
+      "l": [],
+      "kso": "SD",
+      "maj": "Majoritet",
+      "mandat": [
+        18,
+        31
+      ]
+    }
+  },
+  {
+    "k": "1267",
+    "n": "Höör",
+    "lan": "12",
+    "pop": 17680,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": false,
+      "p": [],
+      "l": [],
+      "kso": null,
+      "maj": null
+    }
+  },
+  {
+    "k": "1270",
+    "n": "Tomelilla",
+    "lan": "12",
+    "pop": 13669,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "SD",
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        23,
+        41
+      ]
+    }
+  },
+  {
+    "k": "1272",
+    "n": "Bromölla",
+    "lan": "12",
+    "pop": 12497,
+    "y22": {
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        16,
+        31
+      ]
+    }
+  },
+  {
+    "k": "1273",
+    "n": "Osby",
+    "lan": "12",
+    "pop": 12861,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "C"
+    },
+    "y26pre": {
+      "p": [
+        "C"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        20,
+        35
+      ]
+    }
+  },
+  {
+    "k": "1275",
+    "n": "Perstorp",
+    "lan": "12",
+    "pop": 7115,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "perstorpsframtid",
+          "n": "Perstorps framtid"
+        }
+      ],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "perstorpsframtid",
+          "n": "Perstorps framtid"
+        }
+      ],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "viiperstorp",
+          "n": "Vi i Perstorp"
+        },
+        {
+          "id": "perstorpsframtid",
+          "n": "Perstorps framtid"
+        }
+      ],
+      "kso": "Vi i Perstorp",
+      "maj": "Minoritet",
+      "mandat": [
+        13,
+        27
+      ]
+    }
+  },
+  {
+    "k": "1276",
+    "n": "Klippan",
+    "lan": "12",
+    "pop": 17713,
+    "y22": {
+      "p": [
+        "SD",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "vårframtidklippan",
+          "n": "Vår Framtid Klippan (VF)"
+        }
+      ],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "vårframtidklippan",
+          "n": "Vår Framtid Klippan (VF)"
+        }
+      ],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet",
+      "mandat": [
+        15,
+        35
+      ]
+    }
+  },
+  {
+    "k": "1277",
+    "n": "Åstorp",
+    "lan": "12",
+    "pop": 16491,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "SD"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "SD",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "SD",
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": "SD",
+      "maj": "Minoritet",
+      "mandat": [
+        15,
+        31
+      ]
+    },
+    "korr": "Verifierad: SD+M+KD fortsätter styra i minoritet (15 av 31), Peter Lindberg (SD) KSO — ingen ändring",
+    "kalla": "https://www.hd.se/astorp/klart-astorp-styrs-i-minoritet/"
+  },
+  {
+    "k": "1278",
+    "n": "Båstad",
+    "lan": "12",
+    "pop": 16046,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "S",
+        "L",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        22,
+        37
+      ]
+    }
+  },
+  {
+    "k": "1280",
+    "n": "Malmö",
+    "lan": "12",
+    "pop": 367924,
+    "y22": {
+      "p": [
+        "S",
+        "L",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "L",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        35,
+        61
+      ]
+    }
+  },
+  {
+    "k": "1281",
+    "n": "Lund",
+    "lan": "12",
+    "pop": 132333,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet",
+      "mandat": [
+        29,
+        65
+      ]
+    }
+  },
+  {
+    "k": "1282",
+    "n": "Landskrona",
+    "lan": "12",
+    "pop": 47571,
+    "y22": {
+      "p": [
+        "M",
+        "L",
+        "MP"
+      ],
+      "l": [],
+      "kso": "L"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "L",
+        "MP"
+      ],
+      "l": [],
+      "kso": "L",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "L",
+        "M",
+        "MP"
+      ],
+      "l": [],
+      "kso": "L",
+      "maj": "Majoritet",
+      "mandat": [
+        32,
+        61
+      ]
+    }
+  },
+  {
+    "k": "1283",
+    "n": "Helsingborg",
+    "lan": "12",
+    "pop": 152776,
+    "y22": {
+      "p": [
+        "M",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        33,
+        65
+      ]
+    }
+  },
+  {
+    "k": "1284",
+    "n": "Höganäs",
+    "lan": "12",
+    "pop": 28489,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "MP"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "MP"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "MP",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        26,
+        41
+      ]
+    }
+  },
+  {
+    "k": "1285",
+    "n": "Eslöv",
+    "lan": "12",
+    "pop": 35126,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "L"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "L"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M",
+        "L"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        26,
+        51
+      ]
+    }
+  },
+  {
+    "k": "1286",
+    "n": "Ystad",
+    "lan": "12",
+    "pop": 32188,
+    "y22": {
+      "p": [
+        "M",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        27,
+        51
+      ]
+    }
+  },
+  {
+    "k": "1287",
+    "n": "Trelleborg",
+    "lan": "12",
+    "pop": 47405,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "SD",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        32,
+        61
+      ]
+    }
+  },
+  {
+    "k": "1290",
+    "n": "Kristianstad",
+    "lan": "12",
+    "pop": 85908,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        35,
+        65
+      ]
+    }
+  },
+  {
+    "k": "1291",
+    "n": "Simrishamn",
+    "lan": "12",
+    "pop": 18779,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": false,
+      "p": [],
+      "l": [],
+      "kso": null,
+      "maj": null
+    }
+  },
+  {
+    "k": "1292",
+    "n": "Ängelholm",
+    "lan": "12",
+    "pop": 45159,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet",
+      "mandat": [
+        22,
+        51
+      ]
+    }
+  },
+  {
+    "k": "1293",
+    "n": "Hässleholm",
+    "lan": "12",
+    "pop": 51915,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "SD"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M",
+        "L"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet",
+      "mandat": [
+        24,
+        61
+      ]
+    }
+  },
+  {
+    "k": "1315",
+    "n": "Hylte",
+    "lan": "13",
+    "pop": 10094,
+    "y22": {
+      "p": [
+        "S",
+        "L",
+        "V"
+      ],
+      "l": [
+        {
+          "id": "kommunensväl",
+          "n": "Kommunens väl"
+        }
+      ],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "L",
+        "V"
+      ],
+      "l": [
+        {
+          "id": "kommunensväl",
+          "n": "Kommunens väl"
+        }
+      ],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "kommunensväl",
+          "n": "Kommunens väl"
+        }
+      ],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        22,
+        41
+      ]
+    }
+  },
+  {
+    "k": "1380",
+    "n": "Halmstad",
+    "lan": "13",
+    "pop": 106315,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "KD",
+        "C",
+        "MP",
+        "L"
+      ],
+      "l": [
+        {
+          "id": "halmstadpartiet",
+          "n": "Halmstadpartiet"
+        }
+      ],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        37,
+        71
+      ]
+    }
+  },
+  {
+    "k": "1381",
+    "n": "Laholm",
+    "lan": "13",
+    "pop": 26565,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "C"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": null,
+      "mandat": [
+        24,
+        41
+      ]
+    }
+  },
+  {
+    "k": "1382",
+    "n": "Falkenberg",
+    "lan": "13",
+    "pop": 47321,
+    "y22": {
+      "p": [
+        "S",
+        "KD",
+        "L",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "KD",
+        "L",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "C",
+        "L",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet",
+      "mandat": [
+        27,
+        61
+      ]
+    }
+  },
+  {
+    "k": "1383",
+    "n": "Varberg",
+    "lan": "13",
+    "pop": 69460,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "V",
+        "KD",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        32,
+        61
+      ]
+    }
+  },
+  {
+    "k": "1384",
+    "n": "Kungsbacka",
+    "lan": "13",
+    "pop": 86332,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "C",
+        "L",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        33,
+        61
+      ]
+    }
+  },
+  {
+    "k": "1401",
+    "n": "Härryda",
+    "lan": "14",
+    "pop": 40011,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [
+        {
+          "id": "sportkommunpartiet",
+          "n": "Sport- och kommunpartiet"
+        }
+      ],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [
+        {
+          "id": "sportkommunpartiet",
+          "n": "Sport- och kommunpartiet"
+        }
+      ],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "C",
+        "L",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "sportkommunpartiet",
+          "n": "Sport- och kommunpartiet"
+        }
+      ],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        26,
+        51
+      ]
+    }
+  },
+  {
+    "k": "1402",
+    "n": "Partille",
+    "lan": "14",
+    "pop": 41164,
+    "y22": {
+      "p": [
+        "M",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "MP",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        26,
+        51
+      ]
+    }
+  },
+  {
+    "k": "1407",
+    "n": "Öckerö",
+    "lan": "14",
+    "pop": 12863,
+    "y22": {
+      "p": [
+        "M",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "KD"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "KD",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "KD",
+        "S",
+        "L"
+      ],
+      "l": [],
+      "kso": "KD",
+      "maj": "Majoritet",
+      "mandat": [
+        21,
+        41
+      ]
+    }
+  },
+  {
+    "k": "1415",
+    "n": "Stenungsund",
+    "lan": "14",
+    "pop": 27854,
+    "y22": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "S",
+        "KD"
+      ],
+      "l": [],
+      "kso": null,
+      "maj": "Majoritet",
+      "mandat": [
+        26,
+        51
+      ]
+    },
+    "korr": "Blocköverskridande koalition M+S+KD med majoritet (26 av 51 mandat); KSO ännu inte utsedd",
+    "kalla": "https://www.stenungsund.se/kommun-och-politik/politik-och-demokrati/valresultat-mandatfordelning"
+  },
+  {
+    "k": "1419",
+    "n": "Tjörn",
+    "lan": "14",
+    "pop": 16003,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "C",
+        "L"
+      ],
+      "l": [
+        {
+          "id": "tjörnpartiet",
+          "n": "Tjörnpartiet"
+        }
+      ],
+      "kso": "L"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD",
+        "C",
+        "L"
+      ],
+      "l": [
+        {
+          "id": "tjörnpartiet",
+          "n": "Tjörnpartiet"
+        }
+      ],
+      "kso": "L",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "L",
+        "SD",
+        "KD",
+        "C"
+      ],
+      "l": [],
+      "kso": "L",
+      "maj": "Majoritet",
+      "mandat": [
+        25,
+        41
+      ]
+    }
+  },
+  {
+    "k": "1421",
+    "n": "Orust",
+    "lan": "14",
+    "pop": 15363,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "L"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "L"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        23,
+        41
+      ]
+    }
+  },
+  {
+    "k": "1427",
+    "n": "Sotenäs",
+    "lan": "14",
+    "pop": 9036,
+    "y22": {
+      "p": [
+        "S"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "L",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        17,
+        31
+      ]
+    }
+  },
+  {
+    "k": "1430",
+    "n": "Munkedal",
+    "lan": "14",
+    "pop": 10272,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "SD"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "SD",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "V",
+        "MP"
+      ],
+      "l": [
+        {
+          "id": "ansvarisamverkan",
+          "n": "Ansvar i samverkan"
+        }
+      ],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        19,
+        35
+      ]
+    }
+  },
+  {
+    "k": "1435",
+    "n": "Tanum",
+    "lan": "14",
+    "pop": 12677,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "C",
+        "MP",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        22,
+        39
+      ]
+    }
+  },
+  {
+    "k": "1438",
+    "n": "Dals-Ed",
+    "lan": "14",
+    "pop": 4571,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        21,
+        31
+      ]
+    }
+  },
+  {
+    "k": "1439",
+    "n": "Färgelanda",
+    "lan": "14",
+    "pop": 6288,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "L"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "SD",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "SD",
+      "maj": "Minoritet",
+      "mandat": [
+        12,
+        29
+      ]
+    }
+  },
+  {
+    "k": "1440",
+    "n": "Ale",
+    "lan": "14",
+    "pop": 32620,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "framtidiale",
+          "n": "Framtid i Ale"
+        }
+      ],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "framtidiale",
+          "n": "Framtid i Ale"
+        }
+      ],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "C",
+        "MP",
+        "L"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        26,
+        51
+      ]
+    }
+  },
+  {
+    "k": "1441",
+    "n": "Lerum",
+    "lan": "14",
+    "pop": 43752,
+    "y22": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "S",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        27,
+        51
+      ]
+    }
+  },
+  {
+    "k": "1442",
+    "n": "Vårgårda",
+    "lan": "14",
+    "pop": 12472,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "C"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "KD",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        21,
+        41
+      ]
+    }
+  },
+  {
+    "k": "1443",
+    "n": "Bollebygd",
+    "lan": "14",
+    "pop": 9784,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        16,
+        31
+      ]
+    }
+  },
+  {
+    "k": "1444",
+    "n": "Grästorp",
+    "lan": "14",
+    "pop": 5602,
+    "y22": {
+      "p": [
+        "M",
+        "C"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": false,
+      "p": [],
+      "l": [],
+      "kso": null,
+      "maj": null
+    }
+  },
+  {
+    "k": "1445",
+    "n": "Essunga",
+    "lan": "14",
+    "pop": 5559,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "MP"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "MP"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "C",
+        "MP"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        18,
+        31
+      ]
+    }
+  },
+  {
+    "k": "1446",
+    "n": "Karlsborg",
+    "lan": "14",
+    "pop": 7047,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        18,
+        31
+      ]
+    }
+  },
+  {
+    "k": "1447",
+    "n": "Gullspång",
+    "lan": "14",
+    "pop": 4949,
+    "y22": {
+      "p": [
+        "M",
+        "KD",
+        "V"
+      ],
+      "l": [
+        {
+          "id": "feministisktinitiativ",
+          "n": "Feministiskt Initiativ"
+        }
+      ],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "KD",
+        "V"
+      ],
+      "l": [
+        {
+          "id": "feministisktinitiativ",
+          "n": "Feministiskt Initiativ"
+        }
+      ],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": false,
+      "p": [],
+      "l": [],
+      "kso": null,
+      "maj": null
+    }
+  },
+  {
+    "k": "1452",
+    "n": "Tranemo",
+    "lan": "14",
+    "pop": 11873,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        19,
+        37
+      ]
+    }
+  },
+  {
+    "k": "1460",
+    "n": "Bengtsfors",
+    "lan": "14",
+    "pop": 8955,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "SD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        16,
+        31
+      ]
+    }
+  },
+  {
+    "k": "1461",
+    "n": "Mellerud",
+    "lan": "14",
+    "pop": 9038,
+    "y22": {
+      "p": [
+        "M",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "kimellerud",
+          "n": "Kommunpartiet i Mellerud"
+        }
+      ],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "kimellerud",
+          "n": "Kommunpartiet i Mellerud"
+        }
+      ],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        16,
+        31
+      ]
+    }
+  },
+  {
+    "k": "1462",
+    "n": "Lilla Edet",
+    "lan": "14",
+    "pop": 14398,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "C"
+      ],
+      "l": [],
+      "kso": "C"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "C",
+        "V"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "C",
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Majoritet",
+      "mandat": [
+        17,
+        31
+      ]
+    }
+  },
+  {
+    "k": "1463",
+    "n": "Mark",
+    "lan": "14",
+    "pop": 35134,
+    "y22": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet",
+      "mandat": [
+        18,
+        51
+      ]
+    }
+  },
+  {
+    "k": "1465",
+    "n": "Svenljunga",
+    "lan": "14",
+    "pop": 10616,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "lpo",
+          "n": "Landsbygdspartiet Oberoende"
+        }
+      ],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "lpo",
+          "n": "Landsbygdspartiet Oberoende"
+        }
+      ],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "L"
+      ],
+      "l": [
+        {
+          "id": "lpo",
+          "n": "Landsbygdspartiet Oberoende"
+        }
+      ],
+      "kso": "S",
+      "maj": "Minoritet",
+      "mandat": [
+        15,
+        33
+      ]
+    }
+  },
+  {
+    "k": "1466",
+    "n": "Herrljunga",
+    "lan": "14",
+    "pop": 9509,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "L",
+        "V"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "L",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "herrljungapartiet",
+          "n": "Herrljungapartiet"
+        }
+      ],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        17,
+        31
+      ]
+    }
+  },
+  {
+    "k": "1470",
+    "n": "Vara",
+    "lan": "14",
+    "pop": 16011,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        23,
+        41
+      ]
+    }
+  },
+  {
+    "k": "1471",
+    "n": "Götene",
+    "lan": "14",
+    "pop": 13223,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L",
+        "MP"
+      ],
+      "l": [
+        {
+          "id": "götenesframtid",
+          "n": "Götenes framtid"
+        }
+      ],
+      "kso": "Götenes framtid"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L",
+        "MP"
+      ],
+      "l": [
+        {
+          "id": "götenesframtid",
+          "n": "Götenes framtid"
+        }
+      ],
+      "kso": "Götenes framtid",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "MP"
+      ],
+      "l": [
+        {
+          "id": "götenesframtid",
+          "n": "Götenes framtid"
+        }
+      ],
+      "kso": "Götenes framtid",
+      "maj": "Majoritet",
+      "mandat": [
+        21,
+        35
+      ]
+    }
+  },
+  {
+    "k": "1472",
+    "n": "Tibro",
+    "lan": "14",
+    "pop": 11326,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "KD",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet",
+      "mandat": [
+        17,
+        35
+      ]
+    }
+  },
+  {
+    "k": "1473",
+    "n": "Töreboda",
+    "lan": "14",
+    "pop": 9093,
+    "y22": {
+      "p": [
+        "M",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        17,
+        31
+      ]
+    },
+    "korr": "Verifierad: M+SD+KD+L styr med majoritet (17 av 31), Linn Brandström (M) KSO — ingen ändring",
+    "kalla": "https://www.mariestadstidningen.se/toreboda/de-ska-styra-toreboda-de-narmaste-fyra-aren/"
+  },
+  {
+    "k": "1480",
+    "n": "Göteborg",
+    "lan": "14",
+    "pop": 613278,
+    "y22": {
+      "p": [
+        "S",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        43,
+        81
+      ]
+    },
+    "korr": "Verifierad: S+V+MP bildar majoritetsstyre (43 av 81) — DS hade rätt, Wikipedia har inte uppdaterat",
+    "kalla": "https://sverigesradio.se/artikel/rodgrona-styrets-forslag-i-goteborg"
+  },
+  {
+    "k": "1481",
+    "n": "Mölndal",
+    "lan": "14",
+    "pop": 72128,
+    "y22": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        31,
+        61
+      ]
+    }
+  },
+  {
+    "k": "1482",
+    "n": "Kungälv",
+    "lan": "14",
+    "pop": 50496,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        31,
+        61
+      ]
+    }
+  },
+  {
+    "k": "1484",
+    "n": "Lysekil",
+    "lan": "14",
+    "pop": 13796,
+    "y22": {
+      "p": [
+        "S",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "L",
+        "C"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        16,
+        31
+      ]
+    }
+  },
+  {
+    "k": "1485",
+    "n": "Uddevalla",
+    "lan": "14",
+    "pop": 56744,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "uddevallapartiet",
+          "n": "Uddevallapartiet"
+        }
+      ],
+      "kso": "SD"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "uddevallapartiet",
+          "n": "Uddevallapartiet"
+        }
+      ],
+      "kso": "SD",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "SD",
+        "M",
+        "KD",
+        "L"
+      ],
+      "l": [
+        {
+          "id": "uddevallapartiet",
+          "n": "Uddevallapartiet"
+        }
+      ],
+      "kso": "SD",
+      "maj": "Majoritet",
+      "mandat": [
+        31,
+        61
+      ]
+    }
+  },
+  {
+    "k": "1486",
+    "n": "Strömstad",
+    "lan": "14",
+    "pop": 13557,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "KD",
+        "V"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "KD",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": null,
+      "maj": "Majoritet",
+      "mandat": [
+        23,
+        39
+      ]
+    },
+    "korr": "DS hade fel (M, C = 12 av 39 mandat): S+V+M+KD fortsätter styra med majoritet (23 av 39), beslutat 5 okt. DS:s KSO (M) är inte verifierad",
+    "kalla": "https://www.stromstadstidning.se/nyheter/stromstad/sa-ska-stromstad-styras.4c93930d-e491-54e5-b8a1-503385a4bb97"
+  },
+  {
+    "k": "1487",
+    "n": "Vänersborg",
+    "lan": "14",
+    "pop": 40078,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "KD",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "KD",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet",
+      "mandat": [
+        19,
+        51
+      ]
+    }
+  },
+  {
+    "k": "1488",
+    "n": "Trollhättan",
+    "lan": "14",
+    "pop": 59265,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet",
+      "mandat": [
+        23,
+        61
+      ]
+    }
+  },
+  {
+    "k": "1489",
+    "n": "Alingsås",
+    "lan": "14",
+    "pop": 42861,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "MP",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        26,
+        51
+      ]
+    }
+  },
+  {
+    "k": "1490",
+    "n": "Borås",
+    "lan": "14",
+    "pop": 115238,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "L",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "L",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        37,
+        73
+      ]
+    }
+  },
+  {
+    "k": "1491",
+    "n": "Ulricehamn",
+    "lan": "14",
+    "pop": 24954,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M",
+        "MP",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        23,
+        49
+      ]
+    }
+  },
+  {
+    "k": "1492",
+    "n": "Åmål",
+    "lan": "14",
+    "pop": 11679,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        18,
+        35
+      ]
+    }
+  },
+  {
+    "k": "1493",
+    "n": "Mariestad",
+    "lan": "14",
+    "pop": 24421,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        27,
+        49
+      ]
+    }
+  },
+  {
+    "k": "1494",
+    "n": "Lidköping",
+    "lan": "14",
+    "pop": 40359,
+    "y22": {
+      "p": [
+        "M",
+        "KD",
+        "L",
+        "V"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M",
+        "KD",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        27,
+        51
+      ]
+    }
+  },
+  {
+    "k": "1495",
+    "n": "Skara",
+    "lan": "14",
+    "pop": 18753,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "L",
+        "MP"
+      ],
+      "l": [],
+      "kso": "C"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "L",
+        "MP"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        24,
+        45
+      ]
+    }
+  },
+  {
+    "k": "1496",
+    "n": "Skövde",
+    "lan": "14",
+    "pop": 58272,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "S",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        32,
+        61
+      ]
+    }
+  },
+  {
+    "k": "1497",
+    "n": "Hjo",
+    "lan": "14",
+    "pop": 9322,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "KD",
+        "C"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    }
+  },
+  {
+    "k": "1498",
+    "n": "Tidaholm",
+    "lan": "14",
+    "pop": 12736,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [
+        {
+          "id": "vitidaholm",
+          "n": "Vi Tidaholm"
+        }
+      ],
+      "kso": "L"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [
+        {
+          "id": "vitidaholm",
+          "n": "Vi Tidaholm"
+        }
+      ],
+      "kso": "L",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet",
+      "mandat": [
+        17,
+        41
+      ]
+    }
+  },
+  {
+    "k": "1499",
+    "n": "Falköping",
+    "lan": "14",
+    "pop": 32794,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        31,
+        51
+      ]
+    }
+  },
+  {
+    "k": "1715",
+    "n": "Kil",
+    "lan": "17",
+    "pop": 12024,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "KD",
+        "V"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet",
+      "mandat": [
+        13,
+        41
+      ]
+    }
+  },
+  {
+    "k": "1730",
+    "n": "Eda",
+    "lan": "17",
+    "pop": 8289,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L",
+        "V"
+      ],
+      "l": [
+        {
+          "id": "hel",
+          "n": "Hela Edas lista"
+        }
+      ],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L",
+        "V"
+      ],
+      "l": [
+        {
+          "id": "hel",
+          "n": "Hela Edas lista"
+        }
+      ],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "V",
+        "C",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "hel",
+          "n": "Hela Edas lista"
+        }
+      ],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        14,
+        25
+      ]
+    }
+  },
+  {
+    "k": "1737",
+    "n": "Torsby",
+    "lan": "17",
+    "pop": 11278,
+    "y22": {
+      "p": [
+        "S"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet",
+      "mandat": [
+        12,
+        31
+      ]
+    }
+  },
+  {
+    "k": "1760",
+    "n": "Storfors",
+    "lan": "17",
+    "pop": 3777,
+    "y22": {
+      "p": [
+        "S"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        16,
+        25
+      ]
+    }
+  },
+  {
+    "k": "1761",
+    "n": "Hammarö",
+    "lan": "17",
+    "pop": 16932,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "MP",
+        "C",
+        "V"
+      ],
+      "l": [
+        {
+          "id": "sansobalans",
+          "n": "Sans o balans"
+        }
+      ],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        16,
+        31
+      ]
+    }
+  },
+  {
+    "k": "1762",
+    "n": "Munkfors",
+    "lan": "17",
+    "pop": 3637,
+    "y22": {
+      "p": [
+        "S"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        12,
+        21
+      ]
+    }
+  },
+  {
+    "k": "1763",
+    "n": "Forshaga",
+    "lan": "17",
+    "pop": 11439,
+    "y22": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        21,
+        41
+      ]
+    }
+  },
+  {
+    "k": "1764",
+    "n": "Grums",
+    "lan": "17",
+    "pop": 8854,
+    "y22": {
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        16,
+        31
+      ]
+    }
+  },
+  {
+    "k": "1765",
+    "n": "Årjäng",
+    "lan": "17",
+    "pop": 9734,
+    "y22": {
+      "p": [
+        "M",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "KD"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "KD",
+        "SD",
+        "M",
+        "L"
+      ],
+      "l": [],
+      "kso": "KD",
+      "maj": "Majoritet",
+      "mandat": [
+        20,
+        35
+      ]
+    }
+  },
+  {
+    "k": "1766",
+    "n": "Sunne",
+    "lan": "17",
+    "pop": 13354,
+    "y22": {
+      "p": [
+        "M",
+        "L"
+      ],
+      "l": [
+        {
+          "id": "helasunne",
+          "n": "Hela Sunne"
+        }
+      ],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "L"
+      ],
+      "l": [
+        {
+          "id": "helasunne",
+          "n": "Hela Sunne"
+        }
+      ],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet",
+      "mandat": [
+        20,
+        41
+      ]
+    }
+  },
+  {
+    "k": "1780",
+    "n": "Karlstad",
+    "lan": "17",
+    "pop": 99007,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet",
+      "mandat": [
+        28,
+        61
+      ]
+    }
+  },
+  {
+    "k": "1781",
+    "n": "Kristinehamn",
+    "lan": "17",
+    "pop": 23590,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "L",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        23,
+        41
+      ]
+    }
+  },
+  {
+    "k": "1782",
+    "n": "Filipstad",
+    "lan": "17",
+    "pop": 9625,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        13,
+        25
+      ]
+    }
+  },
+  {
+    "k": "1783",
+    "n": "Hagfors",
+    "lan": "17",
+    "pop": 11324,
+    "y22": {
+      "p": [],
+      "l": [
+        {
+          "id": "oberoenderealister",
+          "n": "Oberoende realister"
+        }
+      ],
+      "kso": "Oberoende realister"
+    },
+    "y26pre": {
+      "p": [],
+      "l": [
+        {
+          "id": "oberoenderealister",
+          "n": "Oberoende realister"
+        }
+      ],
+      "kso": "Oberoende realister",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [],
+      "l": [
+        {
+          "id": "oberoenderealister",
+          "n": "Oberoende realister"
+        }
+      ],
+      "kso": "Oberoende realister",
+      "maj": "Minoritet",
+      "mandat": [
+        15,
+        35
+      ]
+    },
+    "korr": "Verifierad: OR styr vidare i minoritet (15 av 35), Boo Westlund (OR) KSO — ingen ändring",
+    "kalla": "https://www.nwt.se/hagfors/sveriges-storsta-lokalparti-or-vinner-i-hagfors-igen/"
+  },
+  {
+    "k": "1784",
+    "n": "Arvika",
+    "lan": "17",
+    "pop": 25408,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet",
+      "mandat": [
+        20,
+        49
+      ]
+    }
+  },
+  {
+    "k": "1785",
+    "n": "Säffle",
+    "lan": "17",
+    "pop": 14756,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L",
+        "MP"
+      ],
+      "l": [],
+      "kso": "C"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "L",
+        "MP"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "S",
+        "KD",
+        "MP",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        22,
+        41
+      ]
+    }
+  },
+  {
+    "k": "1814",
+    "n": "Lekeberg",
+    "lan": "18",
+    "pop": 8608,
+    "y22": {
+      "p": [
+        "M",
+        "KD",
+        "L",
+        "V"
+      ],
+      "l": [
+        {
+          "id": "framtidspartietilekeberg",
+          "n": "Framtidspartiet i Lekeberg"
+        }
+      ],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "KD",
+        "V"
+      ],
+      "l": [
+        {
+          "id": "framtidspartietilekeberg",
+          "n": "Framtidspartiet i Lekeberg"
+        }
+      ],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "S"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        20,
+        35
+      ]
+    }
+  },
+  {
+    "k": "1860",
+    "n": "Laxå",
+    "lan": "18",
+    "pop": 5397,
+    "y22": {
+      "p": [
+        "C",
+        "KD",
+        "V"
+      ],
+      "l": [],
+      "kso": "C"
+    },
+    "y26pre": {
+      "p": [
+        "C",
+        "KD",
+        "V"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "S",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        18,
+        31
+      ]
+    }
+  },
+  {
+    "k": "1861",
+    "n": "Hallsberg",
+    "lan": "18",
+    "pop": 16082,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "KD",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        23,
+        45
+      ]
+    }
+  },
+  {
+    "k": "1862",
+    "n": "Degerfors",
+    "lan": "18",
+    "pop": 9237,
+    "y22": {
+      "p": [
+        "M",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "V"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [],
+      "kso": "V",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "SD",
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        17,
+        31
+      ]
+    }
+  },
+  {
+    "k": "1863",
+    "n": "Hällefors",
+    "lan": "18",
+    "pop": 6269,
+    "y22": {
+      "p": [
+        "S"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C"
+      ],
+      "l": [
+        {
+          "id": "grythyttelistan",
+          "n": "Grythyttelistan"
+        }
+      ],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": false,
+      "p": [],
+      "l": [],
+      "kso": null,
+      "maj": null
+    }
+  },
+  {
+    "k": "1864",
+    "n": "Ljusnarsberg",
+    "lan": "18",
+    "pop": 4290,
+    "y22": {
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        11,
+        21
+      ]
+    }
+  },
+  {
+    "k": "1880",
+    "n": "Örebro",
+    "lan": "18",
+    "pop": 160687,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "C"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        33,
+        65
+      ]
+    }
+  },
+  {
+    "k": "1881",
+    "n": "Kumla",
+    "lan": "18",
+    "pop": 22665,
+    "y22": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "L",
+        "KD",
+        "SD",
+        "C"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    }
+  },
+  {
+    "k": "1882",
+    "n": "Askersund",
+    "lan": "18",
+    "pop": 11382,
+    "y22": {
+      "p": [
+        "M",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": false,
+      "p": [],
+      "l": [],
+      "kso": null,
+      "maj": null
+    }
+  },
+  {
+    "k": "1883",
+    "n": "Karlskoga",
+    "lan": "18",
+    "pop": 30128,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "KD",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        26,
+        51
+      ]
+    },
+    "korr": "L tillagt; Liberalerna saknar mandat (under 2%-spärren) men ingår i styret",
+    "kalla": "https://www.svt.se/nyheter/lokalt/orebro/liberalerna-far-inflytande-i-karlskoga-trots-att-de-blev-utan-mandat"
+  },
+  {
+    "k": "1884",
+    "n": "Nora",
+    "lan": "18",
+    "pop": 10603,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M/S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        18,
+        35
+      ]
+    },
+    "korr": "S+M+KD fortsätter styra (presenterat 3 okt); kommunstyrelsens ordförande för nya perioden ännu oklar",
+    "kalla": "https://www.sverigesradio.se/artikel/fortsatt-s-m-och-kd-styre-i-nora-kommun"
+  },
+  {
+    "k": "1885",
+    "n": "Lindesberg",
+    "lan": "18",
+    "pop": 23014,
+    "y22": {
+      "p": [
+        "M",
+        "SD"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": false,
+      "p": [],
+      "l": [],
+      "kso": null,
+      "maj": null
+    }
+  },
+  {
+    "k": "1904",
+    "n": "Skinnskatteberg",
+    "lan": "19",
+    "pop": 4234,
+    "y22": {
+      "p": [
+        "SD",
+        "C"
+      ],
+      "l": [],
+      "kso": "SD"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "SD",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "SD",
+        "L",
+        "M"
+      ],
+      "l": [],
+      "kso": "SD",
+      "maj": "Majoritet",
+      "mandat": [
+        13,
+        25
+      ]
+    }
+  },
+  {
+    "k": "1907",
+    "n": "Surahammar",
+    "lan": "19",
+    "pop": 9733,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "C"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        16,
+        31
+      ]
+    }
+  },
+  {
+    "k": "1960",
+    "n": "Kungsör",
+    "lan": "19",
+    "pop": 8550,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "V"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        16,
+        31
+      ]
+    }
+  },
+  {
+    "k": "1961",
+    "n": "Hallstahammar",
+    "lan": "19",
+    "pop": 16600,
+    "y22": {
+      "p": [
+        "S",
+        "L",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "L",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet",
+      "mandat": [
+        19,
+        37
+      ]
+    }
+  },
+  {
+    "k": "1962",
+    "n": "Norberg",
+    "lan": "19",
+    "pop": 5351,
+    "y22": {
+      "p": [
+        "S"
+      ],
+      "l": [
+        {
+          "id": "partietförnorbergsframtid",
+          "n": "Partiet för Norbergs Framtid (PNF)"
+        }
+      ],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S"
+      ],
+      "l": [
+        {
+          "id": "partietförnorbergsframtid",
+          "n": "Partiet för Norbergs Framtid (PNF)"
+        }
+      ],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "L",
+        "SD"
+      ],
+      "l": [
+        {
+          "id": "demokraternainorberg",
+          "n": "Demokraterna i Norberg"
+        }
+      ],
+      "kso": "Demokraterna i Norberg",
+      "maj": "Majoritet",
+      "mandat": [
+        11,
+        21
+      ]
+    }
+  },
+  {
+    "k": "1980",
+    "n": "Västerås",
+    "lan": "19",
+    "pop": 161240,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "KD",
+        "V"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "KD",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        31,
+        61
+      ]
+    }
+  },
+  {
+    "k": "1981",
+    "n": "Sala",
+    "lan": "19",
+    "pop": 22600,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "salasbästa",
+          "n": "Salas bästa"
+        }
+      ],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        23,
+        45
+      ]
+    }
+  },
+  {
+    "k": "1982",
+    "n": "Fagersta",
+    "lan": "19",
+    "pop": 12915,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        20,
+        35
+      ]
+    }
+  },
+  {
+    "k": "1983",
+    "n": "Köping",
+    "lan": "19",
+    "pop": 25610,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "KD",
+        "V"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "KD",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M",
+        "V",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        30,
+        49
+      ]
+    }
+  },
+  {
+    "k": "1984",
+    "n": "Arboga",
+    "lan": "19",
+    "pop": 13929,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "C",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        17,
+        31
+      ]
+    }
+  },
+  {
+    "k": "2021",
+    "n": "Vansbro",
+    "lan": "20",
+    "pop": 6741,
+    "y22": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": false,
+      "p": [],
+      "l": [],
+      "kso": null,
+      "maj": null
+    }
+  },
+  {
+    "k": "2023",
+    "n": "Malung-Sälen",
+    "lan": "20",
+    "pop": 10192,
+    "y22": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        24,
+        39
+      ]
+    }
+  },
+  {
+    "k": "2026",
+    "n": "Gagnef",
+    "lan": "20",
+    "pop": 10307,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "C"
+      ],
+      "l": [],
+      "kso": "C"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "C"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "C",
+        "M",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Majoritet",
+      "mandat": [
+        18,
+        35
+      ]
+    }
+  },
+  {
+    "k": "2029",
+    "n": "Leksand",
+    "lan": "20",
+    "pop": 16167,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": false,
+      "p": [],
+      "l": [],
+      "kso": null,
+      "maj": null
+    }
+  },
+  {
+    "k": "2031",
+    "n": "Rättvik",
+    "lan": "20",
+    "pop": 10978,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "C"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "C",
+        "M"
+      ],
+      "l": [],
+      "kso": null,
+      "maj": "Minoritet",
+      "mandat": [
+        16,
+        39
+      ]
+    },
+    "korr": "C+M bildar minoritetsstyre, 'Rättvikssamverkan' (16 av 39 mandat enligt Wikipedia, ej separat verifierat), presenterat 11 nov. SD är stödparti (valteknisk samverkan kring budgeten) och ingår inte i styret; KSO ännu inte verifierad",
+    "kalla": "https://www.sverigesradio.se/artikel/just-nu-nytt-historiskt-styre-i-rattvik"
+  },
+  {
+    "k": "2034",
+    "n": "Orsa",
+    "lan": "20",
+    "pop": 6902,
+    "y22": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "C"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "C",
+        "S"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Majoritet",
+      "mandat": [
+        17,
+        31
+      ]
+    }
+  },
+  {
+    "k": "2039",
+    "n": "Älvdalen",
+    "lan": "20",
+    "pop": 6831,
+    "y22": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "C",
+        "S"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Majoritet",
+      "mandat": [
+        18,
+        35
+      ]
+    }
+  },
+  {
+    "k": "2061",
+    "n": "Smedjebacken",
+    "lan": "20",
+    "pop": 10758,
+    "y22": {
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        21,
+        35
+      ]
+    }
+  },
+  {
+    "k": "2062",
+    "n": "Mora",
+    "lan": "20",
+    "pop": 20419,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "morapartiet",
+          "n": "Morapartiet"
+        }
+      ],
+      "kso": "C"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "morapartiet",
+          "n": "Morapartiet"
+        }
+      ],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        21,
+        41
+      ]
+    }
+  },
+  {
+    "k": "2080",
+    "n": "Falun",
+    "lan": "20",
+    "pop": 59974,
+    "y22": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        31,
+        61
+      ]
+    },
+    "korr": "KD borttaget ur styret; S+M styr (31 av 61)",
+    "kalla": "https://www.falun.se/kommun--demokrati/nyhetsarkiv-kommun-och-demokrati/kommun--demokrati/2026-10-06-s-och-m-fortsatter-att-styra-falun-tillsammans.html"
+  },
+  {
+    "k": "2081",
+    "n": "Borlänge",
+    "lan": "20",
+    "pop": 51354,
+    "y22": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        33,
+        61
+      ]
+    }
+  },
+  {
+    "k": "2082",
+    "n": "Säter",
+    "lan": "20",
+    "pop": 11222,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        20,
+        35
+      ]
+    }
+  },
+  {
+    "k": "2083",
+    "n": "Hedemora",
+    "lan": "20",
+    "pop": 15025,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "MP"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": false,
+      "p": [],
+      "l": [],
+      "kso": null,
+      "maj": null
+    }
+  },
+  {
+    "k": "2084",
+    "n": "Avesta",
+    "lan": "20",
+    "pop": 22366,
+    "y22": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        21,
+        41
+      ]
+    }
+  },
+  {
+    "k": "2085",
+    "n": "Ludvika",
+    "lan": "20",
+    "pop": 26812,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        27,
+        45
+      ]
+    }
+  },
+  {
+    "k": "2101",
+    "n": "Ockelbo",
+    "lan": "21",
+    "pop": 5715,
+    "y22": {
+      "p": [
+        "S"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        16,
+        31
+      ]
+    }
+  },
+  {
+    "k": "2104",
+    "n": "Hofors",
+    "lan": "21",
+    "pop": 9138,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "KD",
+        "L",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": false,
+      "p": [],
+      "l": [],
+      "kso": null,
+      "maj": null
+    }
+  },
+  {
+    "k": "2121",
+    "n": "Ovanåker",
+    "lan": "21",
+    "pop": 11272,
+    "y22": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "SD",
+        "KD",
+        "M"
+      ],
+      "l": [],
+      "kso": "KD",
+      "maj": "Majoritet",
+      "mandat": [
+        18,
+        35
+      ]
+    }
+  },
+  {
+    "k": "2132",
+    "n": "Nordanstig",
+    "lan": "21",
+    "pop": 9284,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "L"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "L"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "nordanstigspartiet",
+          "n": "Nordanstigspartiet"
+        }
+      ],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        16,
+        31
+      ]
+    }
+  },
+  {
+    "k": "2161",
+    "n": "Ljusdal",
+    "lan": "21",
+    "pop": 18377,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [
+        {
+          "id": "ljusdalsbygdensparti",
+          "n": "Ljusdalsbygdens Parti"
+        }
+      ],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "KD",
+        "V"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "L",
+        "C",
+        "MP"
+      ],
+      "l": [
+        {
+          "id": "ljusdalsbygdensparti",
+          "n": "Ljusdalsbygdens Parti"
+        }
+      ],
+      "kso": null,
+      "maj": "Majoritet",
+      "mandat": [
+        21,
+        41
+      ]
+    },
+    "korr": "Nytt 'Mittenstyre' L+C+MP+Ljusdalsbygdens Parti (21 av 41 mandat); M, SD och KD i opposition. KSO ännu inte utsedd. Partilistan är hämtad från Wikipedia (som citerar artikeln) och stämmer med mandatsiffrorna; artikeln är betald",
+    "kalla": "https://www.ljusdalsposten.se/ljusdal/klart-de-ska-styra-ljusdal/"
+  },
+  {
+    "k": "2180",
+    "n": "Gävle",
+    "lan": "21",
+    "pop": 104108,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "KD",
+        "L",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "KD",
+        "L",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        35,
+        65
+      ]
+    }
+  },
+  {
+    "k": "2181",
+    "n": "Sandviken",
+    "lan": "21",
+    "pop": 38033,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "L"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "SD",
+        "KD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        26,
+        51
+      ]
+    }
+  },
+  {
+    "k": "2182",
+    "n": "Söderhamn",
+    "lan": "21",
+    "pop": 24163,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "C"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        28,
+        49
+      ]
+    }
+  },
+  {
+    "k": "2183",
+    "n": "Bollnäs",
+    "lan": "21",
+    "pop": 26018,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "C"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [
+        {
+          "id": "bollnäspartiet",
+          "n": "Bollnäspartiet"
+        }
+      ],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        24,
+        45
+      ]
+    }
+  },
+  {
+    "k": "2184",
+    "n": "Hudiksvall",
+    "lan": "21",
+    "pop": 37341,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        28,
+        51
+      ]
+    }
+  },
+  {
+    "k": "2260",
+    "n": "Ånge",
+    "lan": "22",
+    "pop": 9000,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "V",
+        "KD",
+        "C"
+      ],
+      "l": [
+        {
+          "id": "vårframtidspolitiskautskott",
+          "n": "Vår framtids politiska utskott"
+        },
+        {
+          "id": "norrlandspartiet",
+          "n": "Norrlandspartiet"
+        }
+      ],
+      "kso": "Vår framtids politiska utskott",
+      "maj": "Majoritet",
+      "mandat": [
+        19,
+        35
+      ]
+    }
+  },
+  {
+    "k": "2262",
+    "n": "Timrå",
+    "lan": "22",
+    "pop": 17465,
+    "y22": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        22,
+        41
+      ]
+    }
+  },
+  {
+    "k": "2280",
+    "n": "Härnösand",
+    "lan": "22",
+    "pop": 24348,
+    "y22": {
+      "p": [
+        "S",
+        "KD",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        22,
+        43
+      ]
+    }
+  },
+  {
+    "k": "2281",
+    "n": "Sundsvall",
+    "lan": "22",
+    "pop": 98962,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "V"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet",
+      "mandat": [
+        34,
+        71
+      ]
+    }
+  },
+  {
+    "k": "2282",
+    "n": "Kramfors",
+    "lan": "22",
+    "pop": 17390,
+    "y22": {
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "C",
+        "M"
+      ],
+      "l": [
+        {
+          "id": "norrlandspartiet",
+          "n": "Norrlandspartiet"
+        }
+      ],
+      "kso": "Norrlandspartiet",
+      "maj": "Majoritet",
+      "mandat": [
+        19,
+        35
+      ]
+    }
+  },
+  {
+    "k": "2283",
+    "n": "Sollefteå",
+    "lan": "22",
+    "pop": 18138,
+    "y22": {
+      "p": [
+        "C",
+        "V"
+      ],
+      "l": [
+        {
+          "id": "västrainitiativet",
+          "n": "Västra Initiativet"
+        }
+      ],
+      "kso": "C"
+    },
+    "y26pre": {
+      "p": [
+        "C",
+        "V"
+      ],
+      "l": [
+        {
+          "id": "västrainitiativet",
+          "n": "Västra Initiativet"
+        }
+      ],
+      "kso": "C",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "C",
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Minoritet",
+      "mandat": [
+        16,
+        39
+      ]
+    }
+  },
+  {
+    "k": "2284",
+    "n": "Örnsköldsvik",
+    "lan": "22",
+    "pop": 55338,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "C"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [
+        {
+          "id": "norrlandspartiet",
+          "n": "Norrlandspartiet"
+        }
+      ],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        31,
+        61
+      ]
+    }
+  },
+  {
+    "k": "2303",
+    "n": "Ragunda",
+    "lan": "23",
+    "pop": 5152,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "alltförragunda",
+          "n": "Allt för Ragunda"
+        }
+      ],
+      "kso": "C"
+    },
+    "y26pre": {
+      "p": [
+        "S"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "C",
+        "V",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "alltförragunda",
+          "n": "Allt för Ragunda"
+        }
+      ],
+      "kso": "C",
+      "maj": null,
+      "mandat": [
+        10,
+        25
+      ]
+    }
+  },
+  {
+    "k": "2305",
+    "n": "Bräcke",
+    "lan": "23",
+    "pop": 5950,
+    "y22": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        14,
+        27
+      ]
+    }
+  },
+  {
+    "k": "2309",
+    "n": "Krokom",
+    "lan": "23",
+    "pop": 15795,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "KD"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "C",
+        "M",
+        "MP",
+        "KD"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Majoritet",
+      "mandat": [
+        21,
+        41
+      ]
+    }
+  },
+  {
+    "k": "2313",
+    "n": "Strömsund",
+    "lan": "23",
+    "pop": 10904,
+    "y22": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "C"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet",
+      "mandat": [
+        16,
+        35
+      ]
+    }
+  },
+  {
+    "k": "2321",
+    "n": "Åre",
+    "lan": "23",
+    "pop": 12770,
+    "y22": {
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [
+        {
+          "id": "västjämtlandsväl",
+          "n": "Västjämtlands väl"
+        }
+      ],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [
+        {
+          "id": "västjämtlandsväl",
+          "n": "Västjämtlands väl"
+        }
+      ],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        20,
+        37
+      ]
+    }
+  },
+  {
+    "k": "2326",
+    "n": "Berg",
+    "lan": "23",
+    "pop": 7085,
+    "y22": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "C"
+      ],
+      "l": [],
+      "kso": null,
+      "maj": "Minoritet",
+      "mandat": [
+        14,
+        31
+      ]
+    },
+    "korr": "M+C avser bilda minoritetsstyre (14 av 31 mandat), meddelat 28 okt; formellt beslut i fullmäktige 16 dec. Tidigare kommunalråd Therese Kärngard (S) kliver åt sidan; ny KSO ännu inte utsedd",
+    "kalla": "https://berg.se/kommun-och-politik/verksamhet-och-organisation/nyheter/nyheter/2026-11-02-politiskt-styre-i-bergs-kommun"
+  },
+  {
+    "k": "2361",
+    "n": "Härjedalen",
+    "lan": "23",
+    "pop": 10117,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "C"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        20,
+        31
+      ]
+    }
+  },
+  {
+    "k": "2380",
+    "n": "Östersund",
+    "lan": "23",
+    "pop": 64963,
+    "y22": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        31,
+        61
+      ]
+    }
+  },
+  {
+    "k": "2401",
+    "n": "Nordmaling",
+    "lan": "24",
+    "pop": 6905,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "C"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "C",
+        "M",
+        "L"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Minoritet",
+      "mandat": [
+        12,
+        31
+      ]
+    }
+  },
+  {
+    "k": "2403",
+    "n": "Bjurholm",
+    "lan": "24",
+    "pop": 2327,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        11,
+        21
+      ]
+    }
+  },
+  {
+    "k": "2404",
+    "n": "Vindeln",
+    "lan": "24",
+    "pop": 5421,
+    "y22": {
+      "p": [
+        "S",
+        "KD"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "KD"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "C",
+        "MP"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        15,
+        29
+      ]
+    }
+  },
+  {
+    "k": "2409",
+    "n": "Robertsfors",
+    "lan": "24",
+    "pop": 6595,
+    "y22": {
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "C",
+        "M",
+        "KD",
+        "SD"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Majoritet",
+      "mandat": [
+        16,
+        31
+      ]
+    }
+  },
+  {
+    "k": "2417",
+    "n": "Norsjö",
+    "lan": "24",
+    "pop": 3811,
+    "y22": {
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "KD"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        15,
+        27
+      ]
+    }
+  },
+  {
+    "k": "2418",
+    "n": "Malå",
+    "lan": "24",
+    "pop": 2902,
+    "y22": {
+      "p": [
+        "V"
+      ],
+      "l": [],
+      "kso": "V"
+    },
+    "y26pre": {
+      "p": [
+        "V"
+      ],
+      "l": [],
+      "kso": "L",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "L",
+        "M",
+        "SD"
+      ],
+      "l": [
+        {
+          "id": "malålistan",
+          "n": "Malålistan"
+        }
+      ],
+      "kso": "L",
+      "maj": "Majoritet",
+      "mandat": [
+        14,
+        25
+      ]
+    }
+  },
+  {
+    "k": "2421",
+    "n": "Storuman",
+    "lan": "24",
+    "pop": 5543,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "KD"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "M",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        16,
+        31
+      ]
+    }
+  },
+  {
+    "k": "2422",
+    "n": "Sorsele",
+    "lan": "24",
+    "pop": 2362,
+    "y22": {
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [],
+      "kso": "V"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [],
+      "kso": "V/S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "V",
+        "S",
+        "MP"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        14,
+        21
+      ]
+    }
+  },
+  {
+    "k": "2425",
+    "n": "Dorotea",
+    "lan": "24",
+    "pop": 2241,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "KD",
+        "L",
+        "V"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "KD",
+        "L",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": false,
+      "p": [],
+      "l": [],
+      "kso": null,
+      "maj": null
+    }
+  },
+  {
+    "k": "2460",
+    "n": "Vännäs",
+    "lan": "24",
+    "pop": 9225,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "V"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "M",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        17,
+        31
+      ]
+    }
+  },
+  {
+    "k": "2462",
+    "n": "Vilhelmina",
+    "lan": "24",
+    "pop": 6172,
+    "y22": {
+      "p": [
+        "S"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet",
+      "mandat": [
+        11,
+        27
+      ]
+    }
+  },
+  {
+    "k": "2463",
+    "n": "Åsele",
+    "lan": "24",
+    "pop": 2683,
+    "y22": {
+      "p": [
+        "S"
+      ],
+      "l": [
+        {
+          "id": "åselepartiet",
+          "n": "Åsele partiet"
+        }
+      ],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S"
+      ],
+      "l": [
+        {
+          "id": "åselepartiet",
+          "n": "Åsele partiet"
+        }
+      ],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "L",
+        "C"
+      ],
+      "l": [
+        {
+          "id": "opinionåsele",
+          "n": "Opinion Åsele"
+        }
+      ],
+      "kso": "L",
+      "maj": "Majoritet",
+      "mandat": [
+        13,
+        25
+      ]
+    }
+  },
+  {
+    "k": "2480",
+    "n": "Umeå",
+    "lan": "24",
+    "pop": 135273,
+    "y22": {
+      "p": [
+        "S",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet",
+      "mandat": [
+        27,
+        65
+      ]
+    }
+  },
+  {
+    "k": "2481",
+    "n": "Lycksele",
+    "lan": "24",
+    "pop": 12159,
+    "y22": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "KD"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "C",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "KD",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "KD",
+        "M",
+        "L",
+        "C"
+      ],
+      "l": [],
+      "kso": "KD",
+      "maj": "Majoritet",
+      "mandat": [
+        17,
+        31
+      ]
+    }
+  },
+  {
+    "k": "2482",
+    "n": "Skellefteå",
+    "lan": "24",
+    "pop": 75405,
+    "y22": {
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": null,
+      "maj": "Majoritet",
+      "mandat": [
+        35,
+        65
+      ]
+    },
+    "korr": "Nytt majoritetsstyre S+V+MP, MP nytt i styret (35 av 65 mandat); KSO ännu inte utsedd",
+    "kalla": "https://www.norran.se/nyheter/skelleftea/artikel/de-ska-styra-skelleftea-kanns-bra-och-tryggt/l78nkewj"
+  },
+  {
+    "k": "2505",
+    "n": "Arvidsjaur",
+    "lan": "25",
+    "pop": 6026,
+    "y22": {
+      "p": [
+        "S"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V",
+        "C"
+      ],
+      "l": [],
+      "kso": null,
+      "maj": "Majoritet",
+      "mandat": [
+        17,
+        23
+      ]
+    },
+    "korr": "Nytt styre S+V+C, Centerpartiet nytt i majoriteten (17 av 23 mandat); KSO ännu inte beslutat",
+    "kalla": "https://www.svt.se/nyheter/lokalt/norrbotten/klart-centerpartiet-far-plats-i-arvidsjaurs-nya-styre"
+  },
+  {
+    "k": "2506",
+    "n": "Arjeplog",
+    "lan": "25",
+    "pop": 2570,
+    "y22": {
+      "p": [
+        "S",
+        "L"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "L"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet",
+      "mandat": [
+        8,
+        21
+      ]
+    }
+  },
+  {
+    "k": "2510",
+    "n": "Jokkmokk",
+    "lan": "25",
+    "pop": 4695,
+    "y22": {
+      "p": [
+        "V",
+        "MP"
+      ],
+      "l": [
+        {
+          "id": "samernasval",
+          "n": "Samernas Väl"
+        },
+        {
+          "id": "framtidijokkmokk",
+          "n": "Framtid i Jokkmokk"
+        }
+      ],
+      "kso": "Lokalt parti"
+    },
+    "y26pre": {
+      "p": [
+        "V",
+        "MP"
+      ],
+      "l": [
+        {
+          "id": "samernasval",
+          "n": "Samernas Väl"
+        },
+        {
+          "id": "framtidijokkmokk",
+          "n": "Framtid i Jokkmokk"
+        }
+      ],
+      "kso": "Lokalt parti",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "M"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet",
+      "mandat": [
+        12,
+        23
+      ]
+    }
+  },
+  {
+    "k": "2513",
+    "n": "Överkalix",
+    "lan": "25",
+    "pop": 3183,
+    "y22": {
+      "p": [
+        "S"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "C",
+        "V"
+      ],
+      "l": [],
+      "kso": "C",
+      "maj": "Majoritet",
+      "mandat": [
+        14,
+        25
+      ]
+    }
+  },
+  {
+    "k": "2514",
+    "n": "Kalix",
+    "lan": "25",
+    "pop": 15252,
+    "y22": {
+      "p": [
+        "S",
+        "C",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet",
+      "mandat": [
+        18,
+        37
+      ]
+    }
+  },
+  {
+    "k": "2518",
+    "n": "Övertorneå",
+    "lan": "25",
+    "pop": 3995,
+    "y22": {
+      "p": [
+        "C",
+        "KD",
+        "V"
+      ],
+      "l": [
+        {
+          "id": "framtids",
+          "n": "Framtid S"
+        }
+      ],
+      "kso": "C"
+    },
+    "y26pre": {
+      "p": [
+        "C",
+        "KD",
+        "V"
+      ],
+      "l": [
+        {
+          "id": "framtids",
+          "n": "Framtid S"
+        }
+      ],
+      "kso": "C",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "C",
+        "KD",
+        "V"
+      ],
+      "l": [
+        {
+          "id": "framtids",
+          "n": "Framtid S"
+        }
+      ],
+      "kso": "C",
+      "maj": "Minoritet",
+      "mandat": [
+        12,
+        25
+      ]
+    },
+    "korr": "Verifierad: nuvarande koalition C+Framtid S+KD+V fortsätter i minoritet (12 av 25); SD står utanför — DS hade rätt, Wikipedia har inte uppdaterat",
+    "kalla": "https://sverigesradio.se/artikel/sd-stangs-ute-fran-samarbete-i-overtornea-inte-jattekul"
+  },
+  {
+    "k": "2521",
+    "n": "Pajala",
+    "lan": "25",
+    "pop": 5706,
+    "y22": {
+      "p": [
+        "S",
+        "M",
+        "C",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "sjukvårdspartiet",
+          "n": "Sjukvårdspartiet"
+        }
+      ],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "sjukvårdspartiet",
+          "n": "Sjukvårdspartiet"
+        }
+      ],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "V",
+        "C",
+        "M"
+      ],
+      "l": [
+        {
+          "id": "sjukvårdspartiet",
+          "n": "Sjukvårdspartiet"
+        }
+      ],
+      "kso": "V",
+      "maj": "Majoritet",
+      "mandat": [
+        12,
+        21
+      ]
+    }
+  },
+  {
+    "k": "2523",
+    "n": "Gällivare",
+    "lan": "25",
+    "pop": 17135,
+    "y22": {
+      "p": [
+        "S",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "M",
+        "KD",
+        "SD"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Majoritet",
+      "mandat": [
+        18,
+        35
+      ]
+    }
+  },
+  {
+    "k": "2560",
+    "n": "Älvsbyn",
+    "lan": "25",
+    "pop": 7815,
+    "y22": {
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD",
+        "KD",
+        "L"
+      ],
+      "l": [],
+      "kso": "M",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        14,
+        27
+      ]
+    }
+  },
+  {
+    "k": "2580",
+    "n": "Luleå",
+    "lan": "25",
+    "pop": 80304,
+    "y22": {
+      "p": [
+        "S",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "V",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Minoritet",
+      "mandat": [
+        30,
+        61
+      ]
+    }
+  },
+  {
+    "k": "2581",
+    "n": "Piteå",
+    "lan": "25",
+    "pop": 42184,
+    "y22": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C",
+        "MP"
+      ],
+      "l": [],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        27,
+        51
+      ]
+    }
+  },
+  {
+    "k": "2582",
+    "n": "Boden",
+    "lan": "25",
+    "pop": 28624,
+    "y22": {
+      "p": [
+        "S"
+      ],
+      "l": [
+        {
+          "id": "sjukvardspartiet",
+          "n": "Sjukvårdspartiet"
+        }
+      ],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S"
+      ],
+      "l": [
+        {
+          "id": "sjukvardspartiet",
+          "n": "Sjukvårdspartiet"
+        }
+      ],
+      "kso": "S",
+      "maj": "Minoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "C"
+      ],
+      "l": [
+        {
+          "id": "sjukvårdspartiet",
+          "n": "Sjukvårdspartiet"
+        },
+        {
+          "id": "bodenalternativet",
+          "n": "Bodenalternativet"
+        }
+      ],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        27,
+        49
+      ]
+    }
+  },
+  {
+    "k": "2583",
+    "n": "Haparanda",
+    "lan": "25",
+    "pop": 9027,
+    "y22": {
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "M",
+        "SD",
+        "C",
+        "KD"
+      ],
+      "l": [
+        {
+          "id": "sjukvardspartiet",
+          "n": "Sjukvårdspartiet"
+        }
+      ],
+      "kso": "C",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": false,
+      "p": [],
+      "l": [],
+      "kso": null,
+      "maj": null
+    }
+  },
+  {
+    "k": "2584",
+    "n": "Kiruna",
+    "lan": "25",
+    "pop": 22402,
+    "y22": {
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [
+        {
+          "id": "fi",
+          "n": "Feministiskt Initiativ"
+        },
+        {
+          "id": "samelistu",
+          "n": "Samelistan"
+        }
+      ],
+      "kso": "S"
+    },
+    "y26pre": {
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [
+        {
+          "id": "fi",
+          "n": "Feministiskt Initiativ"
+        },
+        {
+          "id": "samelistu",
+          "n": "Samelistan"
+        }
+      ],
+      "kso": "S",
+      "maj": "Majoritet"
+    },
+    "y26": {
+      "klar": true,
+      "p": [
+        "S",
+        "V"
+      ],
+      "l": [
+        {
+          "id": "samelistu",
+          "n": "Samelistan"
+        },
+        {
+          "id": "sjukvårdspartiet",
+          "n": "Sjukvårdspartiet"
+        }
+      ],
+      "kso": "S",
+      "maj": "Majoritet",
+      "mandat": [
+        26,
+        45
+      ]
+    }
+  }
+]
