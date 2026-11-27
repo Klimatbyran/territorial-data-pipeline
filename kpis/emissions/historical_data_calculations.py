@@ -1,8 +1,4 @@
-import time
-from io import BytesIO
-
 import pandas as pd
-import requests
 
 from kpis.emissions.cache_utilities import cache_df
 
@@ -10,9 +6,6 @@ PATH_SMHI = (
     "https://nationellaemissionsdatabasen.smhi.se/api/"
     + "getexcelfile/?county=0&municipality=0&sub=GGT"
 )
-
-_SMHI_DOWNLOAD_ATTEMPTS = 5
-_SMHI_DOWNLOAD_TIMEOUT_S = 120
 
 
 def _coerce_year_columns(df):
@@ -25,21 +18,6 @@ def _coerce_year_columns(df):
     return df
 
 
-def _download_smhi_workbook(path):
-    """Download the SMHI Excel workbook with retries for flaky gateway responses."""
-    last_error = None
-    for attempt in range(_SMHI_DOWNLOAD_ATTEMPTS):
-        try:
-            response = requests.get(path, timeout=_SMHI_DOWNLOAD_TIMEOUT_S)
-            response.raise_for_status()
-            return BytesIO(response.content)
-        except (requests.RequestException, OSError) as error:
-            last_error = error
-            if attempt + 1 < _SMHI_DOWNLOAD_ATTEMPTS:
-                time.sleep(2**attempt)
-    raise last_error
-
-
 @cache_df(path=PATH_SMHI)
 def get_smhi_data(path=PATH_SMHI):
     """
@@ -49,7 +27,7 @@ def get_smhi_data(path=PATH_SMHI):
         pandas.DataFrame: The dataframe containing the SMHI data.
     """
 
-    df_raw = pd.read_excel(_download_smhi_workbook(path), engine="openpyxl")
+    df_raw = pd.read_excel(path, engine="openpyxl")
     #
     # Remove the first 4 rows and reset the index
     df_raw = df_raw.drop(range(4)).reset_index(drop=True)
