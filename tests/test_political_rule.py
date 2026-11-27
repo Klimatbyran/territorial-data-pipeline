@@ -43,12 +43,12 @@ class TestPoliticalRule(unittest.TestCase):
         self.assertEqual(result, expected)
 
     def test_get_political_rule(self):
-        """Test that get_political_rule returns correct data."""
+        """Test that get_political_rule returns correct post-2026 styre data."""
         df_expected = pd.DataFrame(
             {
                 "Kommun": ["Upplands Väsby", "Vallentuna", "Österåker"],
                 "Rule": [
-                    ["L", "S", "Väsbys Bästa"],
+                    ["MP", "S", "V", "Väsbys Bästa"],
                     ["M", "KD", "L", "C"],
                     ["M", "KD", "L", "C"],
                 ],

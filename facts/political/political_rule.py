@@ -1,10 +1,16 @@
-"""Module for retrieving political rule for municipalities."""
+"""Module for retrieving political rule for municipalities.
+
+Post-2026 styre/KSO for finished municipalities comes from SVT's
+kommunstyren dataset (facts/political/svt_kommunstyren_2026.json),
+sourced from https://www.svt.se/datajournalistik/de-styr-tillsammans-i-kommunerna-2026/.
+Municipalities without a finished styre keep the previous mandate values.
+"""
 # -*- coding: utf-8 -*-
 
 import pandas as pd
 
 
-PATH_POLITICAL_RULE = "facts/political/politicalRule_mandate2022.xlsx"
+PATH_POLITICAL_RULE = "facts/political/politicalRule_mandate2026.xlsx"
 
 
 def clean_municipality_name(name):
@@ -81,14 +87,14 @@ def get_political_rule_municipalities():
         [
             "Kommun",
             "KSO",
-            "SD 2022",
-            "M 2022",
-            "KD 2022",
-            "L 2022",
-            "C 2022",
-            "MP 2022",
-            "S 2022",
-            "V 2022",
+            "SD 2026",
+            "M 2026",
+            "KD 2026",
+            "L 2026",
+            "C 2026",
+            "MP 2026",
+            "S 2026",
+            "V 2026",
             "Other",
         ]
     )

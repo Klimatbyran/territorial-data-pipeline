@@ -61,8 +61,14 @@
     "electricVehiclePerChargePoints": 35.72,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1x27RSR7W9aNADMMXb5BQyeVPViE00CpT/view?usp=drive_link",
-    "politicalRule": ["SD", "M", "KD", "FiA", "Framtid i Ale"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "L",
+      "C",
+      "MP",
+      "S",
+      "V"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Alingsås",
@@ -126,8 +132,13 @@
     "electricVehiclePerChargePoints": 27.82,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "L"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "C",
+      "MP",
+      "S",
+      "V"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Alvesta",
@@ -191,8 +202,13 @@
     "electricVehiclePerChargePoints": 9.435,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1uLhQvzq-4bEGVlrMmmoymzKxTx_4FaLw/view?usp=drive_link",
-    "politicalRule": ["KD", "C", "S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "Alvestaalternativet"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Aneby",
@@ -256,8 +272,13 @@
     "electricVehiclePerChargePoints": 2.864,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1TvoNPoKFN-r1wsEhMRKoeHXgxILwZb2U/view?usp=drive_link",
-    "politicalRule": ["KD", "C", "S"],
-    "politicalKSO": "C"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "L"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Arboga",
@@ -321,7 +342,12 @@
     "electricVehiclePerChargePoints": 10.98,
     "procurementScore": 2,
     "procurementLink": "https://docs.google.com/document/d/1iEXfZZiEl5LSZsNl-A5gCSyRqNU36C2V/edit?usp=drive_link&ouid=104089955738391943844&rtpof=true&sd=true",
-    "politicalRule": ["C", "MP", "S", "V"],
+    "politicalRule": [
+      "C",
+      "MP",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -386,7 +412,9 @@
     "electricVehiclePerChargePoints": 0.955,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["L", "S"],
+    "politicalRule": [
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -451,8 +479,12 @@
     "electricVehiclePerChargePoints": 3.956,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "C",
+      "S",
+      "V"
+    ],
+    "politicalKSO": ""
   },
   {
     "name": "Arvika",
@@ -516,8 +548,12 @@
     "electricVehiclePerChargePoints": 10.458,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["C", "MP", "S", "V"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Askersund",
@@ -581,7 +617,11 @@
     "electricVehiclePerChargePoints": 6.794,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "L"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "L"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -646,7 +686,12 @@
     "electricVehiclePerChargePoints": 17.233,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1jTFL_NGHLfw6GEv8l2OV7i8VJfnmi5Y_/view?usp=drive_link",
-    "politicalRule": ["C", "S"],
+    "politicalRule": [
+      "C",
+      "MP",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -711,8 +756,13 @@
     "electricVehiclePerChargePoints": 11.308,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/12cQAQ6TVcfe_rCZEkuDO0uXLCtBwJDex/view?usp=drive_link",
-    "politicalRule": ["S", "oberoende ledamöter"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "C"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Berg",
@@ -776,8 +826,11 @@
     "electricVehiclePerChargePoints": 0.953,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["C", "S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "M",
+      "C"
+    ],
+    "politicalKSO": ""
   },
   {
     "name": "Bjurholm",
@@ -841,8 +894,12 @@
     "electricVehiclePerChargePoints": null,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["SD", "M", "KD", "L"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "C",
+      "MP",
+      "S"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Bjuv",
@@ -906,8 +963,12 @@
     "electricVehiclePerChargePoints": 13.333,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1w-XpLcjZch_a49jJyc65AJSYXjl6kOfM/view?usp=sharing",
-    "politicalRule": ["SD", "M"],
-    "politicalKSO": "SD"
+    "politicalRule": [
+      "KD",
+      "C",
+      "S"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Boden",
@@ -971,7 +1032,12 @@
     "electricVehiclePerChargePoints": 6.815,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["S", "SJVP"],
+    "politicalRule": [
+      "C",
+      "S",
+      "Sjukvårdspartiet",
+      "Bodenalternativet"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -1036,8 +1102,12 @@
     "electricVehiclePerChargePoints": 23.64,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/drive/u/0/folders/1W0ikrmofAruq9lzl1j562VHonpwsK4rB",
-    "politicalRule": ["M", "MP", "S", "V"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "M",
+      "C",
+      "S"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Bollnäs",
@@ -1101,7 +1171,11 @@
     "electricVehiclePerChargePoints": 15.205,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "C", "S"],
+    "politicalRule": [
+      "C",
+      "S",
+      "Bollnäspartiet"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -1166,7 +1240,10 @@
     "electricVehiclePerChargePoints": 2.365,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["C", "S", "V"],
+    "politicalRule": [
+      "C",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -1231,7 +1308,10 @@
     "electricVehiclePerChargePoints": 9.682,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1Ase30RwyvTk6aU2BJ2zp6jTJmWGrn-WZ/view?usp=drive_link",
-    "politicalRule": ["M", "S"],
+    "politicalRule": [
+      "M",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -1296,8 +1376,13 @@
     "electricVehiclePerChargePoints": 15.331,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1qw6EEOaJbPcGIFmXXKMP1hVRfc6V_mqm/view?usp=drive_link",
-    "politicalRule": ["L", "C", "MP", "S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "L"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Botkyrka",
@@ -1361,8 +1446,13 @@
     "electricVehiclePerChargePoints": 28.847,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "C", "Tullingepartiet"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "MP",
+      "S",
+      "V",
+      "TuP"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Boxholm",
@@ -1426,7 +1516,11 @@
     "electricVehiclePerChargePoints": 22.4,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["S"],
+    "politicalRule": [
+      "C",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -1491,8 +1585,11 @@
     "electricVehiclePerChargePoints": 9.674,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["S", "V"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Bräcke",
@@ -1556,7 +1653,11 @@
     "electricVehiclePerChargePoints": 2.66,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["C", "S"],
+    "politicalRule": [
+      "C",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -1621,8 +1722,13 @@
     "electricVehiclePerChargePoints": 6.098,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1AVb6qkh7b2xX05KYsEwHKjTT8zR55-JK/view?usp=drive_link",
-    "politicalRule": ["M", "L", "C"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "C",
+      "MP",
+      "S",
+      "V"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Båstad",
@@ -1686,7 +1792,12 @@
     "electricVehiclePerChargePoints": 4.895,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "L", "S"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "L",
+      "S"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -1751,7 +1862,11 @@
     "electricVehiclePerChargePoints": 8.812,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "L", "C"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "C"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -1816,7 +1931,11 @@
     "electricVehiclePerChargePoints": 38.103,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "L"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "L"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -1881,8 +2000,13 @@
     "electricVehiclePerChargePoints": 24.933,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["S", "V"],
-    "politicalKSO": "V"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "C"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Dorotea",
@@ -1946,7 +2070,13 @@
     "electricVehiclePerChargePoints": 1.9,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["KD", "L", "C", "S", "V"],
+    "politicalRule": [
+      "KD",
+      "L",
+      "C",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -2011,7 +2141,13 @@
     "electricVehiclePerChargePoints": 4.184,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "L", "C", "V", "HEL"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "C",
+      "V",
+      "Hela Edas lista"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -2076,8 +2212,13 @@
     "electricVehiclePerChargePoints": 18.432,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["KD", "L", "C", "MP", "S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "L"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Eksjö",
@@ -2141,8 +2282,11 @@
     "electricVehiclePerChargePoints": 7.901,
     "procurementScore": 2,
     "procurementLink": "https://eksjo.se/download/18.1620518918d79e0cd832678/1707475042339/H%C3%A5llbarhetsbokslut%20Eksj%C3%B6%20kommun%202022.pdf",
-    "politicalRule": ["M", "S"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "M",
+      "S"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Emmaboda",
@@ -2206,8 +2350,11 @@
     "electricVehiclePerChargePoints": 3.272,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["KD", "C"],
-    "politicalKSO": "C"
+    "politicalRule": [
+      "M",
+      "S"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Enköping",
@@ -2271,8 +2418,12 @@
     "electricVehiclePerChargePoints": 10.303,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "L", "C", "MP", "Nystart Enköping"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "M",
+      "L",
+      "S"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Eskilstuna",
@@ -2336,7 +2487,11 @@
     "electricVehiclePerChargePoints": 13.683,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["M", "S"],
+    "politicalRule": [
+      "M",
+      "C",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -2401,7 +2556,11 @@
     "electricVehiclePerChargePoints": 29.141,
     "procurementScore": 2,
     "procurementLink": "https://lund.se/kommun-och-politik/sa-styrs-lunds-kommun/forfattningssamling",
-    "politicalRule": ["M", "L", "S"],
+    "politicalRule": [
+      "M",
+      "L",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -2466,7 +2625,11 @@
     "electricVehiclePerChargePoints": 9.882,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "C", "MP"],
+    "politicalRule": [
+      "M",
+      "C",
+      "MP"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -2531,7 +2694,11 @@
     "electricVehiclePerChargePoints": 21.393,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "L", "C", "S"],
+    "politicalRule": [
+      "C",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -2596,8 +2763,13 @@
     "electricVehiclePerChargePoints": 4.651,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["KD", "L", "MP", "S", "V"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "M",
+      "KD",
+      "L",
+      "C"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Falköping",
@@ -2661,7 +2833,11 @@
     "electricVehiclePerChargePoints": 8.153,
     "procurementScore": 2,
     "procurementLink": "https://www.falkoping.se/download/18.1adde54a17861a73b1e11aae/1626330208751/Klimatstrategi%202021-2030.pdf",
-    "politicalRule": ["M", "KD", "L", "C", "MP", "V"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "S"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -2726,7 +2902,10 @@
     "electricVehiclePerChargePoints": 23.821,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "S"],
+    "politicalRule": [
+      "M",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -2791,8 +2970,11 @@
     "electricVehiclePerChargePoints": 6.833,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["SD", "M", "L", "C"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "S",
+      "V"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Finspång",
@@ -2856,7 +3038,11 @@
     "electricVehiclePerChargePoints": 19.65,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["L", "C", "S"],
+    "politicalRule": [
+      "L",
+      "C",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -2921,8 +3107,14 @@
     "electricVehiclePerChargePoints": 16.25,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1hhIx6EKV79wTPibNR4KA--taYA-_vuff/view?usp=drive_link",
-    "politicalRule": ["C", "S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "M",
+      "KD",
+      "L",
+      "C",
+      "MP"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Forshaga",
@@ -2986,7 +3178,11 @@
     "electricVehiclePerChargePoints": 14.154,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1ho5nKkvRMkY4_upel84VnHwFSDesAw03/view?usp=drive_link",
-    "politicalRule": ["C", "S"],
+    "politicalRule": [
+      "C",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -3051,7 +3247,10 @@
     "electricVehiclePerChargePoints": 12.0,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["SD", "KD"],
+    "politicalRule": [
+      "SD",
+      "KD"
+    ],
     "politicalKSO": "SD"
   },
   {
@@ -3116,7 +3315,12 @@
     "electricVehiclePerChargePoints": 42.6,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "C", "S"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "L",
+      "C"
+    ],
     "politicalKSO": "C"
   },
   {
@@ -3181,8 +3385,13 @@
     "electricVehiclePerChargePoints": 12.228,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "L", "C", "S", "Westbopartiet"],
-    "politicalKSO": "S/M"
+    "politicalRule": [
+      "S",
+      "V",
+      "Medborgarpartiet i Gislaved",
+      "Westbopartiet"
+    ],
+    "politicalKSO": "Medborgarpartiet i Gislaved"
   },
   {
     "name": "Gnesta",
@@ -3246,7 +3455,11 @@
     "electricVehiclePerChargePoints": 25.9,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "S"],
+    "politicalRule": [
+      "MP",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -3311,7 +3524,11 @@
     "electricVehiclePerChargePoints": 12.06,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "C"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "C"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -3376,7 +3593,11 @@
     "electricVehiclePerChargePoints": 5.613,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1XJ1UVRwbdwDQ8OxsECSV9_xrk9IzKZYr/view?usp=drive_link",
-    "politicalRule": ["M", "S"],
+    "politicalRule": [
+      "C",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -3441,8 +3662,13 @@
     "electricVehiclePerChargePoints": 4.288,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["S", "V"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "C"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Grästorp",
@@ -3506,7 +3732,10 @@
     "electricVehiclePerChargePoints": 33.25,
     "procurementScore": 2,
     "procurementLink": "https://www.grastorp.se/bygga-bo-och-miljo/klimat-och-hallbarhet.html",
-    "politicalRule": ["M", "C"],
+    "politicalRule": [
+      "M",
+      "C"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -3571,7 +3800,12 @@
     "electricVehiclePerChargePoints": 3.396,
     "procurementScore": 2,
     "procurementLink": "https://klimat2030.se/undertecknare/gullspang-kommun/",
-    "politicalRule": ["M", "KD", "V", "Feministiskt Initiativ"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "V",
+      "Feministiskt Initiativ"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -3636,8 +3870,12 @@
     "electricVehiclePerChargePoints": 7.372,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["MP", "S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Gävle",
@@ -3701,7 +3939,10 @@
     "electricVehiclePerChargePoints": 9.878,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1jLax0svJUbW27r9Cyolt06suLnk_t6mL/view?usp=drive_link",
-    "politicalRule": ["KD", "L", "C", "MP", "S"],
+    "politicalRule": [
+      "M",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -3766,7 +4007,11 @@
     "electricVehiclePerChargePoints": 6.81,
     "procurementScore": 2,
     "procurementLink": "https://goteborg.se/wps/portal/start/foretag-och-organisationer/upphandling-och-inkop/hallbar-upphandling/ekologisk-hallbarhet-i-upphandling",
-    "politicalRule": ["MP", "S", "V"],
+    "politicalRule": [
+      "MP",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -3831,7 +4076,13 @@
     "electricVehiclePerChargePoints": 21.344,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "L", "C", "MP", "Götenes framtid"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "C",
+      "MP",
+      "Götenes framtid"
+    ],
     "politicalKSO": "Götenes framtid"
   },
   {
@@ -3896,8 +4147,15 @@
     "electricVehiclePerChargePoints": 14.586,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "L", "C"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "KD",
+      "C",
+      "MP",
+      "S",
+      "V",
+      "Liberalt initiativ i Habo"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Hagfors",
@@ -3961,7 +4219,9 @@
     "electricVehiclePerChargePoints": 9.167,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["Oberoende realister"],
+    "politicalRule": [
+      "Oberoende realister"
+    ],
     "politicalKSO": "Oberoende realister"
   },
   {
@@ -4026,7 +4286,12 @@
     "electricVehiclePerChargePoints": 29.632,
     "procurementScore": 2,
     "procurementLink": "https://www.orebro.se/fordjupning/fordjupning/sa-arbetar-vi-med/maltider-i-kommunens-kok-och-serveringar.html",
-    "politicalRule": ["KD", "L", "C", "S"],
+    "politicalRule": [
+      "KD",
+      "C",
+      "MP",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -4091,7 +4356,11 @@
     "electricVehiclePerChargePoints": 14.93,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["L", "MP", "S", "V"],
+    "politicalRule": [
+      "MP",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -4156,7 +4425,14 @@
     "electricVehiclePerChargePoints": 10.47,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1N2X0IxEXtbzKbUT3oTSQDL3KqpgSTx0v/view?usp=drive_link",
-    "politicalRule": ["M", "KD", "S"],
+    "politicalRule": [
+      "KD",
+      "L",
+      "C",
+      "MP",
+      "S",
+      "Halmstadpartiet"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -4221,7 +4497,13 @@
     "electricVehiclePerChargePoints": 42.379,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1hniLkbvsciBRv7cP5rklYnwggrPZpDTC/view?usp=drive_link",
-    "politicalRule": ["C", "MP", "S", "V"],
+    "politicalRule": [
+      "C",
+      "MP",
+      "S",
+      "V",
+      "Sans o balans"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -4286,8 +4568,13 @@
     "electricVehiclePerChargePoints": 29.646,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1K3YjGk-sbfjZ8quF6OQ_3QcW1yy9Fyb8/view?usp=drive_link",
-    "politicalRule": ["M", "KD", "L"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "C",
+      "MP",
+      "S",
+      "V"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Haparanda",
@@ -4351,7 +4638,13 @@
     "electricVehiclePerChargePoints": 2.71,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["SD", "M", "KD", "C", "SJVP"],
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "C",
+      "SJVP"
+    ],
     "politicalKSO": "C"
   },
   {
@@ -4416,8 +4709,13 @@
     "electricVehiclePerChargePoints": 32.769,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["C", "MP", "S", "V"],
-    "politicalKSO": "C/S"
+    "politicalRule": [
+      "KD",
+      "C",
+      "MP",
+      "S"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Hedemora",
@@ -4481,7 +4779,10 @@
     "electricVehiclePerChargePoints": 14.442,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "S"],
+    "politicalRule": [
+      "M",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -4546,7 +4847,12 @@
     "electricVehiclePerChargePoints": 11.806,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1gjtYP7sEOFc76vDxpxdCi8Qoow--iDmS/view?usp=drive_link",
-    "politicalRule": ["M", "KD", "L"],
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "L"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -4611,8 +4917,13 @@
     "electricVehiclePerChargePoints": 38.727,
     "procurementScore": 2,
     "procurementLink": "https://docs.google.com/document/d/1Hp5em_ksdYvvOUrcVLzaqOY2p7Ak0xaF/edit",
-    "politicalRule": ["L", "C", "S", "V"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "Herrljungapartiet"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Hjo",
@@ -4676,7 +4987,11 @@
     "electricVehiclePerChargePoints": 30.647,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1I_ntkS2087DySPdOKSaj0XiOlneNkryg/view?usp=drive_link",
-    "politicalRule": ["M", "KD", "L", "C"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "C"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -4741,7 +5056,11 @@
     "electricVehiclePerChargePoints": 16.0,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["L", "S", "V"],
+    "politicalRule": [
+      "L",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -4806,7 +5125,12 @@
     "electricVehiclePerChargePoints": 18.011,
     "procurementScore": 2,
     "procurementLink": "https://www.huddinge.se/organisation-och-styrning/sa-arbetar-vi-med/miljo-och-klimat/miljoprogram-2022-2025/",
-    "politicalRule": ["C", "MP", "S", "Huddingepartiet"],
+    "politicalRule": [
+      "C",
+      "MP",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -4871,7 +5195,11 @@
     "electricVehiclePerChargePoints": 10.122,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "MP", "S"],
+    "politicalRule": [
+      "C",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -4936,8 +5264,12 @@
     "electricVehiclePerChargePoints": 4.038,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "C"],
-    "politicalKSO": "C"
+    "politicalRule": [
+      "C",
+      "S",
+      "V"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Hylte",
@@ -5001,7 +5333,12 @@
     "electricVehiclePerChargePoints": 12.594,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["L", "S", "V", "Kommunens väl"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "S",
+      "Kommunens väl"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -5066,7 +5403,11 @@
     "electricVehiclePerChargePoints": 4.778,
     "procurementScore": 2,
     "procurementLink": "https://www.orebro.se/fordjupning/fordjupning/sa-arbetar-vi-med/maltider-i-kommunens-kok-och-serveringar.html",
-    "politicalRule": ["M", "C", "Grythyttelistan"],
+    "politicalRule": [
+      "M",
+      "C",
+      "Grythyttelistan"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -5131,7 +5472,11 @@
     "electricVehiclePerChargePoints": 1.658,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["M", "C", "S"],
+    "politicalRule": [
+      "M",
+      "C",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -5196,7 +5541,10 @@
     "electricVehiclePerChargePoints": 13.412,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1Uo30oDKp9v3A74kk-J-d1FKjRukx6Hit/view?usp=drive_link",
-    "politicalRule": ["S"],
+    "politicalRule": [
+      "M",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -5266,7 +5614,7 @@
       "KD",
       "L",
       "C",
-      "Även KommunPartiet och SportPartiet i Härryda kommun är med i denna koalition"
+      "Sport- och kommunpartiet"
     ],
     "politicalKSO": "M"
   },
@@ -5332,7 +5680,11 @@
     "electricVehiclePerChargePoints": 17.69,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1tXmK9utLkEmJ-DLafEMVVuZRr_L8idBL/view?usp=drive_link",
-    "politicalRule": ["M", "S"],
+    "politicalRule": [
+      "M",
+      "L",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -5397,7 +5749,13 @@
     "electricVehiclePerChargePoints": 27.822,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/12ilXQYvNJP-uJfo6HZEdGpzmcIXzxbrv/view?usp=drive_link",
-    "politicalRule": ["M", "KD", "C", "S"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "C",
+      "MP",
+      "S"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -5462,7 +5820,12 @@
     "electricVehiclePerChargePoints": 15.77,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "C", "MP"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "C",
+      "MP"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -5527,8 +5890,12 @@
     "electricVehiclePerChargePoints": 7.923,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["C", "S", "V"],
-    "politicalKSO": "C"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD"
+    ],
+    "politicalKSO": "KD"
   },
   {
     "name": "Hörby",
@@ -5592,7 +5959,11 @@
     "electricVehiclePerChargePoints": 9.884,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["SD", "M"],
+    "politicalRule": [
+      "SD",
+      "M",
+      "L"
+    ],
     "politicalKSO": "SD"
   },
   {
@@ -5657,7 +6028,12 @@
     "electricVehiclePerChargePoints": 20.632,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "L", "C"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "L",
+      "C"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -5722,8 +6098,11 @@
     "electricVehiclePerChargePoints": 2.766,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["MP", "V", "Samernas Väl", "Framtid i Jokkmokk"],
-    "politicalKSO": "Framtid i Jokkmokk"
+    "politicalRule": [
+      "M",
+      "S"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Järfälla",
@@ -5787,7 +6166,12 @@
     "electricVehiclePerChargePoints": 49.047,
     "procurementScore": 2,
     "procurementLink": "https://www.jarfalla.se/download/18.5e2d810118697502d1121381/1677764821650/Miljoplan-2023-2030-Jarfalla-kommun-med-bolag.pdf",
-    "politicalRule": ["M", "S"],
+    "politicalRule": [
+      "C",
+      "MP",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -5852,8 +6236,11 @@
     "electricVehiclePerChargePoints": 19.865,
     "procurementScore": 2,
     "procurementLink": "https://www.jonkoping.se/download/18.6751acba183a2e89e794ecfe/1666359577980/Program%20f%C3%B6r%20h%C3%A5llbarhet%20i%20J%C3%B6nk%C3%B6pings%20kommun%202022-2030.pdf",
-    "politicalRule": ["L", "C", "S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "M",
+      "KD"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Kalix",
@@ -5917,7 +6304,11 @@
     "electricVehiclePerChargePoints": 6.579,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["C", "MP", "S"],
+    "politicalRule": [
+      "C",
+      "MP",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -5982,7 +6373,10 @@
     "electricVehiclePerChargePoints": 8.907,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["C", "S", "V"],
+    "politicalRule": [
+      "M",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -6047,7 +6441,12 @@
     "electricVehiclePerChargePoints": 11.038,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "L", "C"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "L",
+      "C"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -6112,8 +6511,13 @@
     "electricVehiclePerChargePoints": 7.308,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["SD", "M", "KD"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "C",
+      "MP",
+      "S",
+      "V"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Karlskoga",
@@ -6177,7 +6581,12 @@
     "electricVehiclePerChargePoints": 19.859,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1ZK_q1FOAh3CuX-goDQHXk3gZzXvhaa-J/view?usp=drive_link",
-    "politicalRule": ["M", "KD", "L", "C"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "L",
+      "C"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -6242,8 +6651,13 @@
     "electricVehiclePerChargePoints": 11.709,
     "procurementScore": 2,
     "procurementLink": "https://www.karlskrona.se/kommun-och-politik/sa-fungerar-kommunen/forfattningssamling/styrande-dokument/",
-    "politicalRule": ["SD", "M", "KD", "L"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "C",
+      "MP",
+      "S",
+      "V"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Karlstad",
@@ -6307,7 +6721,11 @@
     "electricVehiclePerChargePoints": 12.754,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/drive/u/0/folders/1W0ikrmofAruq9lzl1j562VHonpwsK4rB",
-    "politicalRule": ["C", "MP", "S"],
+    "politicalRule": [
+      "C",
+      "MP",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -6372,7 +6790,10 @@
     "electricVehiclePerChargePoints": 13.967,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "S"],
+    "politicalRule": [
+      "M",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -6437,8 +6858,12 @@
     "electricVehiclePerChargePoints": 14.419,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1ho5nKkvRMkY4_upel84VnHwFSDesAw03/view?usp=drive_link",
-    "politicalRule": ["C", "MP", "S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "M",
+      "KD",
+      "V"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Kinda",
@@ -6502,7 +6927,10 @@
     "electricVehiclePerChargePoints": 21.417,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "S"],
+    "politicalRule": [
+      "M",
+      "S"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -6567,7 +6995,12 @@
     "electricVehiclePerChargePoints": 14.115,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1QuHFKI5cCG4xYCO5vSCGQjTPb9cuenNR/view?usp=drive_link",
-    "politicalRule": ["S", "V", "Feministiskt Initiativ och Sámelistu"],
+    "politicalRule": [
+      "S",
+      "V",
+      "Samelistan",
+      "Sjukvårdspartiet"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -6632,8 +7065,12 @@
     "electricVehiclePerChargePoints": 9.424,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1w-XpLcjZch_a49jJyc65AJSYXjl6kOfM/view?usp=sharing",
-    "politicalRule": ["KD", "Vår Framtid Klippan (VF)"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "M",
+      "C",
+      "S"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Knivsta",
@@ -6697,8 +7134,13 @@
     "electricVehiclePerChargePoints": 10.557,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["KD", "Knivsta.nu (KNU)"],
-    "politicalKSO": "Knivsta.nu (KNU)"
+    "politicalRule": [
+      "SD",
+      "KD",
+      "L",
+      "Knivsta.nu"
+    ],
+    "politicalKSO": "Knivsta.nu"
   },
   {
     "name": "Kramfors",
@@ -6762,8 +7204,12 @@
     "electricVehiclePerChargePoints": 8.615,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1ammChocFfoS_N_xgvfsW7mMw3Ir34bKB/view?usp=drive_link",
-    "politicalRule": ["S", "V"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "M",
+      "C",
+      "Norrlandspartiet"
+    ],
+    "politicalKSO": "Norrlandspartiet"
   },
   {
     "name": "Kristianstad",
@@ -6827,8 +7273,12 @@
     "electricVehiclePerChargePoints": 14.054,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1mYF167j4UjKJXvjtAQRG-yUgdcWAIVoC/view?usp=sharing",
-    "politicalRule": ["SD", "M", "KD"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "M",
+      "C",
+      "S"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Kristinehamn",
@@ -6892,8 +7342,13 @@
     "electricVehiclePerChargePoints": 15.078,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["C", "MP", "S", "V"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "L"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Krokom",
@@ -6957,8 +7412,13 @@
     "electricVehiclePerChargePoints": 7.816,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "M",
+      "KD",
+      "C",
+      "MP"
+    ],
+    "politicalKSO": "C"
   },
   {
     "name": "Kumla",
@@ -7022,8 +7482,14 @@
     "electricVehiclePerChargePoints": 14.973,
     "procurementScore": 2,
     "procurementLink": "https://www.orebro.se/fordjupning/fordjupning/sa-arbetar-vi-med/maltider-i-kommunens-kok-och-serveringar.html",
-    "politicalRule": ["M", "S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "L",
+      "C"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Kungsbacka",
@@ -7087,7 +7553,12 @@
     "electricVehiclePerChargePoints": 17.819,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1y2nkO3_NWSuN-oewU29nLqG2deq3_YtE/view?usp=drive_link",
-    "politicalRule": ["M", "KD", "L", "C"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "L",
+      "C"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -7152,7 +7623,11 @@
     "electricVehiclePerChargePoints": 8.892,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["C", "S", "V"],
+    "politicalRule": [
+      "C",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -7217,7 +7692,11 @@
     "electricVehiclePerChargePoints": 9.418,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1262bO-n943JUJbipwSl9rDqo1LwEgnri/view?usp=drive_link",
-    "politicalRule": ["M", "S"],
+    "politicalRule": [
+      "M",
+      "C",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -7282,7 +7761,12 @@
     "electricVehiclePerChargePoints": 13.384,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1rqYkHoIoH9ZcZ13i1508K3Wq1QlaNueC/view?usp=drive_link",
-    "politicalRule": ["SD", "M", "KD"],
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "L"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -7347,7 +7831,12 @@
     "electricVehiclePerChargePoints": 13.476,
     "procurementScore": 2,
     "procurementLink": "https://docs.google.com/presentation/d/1efwagf4pX8ZGtM1_17gsX19APKvybYaf/edit?usp=drive_link&ouid=104089955738391943844&rtpof=true&sd=true",
-    "politicalRule": ["KD", "C", "S", "V"],
+    "politicalRule": [
+      "M",
+      "C",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -7412,7 +7901,12 @@
     "electricVehiclePerChargePoints": 11.867,
     "procurementScore": 2,
     "procurementLink": "https://docs.google.com/document/d/1GtY6dau8CLIUyg3zal3EM3ZK4eeniAHU/edit?usp=drive_link&ouid=104089955738391943844&rtpof=true&sd=true",
-    "politicalRule": ["M", "KD", "L", "C", "S"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "C",
+      "S"
+    ],
     "politicalKSO": "C"
   },
   {
@@ -7477,7 +7971,11 @@
     "electricVehiclePerChargePoints": 9.152,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["M", "L", "MP"],
+    "politicalRule": [
+      "M",
+      "L",
+      "MP"
+    ],
     "politicalKSO": "L"
   },
   {
@@ -7542,8 +8040,12 @@
     "electricVehiclePerChargePoints": 6.184,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["C", "V"],
-    "politicalKSO": "C"
+    "politicalRule": [
+      "M",
+      "KD",
+      "S"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Lekeberg",
@@ -7607,7 +8109,10 @@
     "electricVehiclePerChargePoints": 8.291,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1VKCOeuXYByZoSmBUxg8Iva68xH8iKEgW/view?usp=drive_link",
-    "politicalRule": ["M", "KD", "V", "Framtidspartiet i Lekeberg"],
+    "politicalRule": [
+      "M",
+      "S"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -7672,7 +8177,12 @@
     "electricVehiclePerChargePoints": 4.286,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1gmk-2GlIoOEVx-YTJiii6uIqUkuzSjX8/view?usp=drive_link",
-    "politicalRule": ["M", "L", "C", "S"],
+    "politicalRule": [
+      "M",
+      "L",
+      "C",
+      "S"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -7737,7 +8247,11 @@
     "electricVehiclePerChargePoints": 17.768,
     "procurementScore": 2,
     "procurementLink": "https://klimat2030.se/undertecknare/lerum-kommun/",
-    "politicalRule": ["M", "S"],
+    "politicalRule": [
+      "M",
+      "L",
+      "S"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -7802,7 +8316,11 @@
     "electricVehiclePerChargePoints": 5.667,
     "procurementScore": 2,
     "procurementLink": "https://www.lessebo.se/download/18.718021f218bf6061c471d424/1700838950724/M%C3%A5ltidspolicy%20antagen%2023-02-27.pdf",
-    "politicalRule": ["C", "S", "V"],
+    "politicalRule": [
+      "C",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -7867,7 +8385,10 @@
     "electricVehiclePerChargePoints": 33.161,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1q_kHO1VxjxsEheFfUgoG4fEPxJwOUaOd/view?usp=drive_link",
-    "politicalRule": ["M", "Lidingöpartiet"],
+    "politicalRule": [
+      "M",
+      "Lidingöpartiet"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -7932,7 +8453,12 @@
     "electricVehiclePerChargePoints": 21.803,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["C", "MP", "S", "V"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "C",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -7997,7 +8523,11 @@
     "electricVehiclePerChargePoints": 28.241,
     "procurementScore": 2,
     "procurementLink": "https://lillaedet.se/download/18.521396a21877977188d6244/1682000731913/%C3%85rsredovisning%202022.pdf",
-    "politicalRule": ["M", "C", "S", "V"],
+    "politicalRule": [
+      "M",
+      "C",
+      "S"
+    ],
     "politicalKSO": "C"
   },
   {
@@ -8062,7 +8592,11 @@
     "electricVehiclePerChargePoints": 23.78,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["SD", "M", "KD"],
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -8127,7 +8661,12 @@
     "electricVehiclePerChargePoints": 13.624,
     "procurementScore": 2,
     "procurementLink": "https://www.linkoping.se/klimatsmart-linkoping/",
-    "politicalRule": ["M", "S"],
+    "politicalRule": [
+      "C",
+      "S",
+      "V",
+      "Linköpingslistan"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -8192,7 +8731,12 @@
     "electricVehiclePerChargePoints": 11.45,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1wC6YUXj-ahqnEQ_WUzir5ao8OW0CwWW1/view?usp=drive_link",
-    "politicalRule": ["M", "KD", "C"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "C",
+      "MP"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -8257,8 +8801,13 @@
     "electricVehiclePerChargePoints": 6.075,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "S", "V"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "L",
+      "C",
+      "MP",
+      "Ljusdalsbygdens Parti"
+    ],
+    "politicalKSO": ""
   },
   {
     "name": "Ljusnarsberg",
@@ -8322,8 +8871,11 @@
     "electricVehiclePerChargePoints": 10.667,
     "procurementScore": 2,
     "procurementLink": "https://www.orebro.se/fordjupning/fordjupning/sa-arbetar-vi-med/maltider-i-kommunens-kok-och-serveringar.html",
-    "politicalRule": ["S", "V"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Lomma",
@@ -8387,7 +8939,11 @@
     "electricVehiclePerChargePoints": 21.568,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1bUudOfnRmbs697U8jFs7SbSCn1al8yzm/view?usp=drive_link",
-    "politicalRule": ["M", "KD", "C"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "C"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -8452,7 +9008,11 @@
     "electricVehiclePerChargePoints": 10.664,
     "procurementScore": 2,
     "procurementLink": "https://upphandlingscenterfbr.se/download/18.232f037e18721ea54a579cb/1679982679008/N%C3%A4mndplan%202023-2025%20-%20daterad%202022-12-05%20fastst%C3%A4lld%20av%20GNU.pdf",
-    "politicalRule": ["M", "KD", "S"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -8517,7 +9077,11 @@
     "electricVehiclePerChargePoints": 12.758,
     "procurementScore": 2,
     "procurementLink": "https://docs.google.com/document/d/1JN8kGEnfzI1aLNyewmAewY7vLJPI2MOR/edit?usp=drive_link&ouid=104089955738391943844&rtpof=true&sd=true",
-    "politicalRule": ["MP", "S", "V"],
+    "politicalRule": [
+      "C",
+      "MP",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -8582,7 +9146,10 @@
     "electricVehiclePerChargePoints": 17.61,
     "procurementScore": 2,
     "procurementLink": "https://lund.se/kommun-och-politik/sa-styrs-lunds-kommun/forfattningssamling",
-    "politicalRule": ["M", "KD", "S"],
+    "politicalRule": [
+      "M",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -8647,7 +9214,12 @@
     "electricVehiclePerChargePoints": 6.0,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1MPw4jWzpLCk3e-l72xPuqVv0pYYayNRM/view?usp=drive_link",
-    "politicalRule": ["M", "KD", "L", "C"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "L",
+      "C"
+    ],
     "politicalKSO": "KD"
   },
   {
@@ -8712,8 +9284,13 @@
     "electricVehiclePerChargePoints": 9.235,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["MP", "S", "V"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M",
+      "L",
+      "C"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Malmö",
@@ -8777,7 +9354,11 @@
     "electricVehiclePerChargePoints": 16.236,
     "procurementScore": 2,
     "procurementLink": "https://malmo.se/Miljo-och-klimat/Sa-jobbar-vi-med-vara-miljo--och-klimatmal/Sex-mal-for-minsta-mojliga-klimatpaverkan.html",
-    "politicalRule": ["L", "MP", "S"],
+    "politicalRule": [
+      "MP",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -8842,7 +9423,10 @@
     "electricVehiclePerChargePoints": 1.315,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "S"],
+    "politicalRule": [
+      "M",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -8907,7 +9491,12 @@
     "electricVehiclePerChargePoints": 4.636,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["V"],
+    "politicalRule": [
+      "SD",
+      "M",
+      "L",
+      "Malålistan"
+    ],
     "politicalKSO": "L"
   },
   {
@@ -8972,7 +9561,11 @@
     "electricVehiclePerChargePoints": 11.545,
     "procurementScore": 2,
     "procurementLink": "https://mariestad.se/download/18.216f23a018c6320f584a16/1702479676636/Klimatkontrakt_Mariestad_2023.pdf",
-    "politicalRule": ["M", "KD", "C"],
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -9037,7 +9630,11 @@
     "electricVehiclePerChargePoints": 48.25,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1si4gGgN7FLAyciNftvdcJvfuArOBfskg/view?usp=drive_link",
-    "politicalRule": ["C", "S"],
+    "politicalRule": [
+      "MP",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -9102,7 +9699,11 @@
     "electricVehiclePerChargePoints": 5.204,
     "procurementScore": 2,
     "procurementLink": "https://foretag.vaxjo.se/download/18.3d04795317955c86cd918e16/1622707803967/Klimatkontrakt%202030.pdf",
-    "politicalRule": ["M", "KD", "C"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "C"
+    ],
     "politicalKSO": "KD"
   },
   {
@@ -9167,7 +9768,10 @@
     "electricVehiclePerChargePoints": 4.703,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "Kommunpartiet i Mellerud KIM"],
+    "politicalRule": [
+      "SD",
+      "M"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -9232,7 +9836,13 @@
     "electricVehiclePerChargePoints": 22.849,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["KD", "L", "C", "MP", "S"],
+    "politicalRule": [
+      "KD",
+      "L",
+      "C",
+      "MP",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -9297,8 +9907,12 @@
     "electricVehiclePerChargePoints": 6.327,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1vCpggLOKZSYCiQlpCyVoj5nh3K4MTKX9/view?usp=drive_link",
-    "politicalRule": ["M", "KD", "C"],
-    "politicalKSO": "C"
+    "politicalRule": [
+      "KD",
+      "S",
+      "Morapartiet"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Motala",
@@ -9362,8 +9976,13 @@
     "electricVehiclePerChargePoints": 26.586,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["SD", "M", "KD"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "C",
+      "MP",
+      "S",
+      "V"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Mullsjö",
@@ -9427,8 +10046,14 @@
     "electricVehiclePerChargePoints": 12.897,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["KD", "L", "C", "S"],
-    "politicalKSO": "KD"
+    "politicalRule": [
+      "M",
+      "L",
+      "C",
+      "S",
+      "V"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Munkedal",
@@ -9492,8 +10117,14 @@
     "electricVehiclePerChargePoints": 5.533,
     "procurementScore": 2,
     "procurementLink": "https://www.munkedal.se/download/18.65b854c9188d75f3a1f7bf3a/1688714563570/M%C3%A5l%20och%20Resursplan%20(MRP)%20budget%202024%20plan%202025-2026.pdf",
-    "politicalRule": ["SD", "M", "KD"],
-    "politicalKSO": "SD"
+    "politicalRule": [
+      "C",
+      "MP",
+      "S",
+      "V",
+      "Ansvar i samverkan"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Munkfors",
@@ -9557,7 +10188,9 @@
     "electricVehiclePerChargePoints": 6.625,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["S"],
+    "politicalRule": [
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -9622,7 +10255,10 @@
     "electricVehiclePerChargePoints": 11.265,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "S"],
+    "politicalRule": [
+      "M",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -9687,8 +10323,11 @@
     "electricVehiclePerChargePoints": 7.349,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "L", "C"],
-    "politicalKSO": "C"
+    "politicalRule": [
+      "M",
+      "S"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Mörbylånga",
@@ -9752,7 +10391,12 @@
     "electricVehiclePerChargePoints": 6.585,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1mYOB0AiXphXqiUq5N9xPipB1dq_baJDy/view?usp=drive_link",
-    "politicalRule": ["M", "S"],
+    "politicalRule": [
+      "C",
+      "MP",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -9817,7 +10461,12 @@
     "electricVehiclePerChargePoints": 37.255,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1tfxAMrHDvtlItM7yGBMxdsf0K34-Mau0/view?usp=drive_link",
-    "politicalRule": ["M", "KD", "L", "C"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "L",
+      "C"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -9882,8 +10531,12 @@
     "electricVehiclePerChargePoints": 14.688,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "S"],
-    "politicalKSO": "M/S"
+    "politicalRule": [
+      "M",
+      "KD",
+      "S"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Norberg",
@@ -9947,8 +10600,13 @@
     "electricVehiclePerChargePoints": 111.0,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["S", "Partiet för Norbergs Framtid (PNF)"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M",
+      "L",
+      "Demokraterna i Norberg"
+    ],
+    "politicalKSO": "Demokraterna i Norberg"
   },
   {
     "name": "Nordanstig",
@@ -10012,7 +10670,12 @@
     "electricVehiclePerChargePoints": 7.872,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "L", "S"],
+    "politicalRule": [
+      "KD",
+      "C",
+      "S",
+      "Nordanstigspartiet"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -10077,7 +10740,11 @@
     "electricVehiclePerChargePoints": 51.8,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "L", "C"],
+    "politicalRule": [
+      "M",
+      "L",
+      "C"
+    ],
     "politicalKSO": "C"
   },
   {
@@ -10142,7 +10809,12 @@
     "electricVehiclePerChargePoints": 16.242,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["KD", "L", "C", "S"],
+    "politicalRule": [
+      "C",
+      "MP",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -10207,7 +10879,12 @@
     "electricVehiclePerChargePoints": 13.855,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["L", "C", "MP", "S"],
+    "politicalRule": [
+      "L",
+      "C",
+      "MP",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -10272,7 +10949,10 @@
     "electricVehiclePerChargePoints": 4.393,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/197JctRJdPSChyHhWKPk8PviGzZ6RL1mC/view?usp=drive_link",
-    "politicalRule": ["S", "V"],
+    "politicalRule": [
+      "KD",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -10337,8 +11017,13 @@
     "electricVehiclePerChargePoints": 13.412,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["C", "S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "L"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Nykvarn",
@@ -10402,8 +11087,12 @@
     "electricVehiclePerChargePoints": 8.262,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["C", "MP", "S", "Nykvarnspartiet"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Nyköping",
@@ -10467,8 +11156,13 @@
     "electricVehiclePerChargePoints": 12.84,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/16zXIRb-G87K_XAdAJMj28s_YY5fhHRpC/view?usp=drive_link",
-    "politicalRule": ["M", "S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "L"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Nynäshamn",
@@ -10532,8 +11226,14 @@
     "electricVehiclePerChargePoints": 32.75,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "L", "C"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "MP",
+      "S",
+      "V",
+      "Sorundanet Nynäshamns kommunparti",
+      "Pensionärspartiet i Nynäshamns kommun"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Nässjö",
@@ -10597,7 +11297,11 @@
     "electricVehiclePerChargePoints": 13.413,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1R8oO0VhRS0wXPFlYKaNkecRML92FkWWq/view?usp=drive_link",
-    "politicalRule": ["KD", "C", "S", "V"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -10662,7 +11366,10 @@
     "electricVehiclePerChargePoints": 1.787,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["S"],
+    "politicalRule": [
+      "C",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -10727,8 +11434,12 @@
     "electricVehiclePerChargePoints": 2.115,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["C", "S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Orsa",
@@ -10792,7 +11503,10 @@
     "electricVehiclePerChargePoints": 5.537,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1hESt5-M_HD0dtK51ACwswZJIkQlIEMJA/view?usp=drive_link",
-    "politicalRule": ["C", "S"],
+    "politicalRule": [
+      "C",
+      "S"
+    ],
     "politicalKSO": "C"
   },
   {
@@ -10857,7 +11571,12 @@
     "electricVehiclePerChargePoints": 14.623,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "L", "S"],
+    "politicalRule": [
+      "M",
+      "L",
+      "C",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -10922,8 +11641,12 @@
     "electricVehiclePerChargePoints": 19.241,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["C"],
-    "politicalKSO": "C"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Oskarshamn",
@@ -10987,8 +11710,13 @@
     "electricVehiclePerChargePoints": 5.365,
     "procurementScore": 2,
     "procurementLink": "https://www.oskarshamn.se/bygga-bo-miljo/bygglov-boende-miljo/mat-maltider-och-menyer/",
-    "politicalRule": ["M", "S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "L"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Ovanåker",
@@ -11052,8 +11780,12 @@
     "electricVehiclePerChargePoints": 50.857,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["C", "S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD"
+    ],
+    "politicalKSO": "KD"
   },
   {
     "name": "Oxelösund",
@@ -11117,8 +11849,12 @@
     "electricVehiclePerChargePoints": 7.143,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["SD", "M", "KD", "L"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "MP",
+      "S",
+      "V"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Pajala",
@@ -11182,8 +11918,13 @@
     "electricVehiclePerChargePoints": 5.55,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["KD", "S", "Sjukvårdspartiet"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "M",
+      "C",
+      "V",
+      "Sjukvårdspartiet"
+    ],
+    "politicalKSO": "V"
   },
   {
     "name": "Partille",
@@ -11247,8 +11988,13 @@
     "electricVehiclePerChargePoints": 10.157,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "L"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "C",
+      "MP",
+      "S",
+      "V"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Perstorp",
@@ -11312,8 +12058,13 @@
     "electricVehiclePerChargePoints": 10.55,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "C", "S", "Perstorps Framtid"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "M",
+      "KD",
+      "Vi i Perstorp",
+      "Perstorps framtid"
+    ],
+    "politicalKSO": "Vi i Perstorp"
   },
   {
     "name": "Piteå",
@@ -11377,7 +12128,11 @@
     "electricVehiclePerChargePoints": 23.63,
     "procurementScore": 2,
     "procurementLink": "https://www.pitea.se/contentassets/ce699811aafa4dd7a941622e5800b9ae/klimat--och-energiplan.pdf",
-    "politicalRule": ["C", "S"],
+    "politicalRule": [
+      "C",
+      "MP",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -11442,8 +12197,13 @@
     "electricVehiclePerChargePoints": 6.786,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1mCQmKMHi1-lOTKEpsodUI3q1kCJUnJR_/view?usp=drive_link",
-    "politicalRule": ["S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "KD",
+      "C",
+      "V",
+      "Allt för Ragunda"
+    ],
+    "politicalKSO": "C"
   },
   {
     "name": "Robertsfors",
@@ -11507,8 +12267,13 @@
     "electricVehiclePerChargePoints": 27.6,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["S", "V"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "C"
+    ],
+    "politicalKSO": "C"
   },
   {
     "name": "Ronneby",
@@ -11572,8 +12337,12 @@
     "electricVehiclePerChargePoints": 11.589,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1rmnLBQdqN0EK8oGFEoVD5vTY2T7n2oR0/view?usp=drive_link",
-    "politicalRule": ["SD", "M", "KD", "L"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "L",
+      "C",
+      "S"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Rättvik",
@@ -11637,8 +12406,11 @@
     "electricVehiclePerChargePoints": 5.259,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "C"],
-    "politicalKSO": "C"
+    "politicalRule": [
+      "M",
+      "C"
+    ],
+    "politicalKSO": ""
   },
   {
     "name": "Sala",
@@ -11702,8 +12474,13 @@
     "electricVehiclePerChargePoints": 19.605,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["C", "MP", "S", "V"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "Salas bästa"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Salem",
@@ -11767,8 +12544,13 @@
     "electricVehiclePerChargePoints": 60.0,
     "procurementScore": 2,
     "procurementLink": "https://www.salem.se/bygga-bo--miljo/energi-och-klimat/samordnad-varudistribution/",
-    "politicalRule": ["L", "C", "S", "Rönningepartiet"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "Rönningepartiet"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Sandviken",
@@ -11832,8 +12614,12 @@
     "electricVehiclePerChargePoints": 3.718,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["L", "C", "S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Sigtuna",
@@ -11897,7 +12683,12 @@
     "electricVehiclePerChargePoints": 10.484,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1s8VP3YFBH92yQeCuHFqXf29iWWFINlUa/view?usp=drive_link",
-    "politicalRule": ["SD", "M", "KD", "Samling för Sigtuna (SfS)"],
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "L"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -11962,7 +12753,11 @@
     "electricVehiclePerChargePoints": 15.094,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1ovZ3qqKSWsWP86RLrS8v6a7lXm-IoLhT/view?usp=drive_link",
-    "politicalRule": ["M", "KD", "L"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "L"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -12027,8 +12822,11 @@
     "electricVehiclePerChargePoints": 18.378,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "L", "C", "S"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "SD",
+      "KD"
+    ],
+    "politicalKSO": "SD"
   },
   {
     "name": "Skara",
@@ -12092,8 +12890,12 @@
     "electricVehiclePerChargePoints": 6.401,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["L", "C", "MP", "S"],
-    "politicalKSO": "C"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Skellefteå",
@@ -12157,8 +12959,12 @@
     "electricVehiclePerChargePoints": 16.886,
     "procurementScore": 2,
     "procurementLink": "https://skelleftea.se/invanare/startsida/jobb-och-foretagande/upphandling-och-inkop/policy-for-inkop-och-upphandling",
-    "politicalRule": ["S", "V"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "MP",
+      "S",
+      "V"
+    ],
+    "politicalKSO": ""
   },
   {
     "name": "Skinnskatteberg",
@@ -12222,7 +13028,11 @@
     "electricVehiclePerChargePoints": 5.345,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["SD", "M", "L", "C"],
+    "politicalRule": [
+      "SD",
+      "M",
+      "L"
+    ],
     "politicalKSO": "SD"
   },
   {
@@ -12287,7 +13097,11 @@
     "electricVehiclePerChargePoints": 18.703,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["SD", "M", "KD"],
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -12352,7 +13166,11 @@
     "electricVehiclePerChargePoints": 9.502,
     "procurementScore": 2,
     "procurementLink": "https://docs.google.com/presentation/d/1UhGuEOewdkD4-C4WKgel_IngCRST9XLi/edit#slide=id.p2",
-    "politicalRule": ["M", "KD", "S"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "S"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -12417,7 +13235,10 @@
     "electricVehiclePerChargePoints": 6.325,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1vh9_Pz3sY-ayXP2HYXuymnvxr7-g-JhA/view?usp=drive_link",
-    "politicalRule": ["S", "V"],
+    "politicalRule": [
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -12482,7 +13303,11 @@
     "electricVehiclePerChargePoints": 12.205,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["C", "V", "Västra Initiativet"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "C"
+    ],
     "politicalKSO": "C"
   },
   {
@@ -12547,7 +13372,12 @@
     "electricVehiclePerChargePoints": 52.062,
     "procurementScore": 2,
     "procurementLink": "https://docs.google.com/document/d/1lqp_KRVXeN4AnuRHFj3tuIUnA5yjGrke/edit?usp=drive_link&ouid=104089955738391943844&rtpof=true&sd=true",
-    "politicalRule": ["M", "KD", "L", "C"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "L",
+      "C"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -12612,7 +13442,12 @@
     "electricVehiclePerChargePoints": 23.057,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1e7xk7cX43q9lQh-RVgv2iXNVYpy-bTcu/view?usp=drive_link",
-    "politicalRule": ["C", "MP", "S", "V"],
+    "politicalRule": [
+      "C",
+      "MP",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -12677,8 +13512,13 @@
     "electricVehiclePerChargePoints": 1.545,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1fBenhGplUcQVmAaD-1OG1dxAdjd_Kpma/view?usp=drive_link",
-    "politicalRule": ["S", "V"],
-    "politicalKSO": "V/S"
+    "politicalRule": [
+      "M",
+      "MP",
+      "S",
+      "V"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Sotenäs",
@@ -12742,8 +13582,14 @@
     "electricVehiclePerChargePoints": 8.189,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "L",
+      "C"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Staffanstorp",
@@ -12807,7 +13653,9 @@
     "electricVehiclePerChargePoints": 25.969,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["SD", "M"],
+    "politicalRule": [
+      "M"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -12872,8 +13720,12 @@
     "electricVehiclePerChargePoints": 15.969,
     "procurementScore": 2,
     "procurementLink": "https://goteborg.se/wps/portal/start/foretag-och-organisationer/upphandling-och-inkop/hallbar-upphandling/ekologisk-hallbarhet-i-upphandling",
-    "politicalRule": ["M", "S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "M",
+      "KD",
+      "S"
+    ],
+    "politicalKSO": ""
   },
   {
     "name": "Stockholm",
@@ -12937,7 +13789,11 @@
     "electricVehiclePerChargePoints": 14.672,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1lWsJ0ha6OjIKLcy0oKrYebDU7o1TC6ta/view?usp=drive_link",
-    "politicalRule": ["MP", "S", "V"],
+    "politicalRule": [
+      "MP",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -13002,7 +13858,12 @@
     "electricVehiclePerChargePoints": 3.861,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["SD", "M", "KD", "C"],
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "C"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -13067,7 +13928,12 @@
     "electricVehiclePerChargePoints": 1.758,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["KD", "C", "S"],
+    "politicalRule": [
+      "M",
+      "MP",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -13132,7 +13998,10 @@
     "electricVehiclePerChargePoints": 17.423,
     "procurementScore": 2,
     "procurementLink": "https://www.strangnas.se/download/18.447c02bc16a7743570ae41bd/1557487982068/Ink%C3%B6ps-%20och%20upphandlingspolicy%20f%C3%B6r%20Str%C3%A4ngn%C3%A4s%20kommun.pdf",
-    "politicalRule": ["M", "S"],
+    "politicalRule": [
+      "M",
+      "S"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -13197,8 +14066,13 @@
     "electricVehiclePerChargePoints": 4.318,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "S", "V"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "M",
+      "KD",
+      "S",
+      "V"
+    ],
+    "politicalKSO": ""
   },
   {
     "name": "Strömsund",
@@ -13262,8 +14136,11 @@
     "electricVehiclePerChargePoints": 2.466,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1gQac0zLfRQMl4h2AzgxjVgYx5VxuT8Wj/view?usp=drive_link",
-    "politicalRule": ["C", "S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "M",
+      "C"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Sundbyberg",
@@ -13327,7 +14204,11 @@
     "electricVehiclePerChargePoints": 22.728,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1u8cO9XWLg7ND9Hu_aZq3K_X91Jywc7jT/view?usp=drive_link",
-    "politicalRule": ["C", "MP", "S", "V"],
+    "politicalRule": [
+      "MP",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -13392,7 +14273,11 @@
     "electricVehiclePerChargePoints": 12.263,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["C", "S", "V"],
+    "politicalRule": [
+      "C",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -13457,7 +14342,11 @@
     "electricVehiclePerChargePoints": 7.492,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "L", "Hela Sunne"],
+    "politicalRule": [
+      "M",
+      "L",
+      "C"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -13522,7 +14411,12 @@
     "electricVehiclePerChargePoints": 10.514,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "C", "S"],
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "C"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -13587,7 +14481,11 @@
     "electricVehiclePerChargePoints": 19.714,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1JEHzpx_KGTW0UpukUBd6aXjUWRmZuIc0/view?usp=drive_link",
-    "politicalRule": ["SD", "M", "KD"],
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD"
+    ],
     "politicalKSO": "SD"
   },
   {
@@ -13652,7 +14550,12 @@
     "electricVehiclePerChargePoints": 16.2,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "L", "C", "Barapartiet"],
+    "politicalRule": [
+      "M",
+      "L",
+      "C",
+      "Barapartiet"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -13717,8 +14620,13 @@
     "electricVehiclePerChargePoints": 21.5,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "Landsbygdspartiet oberoende"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "L",
+      "C",
+      "S",
+      "Landsbygdspartiet Oberoende"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Säffle",
@@ -13782,8 +14690,14 @@
     "electricVehiclePerChargePoints": 13.237,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "L", "C", "MP"],
-    "politicalKSO": "C"
+    "politicalRule": [
+      "M",
+      "KD",
+      "L",
+      "MP",
+      "S"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Säter",
@@ -13847,7 +14761,10 @@
     "electricVehiclePerChargePoints": 29.188,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1jO9A8oBwRQKxaLjumj1OOQ2Ct38qjd1n/view?usp=drive_link",
-    "politicalRule": ["KD", "C", "S"],
+    "politicalRule": [
+      "M",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -13912,8 +14829,12 @@
     "electricVehiclePerChargePoints": 12.0,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["KD", "C", "S"],
-    "politicalKSO": "KD"
+    "politicalRule": [
+      "M",
+      "C",
+      "S"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Söderhamn",
@@ -13977,8 +14898,13 @@
     "electricVehiclePerChargePoints": 11.632,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1m5bLwwYggrtNNlKg16vsYWon6MGm8Par/view?usp=drive_link",
-    "politicalRule": ["M", "KD", "L", "C"],
-    "politicalKSO": "C"
+    "politicalRule": [
+      "C",
+      "MP",
+      "S",
+      "V"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Söderköping",
@@ -14042,7 +14968,13 @@
     "electricVehiclePerChargePoints": 11.406,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "S"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "L",
+      "C",
+      "S"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -14107,8 +15039,14 @@
     "electricVehiclePerChargePoints": 47.576,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "MP", "S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "L",
+      "Realistpartiet"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Sölvesborg",
@@ -14172,7 +15110,12 @@
     "electricVehiclePerChargePoints": 13.474,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "C", "S", "SoL"],
+    "politicalRule": [
+      "M",
+      "C",
+      "S",
+      "SoL"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -14237,7 +15180,12 @@
     "electricVehiclePerChargePoints": 5.191,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1ZlmjJYH8vdPOJRWxToWlBBE_DST1ZAVC/view?usp=drive_link",
-    "politicalRule": ["M", "KD", "C"],
+    "politicalRule": [
+      "M",
+      "L",
+      "C",
+      "MP"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -14302,7 +15250,11 @@
     "electricVehiclePerChargePoints": 7.897,
     "procurementScore": 2,
     "procurementLink": "https://docs.google.com/document/d/1klDMfERm6bk0pA9qD8a6xJD3GTqD0RrG/edit?usp=drive_link&ouid=104089955738391943844&rtpof=true&sd=true",
-    "politicalRule": ["L", "C", "S"],
+    "politicalRule": [
+      "KD",
+      "C",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -14367,8 +15319,11 @@
     "electricVehiclePerChargePoints": 16.5,
     "procurementScore": 2,
     "procurementLink": "https://docs.google.com/presentation/d/1UhGuEOewdkD4-C4WKgel_IngCRST9XLi/edit#slide=id.p2",
-    "politicalRule": ["SD", "M", "KD", "L", "Vi Tidaholm"],
-    "politicalKSO": "L"
+    "politicalRule": [
+      "S",
+      "V"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Tierp",
@@ -14432,7 +15387,12 @@
     "electricVehiclePerChargePoints": 14.804,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1I-qkygApHkxPCh4bd0JJda2BrVTMBZkr/view?usp=drive_link",
-    "politicalRule": ["M", "KD", "L", "C"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "L",
+      "C"
+    ],
     "politicalKSO": "C"
   },
   {
@@ -14497,7 +15457,11 @@
     "electricVehiclePerChargePoints": 13.698,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "S"],
+    "politicalRule": [
+      "M",
+      "C",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -14562,8 +15526,12 @@
     "electricVehiclePerChargePoints": 5.827,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1GPESfcGXvYvQhoZW8TayLG0Fl9C-C5LY/view?usp=drive_link",
-    "politicalRule": ["M", "KD", "C"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "KD",
+      "C",
+      "S"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Tjörn",
@@ -14627,7 +15595,13 @@
     "electricVehiclePerChargePoints": 24.619,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["SD", "M", "L", "C", "Tjörnpartiet"],
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "L",
+      "C"
+    ],
     "politicalKSO": "L"
   },
   {
@@ -14692,7 +15666,11 @@
     "electricVehiclePerChargePoints": 15.444,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1WEriX_kLliQ7-_DEX5Bc05VgrBFeIQSC/view?usp=drive_link",
-    "politicalRule": ["M", "KD", "L"],
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -14757,7 +15735,10 @@
     "electricVehiclePerChargePoints": 2.665,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["S"],
+    "politicalRule": [
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -14822,7 +15803,13 @@
     "electricVehiclePerChargePoints": 16.643,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "C", "S", "V"],
+    "politicalRule": [
+      "M",
+      "C",
+      "MP",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -14887,7 +15874,11 @@
     "electricVehiclePerChargePoints": 16.895,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["L", "C", "S"],
+    "politicalRule": [
+      "C",
+      "MP",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -14952,8 +15943,12 @@
     "electricVehiclePerChargePoints": 6.605,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "L"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "M",
+      "KD",
+      "S"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Trelleborg",
@@ -15017,8 +16012,12 @@
     "electricVehiclePerChargePoints": 14.307,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["SD", "M", "KD", "L"],
-    "politicalKSO": "SD"
+    "politicalRule": [
+      "M",
+      "C",
+      "S"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Trollhättan",
@@ -15082,7 +16081,11 @@
     "electricVehiclePerChargePoints": 10.207,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1AHepDbh2-DMpocV6KArinKglkgM1GFn1/view?usp=drive_link",
-    "politicalRule": ["M", "KD", "C"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "C"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -15147,7 +16150,12 @@
     "electricVehiclePerChargePoints": 19.6,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "L", "C"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "L",
+      "C"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -15212,8 +16220,11 @@
     "electricVehiclePerChargePoints": 32.944,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1d87b8ZKab9jzAX6vpuptgTUv6F0EDH4v/view?usp=drive_link",
-    "politicalRule": ["M", "S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "M",
+      "S"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Täby",
@@ -15277,7 +16288,11 @@
     "electricVehiclePerChargePoints": 47.432,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1F5TxQo7GHWYFPgsG9dzJZplkScHfppfR/view?usp=sharing",
-    "politicalRule": ["M", "KD", "L", "C"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "L"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -15342,7 +16357,12 @@
     "electricVehiclePerChargePoints": 13.296,
     "procurementScore": 2,
     "procurementLink": "https://toreboda.se/Toreboda-kommun/Hallbarhet--miljo/Strategiskt-hallbarhetsarbete/Kommunens-klimatloften",
-    "politicalRule": ["M", "L"],
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "L"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -15407,7 +16427,13 @@
     "electricVehiclePerChargePoints": 10.516,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1LCvp1LfjM4Q0wnCbEqL1F6zJ8fJiZKmq/view?usp=drive_link",
-    "politicalRule": ["SD", "M", "KD", "Uddevalla Partiet"],
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "L",
+      "Uddevallapartiet"
+    ],
     "politicalKSO": "SD"
   },
   {
@@ -15472,7 +16498,13 @@
     "electricVehiclePerChargePoints": 10.728,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "L", "C"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "L",
+      "MP",
+      "S"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -15537,7 +16569,10 @@
     "electricVehiclePerChargePoints": 17.774,
     "procurementScore": 2,
     "procurementLink": "https://docs.google.com/document/d/13xhFpEzYLYzbCAhrQGnl-ZycaY8DR9pD/edit?usp=drive_link&ouid=104089955738391943844&rtpof=true&sd=true",
-    "politicalRule": ["MP", "S"],
+    "politicalRule": [
+      "MP",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -15602,7 +16637,12 @@
     "electricVehiclePerChargePoints": 14.906,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1gOAObk2x8iu_AOGdUeRIntx3umiFfEAx/view?usp=drive_link",
-    "politicalRule": ["L", "S", "Väsbys Bästa"],
+    "politicalRule": [
+      "MP",
+      "S",
+      "V",
+      "Väsbys Bästa"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -15667,8 +16707,12 @@
     "electricVehiclePerChargePoints": 10.673,
     "procurementScore": 2,
     "procurementLink": "https://www.upplands-bro.se/download/18.7f3cb58e1825cf9e8316f0/1659459494101/Upphandlingspolicy",
-    "politicalRule": ["M", "KD", "L", "C"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "M",
+      "C",
+      "S"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Uppsala",
@@ -15732,7 +16776,12 @@
     "electricVehiclePerChargePoints": 16.043,
     "procurementScore": 2,
     "procurementLink": "https://www.uppsala.se/kommun-och-politik/publikationer/2021/mal-och-budget-2022-med-plan-for-2023-2024/",
-    "politicalRule": ["MP", "S", "V"],
+    "politicalRule": [
+      "L",
+      "MP",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -15797,8 +16846,12 @@
     "electricVehiclePerChargePoints": 11.0,
     "procurementScore": 2,
     "procurementLink": "https://foretag.vaxjo.se/download/18.3d04795317955c86cd918e16/1622707803967/Klimatkontrakt%202030.pdf",
-    "politicalRule": ["M", "S", "V", "Landsbygdspartiet Oberoende"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "SD",
+      "KD",
+      "C"
+    ],
+    "politicalKSO": "SD"
   },
   {
     "name": "Vadstena",
@@ -15862,7 +16915,10 @@
     "electricVehiclePerChargePoints": 24.562,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "S"],
+    "politicalRule": [
+      "M",
+      "Konsensus"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -15927,8 +16983,13 @@
     "electricVehiclePerChargePoints": 8.34,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "S"],
-    "politicalKSO": "M/S"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "L"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Valdemarsvik",
@@ -15992,7 +17053,11 @@
     "electricVehiclePerChargePoints": 7.229,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["SD", "M", "KD", "Landsbygdspartiet Oberoende (LPo)"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "C"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -16057,7 +17122,12 @@
     "electricVehiclePerChargePoints": 44.982,
     "procurementScore": 2,
     "procurementLink": "https://dok.vallentuna.se/file/f%C3%B6rfattningssamling/1.%20kommungemensam/1.2%20ekonomi/1.2.6%20policys/1.2.6.3%20Policy%20f%C3%B6r%20ink%C3%B6p%20och%20upphandling.pdf",
-    "politicalRule": ["M", "KD", "L", "C"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "L",
+      "C"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -16122,7 +17192,10 @@
     "electricVehiclePerChargePoints": 6.0,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "S"],
+    "politicalRule": [
+      "M",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -16187,7 +17260,11 @@
     "electricVehiclePerChargePoints": 6.399,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1hP2o4QdT7KM2v9EQTACLtq04yYq5VTqP/view?usp=drive_link",
-    "politicalRule": ["SD", "M", "KD", "L"],
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -16252,8 +17329,14 @@
     "electricVehiclePerChargePoints": 13.982,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["SD", "M", "KD", "L"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "KD",
+      "C",
+      "MP",
+      "S",
+      "V"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Vaxholm",
@@ -16317,7 +17400,13 @@
     "electricVehiclePerChargePoints": 65.812,
     "procurementScore": 2,
     "procurementLink": "https://www.vaxholm.se/download/18.6719b35d171ac1e3c542cbff/1589542471525/Upphandlings-%20och%20ink%C3%B6pspolicy.pdf",
-    "politicalRule": ["M", "KD", "L", "S", "V"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "L",
+      "S",
+      "V"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -16382,7 +17471,9 @@
     "electricVehiclePerChargePoints": 19.873,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M"],
+    "politicalRule": [
+      "M"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -16447,7 +17538,11 @@
     "electricVehiclePerChargePoints": 14.193,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["SD", "M", "Vetlanda framåtanda"],
+    "politicalRule": [
+      "M",
+      "C",
+      "S"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -16512,7 +17607,10 @@
     "electricVehiclePerChargePoints": 2.769,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["S"],
+    "politicalRule": [
+      "M",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -16577,7 +17675,11 @@
     "electricVehiclePerChargePoints": 4.745,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["C", "S", "V"],
+    "politicalRule": [
+      "C",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -16642,8 +17744,12 @@
     "electricVehiclePerChargePoints": 14.75,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["KD", "S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "M",
+      "C",
+      "MP"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Vingåker",
@@ -16707,7 +17813,12 @@
     "electricVehiclePerChargePoints": 11.364,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "C"],
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "C"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -16772,8 +17883,13 @@
     "electricVehiclePerChargePoints": 9.453,
     "procurementScore": 2,
     "procurementLink": "https://vanersborg.se/kommun-och-politik/hallbar-utveckling/klimatloften-2024-2026",
-    "politicalRule": ["KD", "C", "MP", "S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "M",
+      "KD",
+      "L",
+      "C"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Vännäs",
@@ -16837,7 +17953,10 @@
     "electricVehiclePerChargePoints": 10.562,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "S", "V"],
+    "politicalRule": [
+      "M",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -16902,8 +18021,12 @@
     "electricVehiclePerChargePoints": 17.695,
     "procurementScore": 2,
     "procurementLink": "https://opengov.360online.com/Meetings/varmdo/File/Details/806917.PDF?fileName=M%C3%A5l%20och%20budget%202024%20med%20ramar%202025-2027%20version%202%20efter%20KS%20beredning&fileSize=9104281",
-    "politicalRule": ["L", "C", "MP", "S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Värnamo",
@@ -16967,7 +18090,12 @@
     "electricVehiclePerChargePoints": 13.335,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "L", "C"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "L",
+      "C"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -17032,8 +18160,13 @@
     "electricVehiclePerChargePoints": 8.82,
     "procurementScore": 2,
     "procurementLink": "https://www.vastervik.se/Bygga-bo-och-miljo/Energi-och-uppvarmning/kommunens-energi-och-klimatstrategi/",
-    "politicalRule": ["M", "KD", "L", "Westervikspartiet (W)"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "C",
+      "MP",
+      "S",
+      "V"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Västerås",
@@ -17097,7 +18230,12 @@
     "electricVehiclePerChargePoints": 10.372,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["KD", "C", "S", "V"],
+    "politicalRule": [
+      "KD",
+      "C",
+      "S",
+      "V"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -17162,8 +18300,13 @@
     "electricVehiclePerChargePoints": 12.65,
     "procurementScore": 2,
     "procurementLink": "https://foretag.vaxjo.se/download/18.3d04795317955c86cd918e16/1622707803967/Klimatkontrakt%202030.pdf",
-    "politicalRule": ["MP", "S", "V"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "M",
+      "KD",
+      "L",
+      "C"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Vårgårda",
@@ -17227,8 +18370,13 @@
     "electricVehiclePerChargePoints": 10.418,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "L", "C"],
-    "politicalKSO": "C"
+    "politicalRule": [
+      "M",
+      "KD",
+      "L",
+      "C"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Ydre",
@@ -17292,7 +18440,10 @@
     "electricVehiclePerChargePoints": 5.733,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "C"],
+    "politicalRule": [
+      "C",
+      "S"
+    ],
     "politicalKSO": "C"
   },
   {
@@ -17357,8 +18508,13 @@
     "electricVehiclePerChargePoints": 9.689,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "L"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "C",
+      "MP",
+      "S",
+      "V"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Älmhult",
@@ -17422,7 +18578,10 @@
     "electricVehiclePerChargePoints": 6.946,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["C", "S"],
+    "politicalRule": [
+      "M",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -17487,8 +18646,11 @@
     "electricVehiclePerChargePoints": 1.042,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["C", "S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "C",
+      "S"
+    ],
+    "politicalKSO": "C"
   },
   {
     "name": "Älvkarleby",
@@ -17552,8 +18714,12 @@
     "electricVehiclePerChargePoints": 3.35,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1sI2sMvR9jRMyIvnH2Z4U7BE3kuW8LiQU/view?usp=drive_link",
-    "politicalRule": ["C", "MP", "S", "V", "Kommunens väl"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Älvsbyn",
@@ -17617,8 +18783,11 @@
     "electricVehiclePerChargePoints": 14.118,
     "procurementScore": 2,
     "procurementLink": "https://www.pitea.se/contentassets/ce699811aafa4dd7a941622e5800b9ae/klimat--och-energiplan.pdf",
-    "politicalRule": ["SD", "M", "KD", "L"],
-    "politicalKSO": "M"
+    "politicalRule": [
+      "S",
+      "V"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Ängelholm",
@@ -17682,7 +18851,12 @@
     "electricVehiclePerChargePoints": 10.865,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "L", "C"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "L",
+      "C"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -17747,7 +18921,12 @@
     "electricVehiclePerChargePoints": 3.459,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "L", "C"],
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "L"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -17812,8 +18991,15 @@
     "electricVehiclePerChargePoints": 3.813,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "C", "S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "M",
+      "KD",
+      "C",
+      "V",
+      "Vår framtids politiska utskott",
+      "Norrlandspartiet"
+    ],
+    "politicalKSO": "Vår framtids politiska utskott"
   },
   {
     "name": "Åre",
@@ -17877,7 +19063,11 @@
     "electricVehiclePerChargePoints": 1.617,
     "procurementScore": 2,
     "procurementLink": "https://docs.google.com/document/d/1s_u6HwkOhsOd_of59VGruJbXWOfdcqT8/edit?usp=drive_link&ouid=104089955738391943844&rtpof=true&sd=true",
-    "politicalRule": ["S", "V", "Västjämtlands väl"],
+    "politicalRule": [
+      "M",
+      "C",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -17942,8 +19132,13 @@
     "electricVehiclePerChargePoints": 5.98,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "C", "S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "L"
+    ],
+    "politicalKSO": "KD"
   },
   {
     "name": "Åsele",
@@ -18007,8 +19202,12 @@
     "electricVehiclePerChargePoints": 11.333,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["S", "Åsele partiet"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "L",
+      "C",
+      "Opinion Åsele"
+    ],
+    "politicalKSO": "L"
   },
   {
     "name": "Åstorp",
@@ -18072,7 +19271,11 @@
     "electricVehiclePerChargePoints": 9.5,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1w-XpLcjZch_a49jJyc65AJSYXjl6kOfM/view?usp=drive_link",
-    "politicalRule": ["SD", "M", "KD"],
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD"
+    ],
     "politicalKSO": "SD"
   },
   {
@@ -18137,7 +19340,10 @@
     "electricVehiclePerChargePoints": 18.7,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1GImZzAP8XtBTbmc3aaOyERVvPTJ9CyMY/view?usp=drive_link",
-    "politicalRule": ["L", "C", "MP", "S", "V"],
+    "politicalRule": [
+      "M",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -18202,7 +19408,11 @@
     "electricVehiclePerChargePoints": 41.611,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "L"],
+    "politicalRule": [
+      "KD",
+      "L",
+      "S"
+    ],
     "politicalKSO": "KD"
   },
   {
@@ -18267,7 +19477,11 @@
     "electricVehiclePerChargePoints": 2.391,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "C", "S"],
+    "politicalRule": [
+      "M",
+      "C",
+      "S"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -18332,7 +19546,11 @@
     "electricVehiclePerChargePoints": 11.269,
     "procurementScore": 2,
     "procurementLink": "https://www.orebro.se/fordjupning/fordjupning/sa-arbetar-vi-med/maltider-i-kommunens-kok-och-serveringar.html",
-    "politicalRule": ["M", "C", "S"],
+    "politicalRule": [
+      "M",
+      "C",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -18397,8 +19615,11 @@
     "electricVehiclePerChargePoints": 8.143,
     "procurementScore": 2,
     "procurementLink": "https://drive.google.com/file/d/1w-XpLcjZch_a49jJyc65AJSYXjl6kOfM/view?usp=drive_link",
-    "politicalRule": ["SD", "M"],
-    "politicalKSO": "SD"
+    "politicalRule": [
+      "M",
+      "KD"
+    ],
+    "politicalKSO": "M"
   },
   {
     "name": "Örnsköldsvik",
@@ -18462,8 +19683,12 @@
     "electricVehiclePerChargePoints": 11.068,
     "procurementScore": 2,
     "procurementLink": "https://docs.google.com/document/d/1Hjjp7bZbrpEoJ_rQuWgm48KzYZAvCtdw/edit",
-    "politicalRule": ["M", "KD", "C"],
-    "politicalKSO": "C"
+    "politicalRule": [
+      "S",
+      "V",
+      "Norrlandspartiet"
+    ],
+    "politicalKSO": "S"
   },
   {
     "name": "Östersund",
@@ -18527,7 +19752,10 @@
     "electricVehiclePerChargePoints": 11.094,
     "procurementScore": 2,
     "procurementLink": "https://www.ostersund.se/bygga-bo-och-miljo/klimat-och-miljo/sa-arbetar-kommunen-med-klimat-och-miljo/klimatstrategi.html",
-    "politicalRule": ["C", "S"],
+    "politicalRule": [
+      "C",
+      "S"
+    ],
     "politicalKSO": "S"
   },
   {
@@ -18592,7 +19820,12 @@
     "electricVehiclePerChargePoints": 25.63,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "L", "C"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "L",
+      "C"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -18657,7 +19890,12 @@
     "electricVehiclePerChargePoints": 20.045,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["SD", "M", "KD", "Lokalpartiet BOA"],
+    "politicalRule": [
+      "SD",
+      "M",
+      "KD",
+      "Lokalpartiet BOA"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -18722,7 +19960,11 @@
     "electricVehiclePerChargePoints": 35.867,
     "procurementScore": 1,
     "procurementLink": null,
-    "politicalRule": ["M", "KD", "C"],
+    "politicalRule": [
+      "M",
+      "KD",
+      "C"
+    ],
     "politicalKSO": "M"
   },
   {
@@ -18787,8 +20029,11 @@
     "electricVehiclePerChargePoints": 3.765,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["S"],
-    "politicalKSO": "S"
+    "politicalRule": [
+      "C",
+      "V"
+    ],
+    "politicalKSO": "C"
   },
   {
     "name": "Övertorneå",
@@ -18852,7 +20097,12 @@
     "electricVehiclePerChargePoints": 9.273,
     "procurementScore": 0,
     "procurementLink": null,
-    "politicalRule": ["KD", "C", "V", "Framtid S"],
+    "politicalRule": [
+      "KD",
+      "C",
+      "V",
+      "Framtid S"
+    ],
     "politicalKSO": "C"
   }
 ]
